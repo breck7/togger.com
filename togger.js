@@ -227,8 +227,7 @@ class Togger {
     remote.style.cssText = `
     position: fixed;
     bottom: 1rem;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 1rem;
     width: 256px;
     background: #1f2937;
     border-radius: 0.75rem;
