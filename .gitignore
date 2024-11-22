@@ -3,6 +3,5 @@
 *.txt
 *.xml
 *.css
-*.js
 *.csv
 requests.scroll

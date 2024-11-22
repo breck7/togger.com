@@ -420,6 +420,10 @@ body {
   font-weight: 700;
   animation: textShadow 1.9s infinite;
 }
+.channel-name a {
+  text-decoration: none;
+  color: #00ff22;
+}
 
 .title {
   position: fixed;
