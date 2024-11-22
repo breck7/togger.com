@@ -6,6 +6,8 @@ const updateWarpcast = async () => {
     "https://www.youtube.com/@okbangershow",
     "https://www.youtube.com/@GMFarcaster",
     "https://www.youtube.com/@breckyunits",
+    "https://www.youtube.com/@Crypto_WenMoon",
+    "https://www.youtube.com/@BuenasNochesFarcaster",
     // Add more channel URLs here
   ]
   const feed = new YouTubeFeed("AIzaSyAy0N613PtrIohnjsXOn3kqbRxa5M5mdRQ")
