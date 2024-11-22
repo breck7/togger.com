@@ -170,6 +170,20 @@ class Togger {
     }
   }
 
+  updateChannelDisplay(videoData, isLive) {
+    const current = this.streams[this.currentIndex]
+    const liveIndicator = isLive
+      ? '<span style="color: red; margin-left: 8px;">● LIVE</span>'
+      : '<span style="color: white; margin-left: 8px;">OFF-AIR</span>'
+
+    channelName.innerHTML = `
+      <a href="${current.link}" target="_blank">
+        ${current.platform}@${current.channelName}
+      </a>
+      ${liveIndicator}
+    `
+  }
+
   resizePlayer() {
     let p = document.querySelector("#player")
     p.style.top = -window.innerHeight * 0.5 + "px"
@@ -203,6 +217,10 @@ class Togger {
     return `<a href="${current.link}" target="_blank">${current.platform}@${current.channelName}</a>`
   }
 
+  checkIfLive() {
+    return this.player.playerInfo.videoData.isLive
+  }
+
   onPlayerStateChange(event) {
     if (!this.isPoweredOn) return
 
@@ -210,17 +228,20 @@ class Togger {
     if (event.data == YT.PlayerState.UNSTARTED) {
       videoId.textContent = "UNSTARTED"
     } else if (event.data == YT.PlayerState.ENDED) {
-      videoId.textContent = "ENDED"
+      videoId.textContent = "STREAM ENDED"
       this.nextChannel() // Auto-play next video when current one ends
     } else if (event.data == YT.PlayerState.PLAYING) {
       staticNoise.style.opacity = 0
-      videoId.textContent = this.player.getVideoData().video_id
 
+      // Get video data and check live status
       const videoData = this.player.getVideoData()
-      console.log(videoData)
+      const isLive = this.checkIfLive()
+      console.log(isLive)
+
+      videoId.textContent = `${videoData.video_id} ${isLive ? "(LIVE)" : ""}`
 
       if (channelName) {
-        channelName.innerHTML = this.getChannelName(videoData)
+        this.updateChannelDisplay(videoData, isLive)
       }
     } else if (event.data == YT.PlayerState.PAUSED) {
       videoId.textContent = "PAUSED"
@@ -430,6 +451,7 @@ function onYouTubeIframeAPIReady() {
   togger.setPlayer(player)
   togger.resizePlayer()
   togger.bindToResize()
+  window.togger = togger
 }
 
 // Load the YouTube IFrame API

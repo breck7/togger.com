@@ -273,104 +273,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "l13UCu-zsFHAyTFvLPcl8I89j4I",
+    "etag": "Sep9WvfhRa32-T3w1Zv7iL8OuMM",
     "id": {
       "kind": "youtube#video",
-      "videoId": "a0EwGJwicXc"
+      "videoId": "3Yu1yymncOs"
     },
     "snippet": {
-      "publishedAt": "2024-08-12T15:46:32Z",
-      "channelId": "UCwKS2U-DwjPZZvM6mSXPKgA",
-      "title": "بث مباشر | قناة المغاربية Almagharibia TV Live Stream",
-      "description": "LIVE تابع البث المباشر لقناة المغاربية             بث مباشر | قناة المغاربية Almagharibia TV Live Stream --------------- تعمل ...",
+      "publishedAt": "2024-10-10T10:14:28Z",
+      "channelId": "UC2oaqitUiwcbYPnh9zLR50g",
+      "title": "🔴LIVE : DARSHAN - VADTALDHAM 01",
+      "description": "Website:- https://www.vadtalmandir.org Youtube :- https://www.youtube.com/vadtalmandir Facebook ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/3Yu1yymncOs/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/3Yu1yymncOs/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/3Yu1yymncOs/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Almagharibia TV قناة المغاربية",
+      "channelTitle": "VADTAL MANDIR",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-08-12T15:46:32Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "iE0Xw9BnSk5ajJq4WTD8gxhIwgc",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "8N8rMHjVwNc"
-    },
-    "snippet": {
-      "publishedAt": "2024-08-20T17:19:28Z",
-      "channelId": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "title": "🔴 PAW Patrol BIG Truck Pups, Cat Pack, and more rescue episodes! - Cartoons for Kids Live Stream!",
-      "description": "In this PAW Patrol rescue episode live stream, enjoy your favorite rescue episodes with Al and the Big Truck Pups, Wild Cat and ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/8N8rMHjVwNc/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/8N8rMHjVwNc/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/8N8rMHjVwNc/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "PAW Patrol Official & Friends",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-08-20T17:19:28Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "rn9joLSJ6-6C9wft2QrLhYnDiq8",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "ydiWklMUhcQ"
-    },
-    "snippet": {
-      "publishedAt": "2024-05-23T01:24:48Z",
-      "channelId": "UC3uJIdRFTGgLWrUziaHbzrg",
-      "title": "NDTV Profit LIVE TV | Business News LIVE | Share Market LIVE Updates | Stock Market Trading LIVE",
-      "description": "Stock Market LIVE News: Watch the live stream of NDTV Profit on your favourite digital channels. #ndtv #business #stockmarket ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/ydiWklMUhcQ/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/ydiWklMUhcQ/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/ydiWklMUhcQ/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "NDTV Profit",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-05-23T01:24:48Z"
+      "publishTime": "2024-10-10T10:14:28Z"
     }
   },
   {
@@ -409,74 +341,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "wqDjx4r7ri8wdbR1n-YqMn1t8_g",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "cGIM7WWPWcY"
-    },
-    "snippet": {
-      "publishedAt": "2024-06-12T18:29:54Z",
-      "channelId": "UCJBVNt_BTTl2v4qtLScyxpw",
-      "title": "News On 6 NOW",
-      "description": "Welcome to the News On 6 NOW on YouTube. Join us here for continuous coverage of breaking weather events in Tulsa and the ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "News On 6/KOTV",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-06-12T18:29:54Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "ExpsLq1Ty9s437XVVg5ApJudq5E",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "kHwmzef842g"
-    },
-    "snippet": {
-      "publishedAt": "2022-07-15T20:40:20Z",
-      "channelId": "UCdoo7oheBvREC-WvZ604Ngg",
-      "title": "Webcam Zürich HB",
-      "description": "Webcam Zürich HB Watch with timetable: https://bahnbilder.ch/webcamzhb.",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/kHwmzef842g/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/kHwmzef842g/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/kHwmzef842g/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "David Gubler",
-      "liveBroadcastContent": "live",
-      "publishTime": "2022-07-15T20:40:20Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "N8kVIpEV3OV8yn3hpZm7SV_QHa4",
     "id": {
       "kind": "youtube#video",
@@ -507,6 +371,40 @@
       "channelTitle": "Thikana Mandir Shri Govind Devji",
       "liveBroadcastContent": "live",
       "publishTime": "2024-07-15T06:15:50Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "a4OUUDAsUP2NRrDn3SMAdT0dL6c",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "bn1yqLI9U3Q"
+    },
+    "snippet": {
+      "publishedAt": "2024-06-26T13:17:39Z",
+      "channelId": "UCP_T_GqYquLmsIpmDpJvULw",
+      "title": "Shop LC LIVE",
+      "description": "Thanks for watching Shop LC Live, where our purpose is Delivering Joy 24/7/365! Shop LC is your home for amazing jewelry, ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Shop LC",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-06-26T13:17:39Z"
     }
   },
   {
@@ -545,40 +443,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "lXWUm3ydgo5KXgfrwVdvp9qk1PE",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "CC0Of4wMwnk"
-    },
-    "snippet": {
-      "publishedAt": "2024-08-03T06:52:59Z",
-      "channelId": "UCpzi8BbsXCUoSlfbTBDMRKA",
-      "title": "Medjugorje LIVE  24/7 - St. James Church - Crkva sv. Jakova",
-      "description": "medjugorje #medjugorjelive #queenofpeace #church #stjames #gospintrg #svjakov #crkvasvjakova #medjugorjeenvivo Dear ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/CC0Of4wMwnk/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/CC0Of4wMwnk/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/CC0Of4wMwnk/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Medjugorje Today Live",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-08-03T06:52:59Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "2WhUUNIJg1lWmvsOWsWwUsgHptY",
     "id": {
       "kind": "youtube#video",
@@ -613,36 +477,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "dDRyzq77WiFUywTh6SKr72P7V9g",
+    "etag": "z3V-2q-MBbHYqrt49hWAADf1Sno",
     "id": {
       "kind": "youtube#video",
-      "videoId": "tqyr2awdtE4"
+      "videoId": "XcftFX_Cwy4"
     },
     "snippet": {
-      "publishedAt": "2024-06-12T21:11:08Z",
-      "channelId": "UCaqEHP76q9TblVUO3sHFSQQ",
-      "title": "LIVE: Watch Very Pennsylvania by WGAL NOW! Lancaster news, weather and more.",
-      "description": "Now Playing: - News Fallback: Hour Long Docs Long form storytelling from Very Local. Upcoming: - Chronicle: Bring Them Home ...",
+      "publishedAt": "2021-01-19T12:35:11Z",
+      "channelId": "UCagckRRHeGkG7iwPl91hUpg",
+      "title": "Bud og Hustadvika Live",
+      "description": "",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/tqyr2awdtE4/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/tqyr2awdtE4/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/tqyr2awdtE4/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "wgaltv",
+      "channelTitle": "Live Norway",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-06-12T21:11:08Z"
+      "publishTime": "2021-01-19T12:35:11Z"
     }
   },
   {
@@ -715,36 +579,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "5AsIEqvjrN7pjfcxGWnf-iNR75s",
+    "etag": "btW9tx-gquQhGQqwtejsAewQk3k",
     "id": {
       "kind": "youtube#video",
-      "videoId": "zpVRx505C9w"
+      "videoId": "SzXznLd3efM"
     },
     "snippet": {
-      "publishedAt": "2022-07-26T01:28:54Z",
-      "channelId": "UCAhqlmltCW94ipicG8X-oLw",
-      "title": "Live Earthquake Information - RaspberryShake 4D Seismograph RD29A - Chino Hills, Southern California",
-      "description": "Live earthquake stream from a RaspberryShake 4D seismograph in Chino Hills, Ca (Southern California) Guide to this stream ...",
+      "publishedAt": "2024-11-17T02:35:57Z",
+      "channelId": "UC5TfuWJq9iU-gUp4nXr0z3Q",
+      "title": "🔴【1 Hour Game Jam】 Let&#39;s make games together! (Nov 22nd)",
+      "description": "Join us using the itch io link below, or just hang out and witness the chaos. After I make my game, here's where we'll check out ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/zpVRx505C9w/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/SzXznLd3efM/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/zpVRx505C9w/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/SzXznLd3efM/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/zpVRx505C9w/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/SzXznLd3efM/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Steve Caron",
+      "channelTitle": "Hyper Game Dev!",
       "liveBroadcastContent": "live",
-      "publishTime": "2022-07-26T01:28:54Z"
+      "publishTime": "2024-11-17T02:35:57Z"
     }
   },
   {
@@ -851,40 +715,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "WyutRoznwBT3yJ53zuakQHeWPVE",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "gF9M4wBdbF8"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T19:30:09Z",
-      "channelId": "UCPF8pugHCuWJhA0F_pOut-A",
-      "title": "Technical Art Live 2",
-      "description": "Today is my first live stream regarding some website development; you know, coding and figuring stuff out in VS Code.",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/gF9M4wBdbF8/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/gF9M4wBdbF8/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/gF9M4wBdbF8/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Mathias Villalobos",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T19:30:09Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "DmCOkhGjrAveEFtPRVXI4XyM6eA",
     "id": {
       "kind": "youtube#video",
@@ -915,40 +745,6 @@
       "channelTitle": "fanto Gaming",
       "liveBroadcastContent": "live",
       "publishTime": "2024-11-22T04:42:53Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "ToJEYRkAm1QoqxNMfra0O0bFiHQ",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "4KQSMRFrcms"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-20T20:07:48Z",
-      "channelId": "UCC8nkE-p-7S0ZPJXrEs2QNA",
-      "title": "Live Nucamp Open House # 84",
-      "description": "Join Nucamp's Live Open House to ask all your questions! Ask about web dev, cybersecurity, and much more. Explore Nucamp's ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/4KQSMRFrcms/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/4KQSMRFrcms/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/4KQSMRFrcms/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Nucamp",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-20T20:07:48Z"
     }
   },
   {
@@ -1089,40 +885,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "UImDNLZPQSQhQIs4xCZCpe_pCPg",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "_KJBmEfuhVM"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T19:21:21Z",
-      "channelId": "UC1ScTLsuszVMWyI9ZO3iE5w",
-      "title": "Cozy coding! It&#39;s chill out! - Games Later?",
-      "description": "Turn your videos into live streams with https://restream.io Cozy coding! It's chill out! - Games Later?",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/_KJBmEfuhVM/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/_KJBmEfuhVM/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/_KJBmEfuhVM/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "MayChanVT",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T19:21:21Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "v2kksF2Ik9UhLJab8yH6JsmBwOQ",
     "id": {
       "kind": "youtube#video",
@@ -1191,36 +953,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "AEO06f_ODl1fxFJOqWnL8OOY9YE",
+    "etag": "_JZ8_3398PpHMj0PzbgXmKLfSkQ",
     "id": {
       "kind": "youtube#video",
-      "videoId": "DQO-dgUBndg"
+      "videoId": "VMYfBN89Sz4"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T20:08:35Z",
-      "channelId": "UCD9CsJAoFiFjFWaw-S2e6Hg",
-      "title": "Low budget hotel stream (Germany edition)",
-      "description": "GitHub: https://github.com/orhun Follow me on X: https://twitter.com/orhundev Follow me on Mastodon: ...",
+      "publishedAt": "2024-11-22T22:06:24Z",
+      "channelId": "UCcE5z1HBSdD9tZx5EMTjvZQ",
+      "title": "LIVESTREAM: PYRO 4.0 (expect bugs!) in the EPTU with Seksi_Snipes and Friends",
+      "description": "Join Emily ( Seksi_Snipes ) and her crew as we attempt to play test EPTU 4.0 to Pyro again!! EXPECT bugs, crashes, etc. Join the ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/DQO-dgUBndg/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/VMYfBN89Sz4/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/DQO-dgUBndg/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/VMYfBN89Sz4/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/DQO-dgUBndg/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/VMYfBN89Sz4/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Orhun Parmaksız",
+      "channelTitle": "Emilys Game",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T20:08:35Z"
+      "publishTime": "2024-11-22T22:06:24Z"
     }
   },
   {
