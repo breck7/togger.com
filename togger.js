@@ -8,7 +8,12 @@ let info = document.querySelector(".info")
 
 class Togger {
   constructor() {
-    this.videoList = ["B_yKuCll8u4", "1aZb81NZJbk", "HybD8aCKIMw"]
+    this.videoList = [
+      "WMvLf2fmqKs",
+      "B_yKuCll8u4",
+      "1aZb81NZJbk",
+      "HybD8aCKIMw",
+    ]
     this.currentVideoIndex = 0
     this.isPoweredOn = true
     this.addVolumeIndicator()
