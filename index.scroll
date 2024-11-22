@@ -3,6 +3,7 @@ title Togger - It's not TV, it's Togger.
 header.scroll
 
 jsonScript youtubeNow.json
+jsonScript warpcastNow.json
 
 <div id="player"></div>
 <div class="static-noise"></div>

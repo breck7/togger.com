@@ -1,138 +1,240 @@
 [
   {
     "kind": "youtube#searchResult",
-    "etag": "RoZatdEKN6zuK9X_kgg6Nnje1r4",
+    "etag": "XBw4-b82S0y02KkURP9mVYxlXNY",
     "id": {
       "kind": "youtube#video",
-      "videoId": "NtFHR1QVag4"
+      "videoId": "MrXNlxqy4U8"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T15:49:31Z",
-      "channelId": "UCxcTeAKWJca6XyJ37_ZoKIQ",
-      "title": "The Pat McAfee Show Live | Friday November 22nd 2024",
-      "description": "Welcome to The Pat McAfee Show LIVE from Noon-3PM EST Mon-Fri. You can also find us live on ESPN, ESPN+, & TikTok!",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/NtFHR1QVag4/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/NtFHR1QVag4/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/NtFHR1QVag4/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "The Pat McAfee Show",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T15:49:31Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "di5xlLsnUpZ3nvUOdSSJtBzvHxY",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "OsVFbKAo0z0"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T02:08:58Z",
+      "publishedAt": "2024-11-22T09:08:50Z",
       "channelId": "UCm7lHFkt2yB_WzL67aruVBQ",
-      "title": "Vladimir Putin LIVE I Putin Address In English; Russia&#39;s Direct Attack On U.S, UK I Biden | Trump",
-      "description": "Watch live as Vladimir Putin announces Russia's successful test of the new Oreshnik hypersonic missile system on targets in ...",
+      "title": "Trump LIVE: As Putin Hails Oreshnik Missile After Big Attack On Ukraine, Trump&#39;s Peace Plan Revealed",
+      "description": "Trump | Trump Live | Oreshnik Missile | Trump Live Speech | Joe Biden Supports Ukraine | USA on Russia-Ukraine War | Trump ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/OsVFbKAo0z0/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/MrXNlxqy4U8/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/OsVFbKAo0z0/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/MrXNlxqy4U8/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/OsVFbKAo0z0/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/MrXNlxqy4U8/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
       "channelTitle": "Hindustan Times",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T02:08:58Z"
+      "publishTime": "2024-11-22T09:08:50Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "Smo4e3T8kLGdoqgig5LDln21OXc",
+    "etag": "UM4USW7upQr2qwwcv6jm2MdpnoY",
     "id": {
       "kind": "youtube#video",
-      "videoId": "7ioz4FJHAEg"
+      "videoId": "evLVisM6H8Q"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T18:00:52Z",
-      "channelId": "UCQANb2YPwAtK-IQJrLaaUFw",
-      "title": "BREAKING: Major ANNOUNCEMENT from Matt Gaetz",
-      "description": "BREAKING: Major ANNOUNCEMENT from Matt Gaetz For more from Brian Tyler Cohen: Order my #1 NYT bestselling book ...",
+      "publishedAt": "2024-11-22T03:42:29Z",
+      "channelId": "UCm7lHFkt2yB_WzL67aruVBQ",
+      "title": "Iceland Volcano LIVE | Volcano Erupts Again in Iceland, Seventh Eruption This Year | Reykjavik",
+      "description": "Iceland Volcano | Iceland Volcano Live News | Volcano Live News | Reykjavik Valcano A volcano near Reykjavik, Iceland, has ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/7ioz4FJHAEg/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/evLVisM6H8Q/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/7ioz4FJHAEg/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/evLVisM6H8Q/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/7ioz4FJHAEg/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/evLVisM6H8Q/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Brian Tyler Cohen",
+      "channelTitle": "Hindustan Times",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T18:00:52Z"
+      "publishTime": "2024-11-22T03:42:29Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "_sI0ysVfvW8e6yZ5KyrGzuDNLyI",
+    "etag": "6uSYQTzlhFgbM-JOStkMiqALNYg",
     "id": {
       "kind": "youtube#video",
-      "videoId": "FEuXQp_IY4E"
+      "videoId": "CiqwZQ3lipk"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T15:00:10Z",
-      "channelId": "UCn75vF3UxwWeWPAY4-5Z6HQ",
-      "title": "VWAP: A Trader&#39;s Secret Weapon | November 22 LIVE",
-      "description": "SIGN UP FOR THE FREE DAILY TRADERTV WATCHLIST: https://qrco.de/WATCHLIST ▻ Become a TraderTV.LIVE member ...",
+      "publishedAt": "2024-11-22T10:47:02Z",
+      "channelId": "UCw8Fc5R0Q5yyS3KrDCPM3xg",
+      "title": "LIVE | Akhmat Commander on Russia’s Plan to Strike the US – No Nukes Needed!",
+      "description": "Apti Alaudinov, commander of the Akhmat special forces, criticizes U.S. approval for Ukraine to launch long-range missile strikes ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/FEuXQp_IY4E/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/CiqwZQ3lipk/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/FEuXQp_IY4E/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/CiqwZQ3lipk/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/FEuXQp_IY4E/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/CiqwZQ3lipk/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Live Trading by TraderTV Live",
+      "channelTitle": "Times Now World",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T15:00:10Z"
+      "publishTime": "2024-11-22T10:47:02Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "3m8h-i31Kr5Z8zQ2JX0llt-Pb20",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "K2bWopsRyAs"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T07:00:10Z",
+      "channelId": "UCm7lHFkt2yB_WzL67aruVBQ",
+      "title": "Putin Speech LIVE | Vladimir Putin Addresses The Nation After ICBM Attack On Ukraine | Russia | US",
+      "description": "Putin Speech LIVE | Vladimir Putin | Vladimir Putin National Address | ICBM Attack On Ukraine | Russia | US Russian President ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/K2bWopsRyAs/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/K2bWopsRyAs/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/K2bWopsRyAs/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Hindustan Times",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T07:00:10Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "3_2yl2YW-TvdMvpesqkNJSJQihA",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "fKXx3xTPA8Q"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T05:42:32Z",
+      "channelId": "UCckHqySbfy5FcPP6MD_S-Yg",
+      "title": "LIVE | Putin&#39;s Emergency Address To Nation After Hypersonic Missile Attack On Ukraine | Watch",
+      "description": "Russian President Vladimir Putin declared on Thursday that Moscow has the right to target military facilities in countries whose ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/fKXx3xTPA8Q/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/fKXx3xTPA8Q/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/fKXx3xTPA8Q/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Times Of India",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T05:42:32Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "DhfVOxAHgAsU7PI7SQL5-PuzGvo",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "8ZgHplFIY3I"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-21T17:44:12Z",
+      "channelId": "UCm7lHFkt2yB_WzL67aruVBQ",
+      "title": "Vladimir Putin LIVE | ICBM Attack LIVE | Russia Tests Oreshnik Hypersonic Missile, Strikes Dnipro",
+      "description": "Vladimir Putin LIVE | ICBM Attack LIVE | Russia Tests Oreshnik Hypersonic Missile Watch live as Vladimir Putin announces ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8ZgHplFIY3I/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8ZgHplFIY3I/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8ZgHplFIY3I/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Hindustan Times",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-21T17:44:12Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "7uWR3TutKYLPqXdUDkYdiwkjwxU",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "RnKNQjUyS3U"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T03:55:34Z",
+      "channelId": "UCkQef3Fidr7tm3gNuXgGKPw",
+      "title": "LIVE: Ted Stevens Anchorage Airport [PANC]",
+      "description": "Ted Stevens International Airport in Anchorage, Alaska is affectionately known as the worlds biggest gas station for cargo aircraft.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/RnKNQjUyS3U/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/RnKNQjUyS3U/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/RnKNQjUyS3U/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "BIG JET TV",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T03:55:34Z"
     }
   },
   {
@@ -171,172 +273,444 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "90tqxi5KUuM4KjPE43ernSu_agk",
+    "etag": "NxcjkgCekTFfXxB90nAKgOvXUcA",
     "id": {
       "kind": "youtube#video",
-      "videoId": "KppF8Y1jpuc"
+      "videoId": "EieZBzhwN0E"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T10:56:48Z",
-      "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
-      "title": "&quot;검·경에 충성맹세 시켜&quot; 明 녹취 또 공개, 檢 &#39;여론 조작&#39; 의혹 수사 &#39;尹 캠프&#39; 향하나-[핫이슈PLAY] MBC뉴스 2024년 11월 22일",
-      "description": "윤석열 대통령 부부의 '공천 개입 의혹'의 핵심 인물인 명태균씨가 구속 후 세번째 조사를 받고 있습니다. 구속 기간이 열흘 연장돼 다음 ...",
+      "publishedAt": "2024-11-22T15:57:30Z",
+      "channelId": "UCrgTEmBuoObZiEXvZ6r3PQg",
+      "title": "🔴LIVE - MASSIVE CHAPTER 6 LEAKS!",
+      "description": "BE SURE TO LIKE, SUBSCRIBE, AND TURN ON NOTIFICATIONS!!! MY GAMING CHANNEL : @CouRageGaming MY ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/KppF8Y1jpuc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/EieZBzhwN0E/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/KppF8Y1jpuc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/EieZBzhwN0E/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/KppF8Y1jpuc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/EieZBzhwN0E/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "MBCNEWS",
+      "channelTitle": "CouRage",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T10:56:48Z"
+      "publishTime": "2024-11-22T15:57:30Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "kyRbL4bH2F4MHFHzzLbcsw8XXfk",
+    "etag": "CA5TiSNgvKxTDpErIDL1dxGrSX8",
     "id": {
       "kind": "youtube#video",
-      "videoId": "Ftpx2vQnEkE"
+      "videoId": "aPIqToZf8Yg"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T04:25:30Z",
-      "channelId": "UCAJ1rjf90IFwNGlZUYuoP1Q",
-      "title": "Ibiza Summer Mix 2024 🍓 Best Of Tropical Deep House Music Chill Out Mix 2023 🍓 Chillout Lounge",
-      "description": "Ibiza Summer Mix 2024 Best Of Tropical Deep House Music Chill Out Mix 2023 Chillout Lounge Stream/Download: ...",
+      "publishedAt": "2024-11-22T15:13:59Z",
+      "channelId": "UC_uGA-nB7A4FyiLeq8e3tWg",
+      "title": "Christmas Jazz ☕ Smooth Jazz Coffee Music &amp; Christmas Bossa Nova Piano for Holiday Atmosphere",
+      "description": "Christmas Jazz ☕ Smooth Jazz Coffee Music & Christmas Bossa Nova Piano for Holiday Atmosphere Christmas Jazz ☕ Smooth ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/Ftpx2vQnEkE/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/aPIqToZf8Yg/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/Ftpx2vQnEkE/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/aPIqToZf8Yg/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/Ftpx2vQnEkE/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/aPIqToZf8Yg/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Magic Club",
+      "channelTitle": "MSA Cartoons",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T04:25:30Z"
+      "publishTime": "2024-11-22T15:13:59Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "LyVdnBN6Ajfr1rAFMDGRP9UtWHs",
+    "etag": "Ikr4unDl3cu7XUwV3J_YryK9c2I",
     "id": {
       "kind": "youtube#video",
-      "videoId": "DvPZ_egyit8"
+      "videoId": "uJA9Uxjw2tg"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T14:29:21Z",
-      "channelId": "UCUyeluBRhGPCW4rPe_UvBZQ",
-      "title": "I AM PROGRAMMING JAVASCRIPT",
-      "description": "Twitch https://twitch.tv/ThePrimeagen Discord https://discord.gg/ThePrimeagen Become Backend Dev: https://boot.dev/prime (plus ...",
+      "publishedAt": "2024-11-22T14:10:04Z",
+      "channelId": "UCQEHAaCICS_1TZ9mfCX-l2g",
+      "title": "BushCampDad Live Stream",
+      "description": "",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/DvPZ_egyit8/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/uJA9Uxjw2tg/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/DvPZ_egyit8/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/uJA9Uxjw2tg/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/DvPZ_egyit8/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/uJA9Uxjw2tg/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "ThePrimeTime",
+      "channelTitle": "BushCampDad",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T14:29:21Z"
+      "publishTime": "2024-11-22T14:10:04Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "xZEIA3B9wCWu7URF1eBTWH9W_1A",
+    "etag": "Juol7vfJwRFZoxg16tamUI6Cnx0",
     "id": {
       "kind": "youtube#video",
-      "videoId": "OzMsO3eUHeo"
+      "videoId": "gdu68cJRo4A"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T15:54:19Z",
-      "channelId": "UC7Wyuc7HQXbC70GGqVLl9mQ",
-      "title": "NEW PROMO!!! GETTING READY FOR BLACK FRIDAY!",
-      "description": "twitter: https://www.twitter.com/nickrtfm twitch: https://www.twitch.tv/runthefutmarket instagram: https://www.instagram.com/nickrtfm ...",
+      "publishedAt": "2024-11-22T16:31:24Z",
+      "channelId": "UCcJL2ld6kxy_nuV1u7PVQ0g",
+      "title": "🔴LIVE - DR DISRESPECT - ARENA BREAKOUT - NEW SEASON 1",
+      "description": "Donate: https://streamlabs.com/drdisrespect/tip ☆ NEW Merch: https://championsclub.gg/ ♢ Twitter: ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/OzMsO3eUHeo/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/gdu68cJRo4A/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/OzMsO3eUHeo/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/gdu68cJRo4A/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/OzMsO3eUHeo/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/gdu68cJRo4A/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "NickRTFM",
+      "channelTitle": "DrDisRespect",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T15:54:19Z"
+      "publishTime": "2024-11-22T16:31:24Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "5REIRoeVwubq_qKtsrpIZAaLhGY",
+    "etag": "KoXDCtojn4JppkMu8CLqj8UuaG4",
     "id": {
       "kind": "youtube#video",
-      "videoId": "h7FzdHPZ7co"
+      "videoId": "VULyr2BGRUU"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T14:52:28Z",
-      "channelId": "UC65i3Fyq91uiUkIS0i5GLNQ",
-      "title": "مباشر│ عاجل│ إطلاق رشقة صاروخية من لبنان باتجاه حيفا وسماع دوي انفجارات",
-      "description": "تابعوا أبرز الأخبار، وآخر مستجدات الأحداث العربية والعالمية، عبر البث المباشر للتلفزيون العربي على يوتيوب Live▷ ...",
+      "publishedAt": "2024-11-22T15:36:39Z",
+      "channelId": "UCz8K1occVvDTYDfFo7N5EZw",
+      "title": "BAIL HEARING: P. Diddy Trafficking Indictment – Live Analysis",
+      "description": "P. Diddy, real name Sean Combs, was arrested after being indicted by a federal grand jury on several charges including ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/h7FzdHPZ7co/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/VULyr2BGRUU/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/h7FzdHPZ7co/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/VULyr2BGRUU/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/h7FzdHPZ7co/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/VULyr2BGRUU/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "العربي - أخبار ",
+      "channelTitle": "Law&Crime Network",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T14:52:28Z"
+      "publishTime": "2024-11-22T15:36:39Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "-IXeIkFc3kEVZ8Bb1o5CzBWOo4g",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "IIf5meKTGOw"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T11:29:59Z",
+      "channelId": "UCayskv9f7BBHFWDViRcu9Ag",
+      "title": "سورة البقرة طاردة الشياطين💚 بصوت هادئ ومريح جدا جدا 💚💤تلاوة هادئة للنوم والراحة النفسية 😴",
+      "description": "سورة البقرة طاردة الشياطين   بصوت هادئ ومريح جدا جدا تلاوة هادئة للنوم والراحة النفسية.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/IIf5meKTGOw/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IIf5meKTGOw/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IIf5meKTGOw/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Funny Stop Motion Cooking",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T11:29:59Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "Oq1vgEAQZ7JbIK159ncep-oBCsk",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "g1CM2IEzAEw"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T18:26:24Z",
+      "channelId": "UCClfFsWcT3N2I7VTXXyt84A",
+      "title": "The Greatest Stream That&#39;s Ever Lived",
+      "description": "I'm not working so don't ask me IT questions.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/g1CM2IEzAEw/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/g1CM2IEzAEw/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/g1CM2IEzAEw/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Salem Techsperts",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T18:26:24Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "mh4oiwJ0JOY-z2pDJz7cpTLVCv4",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "FcRivMRPMMA"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T18:15:23Z",
+      "channelId": "UCW1CGYCjfKhNLGp_Os1g_Pg",
+      "title": "🔴 LIVE - REPLACER SKIN IS HERE | REBIRTH IS HERE | #1 RANKED IN THE WORLD IN WARZONE",
+      "description": "Join this channel to get access to perks: https://www.youtube.com/channel/UCW1CGYCjfKhNLGp_Os1g_Pg/join 2nd Channel: ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/FcRivMRPMMA/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FcRivMRPMMA/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FcRivMRPMMA/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Swagg",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T18:15:23Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "cKLP4vbMiEBjKUYUwlU5jPwN30Q",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "gNEjeNjqQ3c"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T18:29:53Z",
+      "channelId": "UC9gn1WzruIOksNgdEvQucjg",
+      "title": "KENDRICK LAMAR GNX LIVE REACTION",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/gNEjeNjqQ3c/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gNEjeNjqQ3c/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gNEjeNjqQ3c/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "JayBlac",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T18:29:53Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "XdO3sgyy_R54CgarLrnyClz-Tew",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "NpFtEKuv1EI"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T14:44:39Z",
+      "channelId": "UCI_mwTKUhicNzFrhm33MzBQ",
+      "title": "Trump Live  | Trump Drops World War III Bombshell After Putin’s Nuclear Order | Russia Vs Ukraine",
+      "description": "Live Donald Trump, Trump Drops World War III Bombshell After Putin's Nuclear Order, Russia Vs Ukraine #trump #trumplive ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/NpFtEKuv1EI/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/NpFtEKuv1EI/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/NpFtEKuv1EI/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "ET NOW",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T14:44:39Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "k1XuYOaERrDsvavfBbrSmmteovU",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "S2AnKG60gJ0"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T16:14:40Z",
+      "channelId": "UCef1-8eOpJgud7szVPlZQAQ",
+      "title": "House GOP News Conference | Mike Johnson &amp; Republicians Press Conference Over Trump Cabinet | N18G",
+      "description": "House GOP News Conference | Mike Johnson & Republicians Press Conference Over Trump Cabinet | N18G House Speaker ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/S2AnKG60gJ0/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/S2AnKG60gJ0/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/S2AnKG60gJ0/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "CNN-News18",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T16:14:40Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "ylibTw5on6ptOV2uquBz0TiszcY",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "3Tzyaruv_Ss"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T13:04:49Z",
+      "channelId": "UCuzS3rPQAYqHcLWqOFuY0pw",
+      "title": "Rashtra Ki Baat : कल 10 बजे मिल जाएगा CM ? | रिजल्ट से पहले रिजॉर्ट क्यों हुए बुक ? | Manak Gupta",
+      "description": "News24 #news #electionresult2024 #indiaalliance #nda #pmmodi #rahulgandhi #bjp #congress #maharashtraelection2024 ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3Tzyaruv_Ss/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3Tzyaruv_Ss/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3Tzyaruv_Ss/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "News 24",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T13:04:49Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "c_4J3iRR7PIGmfD-BtVW6Mucl6s",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "uyN3D_a7M3A"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T14:43:27Z",
+      "channelId": "UCRWFSbif-RFENbBrSiez1DA",
+      "title": "Sandeep Chaudhary LIVE : अदाणी फंसे या फंसाया गया ? । Gautam Adani Case । Rahul Gandhi । PM Modi",
+      "description": "sandeepchaudhary #gautamadani #fraud #bribery #adani #adanigroup #adanigroupstocks #rahulgandhi #narendramodi #bjp ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/uyN3D_a7M3A/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/uyN3D_a7M3A/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/uyN3D_a7M3A/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "ABP NEWS",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T14:43:27Z"
     }
   },
   {
@@ -375,172 +749,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "PP13B7FOC3q4Z2hcyuR0zL-duf8",
+    "etag": "vhZ4ZOoQbQBB471Q1x79IGSC5uo",
     "id": {
       "kind": "youtube#video",
-      "videoId": "sEw2GZ7_jLk"
+      "videoId": "Pho-S0puJkc"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T13:47:59Z",
-      "channelId": "UCTHCOPwqNfZ0uiKOvFyhGwg",
-      "title": "[뉴스쏙] &quot;우주·사이버전에도 대비&quot;…합참, 다영역작전부 신설｜이지스함 인도 받고 현무-Ⅱ 훈련도 / 연합뉴스TV (YonhapnewsTV)",
-      "description": "국방부가 합동참모본부에 '다영역작전부'를 신설합니다. 하이브리드전, 사이버·우주·전자전 등 새로운 전장 환경에도 대비하겠다는 ...",
+      "publishedAt": "2024-11-22T12:13:56Z",
+      "channelId": "UCat88i6_rELqI_prwvjspRA",
+      "title": "🔴Seeman Meet Rajinikanth LIVE | ரஜினியை சந்தித்தது ஏன்? Vijay அரசியல் குறித்து பேசியது என்ன?  | N18L",
+      "description": "Seeman Meet Rajinikanth LIVE | ரஜினியை சந்தித்தது ஏன்? விஜய் அரசியல் குறித்து ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/sEw2GZ7_jLk/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/Pho-S0puJkc/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/sEw2GZ7_jLk/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/Pho-S0puJkc/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/sEw2GZ7_jLk/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/Pho-S0puJkc/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "연합뉴스TV",
+      "channelTitle": "News18 Tamil Nadu",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T13:47:59Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "yH8MqEPWkdx3_hpwVoZ_4Q9hgaQ",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "un2ikrpuIYw"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T05:55:52Z",
-      "channelId": "UCRA5hbjN2NDxzNxXZkOAmKg",
-      "title": "[🔴RE:PLAY] &#39;윤석열 정부&#39; 내년 예산 전액 삭감 된 대통령실·검찰·경찰·감사원.. 與 집단 퇴장 &quot;분풀이식 삭감&quot; vs 野 &quot;이게 국회에 대한 예의인가?&quot; | 국회 상임위",
-      "description": "국회 상임위 다시보기 2024.11.08(금) _ \"제418회 국회(정기회) 제16차 법제사법위원회\" 2024.11.21(목) _ \"제418회 국회(정기회) ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/un2ikrpuIYw/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/un2ikrpuIYw/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/un2ikrpuIYw/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "전주MBC News",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T05:55:52Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "WTo1gSX-KbBrC-gXwVTynugfFuo",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "WhrBrid4CG4"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T01:02:29Z",
-      "channelId": "UCttspZesZIDEwwpVIgoZtWQ",
-      "title": "Aaj Ki Taza Khabrein LIVE: आज की बड़ी खबरें | Maharashtra Election Result | Adani | UP By Election",
-      "description": "During Modi's address to the Indian community in Guyana, slogans of Modi-Modi and Jai Shri Ram resonated... Guyana's ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/WhrBrid4CG4/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/WhrBrid4CG4/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/WhrBrid4CG4/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "IndiaTV",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T01:02:29Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "N7cLCrq6XpP1vo8EwLx-SUViOec",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "nPQXHYy8d_I"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T11:01:42Z",
-      "channelId": "UCZR3-lM6Z-n5_UGHlwx_Rpw",
-      "title": "Relaxing Jazz Instrumental Music &amp; Cozy Autumn Porch Ambience 🍂 Smooth Jazz Music for Studying, Work",
-      "description": "Relaxing Jazz Instrumental Music & Cozy Autumn Porch Ambience Smooth Jazz Music for Studying, Work 👉️   Let's ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/nPQXHYy8d_I/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/nPQXHYy8d_I/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/nPQXHYy8d_I/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Relax Jazz Cafe",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T11:01:42Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "LCWsdgVW_tS5uh6HIEHngCW0G6g",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "3VQ74vFUZj4"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T12:12:36Z",
-      "channelId": "UCumtYpCY26F6Jr3satUgMvA",
-      "title": "LIVE : మూడో ప్రపంచ యుద్ధం ముంగిట ప్రపంచం? | Nuclear threat in Russia-Ukraine war? | Ntv",
-      "description": "For more latest updates on the news : ▻ Visit Our Website : https://ntvtelugu.com/ ▻ Subscribe to NTV News Channel: ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/3VQ74vFUZj4/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/3VQ74vFUZj4/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/3VQ74vFUZj4/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "NTV Telugu",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T12:12:36Z"
+      "publishTime": "2024-11-22T12:13:56Z"
     }
   },
   {
@@ -579,6 +817,312 @@
   },
   {
     "kind": "youtube#searchResult",
+    "etag": "PEzJT9n8QmiDXMMlljygVZXb9ng",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "S-dp4U61NFU"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T04:10:00Z",
+      "channelId": "UCIvaYmXn910QMdemBG3v1pQ",
+      "title": "Omar Abdullah Big Action on Kashmiri Pandit LIVE: कश्मीर से निकाले जाएंगे पंडित? एक्शन में अब्दुल्ला",
+      "description": "Omar Abdullah Big Action on Kashmiri Pandit LIVE: कश्मीर से निकाले जाएंगे पंडित? एक्शन में ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/S-dp4U61NFU/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/S-dp4U61NFU/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/S-dp4U61NFU/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Zee News",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T04:10:00Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "vo18j5jmN9rXcyGbRyGZOpQD0J0",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "M05VUAFYVCo"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T14:25:58Z",
+      "channelId": "UCIvaYmXn910QMdemBG3v1pQ",
+      "title": "Uddhav Thackeray Big Decision LIVE Updates : उद्धव ठाकरे ने खोल दिए अपने पत्ते, फंस गई कांग्रेस!",
+      "description": "Uddhav Thackeray Big Decision LIVE Updates : उद्धव ठाकरे ने खोल दिए अपने पत्ते, फंस गई ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/M05VUAFYVCo/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/M05VUAFYVCo/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/M05VUAFYVCo/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Zee News",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T14:25:58Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "_EJP7l6vglSgJQp2aOXbjJqW95Y",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "h7FzdHPZ7co"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T14:52:28Z",
+      "channelId": "UC65i3Fyq91uiUkIS0i5GLNQ",
+      "title": "مباشر│عاجل | إذاعة الجيش الإسرائيلي: تحطم مسيّرة في الجليل الغربي واستمرار ملاحقة مسيَرتين على الأقل",
+      "description": "تابعوا أبرز الأخبار، وآخر مستجدات الأحداث العربية والعالمية، عبر البث المباشر للتلفزيون العربي على يوتيوب Live▷ ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/h7FzdHPZ7co/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/h7FzdHPZ7co/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/h7FzdHPZ7co/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "العربي - أخبار ",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T14:52:28Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "WTo1gSX-KbBrC-gXwVTynugfFuo",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "WhrBrid4CG4"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T01:02:29Z",
+      "channelId": "UCttspZesZIDEwwpVIgoZtWQ",
+      "title": "Aaj Ki Taza Khabrein LIVE: आज की बड़ी खबरें | Maharashtra Election Result | Adani | UP By Election",
+      "description": "During Modi's address to the Indian community in Guyana, slogans of Modi-Modi and Jai Shri Ram resonated... Guyana's ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/WhrBrid4CG4/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/WhrBrid4CG4/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/WhrBrid4CG4/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "IndiaTV",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T01:02:29Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "LkxmDjztJRiA9fgG0Oi4KsPF3dM",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "J25BnUeSSHQ"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T15:07:24Z",
+      "channelId": "UCl5YgCiwSRVOiC2Nd1P9v1A",
+      "title": "ROJA VIDEO LEAK🔥🔥 - చిక్కిన రోజా..అరెస్ట్ కు గ్రీన్ సిగ్నల్..నగరి గెస్ట్ హౌస్ లో పోలీస్ ఫోర్స్",
+      "description": "roja #ycp #rojaarrest #primedebatewithvarma #99tv ROJA VIDEO LEAK     - చిక్కిన రోజా..అరెస్ట్ కు ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/J25BnUeSSHQ/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/J25BnUeSSHQ/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/J25BnUeSSHQ/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "99TV Telugu",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T15:07:24Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "zQ7lHQqc8Yg6bI09x5szsp4Y-IA",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "bIywlbX4ncU"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T13:19:32Z",
+      "channelId": "UCRWFSbif-RFENbBrSiez1DA",
+      "title": "Sandeep Chaudhary LIVE :&#39;खोखे&#39; का डर...विधायकों पर नजर? । Maharashtra Election । Congress । BJP",
+      "description": "महाराष्ट्र विधानसभा चुनाव के नतीजे शनिवार (23 नवंबर) को घोषित हो ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/bIywlbX4ncU/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bIywlbX4ncU/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bIywlbX4ncU/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "ABP NEWS",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T13:19:32Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "tTFC0sqZvbNQLJSN0Yo4G6ITLc0",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "qB07XpQKvNw"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T06:39:45Z",
+      "channelId": "UCIvaYmXn910QMdemBG3v1pQ",
+      "title": "Massive Clash in Sambhal on Jama Masjid Survey LIVE: जुमे के दिन यूपी में हाई अलर्ट, टूटेगी मस्जिद?",
+      "description": "Massive Clash in Sambhal on Jama Masjid Survey LIVE: जुमे के दिन यूपी में हाई अलर्ट, टूटेगी ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/qB07XpQKvNw/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/qB07XpQKvNw/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/qB07XpQKvNw/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Zee News",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T06:39:45Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "glge9NP1QK7iz8nwg_06g7gt1Bo",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "kDYhJtI3b8Y"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T13:04:51Z",
+      "channelId": "UCDKjhgRoPF1CQk7HluMz23A",
+      "title": "LIVE🔴: Super Prime Time With Vamsi | Mahaa Vamsi Analysis | Mahaa News",
+      "description": "tspolitics #appolitics #spt #mahaanewslive #mahaavamsianalysis LIVE  : Super Prime Time With Vamsi | Mahaa Vamsi Analysis ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/kDYhJtI3b8Y/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/kDYhJtI3b8Y/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/kDYhJtI3b8Y/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Mahaa News",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T13:04:51Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "aoh-N9KDu8Azu9gZM-2D4-s9GdU",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "uwj5QLdr3n0"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T09:22:20Z",
+      "channelId": "UCDH-Y35AZ9G5nm8-XREBltw",
+      "title": "🔴Staf dan Ajudan Dibikin Cemas, Presiden Prabowo Mendadak Hentikan Wawancara Saat Menkeu Kedinginan",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru Detik-detik Presiden Prabowo ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/uwj5QLdr3n0/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/uwj5QLdr3n0/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/uwj5QLdr3n0/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "SripokuTV",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T09:22:20Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
     "etag": "H5qb17_9saKxADoppgITc316o-8",
     "id": {
       "kind": "youtube#video",
@@ -609,6 +1153,40 @@
       "channelTitle": "SBS 뉴스",
       "liveBroadcastContent": "live",
       "publishTime": "2024-11-22T09:50:04Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "CocSQB5u7cZhN6hW4NFqIFBSgJs",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "-kjgg6BRl8c"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T13:42:55Z",
+      "channelId": "UCajVjEHDoVn_AHsunUZz_EQ",
+      "title": "Republic Bangla News LIVE | অপারেশন মারণ কামড়!  ভারতকে টুকরো করার নতুন প্ল্যান?",
+      "description": "Republic Bangla News LIVE | অপারেশন মারণ কামড়! ভারতকে টুকরো করার নতুন প্ল্যান?",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/-kjgg6BRl8c/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-kjgg6BRl8c/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-kjgg6BRl8c/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Republic Bangla",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T13:42:55Z"
     }
   },
   {
@@ -647,1056 +1225,478 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "PHkhluMSguE7HI8lqRzlcCAZiBQ",
+    "etag": "UEyRlVFFHdRZgp5AXMp1L9DXv-8",
     "id": {
       "kind": "youtube#video",
-      "videoId": "RxudXPc0DG0"
+      "videoId": "wOR5Pv43Wu0"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T06:18:07Z",
-      "channelId": "UCkinYTS9IHqOEwR1Sze2JTw",
-      "title": "&#39;요격 불가&#39; 러 극초음속 미사일 .. 핵탄두 가능, 우크라 &quot;명백한 확전&quot; (이슈라이브) / SBS",
-      "description": "우크라이나 #러시아 #우크라이나러시아 #SBS뉴스 #8뉴스 #실시간 으로 만나 보세요 라이브 뉴스 채널 SBS 모바일24 ▷SBS 뉴스로 ...",
+      "publishedAt": "2024-11-22T03:00:33Z",
+      "channelId": "UCAlQ5f7mhnkfM6jjXeJDw7g",
+      "title": "🔴 [EN VIVO] ROCK &amp; POP 95.9 #NosGustaElRock",
+      "description": "FM Rock & Pop 95.9, Buenos Aires, Argentina. Nos gusta el rock. Suscribite a FM Rock & Pop 95.9 en Youtube ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/RxudXPc0DG0/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/wOR5Pv43Wu0/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/RxudXPc0DG0/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/wOR5Pv43Wu0/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/RxudXPc0DG0/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/wOR5Pv43Wu0/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "SBS 뉴스",
+      "channelTitle": "Rock And Pop",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T06:18:07Z"
+      "publishTime": "2024-11-22T03:00:33Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "pDDxMIz2IskObuBv_nDXhLMBUHU",
+    "etag": "OmyHdZZ1iy82v2uVkczS51kHw8Q",
     "id": {
       "kind": "youtube#video",
-      "videoId": "z2vBS_GdiBM"
+      "videoId": "EYzfwpeE9zI"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T11:59:46Z",
-      "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
-      "title": "푸틴 &quot;신형미사일은 음속 10배 극초음속..서방 막을 방법 없다&quot;.&quot;핵 탑재 가능&quot; 분석도..강대강 미사일 공격에 &#39;3차 대전&#39; 위협 고조 - [핫이슈PLAY] 2024.11.22",
-      "description": "러시아가 21일(현지시간) 우크라이나를 향해 극초음속 중거리 탄도 미사일을 처음 발사하면서 양국 간 전쟁이 중대 기로를 맞았습니다 ...",
+      "publishedAt": "2024-11-22T12:03:12Z",
+      "channelId": "UC531MlZA5LUbeGwEN_zcppw",
+      "title": "Bihar Teacher Transfer Posting News LIVE :  बिहार के शिक्षकों के लिए बड़ी खुशखबरी | Bihar News Live",
+      "description": "Bihar Teacher Transfer Posting News LIVE : बिहार के शिक्षकों के लिए बड़ी खुशखबरी | Bihar News ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/z2vBS_GdiBM/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/EYzfwpeE9zI/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/z2vBS_GdiBM/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/EYzfwpeE9zI/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/z2vBS_GdiBM/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/EYzfwpeE9zI/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "MBCNEWS",
+      "channelTitle": "News18 Bihar Jharkhand",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T11:59:46Z"
+      "publishTime": "2024-11-22T12:03:12Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "tcLmkJFconbImd_0f3KXW1RJrCc",
+    "etag": "l_-sG1gS8wrev0HMgL47zsGrG3M",
     "id": {
       "kind": "youtube#video",
-      "videoId": "H7Ivr35Ilpc"
+      "videoId": "_o5G3_cG7ro"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T14:32:03Z",
-      "channelId": "UCwd8Byi93KbnsYmCcKLExvQ",
-      "title": "TODO ES GEOPOLÍTICA: Rusia desata las alarmas con el misil Oreshnik, Ucrania en alerta y OTAN avisa",
-      "description": "TODO ES GEOPOLÍTICA: Rusia desata las alarmas con el misil Oreshnik, Ucrania en alerta y OTAN avisa Máxima tensión en la ...",
+      "publishedAt": "2024-11-22T10:50:18Z",
+      "channelId": "UCRv90ie2kGmKBZ6G6aYRzZg",
+      "title": "𝐑𝐌. 𝟔𝟔𝟔",
+      "description": "DONATE : https://saweria.co/luzivertoklama ⮞ DONATE : https://sociabuzz.com/luziverto/donate ⮞ INSTAGRAM ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/H7Ivr35Ilpc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/_o5G3_cG7ro/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/H7Ivr35Ilpc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/_o5G3_cG7ro/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/H7Ivr35Ilpc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/_o5G3_cG7ro/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Negocios TV",
+      "channelTitle": "Luzivert Oklama",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T14:32:03Z"
+      "publishTime": "2024-11-22T10:50:18Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "rS80bdaT3RvA1cXut3Q-fdjdx_c",
+    "etag": "zhmqQGGhH12RahAYBNnIZ-tIhOU",
     "id": {
       "kind": "youtube#video",
-      "videoId": "P9m8aDxIrL4"
+      "videoId": "pzJZ5fMRIRI"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T06:31:03Z",
-      "channelId": "UCttspZesZIDEwwpVIgoZtWQ",
-      "title": "Maharashtra Election Final Exit Poll LIVE: रिजस्ट से ठीक पहले 150 सीटों पर पलट गए EXIT POLL! | BJP",
-      "description": "Votes were cast for 288 assembly seats in Maharashtra. Nearly 59% polling was done in Maharashtra. But after polling in any ...",
+      "publishedAt": "2024-11-22T06:25:44Z",
+      "channelId": "UCC-YG6gBZNmdxYfQZnwCX4A",
+      "title": "🔴 Kanada Umumkan Siap Patuhi ICC Terkait Surat Perintah Penangkapan Netanyahu: Kami Taat Hukum",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru SERAMBINEWS.",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/P9m8aDxIrL4/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/pzJZ5fMRIRI/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/P9m8aDxIrL4/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/pzJZ5fMRIRI/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/P9m8aDxIrL4/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/pzJZ5fMRIRI/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "IndiaTV",
+      "channelTitle": "Serambinews",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T06:31:03Z"
+      "publishTime": "2024-11-22T06:25:44Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "wVJL4NIvNuCI02jkSO4eFOILMmA",
+    "etag": "TVQe12e9P67avpLa9liQ6xqWQvc",
     "id": {
       "kind": "youtube#video",
-      "videoId": "Jsb9NQdOYQg"
+      "videoId": "sxHE0Ursok8"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T01:08:40Z",
-      "channelId": "UCdOSeEq9Cs2Pco7OCn2_i5w",
-      "title": "Maharashtra Vidhan Sabha Election 2024 Live | महाराष्ट्र विधानसभा| Maharashtra Politcs | tv9 marathi",
-      "description": "maharashtraelection2024 #maharashtranews #maharashtranewselection #electionnews #maharashtraelectiondate ...",
+      "publishedAt": "2024-11-22T12:59:36Z",
+      "channelId": "UC_JJ_NhRqPKcIOj5Ko3W_3w",
+      "title": "[생방송] 경제지표: S&amp;P글로벌 PMI, 미시간대 소비자심리/오픈AI, 자체 웹 브라우저 개발 검토/애플, 대화형 Siri 준비중? - 오선의 미국 증시 라이브",
+      "description": "보다 빠른 속보/정보 그리고 스마트폰 알림까지?!? 멤버십: https://www.youtube.com/channel/UC_JJ_NhRqPKcIOj5Ko3W_3w/join ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/Jsb9NQdOYQg/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/sxHE0Ursok8/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/Jsb9NQdOYQg/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/sxHE0Ursok8/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/Jsb9NQdOYQg/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/sxHE0Ursok8/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "TV9 Marathi",
+      "channelTitle": "오선의 미국 증시 라이브",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T01:08:40Z"
+      "publishTime": "2024-11-22T12:59:36Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "6IIpAENBfl0e3vOr-xxOxkGVvPI",
+    "etag": "krQDWuzwHLKk3ApMsyqCK2peimQ",
     "id": {
       "kind": "youtube#video",
-      "videoId": "wYHelmz9_qs"
+      "videoId": "n_x59lXmlVQ"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T03:05:48Z",
-      "channelId": "UCttspZesZIDEwwpVIgoZtWQ",
-      "title": "Maharashtra Assembly Election Final Exit Poll LIVE: रिजल्ट से 24 घंटे पहले फाइनल सर्वे | MVA",
-      "description": "Votes were cast for 288 assembly seats in Maharashtra. Nearly 59% polling was done in Maharashtra. But after polling in any ...",
+      "publishedAt": "2024-11-22T19:08:21Z",
+      "channelId": "UCEADM4qdLN_qyE5SFlIZPCA",
+      "title": "COMPETITIVO SUBIENDO en el TOP MUNDIAL con RANDOMS",
+      "description": "COMPETITIVO SUBIENDO en el TOP MUNDIAL con RANDOMS #Trebor #brawlstars #competitivo.",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/wYHelmz9_qs/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/n_x59lXmlVQ/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/wYHelmz9_qs/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/n_x59lXmlVQ/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/wYHelmz9_qs/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/n_x59lXmlVQ/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "IndiaTV",
+      "channelTitle": "Trebor ",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T03:05:48Z"
+      "publishTime": "2024-11-22T19:08:21Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "U2qDPjLnp7XxAUD21nGuCwP0cto",
+    "etag": "BJ2_sxIMaodJIpRAbRQlSDakhWA",
     "id": {
       "kind": "youtube#video",
-      "videoId": "GjjzbINmPvY"
+      "videoId": "UOGhjHe_Q5c"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T12:10:34Z",
-      "channelId": "UCttspZesZIDEwwpVIgoZtWQ",
-      "title": "Coffee Par Kurukshetra Live: महाराष्ट्र में अघाड़ी 80 सीट से पिछड़ी ? Maharshtra-Jharkhand Election",
-      "description": "Coffee Par Kurukshetra Live: महाराष्ट्र में अघाड़ी 80 सीट से पिछड़ी ? Maharshtra-Jharkhand ...",
+      "publishedAt": "2024-11-22T13:55:45Z",
+      "channelId": "UCnt5ZkQh8qGf0tuoAAgbtcA",
+      "title": "🛑Garde à Vue Moustapha Diakhaté..?-Appel Pr Diomaye&amp;Poutine/Sonko réagit Aff &quot;Juriste Diouf révèle..",
+      "description": "rts1 #sonko #diomaye #rts1 #sonko #diomaye #diomayepresident Actualité récente au Sénégal que cela soit POLITIQUE, SPORT ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/GjjzbINmPvY/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/UOGhjHe_Q5c/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/GjjzbINmPvY/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/UOGhjHe_Q5c/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/GjjzbINmPvY/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/UOGhjHe_Q5c/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "IndiaTV",
+      "channelTitle": "Allô Senegal",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T12:10:34Z"
+      "publishTime": "2024-11-22T13:55:45Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "iyZkD2B67v0vEvptCHEFSypK2rA",
+    "etag": "Iwl9CEOUcS2IVP_VAUe86P_5h0U",
     "id": {
       "kind": "youtube#video",
-      "videoId": "wwYJmnPlYfM"
+      "videoId": "yXW-rgjYcPk"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T09:36:10Z",
-      "channelId": "UCttspZesZIDEwwpVIgoZtWQ",
-      "title": "Maharashtra Assembly Election Final Exit Poll LIVE: कौन बनाएगा सरकार? आ गया फाइनल सर्वे",
-      "description": "Votes were cast for 288 assembly seats in Maharashtra. Nearly 59% polling was done in Maharashtra. But after polling in any ...",
+      "publishedAt": "2024-11-22T13:20:55Z",
+      "channelId": "UCTHaNTsP7hsVgBxARZTuajw",
+      "title": "🔴 PATRIA Y FAMILIA con FEDE POPGOLD, CAMI MAYAN, LUCAS SPADAFORA Y ANITA ESPÓSITO | EN VIVO",
+      "description": "Bienvenid@s a LUZU TV. Un medio de stream. Si, un medio. Sin vueltas. También, somos creadores de contenido y prometemos ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/wwYJmnPlYfM/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/yXW-rgjYcPk/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/wwYJmnPlYfM/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/yXW-rgjYcPk/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/wwYJmnPlYfM/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/yXW-rgjYcPk/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "IndiaTV",
+      "channelTitle": "LUZU TV",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T09:36:10Z"
+      "publishTime": "2024-11-22T13:20:55Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "EjUGc5TjjFmU3BgSIIdhjxZYJMQ",
+    "etag": "Fe4i0iQx_e5cv2CJK-Fwlf1wSBA",
     "id": {
       "kind": "youtube#video",
-      "videoId": "XJc5UO0gd-M"
+      "videoId": "sV0n6FXTgl4"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T13:43:49Z",
-      "channelId": "UCajVjEHDoVn_AHsunUZz_EQ",
-      "title": "এই ফাঁদে পা দিচ্ছেন? সাবধান হোন! LIC- SBI- আদানিকে ধ্বংসের ছক! আসলে ভারতকে শেষ করার পরিকল্পনা কাদের?",
-      "description": "Republic Bangla এই ফাঁদে পা দিচ্ছেন? সাবধান হোন! LIC- SBI- আদানিকে ধ্বংসের ছক!",
+      "publishedAt": "2024-11-22T10:49:52Z",
+      "channelId": "UCAuSokzsTd5EHH79plI7wPQ",
+      "title": "LIVE: కార్తీక శుక్రవారం లక్ష్మిదేవి పాట సాయంత్రం వింటే మీకు డబ్బుకు లోటుండదు | Lakshmi Devi Songs",
+      "description": "LIVE: కార్తీక శుక్రవారం రోజు లక్ష్మిదేవి పాట సాయంత్రం వింటే మీకు ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/XJc5UO0gd-M/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/sV0n6FXTgl4/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/XJc5UO0gd-M/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/sV0n6FXTgl4/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/XJc5UO0gd-M/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/sV0n6FXTgl4/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Republic Bangla",
+      "channelTitle": "Sri Bhakthi",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T13:43:49Z"
+      "publishTime": "2024-11-22T10:49:52Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "WAiV9IiTLi_-9QFvBPw4jL7ZuAs",
+    "etag": "d7AYVsReYDYEAQQNAjKtqa21gm0",
     "id": {
       "kind": "youtube#video",
-      "videoId": "5k8pOMo3lpE"
+      "videoId": "ZXpl3AtXiaM"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T07:49:48Z",
-      "channelId": "UCttspZesZIDEwwpVIgoZtWQ",
-      "title": "CM Yogi Vs Akhilesh Yadav LIVE:रिजल्ट से 12 घटें पहले UP में हलचल तेज | BJP | SP",
-      "description": "UP By-Election 2024: यूपी की 9 सीटों पर उपचुनाव हुआ..लेकिन महाराष्ट्र की 288 ...",
+      "publishedAt": "2024-11-22T15:14:26Z",
+      "channelId": "UCE5RIa7b_JIK0a31Uaq4xRw",
+      "title": "షాకింగ్ సర్వే🔴LIVE : Axis My India Exit Poll | Who Will Win Maharashtra Elections | RTV",
+      "description": "షాకింగ్ సర్వే  LIVE : Axis My India Exit Poll | Who Will Win Maharashtra Elections | RTV ▻For More News Updates, ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/5k8pOMo3lpE/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/ZXpl3AtXiaM/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/5k8pOMo3lpE/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/ZXpl3AtXiaM/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/5k8pOMo3lpE/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/ZXpl3AtXiaM/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "IndiaTV",
+      "channelTitle": "RTV ",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T07:49:48Z"
+      "publishTime": "2024-11-22T15:14:26Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "LAXb45Kn-4VpO6aOG8Dq0Jb_EPU",
+    "etag": "T7nRRCeIFeuROMPk3cJZ05zEQC4",
     "id": {
       "kind": "youtube#video",
-      "videoId": "oX-5CFWwV-g"
+      "videoId": "jgLJCtqon4k"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T08:22:14Z",
-      "channelId": "UChlgI3UHCOnwUGzWzbJ3H5w",
-      "title": "[이슈픽] &quot;종전 대가로 영토 양보&quot;…우크라인 절반 종전 찬성 / YTN",
-      "description": "우크라이나 전쟁이 시작된 지 천일이 지난 가운데 우크라이나인들의 절반 이상이 영토 일부를 양보하더라도 전쟁을 끝내길 바란다는 ...",
+      "publishedAt": "2024-11-22T00:36:28Z",
+      "channelId": "UCcBE3w0tCr9g6F822Ggkhbw",
+      "title": "URGENTE PUTIN LANZA TODO HOY YA COMENZO PERO NO LO ANUNCIAN EN ESTE NUEVO PROBLEMA",
+      "description": "Conviértete en miembro de este canal para disfrutar de ventajas: ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/oX-5CFWwV-g/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/jgLJCtqon4k/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/oX-5CFWwV-g/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/jgLJCtqon4k/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/oX-5CFWwV-g/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/jgLJCtqon4k/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": " YTN",
+      "channelTitle": "Ultramix TV",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T08:22:14Z"
+      "publishTime": "2024-11-22T00:36:28Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "stCeyoU0aVpRR3lvaCTu4lNPrvM",
+    "etag": "FDbd-hPaGrXcNrGvyWG9qsE421A",
     "id": {
       "kind": "youtube#video",
-      "videoId": "rvKhqZzlC7s"
+      "videoId": "njTpWA9-PuA"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T00:59:49Z",
-      "channelId": "UCxDteokWBemJvLI_I0VUGdA",
-      "title": "Pasaron Cosas con Alejandro Bercovich | RADIO CON VOS",
-      "description": "Informate sobre las noticias → https://diarioconvos.com/ ¡Seguinos en nuestras redes! Facebook ...",
+      "publishedAt": "2024-11-22T04:20:03Z",
+      "channelId": "UCN6sm8iHiPd0cnoUardDAnw",
+      "title": "JAMUNA TV LIVE | যমুনা টিভি লাইভ | সরাসরি যমুনা টিভি | LIVE TV | LIVE STREAMING | JAMUNA TV",
+      "description": "JAMUNA TV LIVE | যমুনা টিভি লাইভ | LIVE TV । সরাসরি যমুনা টিভি | TV LIVE STREAMING ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/rvKhqZzlC7s/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/njTpWA9-PuA/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/rvKhqZzlC7s/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/njTpWA9-PuA/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/rvKhqZzlC7s/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/njTpWA9-PuA/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Radio Con Vos 89.9",
+      "channelTitle": "Jamuna TV",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T00:59:49Z"
+      "publishTime": "2024-11-22T04:20:03Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "I7QYGAWm2LCHbBjYbepVO_8AMZA",
+    "etag": "Zk_M66OCpZUSnOoTI7bXgCFPebI",
     "id": {
       "kind": "youtube#video",
-      "videoId": "eUa9FURUbBE"
+      "videoId": "vLdQ3xkZvXo"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T07:47:18Z",
-      "channelId": "UCRWFSbif-RFENbBrSiez1DA",
-      "title": "Maharashtra Election Breaking LIVE: महाराष्ट्र नतीजों से पहले विधायकों को Rahul Gandhi का बड़ा आदेश",
-      "description": "Maharashtra Assembly Election 2024: महाराष्ट्र विधानसभा चुनाव नतीजों से पहले ...",
+      "publishedAt": "2024-11-22T07:38:32Z",
+      "channelId": "UCfI9Bk6ZfNXZ2mg3QZoF5Lw",
+      "title": "🔴AS Murka Soal ICC Perintahkan Penangkapan Netanyahu, Ngotot Bantu PM Israel Mati-matian",
+      "description": "Video Editor: Andreas Eko Prasetyo.",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/eUa9FURUbBE/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/vLdQ3xkZvXo/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/eUa9FURUbBE/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/vLdQ3xkZvXo/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/eUa9FURUbBE/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/vLdQ3xkZvXo/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "ABP NEWS",
+      "channelTitle": "Tribun Jambi",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T07:47:18Z"
+      "publishTime": "2024-11-22T07:38:32Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "nzKDJcnJ4MlNbpmSrErto9ogeWw",
+    "etag": "BUEIHGinUjwFvuxtpveJ67mJ9kg",
     "id": {
       "kind": "youtube#video",
-      "videoId": "oJsbadzi3Y0"
+      "videoId": "EPCpo3nU044"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T13:04:49Z",
-      "channelId": "UCYcdw2wL6W6iGBKZgGK_Hjw",
-      "title": "Pokémon PLATINO Megalocke 4 Ep.6 - HAY QUE SALVAR EL LOCKE",
-      "description": "ENLACE DEL SERVER MUINDO PIXELGOR: https://discord.gg/zJFJe7m8B7 • MI OTRO CANAL: ...",
+      "publishedAt": "2024-11-22T16:35:31Z",
+      "channelId": "UCFr6uAPwrG040QAWDKY0nnA",
+      "title": "FM24 KARİYER #S4B7 | JOURNEYMAN FİNAL SEZONU | YIKILMADIK AYAKTAYIZ",
+      "description": "Twitter(Kişisel): https://twitter.com/hakasikci Twitter(İçerik): https://twitter.com/HTalksMoments Instagram: ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/oJsbadzi3Y0/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/EPCpo3nU044/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/oJsbadzi3Y0/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/EPCpo3nU044/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/oJsbadzi3Y0/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/EPCpo3nU044/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Folagor03",
+      "channelTitle": "HTalks ",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T13:04:49Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "Etk3A5bOs4lFzinitZZjtg32RhU",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "1oWYMWab39s"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T07:50:56Z",
-      "channelId": "UCCgLMMp4lv7fSD2sBz1Ai6Q",
-      "title": "🔴Live | ଦମ୍ ଅଛି ତ ଆ... ଟୋକା ଏକା ଅଛି | Ollywood | Manoj Mishra | Boby Islam | OTV",
-      "description": "Live | ଦମ୍ ଅଛି ତ ଆ... ଟୋକା ଏକା ଅଛି | Ollywood | Manoj Mishra | Boby Islam | OTV OdishaTV is Odisha's no 1 News ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/1oWYMWab39s/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/1oWYMWab39s/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/1oWYMWab39s/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "OTV",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T07:50:56Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "H6v7i83tNTpJdM6bfLB_WaAabRM",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "8rq9gFQAvUQ"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T09:31:44Z",
-      "channelId": "UCRWFSbif-RFENbBrSiez1DA",
-      "title": "UP Bypolls Breaking LIVE: यूपी के मीरापुर उपचुनाव में फिर से होगी वोटिंग? । UP News | Akhilesh Yadav",
-      "description": "akhileshyadav #bjp #yogiadityanath #upbyelections #uttarpradesh #byelection2024 #upbyelection2024 #uppolitics ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/8rq9gFQAvUQ/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/8rq9gFQAvUQ/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/8rq9gFQAvUQ/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "ABP NEWS",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T09:31:44Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "8UARucm7p7AXBhx7Iiocaie8TJE",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "_NOAanGW6nE"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T01:27:56Z",
-      "channelId": "UCQIycDaLsBpMKjOCeaKUYVg",
-      "title": "🔴 Stock Market Updates Live: आज कहां करें इन्वेस्ट| Business &amp; Finance |22nd Nov l Stock Market News",
-      "description": "Stock Market Updates Live: आज कहां करें इन्वेस्ट| Business & Finance |22nd Nov l Stock Market News ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/_NOAanGW6nE/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/_NOAanGW6nE/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/_NOAanGW6nE/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "CNBC Awaaz.",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T01:27:56Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "cRIMUIRif-eCaoaj1VicdO0lYx4",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "5cbmSvgNyZU"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T13:50:27Z",
-      "channelId": "UCRWFSbif-RFENbBrSiez1DA",
-      "title": "Sandeep chaudhary LIVE : रिजल्ट से पहले महाराष्ट्र में हो गया &#39;खेला&#39; ? । Maharashtra Election Result",
-      "description": "महाराष्ट्र विधानसभा चुनाव के नतीजे शनिवार (23 नवंबर) को घोषित हो ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/5cbmSvgNyZU/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/5cbmSvgNyZU/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/5cbmSvgNyZU/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "ABP NEWS",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T13:50:27Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "_spkcQOWFysj4rTEcHchk-Bhet0",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "I6omZ9IBg_k"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T10:03:00Z",
-      "channelId": "UCK5hucpOj9nnSuBqRNQeEcw",
-      "title": "🔴Live: బంగాళాఖాతంలో అల్పపీడనం | Heavy Rains Alert to Andhra Pradesh | AP Weather Updates | Aadhan",
-      "description": "Live: బంగాళాఖాతంలో అల్పపీడనం | Heavy Rains Alert to Andhra Pradesh | AP Weather Updates | Aadhan ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/I6omZ9IBg_k/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/I6omZ9IBg_k/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/I6omZ9IBg_k/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Aadhan Telugu",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T10:03:00Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "8HHi1SiNR5ngwrSmKNXZXCzOa0A",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "PnDXGRhQPkU"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T10:06:56Z",
-      "channelId": "UCkccyEbqhhM3uKOI6Shm-4Q",
-      "title": "EN VIVO | Meganoticias Ahora - Viernes 22 de noviembre",
-      "description": "megatiempo #tiempo #noticias #meganoticias *SÍGUENOS EN:* YouTube https://bit.ly/2Xm4Utd Facebook ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/PnDXGRhQPkU/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/PnDXGRhQPkU/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/PnDXGRhQPkU/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Meganoticias",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T10:06:56Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "GWFdPlD-oBCGq8w59Z2TM_TjVjY",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "aM4i07T6MAk"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T08:32:37Z",
-      "channelId": "UC5ZTRH1zclthyc6b_D3m2Pw",
-      "title": "SEXTOU COM GAULÃO!!! - COM Gaules AO VIVO COM IMAGENS!",
-      "description": "SEXTOU COM GAULÃO!!! - COM Gaules AO VIVO COM IMAGENS! ⚠️ Devido a problemas de marca e imagem, o canal ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/aM4i07T6MAk/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/aM4i07T6MAk/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/aM4i07T6MAk/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Gaules",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T08:32:37Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "ZbOrs_ouLQGQW8F3Hdu6XfFU-tc",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "uSU7mkkGTh0"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T08:08:23Z",
-      "channelId": "UCtlr46nW09OnbJ9D34T5C3w",
-      "title": "سورة الكهف (كاملة) للشيخ عبد الرحمن السديس أجمل تلاوة في يوم الجمعة المباركة Surah Al Kahf Al Sudais",
-      "description": "سورة الكهف الشيخ عبد الرحمن السديس | Surat Al Khaf Al Sudais Surat Al Khaf Al Sudais | سورة الكهف الشيخ عبد الرحمن السديس سورة ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/uSU7mkkGTh0/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/uSU7mkkGTh0/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/uSU7mkkGTh0/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "جنات - Jannat",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T08:08:23Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "ACxFizLg9kyGVoVl8avw7Jkc1mw",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "mdM0pRqkHz8"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T18:01:13Z",
-      "channelId": "UCnOUr8u5mpoaXSNXLa_iEeA",
-      "title": "PRİMCİ VE KOMİSYONCU MURATABİGF",
-      "description": "Zor şartlar altında yayındayız.",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/mdM0pRqkHz8/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/mdM0pRqkHz8/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/mdM0pRqkHz8/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "MuratAbiGF",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T18:01:13Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "tcJksptzInioq0YKyZFYdSAsabA",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "0apLlAyPw6Y"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T12:47:46Z",
-      "channelId": "UC2ut_DrUZvO0BzUxZ_g9fXQ",
-      "title": "Vidhan Sabha Election Exit Poll LIVE: धाकधूक वाढली, दिग्गज नेते पराभूत होण्याची शक्यता | Lokshahi",
-      "description": "lokshahinews #marathinewslive #vidhansabharesult #maharashtraelectionresult #maharashtraelectionnikal ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/0apLlAyPw6Y/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/0apLlAyPw6Y/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/0apLlAyPw6Y/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Lokshahi Marathi",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T12:47:46Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "kn9_v58143dmdn1BeGWxwE3vg9E",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "CwdLgy4C17s"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T13:09:03Z",
-      "channelId": "UCrcpw88HvKJ0skdsHniCJtQ",
-      "title": "Baramati Exit Poll LIVE | बारामतीत अजित पवारांना मोठा धक्का? पत्रकार काय म्हणतात? | Election",
-      "description": "Baramati Exit Poll LIVE | बारामतीत अजित पवारांना मोठा धक्का? पत्रकार काय ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/CwdLgy4C17s/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/CwdLgy4C17s/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/CwdLgy4C17s/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "News18 Lokmat",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T13:09:03Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "tiY5-kOD_mL1yHKs4axycCDSGbM",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "ypT-Z5o3uMA"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T11:12:30Z",
-      "channelId": "UC9IQhNgS43lmUdU-KdGyb0A",
-      "title": "Israel Iran War LIVE: Sad Day for Israel as Hezbollah Drone Attack Hits Military Base | Iran | N18G",
-      "description": "Israeli airstrikes pounded areas across Lebanon, killing at least 21 people, officials said on Wednesday, including 15 in a ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/ypT-Z5o3uMA/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/ypT-Z5o3uMA/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/ypT-Z5o3uMA/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "News18 Urdu",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T11:12:30Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "fY4KnhmnSURhma49A7ZUTJ1XyUU",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "rLwWUz_x5gg"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T16:48:17Z",
-      "channelId": "UCI4dFCo7lfwItKeYVlTXOFQ",
-      "title": "VIZCARRA, ¿EL PRESI MÁS QUERIDO? | #OUKE EN VIVO 🟡",
-      "description": "Entradas para LA JARANITA CRIOLLA: https://vaope.com/eventos/teatro/la-jaranita-criolla ✨ ¡Llegó el Black Friday de ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/rLwWUz_x5gg/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/rLwWUz_x5gg/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/rLwWUz_x5gg/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Carlos Orozco",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T16:48:17Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "nOs3If062JIwVOgCYFhEgw-obxk",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "EXMAQCVXu6s"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T05:00:12Z",
-      "channelId": "UCClRc-NLQmr3HnON4HjHKew",
-      "title": "سورة الكهف - ماهر المعيقلي - جودة عالية surat alkahf - Maher Al Muaiqly",
-      "description": "سورة الكهف - ماهر المعيقلي - جودة عالية surat alkahf - Maher Al Muaiqly سورة الكهف احمد العجمي, سورة الكهف سعد الغامدي, سورة الكهف فارس ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/EXMAQCVXu6s/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/EXMAQCVXu6s/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/EXMAQCVXu6s/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "فى رحاب السنة النبوية ",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T05:00:12Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "D4VeIlTECCNgs9KaDjSd-FmIa9s",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "RuW-hyLTP5M"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T15:43:37Z",
-      "channelId": "UCRj_BU95SebaRi2FziXEoTg",
-      "title": "GTA RP In Indian Server ft. Javier Marlega | GTA 5 LIVE STREAM",
-      "description": "Welcome To RakaZone Gaming GTA 5 RP Live Stream where I will be playing in TLRP Server with my character \"Javier Marlega\" ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/RuW-hyLTP5M/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/RuW-hyLTP5M/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/RuW-hyLTP5M/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "RakaZone Gaming",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T15:43:37Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "qDuBv00_nkAMMlqlVHvtqD3anGM",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "klJ1gNc5J1k"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T07:18:05Z",
-      "channelId": "UCkdyjOzo6jkrM2tvC4pnx7A",
-      "title": "سورة الكهف (كاملة) للشيخ عبد الرحمن السديس أجمل تلاوة في يوم الجمعة المباركة Surah Al Kahf Al Sudais",
-      "description": "سورة_الكهف #عبدالرحمن_السديس #تلاوة_هادئة سورة الكهف (كاملة) للشيخ عبد الرحمن السديس أجمل تلاوة في يوم الجمعة المباركة راحة ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/klJ1gNc5J1k/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/klJ1gNc5J1k/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/klJ1gNc5J1k/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "أجمل تلاوات القرآن الكريم",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T07:18:05Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "TrzoaT4MjFy0QW3jHqbz13yQU2I",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "aVgirQ3ZDkI"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T14:30:54Z",
-      "channelId": "UCbOo-f3InU38IZV5tREzsNg",
-      "title": "S.T.A.L.K.E.R. 2 | คืนวันศุกร์สตอล์คเกอร์",
-      "description": "G-BEAT ENERGY DRINK ดีดจัด!! ไปจัดกันที่ 7-11 พิเศษซื้อจีบีทใส่โค๊ด \"Bay Riffer\" โปรเพียบ http://bit.ly/3jfxm0x iHAVECPU ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/aVgirQ3ZDkI/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/aVgirQ3ZDkI/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/aVgirQ3ZDkI/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Bay Riffer",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T14:30:54Z"
+      "publishTime": "2024-11-22T16:35:31Z"
     }
   }
 ]

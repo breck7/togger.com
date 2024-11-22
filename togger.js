@@ -8,29 +8,39 @@ let powerScreen = document.querySelector(".power-screen")
 const makeDeepLink = (platform, channelName) =>
   [platform, channelName.replace(/\s+/g, "")].join(".")
 
-const nowStreams = youtubeNow.map((item) => {
-  const channelName = item.snippet.channelTitle
-  const title = item.snippet.title
-  const platform = "youtube"
-  return {
-    channelName,
-    link: `https://youtube.com/channel/${item.snippet.channelId}`,
-    streamLink: item.id.videoId,
-    platform,
-    title,
-    deepLink: makeDeepLink(platform, channelName),
-  }
-})
-
 class Togger {
   constructor() {
-    this.streams = nowStreams
+    this.loadStreams()
     this.currentIndex = this.getInitialIndex()
     this.isPoweredOn = true
     this.isMuted = true
     this.addVolumeIndicator()
     this.bindKeyboardControls()
     this.addRemoteControl()
+  }
+
+  loadStreams() {
+    const params = new URLSearchParams(window.location.search)
+    const platform = params.get("p")
+    const streams = platform === "warpcast" ? warpcastNow : youtubeNow
+    this.streams = streams.map((item) => {
+      const channelName = item.snippet.channelTitle
+      const title = item.snippet.title
+      const platform = "youtube"
+      return {
+        channelName,
+        link: `https://youtube.com/channel/${item.snippet.channelId}`,
+        streamLink: item.id.videoId,
+        platform,
+        title,
+        deepLink: makeDeepLink(platform, channelName),
+      }
+    })
+
+    // Remove duplicates using deepLink as the primary key
+    this.streams = Array.from(
+      new Map(this.streams.map((item) => [item.deepLink, item])).values(),
+    )
   }
 
   getInitialIndex() {
