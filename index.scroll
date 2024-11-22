@@ -1,6 +1,6 @@
 buildHtml
 title Togger - It's not TV, it's Togger.
-favicon favicon.jpeg
+favicon favicon.png
 header.scroll
 
 <div id="player"></div>
