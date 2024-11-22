@@ -10,6 +10,7 @@ class YouTubeFeed {
   async fetchLiveStreams(maxResults = 100) {
     const endpoint = "https://www.googleapis.com/youtube/v3/search"
     const params = new URLSearchParams({
+      q: "coding programming live -bot -lofi -music",
       part: "snippet",
       eventType: "live",
       type: "video",

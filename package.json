@@ -1,0 +1,11 @@
+{
+  "name": "togger",
+  "version": "0.1.0",
+  "description": "> It's not TV, it's Togger.",
+  "main": "togger.js",
+  "scripts": {
+    "build": "node youtubeNow.mjs",
+    "test": "scroll test"
+  },
+  "author": "Breck Yunits et al"
+}
