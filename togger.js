@@ -38,9 +38,7 @@ class Togger {
     const deepLink = params.get("c")
     if (!deepLink) return 0
 
-    const hit = this.streams.findIndex(
-      (s) => s.deepLink === channelName.deepLink,
-    )
+    const hit = this.streams.findIndex((stream) => stream.deepLink === deepLink)
     return hit > -1 ? hit : 0
   }
 
