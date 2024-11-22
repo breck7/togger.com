@@ -178,7 +178,7 @@ class Togger {
 
     channelName.innerHTML = `
       <a href="${current.link}" target="_blank">
-        ${current.platform}@${current.channelName}
+        ${current.deepLink}
       </a>
       ${liveIndicator}
     `
