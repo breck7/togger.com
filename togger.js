@@ -197,7 +197,7 @@ function onYouTubeIframeAPIReady() {
       controls: 0,
       rel: 0,
       autoplay: 1,
-      mute: 1,
+      mute: 0,
     },
     events: {
       onReady: (event) => togger.onReady(event),
