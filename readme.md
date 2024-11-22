@@ -28,10 +28,9 @@ Togger is a revolutionary platform that combines live streams from YouTube, Twit
 
 ## 🎨 Design Credits
 
-Huge shoutout to the amazing designers who inspired this project:
+Huge shoutout to the amazing designer who's art partly inspired this project:
 
--   [ytch](https://ytch.tv) for pioneering the future of social TV
--   [Hadi Safa](https://x.com/hsafa0) for the beautiful and intuitive design that brings Togger to life
+-   [Hadi Safa](https://x.com/hsafa0) for the beautiful and intuitive [ytch](https://ytch.tv)
 
 ## 🤝 Contributing
 
