@@ -27,6 +27,7 @@ class Togger {
     this.streams = nowStreams
     this.currentIndex = this.getInitialIndex()
     this.isPoweredOn = true
+    this.isMuted = true
     this.addVolumeIndicator()
     this.bindKeyboardControls()
     this.addRemoteControl()
@@ -91,13 +92,7 @@ class Togger {
     return this.player?.getVolume ? this.player.getVolume() : 100
   }
 
-  get isMuted() {
-    return this.player?.isMuted ? true : false
-  }
-
   showVolumeIndicator() {
-    if (!this.player) return
-
     const volume = this.volume
     const isMuted = this.isMuted
 
@@ -106,10 +101,7 @@ class Togger {
     volumeIndicator.textContent = isMuted ? "MUTED" : `Volume: ${volume}%`
     volumeIndicator.style.display = "block"
 
-    // Clear existing timeout if there is one
-    if (this.volumeTimeout) {
-      clearTimeout(this.volumeTimeout)
-    }
+    if (this.volumeTimeout) clearTimeout(this.volumeTimeout)
 
     // Hide the indicator after 2 seconds
     this.volumeTimeout = setTimeout(() => {
@@ -129,14 +121,19 @@ class Togger {
     this.showVolumeIndicator()
   }
 
+  unmute() {
+    this.isMuted = false
+    this.player.unMute()
+  }
+
+  mute() {
+    this.isMuted = true
+    this.player.mute()
+  }
+
   toggleMute() {
-    if (this.isMuted) {
-      this.player.unMute()
-      if (muteIcon) muteIcon.style.display = "none"
-    } else {
-      this.player.mute()
-      if (muteIcon) muteIcon.style.display = "block"
-    }
+    if (this.isMuted) this.unmute()
+    else this.mute()
     this.showVolumeIndicator()
   }
 
