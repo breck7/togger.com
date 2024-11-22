@@ -18,6 +18,7 @@ class Togger {
     this.isPoweredOn = true
     this.addVolumeIndicator()
     this.bindKeyboardControls()
+    this.addRemoteControl()
   }
 
   setPlayer(player) {
@@ -75,6 +76,8 @@ class Togger {
 
     const volume = this.player.getVolume()
     const isMuted = this.player.isMuted()
+
+    const volumeIndicator = document.querySelector(".volume-indicator")
 
     volumeIndicator.textContent = isMuted ? "MUTED" : `Volume: ${volume}%`
     volumeIndicator.style.display = "block"
@@ -216,6 +219,150 @@ class Togger {
   z-index: 1000;
 `
     document.body.appendChild(volumeIndicator)
+  }
+
+  addRemoteControl() {
+    // Create remote container
+    const remote = document.createElement("div")
+    remote.style.cssText = `
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 256px;
+    background: #1f2937;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border: 2px solid #374151;
+    z-index: 1000;
+  `
+
+    // Add brand name
+    const brand = document.createElement("div")
+    brand.style.cssText = `
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #f59e0b;
+    font-weight: bold;
+    font-size: 0.875rem;
+  `
+    brand.textContent = ""
+    remote.appendChild(brand)
+
+    // Add IR emitter
+    const irEmitter = document.createElement("div")
+    irEmitter.style.cssText = `
+    position: absolute;
+    top: -0.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2rem;
+    height: 0.75rem;
+    background: black;
+    border-radius: 0.125rem;
+  `
+    remote.appendChild(irEmitter)
+
+    // Helper function to create buttons
+    function createButton(text, key, options = {}) {
+      const button = document.createElement("button")
+      button.style.cssText = `
+      width: ${options.large ? "3rem" : "3.5rem"};
+      height: ${options.large ? "3rem" : "3.5rem"};
+      border-radius: 9999px;
+      background: ${options.isPower ? "#dc2626" : "#374151"};
+      border: 2px solid ${options.isPower ? "#b91c1c" : "#4b5563"};
+      box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+      color: ${options.isPower ? "#fee2e2" : "#d1d5db"};
+      font-size: ${options.small ? "0.875rem" : "1.125rem"};
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: transform 0.1s;
+    `
+
+      // Add power symbol if it's the power button
+      if (options.isPower) {
+        button.innerHTML = `
+        <div style="
+          width: 1.5rem;
+          height: 1.5rem;
+          border-radius: 9999px;
+          border: 2px solid #fee2e2;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        ">
+          <div style="width: 0.5rem; height: 1rem; background: #fee2e2;"></div>
+        </div>
+      `
+      } else {
+        button.textContent = text
+      }
+
+      button.addEventListener("click", () => {
+        button.style.transform = "scale(0.95)"
+        setTimeout(() => (button.style.transform = "scale(1)"), 100)
+
+        // Simulate keyboard press
+        document.dispatchEvent(new KeyboardEvent("keydown", { key }))
+      })
+
+      return button
+    }
+
+    // Create button rows container
+    function createButtonRow(buttons) {
+      const row = document.createElement("div")
+      row.style.cssText = `
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 1.5rem;
+    `
+      buttons.forEach((button) => row.appendChild(button))
+      return row
+    }
+
+    // Add power button
+    const powerRow = createButtonRow([
+      createButton("", "p", { isPower: true, large: true }),
+    ])
+    remote.appendChild(powerRow)
+
+    // Add channel buttons
+    const channelRow = createButtonRow([
+      createButton("CH-", "ArrowLeft"),
+      createButton("CH+", "ArrowRight"),
+    ])
+    remote.appendChild(channelRow)
+
+    // Add volume buttons
+    const volumeRow = createButtonRow([
+      createButton("VOL-", "ArrowDown"),
+      createButton("VOL+", "ArrowUp"),
+    ])
+    remote.appendChild(volumeRow)
+
+    // Add mute button
+    const muteRow = createButtonRow([
+      createButton("MUTE", "m", { small: true }),
+    ])
+    remote.appendChild(muteRow)
+
+    // Add remote to page
+    document.body.appendChild(remote)
+
+    // Handle window resize
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 768) {
+        remote.style.display = "none"
+      } else {
+        remote.style.display = "block"
+      }
+    })
   }
 }
 
