@@ -1,75 +1,58 @@
-import { useState, useEffect } from 'react'
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Tv } from 'lucide-react'
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Togger - It's not TV, it's Togger</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="tv-icon"
+          >
+            <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+            <polyline points="17 2 12 7 7 2"></polyline>
+          </svg>
+          <h1>Togger</h1>
+        </div>
+        <button class="sign-in">Sign In</button>
+      </header>
 
-export default function ToggerLanding() {
-  const [currentChannel, setCurrentChannel] = useState(0)
-  const channels = [
-    { name: 'YouTube', color: 'bg-red-600' },
-    { name: 'Twitch', color: 'bg-purple-600' },
-    { name: 'Warpcast', color: 'bg-blue-600' },
-    { name: 'X', color: 'bg-sky-400' },
-  ]
+      <main>
+        <h2>It's not TV, it's <span class="gradient-text">Togger</span></h2>
+        <p>
+          Toggle through channels. Find real people to follow. Experience live
+          streams from YouTube, Twitch, Warpcast, and X in one place.
+        </p>
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentChannel((prev) => (prev + 1) % channels.length)
-    }, 3000)
-    return () => clearInterval(interval)
-  }, [])
-
-  return (
-    <div className="min-h-screen bg-black text-white flex flex-col justify-center items-center p-4">
-      <div className="max-w-4xl w-full space-y-8">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <Tv className="h-8 w-8" />
-            <h1 className="text-3xl font-bold">Togger</h1>
-          </div>
-          <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black">
-            Sign In
-          </Button>
+        <div class="cta-buttons">
+          <button class="start-watching">
+            Start Watching <span class="arrow">→</span>
+          </button>
+          <button class="learn-more">Learn More</button>
         </div>
 
-        <div className="space-y-4">
-          <h2 className="text-5xl font-extrabold leading-tight">
-            It's not TV, it's <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Togger</span>
-          </h2>
-          <p className="text-xl text-gray-300">
-            Toggle through channels. Find real people to follow. Experience live streams from YouTube, Twitch, Warpcast, and X in one place.
-          </p>
+        <div class="channel-display">
+          <div class="overlay">Live Now</div>
+          <div id="channelName" class="channel-name"></div>
         </div>
 
-        <div className="flex space-x-4">
-          <Button size="lg" className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white">
-            Start Watching <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-          <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-black">
-            Learn More
-          </Button>
-        </div>
-
-        <div className="relative h-64 w-full rounded-lg overflow-hidden border-2 border-gray-700">
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-4xl font-bold">Live Now</div>
-          </div>
-          {channels.map((channel, index) => (
-            <div
-              key={channel.name}
-              className={`absolute inset-0 flex items-center justify-center ${channel.color} transition-opacity duration-1000 ${
-                index === currentChannel ? 'opacity-100' : 'opacity-0'
-              }`}
-            >
-              <span className="text-2xl font-semibold">{channel.name}</span>
-            </div>
-          ))}
-        </div>
-
-        <div className="text-center text-gray-400">
-          Real. Live. Now. Dead simple to use.
-        </div>
-      </div>
+        <div class="tagline">Real. Live. Now. Dead simple to use.</div>
+      </main>
     </div>
-  )
-}
 
+    <script src="script.js"></script>
+  </body>
+</html>
