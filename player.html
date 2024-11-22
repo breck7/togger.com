@@ -1,0 +1,58 @@
+<div id="player"></div>
+<div class="static-noise"></div>
+<div class="power-screen"></div>
+<div class="smpte">
+  <div class="bar bar-1"></div>
+  <div class="bar bar-2"></div>
+  <div class="bar bar-3"></div>
+  <div class="bar bar-4"></div>
+  <div class="bar bar-5"></div>
+  <div class="bar bar-6"></div>
+  <div class="bar bar-7"></div>
+</div>
+<div class="info" style="display: none">
+  <div class="wrapper">
+    <div class="close" onclick="toggleInfo()">
+      <img src="icons/x.svg" />
+    </div>
+    <div class="content">
+      <div class="title">Contact</div>
+      <div class="text">ytchxyz@gmail.com</div>
+      <div class="title">Support</div>
+      <div class="text">bc1q4s2f6df2cqa8stenwp8y5tlmd5pywy8dwqqxvh</div>
+    </div>
+  </div>
+</div>
+<div class="control">
+  <div class="wrapper">
+    <div class="button power min" onclick="togglePower()">
+      <img src="icons/power.svg" />
+    </div>
+    <div class="button minimize" onclick="toggleControl()">
+      <img src="icons/minimize-2.svg" />
+    </div>
+  </div>
+  <div class="wrapper min">
+    <div class="left-buttons">
+      <div class="button" onclick="toggleMute()">
+        <img src="icons/volume-x.svg" class="muteIcon" />
+      </div>
+      <div class="button" onclick="toggleInfo()">
+        <img src="icons/info.svg" />
+      </div>
+    </div>
+    <div class="right-buttons">
+      <div class="button" onclick="switchChannel(1)">
+        <img src="icons/chevron-up.svg" />
+      </div>
+      <div class="button" onclick="switchChannel(-1)">
+        <img src="icons/chevron-down.svg" />
+      </div>
+    </div>
+  </div>
+  <div class="wrapper min">
+    <div class="button video-id"></div>
+  </div>
+</div>
+<div class="channel-name"></div>
+<div class="title" id="title"></div>
