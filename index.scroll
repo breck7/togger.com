@@ -1,5 +1,13 @@
 buildHtml
 title Togger - It's not TV, it's Togger.
 header.scroll
-player.html
+
+<div id="player"></div>
+<div class="static-noise"></div>
+<div class="power-screen"></div>
+<div class="channel-name"></div>
+<div class="title" id="title"></div>
+<div class="video-id"></div>
+
+
 togger.js

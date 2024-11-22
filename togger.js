@@ -11,11 +11,14 @@ class Togger {
     this.videoList = ["B_yKuCll8u4", "1aZb81NZJbk", "HybD8aCKIMw"]
     this.currentVideoIndex = 0
     this.isPoweredOn = true
+    this.addVolumeIndicator()
     this.bindKeyboardControls()
   }
 
   setPlayer(player) {
     this.player = player
+    // Show initial volume state once player is ready
+    setTimeout(() => this.showVolumeIndicator(), 1000)
   }
 
   bindToResize() {
@@ -62,6 +65,26 @@ class Togger {
     this.playStream()
   }
 
+  showVolumeIndicator() {
+    if (!this.player) return
+
+    const volume = this.player.getVolume()
+    const isMuted = this.player.isMuted()
+
+    volumeIndicator.textContent = isMuted ? "MUTED" : `Volume: ${volume}%`
+    volumeIndicator.style.display = "block"
+
+    // Clear existing timeout if there is one
+    if (this.volumeTimeout) {
+      clearTimeout(this.volumeTimeout)
+    }
+
+    // Hide the indicator after 2 seconds
+    this.volumeTimeout = setTimeout(() => {
+      volumeIndicator.style.display = "none"
+    }, 2000)
+  }
+
   increaseVolume() {
     const currentVolume = this.player.getVolume()
     this.player.setVolume(Math.min(100, currentVolume + 10))
@@ -74,17 +97,6 @@ class Togger {
     this.showVolumeIndicator()
   }
 
-  showVolumeIndicator() {
-    const volume = this.player.getVolume()
-    if (info) {
-      info.textContent = `Volume: ${volume}%`
-      info.style.opacity = 1
-      setTimeout(() => {
-        info.style.opacity = 0
-      }, 1500)
-    }
-  }
-
   toggleMute() {
     if (this.player.isMuted()) {
       this.player.unMute()
@@ -93,6 +105,7 @@ class Togger {
       this.player.mute()
       if (muteIcon) muteIcon.style.display = "block"
     }
+    this.showVolumeIndicator()
   }
 
   togglePower() {
@@ -181,6 +194,24 @@ class Togger {
   onReady(event) {
     this.playStream() // Start playing as soon as the player is ready
   }
+
+  addVolumeIndicator() {
+    // Create volume indicator element
+    const volumeIndicator = document.createElement("div")
+    volumeIndicator.className = "volume-indicator"
+    volumeIndicator.style.cssText = `
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: none;
+  z-index: 1000;
+`
+    document.body.appendChild(volumeIndicator)
+  }
 }
 
 function onYouTubeIframeAPIReady() {
@@ -197,7 +228,7 @@ function onYouTubeIframeAPIReady() {
       controls: 0,
       rel: 0,
       autoplay: 1,
-      mute: 0,
+      mute: 1,
     },
     events: {
       onReady: (event) => togger.onReady(event),
