@@ -6,14 +6,13 @@ let control = document.querySelector(".control")
 let powerScreen = document.querySelector(".power-screen")
 let info = document.querySelector(".info")
 
+const youtubeStreams = youtubeNow.map((item) => {
+  return item.id.videoId
+})
+
 class Togger {
   constructor() {
-    this.videoList = [
-      "WMvLf2fmqKs",
-      "B_yKuCll8u4",
-      "1aZb81NZJbk",
-      "HybD8aCKIMw",
-    ]
+    this.videoList = youtubeStreams
     this.currentVideoIndex = 0
     this.isPoweredOn = true
     this.addVolumeIndicator()

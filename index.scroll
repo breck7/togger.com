@@ -3,6 +3,8 @@ title Togger - It's not TV, it's Togger.
 favicon favicon.png
 header.scroll
 
+jsonScript youtubeNow.json
+
 <div id="player"></div>
 <div class="static-noise"></div>
 <div class="power-screen"></div>
