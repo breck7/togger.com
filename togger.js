@@ -6,22 +6,42 @@ let control = document.querySelector(".control")
 let powerScreen = document.querySelector(".power-screen")
 let info = document.querySelector(".info")
 
-const nowStreams = youtubeNow.map((item) => ({
-  channelName: item.snippet.channelTitle,
-  link: `https://youtube.com/channel/${item.snippet.channelId}`,
-  streamLink: item.id.videoId,
-  platform: "youtube",
-  title: item.snippet.title,
-}))
+const makeDeepLink = (platform, channelName) =>
+  [platform, channelName.replace(/\s+/g, "")].join(".")
+
+const nowStreams = youtubeNow.map((item) => {
+  const channelName = item.snippet.channelTitle
+  const title = item.snippet.title
+  const platform = "youtube"
+  return {
+    channelName,
+    link: `https://youtube.com/channel/${item.snippet.channelId}`,
+    streamLink: item.id.videoId,
+    platform,
+    title,
+    deepLink: makeDeepLink(platform, channelName),
+  }
+})
 
 class Togger {
   constructor() {
     this.streams = nowStreams
-    this.currentIndex = 0
+    this.currentIndex = this.getInitialIndex()
     this.isPoweredOn = true
     this.addVolumeIndicator()
     this.bindKeyboardControls()
     this.addRemoteControl()
+  }
+
+  getInitialIndex() {
+    const params = new URLSearchParams(window.location.search)
+    const deepLink = params.get("c")
+    if (!deepLink) return 0
+
+    const hit = this.streams.findIndex(
+      (s) => s.deepLink === channelName.deepLink,
+    )
+    return hit > -1 ? hit : 0
   }
 
   setPlayer(player) {
@@ -62,23 +82,29 @@ class Togger {
   }
 
   nextChannel() {
-    this.currentVideoIndex =
-      (this.currentVideoIndex + 1) % this.videoList.length
+    this.currentIndex = (this.currentIndex + 1) % this.streams.length
     this.playStream()
   }
 
   previousChannel() {
-    this.currentVideoIndex =
-      (this.currentVideoIndex - 1 + this.videoList.length) %
-      this.videoList.length
+    this.currentIndex =
+      (this.currentIndex - 1 + this.streams.length) % this.streams.length
     this.playStream()
+  }
+
+  get volume() {
+    return this.player?.getVolume ? this.player.getVolume() : 100
+  }
+
+  get isMuted() {
+    return this.player?.isMuted ? true : false
   }
 
   showVolumeIndicator() {
     if (!this.player) return
 
-    const volume = this.player.getVolume()
-    const isMuted = this.player.isMuted()
+    const volume = this.volume
+    const isMuted = this.isMuted
 
     const volumeIndicator = document.querySelector(".volume-indicator")
 
@@ -109,7 +135,7 @@ class Togger {
   }
 
   toggleMute() {
-    if (this.player.isMuted()) {
+    if (this.isMuted) {
       this.player.unMute()
       if (muteIcon) muteIcon.style.display = "none"
     } else {
@@ -136,8 +162,8 @@ class Togger {
       this.player.loadVideoById(current.streamLink)
       this.player.setVolume(100)
       this.player.setPlaybackRate(1)
+      window.history.replaceState({}, "", `?c=${current.deepLink}`)
     }
-    // Add other platform handlers here
   }
 
   resizePlayer() {
