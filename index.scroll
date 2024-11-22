@@ -1,6 +1,5 @@
 buildHtml
 title Togger - It's not TV, it's Togger.
-favicon favicon.png
 header.scroll
 
 jsonScript youtubeNow.json
