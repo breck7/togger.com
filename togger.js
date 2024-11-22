@@ -160,7 +160,13 @@ class Togger {
       this.player.loadVideoById(current.streamLink)
       this.player.setVolume(100)
       this.player.setPlaybackRate(1)
-      window.history.replaceState({}, "", `?c=${current.deepLink}`)
+
+      // Get current URL parameters
+      const params = new URLSearchParams(window.location.search)
+      // Update the channel parameter
+      params.set("c", current.deepLink)
+      // Replace state with all parameters
+      window.history.replaceState({}, "", `?${params.toString()}`)
     }
   }
 
