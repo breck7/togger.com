@@ -1,5 +1,6 @@
 buildHtml
 title Togger - It's not TV, it's Togger.
+favicon favicon.jpeg
 header.scroll
 
 <div id="player"></div>
@@ -8,6 +9,5 @@ header.scroll
 <div class="channel-name"></div>
 <div class="title" id="title"></div>
 <div class="video-id"></div>
-
 
 togger.js
