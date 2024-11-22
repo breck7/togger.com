@@ -4,7 +4,6 @@ let muteIcon = document.querySelector(".muteIcon")
 let videoId = document.querySelector(".video-id")
 let control = document.querySelector(".control")
 let powerScreen = document.querySelector(".power-screen")
-let info = document.querySelector(".info")
 
 const makeDeepLink = (platform, channelName) =>
   [platform, channelName.replace(/\s+/g, "")].join(".")
@@ -54,8 +53,6 @@ class Togger {
 
   bindKeyboardControls() {
     document.addEventListener("keydown", (event) => {
-      if (!this.player || !this.isPoweredOn) return
-
       switch (event.key.toLowerCase()) {
         case "arrowleft":
           this.previousChannel()
@@ -144,12 +141,8 @@ class Togger {
   }
 
   togglePower() {
-    this.isPoweredOn = !this.isPoweredOn
-    if (this.isPoweredOn) {
-      this.powerOn()
-    } else {
-      this.powerOff()
-    }
+    if (this.isPoweredOn) this.powerOff()
+    else this.powerOn()
   }
 
   playStream() {
@@ -176,14 +169,17 @@ class Togger {
       Math.min(window.innerHeight * 1.777, window.innerWidth),
       window.innerHeight * 2,
     )
+    this.addRemoteControl()
   }
 
   powerOn() {
+    this.isPoweredOn = true
     if (powerScreen) powerScreen.style.display = "none"
     this.playStream()
   }
 
   powerOff() {
+    this.isPoweredOn = false
     if (powerScreen) powerScreen.style.display = "block"
     this.player.stopVideo()
     staticNoise.style.opacity = 1
@@ -245,8 +241,15 @@ class Togger {
   }
 
   addRemoteControl() {
+    // Remove existing remote if it exists
+    const existingRemote = document.querySelector(".remote-control")
+    if (existingRemote) {
+      existingRemote.remove()
+    }
+
     // Create remote container
     const remote = document.createElement("div")
+    remote.className = "remote-control"
     remote.style.cssText = `
     position: fixed;
     bottom: 1rem;
