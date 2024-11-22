@@ -6,14 +6,18 @@ let control = document.querySelector(".control")
 let powerScreen = document.querySelector(".power-screen")
 let info = document.querySelector(".info")
 
-const youtubeStreams = youtubeNow.map((item) => {
-  return item.id.videoId
-})
+const nowStreams = youtubeNow.map((item) => ({
+  channelName: item.snippet.channelTitle,
+  link: `https://youtube.com/channel/${item.snippet.channelId}`,
+  streamLink: item.id.videoId,
+  platform: "youtube",
+  title: item.snippet.title,
+}))
 
 class Togger {
   constructor() {
-    this.videoList = youtubeStreams
-    this.currentVideoIndex = 0
+    this.streams = nowStreams
+    this.currentIndex = 0
     this.isPoweredOn = true
     this.addVolumeIndicator()
     this.bindKeyboardControls()
@@ -127,11 +131,13 @@ class Togger {
   playStream() {
     if (!this.isPoweredOn) return
 
-    const { player } = this
-    const currentVideo = this.videoList[this.currentVideoIndex]
-    player.loadVideoById(currentVideo)
-    player.setVolume(100)
-    player.setPlaybackRate(1)
+    const current = this.streams[this.currentIndex]
+    if (current.platform === "youtube") {
+      this.player.loadVideoById(current.streamLink)
+      this.player.setVolume(100)
+      this.player.setPlaybackRate(1)
+    }
+    // Add other platform handlers here
   }
 
   resizePlayer() {
@@ -160,14 +166,8 @@ class Togger {
   }
 
   getChannelName(videoData) {
-    const videoId = videoData.video_id
-    const username = videoData.author
-    const videoUrl = `https://youtube.com/watch?v=${videoId}`
-
-    if (username)
-      return `<a href="${videoUrl}" target="_blank">youtube@${username}</a>`
-
-    return `<a href="${videoUrl}" target="_blank">youtube${videoId}</a>`
+    const current = this.streams[this.currentIndex]
+    return `<a href="${current.link}" target="_blank">${current.platform}@${current.channelName}</a>`
   }
 
   onPlayerStateChange(event) {
