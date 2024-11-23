@@ -35,7 +35,7 @@ class Togger {
   }
 
   get collectionIndex() {
-    return Object.keys(collections).indexOf(this.collectionName)
+    return this.collectionNames.indexOf(this.collectionName)
   }
 
   get collectionNames() {
@@ -43,17 +43,19 @@ class Togger {
   }
 
   nextCollection() {
-    const { collectionNames } = this
+    const { collectionNames, collectionIndex } = this
     const collectionName =
-      collectionNames[(this.collectionIndex + 1) % collectionNames.length]
+      collectionNames[(collectionIndex + 1) % collectionNames.length]
     this.loadStreams(collectionName)
     this.nextChannel()
   }
 
   previousCollection() {
-    const { collectionNames } = this
+    const { collectionNames, collectionIndex } = this
     const collectionName =
-      collectionNames[(this.collectionIndex - 1) % collectionNames.length]
+      collectionNames[
+        (collectionIndex - 1 + collectionNames.length) % collectionNames.length
+      ]
     this.loadStreams(collectionName)
     this.previousChannel()
   }
