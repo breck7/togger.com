@@ -16,6 +16,7 @@ const channelUrls = [
 	"https://www.youtube.com/channel/UCZ8MI1slzXKUv9fb0I9Ho2A",
 	"https://www.youtube.com/@LosFomos",
 	"https://www.youtube.com/@chrisgo",
+	"https://www.youtube.com/@wolfofbaystreet",
 	// Add more channel URLs here
 ]
 // yt.channelsToCollection(channelUrls, "warpcast")
