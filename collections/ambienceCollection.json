@@ -1,6 +1,40 @@
 [
   {
     "kind": "youtube#searchResult",
+    "etag": "pDT3c3aRDlfaEo4z2xFzbVgQBVA",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "tNkZsRW7h2c"
+    },
+    "snippet": {
+      "publishedAt": "2018-12-13T08:17:00Z",
+      "channelId": "UCkFeoNSqYTa7trn75WM9tsg",
+      "title": "🔴 Space Ambient Music LIVE 24/7: Space Traveling Background Music, Music for Stress Relief, Dreaming",
+      "description": "Check Our Brand New Deep Space Music - https://youtu.be/J_1YouCtQnU Relaxation Meditation Ambient Music presents Space ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/tNkZsRW7h2c/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/tNkZsRW7h2c/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/tNkZsRW7h2c/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Relaxation Ambient Music",
+      "liveBroadcastContent": "live",
+      "publishTime": "2018-12-13T08:17:00Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
     "etag": "GEEmqNyoY3xLw-XF85Kg2XqmjHs",
     "id": {
       "kind": "youtube#video",
@@ -35,70 +69,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "qKyM8v5rhsxsWbSWz6nuFtN3Jks",
+    "etag": "pMo5665fy_Bipz3e96blJhXGkD4",
     "id": {
       "kind": "youtube#video",
-      "videoId": "i9Yjozs750c"
+      "videoId": "fTb6yJ7AlT8"
     },
     "snippet": {
-      "publishedAt": "2024-02-03T14:47:11Z",
-      "channelId": "UCjzHeG1KWoonmf9d5KBvSiw",
-      "title": "Sleep &amp; Meditation Radio 🧘‍♂️Deep Ambient Music with Fireplace 24/7",
-      "description": "Listen to the best of Peder B. Helland's deep meditation & sleep music in this continuously updated radio station. Stream this ...",
+      "publishedAt": "2023-12-27T02:27:50Z",
+      "channelId": "UC5Sl4VbJELXi9SCaWbTdXfA",
+      "title": "☕Warm Relaxing Jazz Music with Cozy Coffee Shop for Working, Studying, Sleeping",
+      "description": "Warm Relaxing Jazz Music with Cozy Coffee Shop for Working, Studying, Sleeping Give me your opinion, like, comment and ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/i9Yjozs750c/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/fTb6yJ7AlT8/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/i9Yjozs750c/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/fTb6yJ7AlT8/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/i9Yjozs750c/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/fTb6yJ7AlT8/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Soothing Relaxation",
+      "channelTitle": "Jazz Cafe Ambience",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-02-03T14:47:11Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "L9C1XVaF9ystDBykHqSSSajRpjE",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "9UMxZofMNbA"
-    },
-    "snippet": {
-      "publishedAt": "2021-06-13T11:10:55Z",
-      "channelId": "UChs0pSaEoNLV4mevBFGaoKA",
-      "title": "Chillout Lounge - Calm &amp; Relaxing Background Music | Study, Work, Sleep, Meditation, Chill",
-      "description": "Chillout Lounge - Relaxing Background Music | Study, Work, Sleep, Meditation, Chill Enjoy Calm & Soothing music for Relax, ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/9UMxZofMNbA/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/9UMxZofMNbA/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/9UMxZofMNbA/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "The Good Life Radio x Sensual Musique",
-      "liveBroadcastContent": "live",
-      "publishTime": "2021-06-13T11:10:55Z"
+      "publishTime": "2023-12-27T02:27:50Z"
     }
   },
   {
@@ -137,6 +137,40 @@
   },
   {
     "kind": "youtube#searchResult",
+    "etag": "qKyM8v5rhsxsWbSWz6nuFtN3Jks",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "i9Yjozs750c"
+    },
+    "snippet": {
+      "publishedAt": "2024-02-03T14:47:11Z",
+      "channelId": "UCjzHeG1KWoonmf9d5KBvSiw",
+      "title": "Sleep &amp; Meditation Radio 🧘‍♂️Deep Ambient Music with Fireplace 24/7",
+      "description": "Listen to the best of Peder B. Helland's deep meditation & sleep music in this continuously updated radio station. Stream this ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/i9Yjozs750c/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/i9Yjozs750c/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/i9Yjozs750c/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Soothing Relaxation",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-02-03T14:47:11Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
     "etag": "vEDbKasFGW6YKvcYyW2gR9UDuMw",
     "id": {
       "kind": "youtube#video",
@@ -167,6 +201,176 @@
       "channelTitle": "Space Relax Music Channel",
       "liveBroadcastContent": "live",
       "publishTime": "2023-06-05T13:15:45Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "L9C1XVaF9ystDBykHqSSSajRpjE",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "9UMxZofMNbA"
+    },
+    "snippet": {
+      "publishedAt": "2021-06-13T11:10:55Z",
+      "channelId": "UChs0pSaEoNLV4mevBFGaoKA",
+      "title": "Chillout Lounge - Calm &amp; Relaxing Background Music | Study, Work, Sleep, Meditation, Chill",
+      "description": "Chillout Lounge - Relaxing Background Music | Study, Work, Sleep, Meditation, Chill Enjoy Calm & Soothing music for Relax, ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/9UMxZofMNbA/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/9UMxZofMNbA/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/9UMxZofMNbA/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "The Good Life Radio x Sensual Musique",
+      "liveBroadcastContent": "live",
+      "publishTime": "2021-06-13T11:10:55Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "IxWEiY3hMWWkmcKCEunJ7rObZh4",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "yOuYY4AL_1U"
+    },
+    "snippet": {
+      "publishedAt": "2023-12-11T22:38:53Z",
+      "channelId": "UC9-l6tK1cID43cvFE0tDQtA",
+      "title": "FALL INTO SLEEP INSTANTLY • Relaxing Music to Reduce Anxiety and Help You Sleep • Meditation",
+      "description": "FALL INTO SLEEP INSTANTLY • Relaxing Music to Reduce Anxiety and Help You Sleep • Meditation Track information: ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/yOuYY4AL_1U/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/yOuYY4AL_1U/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/yOuYY4AL_1U/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Tranquil Relax",
+      "liveBroadcastContent": "live",
+      "publishTime": "2023-12-11T22:38:53Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "WSfbBHHGcnguhRRi-EOXCDh1Zmg",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "xJkHJFBPxqU"
+    },
+    "snippet": {
+      "publishedAt": "2022-01-21T01:30:33Z",
+      "channelId": "UC4L-dSrzbPoZcr1Av5GvwKw",
+      "title": "Deep Sleep Music, Night Ambient Sounds And Beautiful Piano Music, Cricket, Swamp Sounds at Night",
+      "description": "Music to sleep deeply and rest the mind, relaxing and calm music to sleep. To stay calm and relieve stress after a hard day at work ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xJkHJFBPxqU/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xJkHJFBPxqU/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xJkHJFBPxqU/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Open Heart Music - Helios 4K",
+      "liveBroadcastContent": "live",
+      "publishTime": "2022-01-21T01:30:33Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "hyMlffHZO6CZs42uf86ROMnsFSU",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "vrB9wC6quaU"
+    },
+    "snippet": {
+      "publishedAt": "2024-03-26T07:22:04Z",
+      "channelId": "UClBrT0ADeJnemAyp2EbzVFw",
+      "title": "Chill out lofi music 🍀 lofi hip hop mix makes you feel positive ~ Rainy Lofi vibes for a calm night",
+      "description": "Listen on Spotify: https://spoti.fi/4dwkURj Hello everyone!~ Welcome to @LofiontheRooftop Indulge in the soothing sounds of this ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/vrB9wC6quaU/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/vrB9wC6quaU/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/vrB9wC6quaU/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Lofi on the Rooftop",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-03-26T07:22:04Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "EIRffq3le3mSdE_0MN6FcGkAoWE",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "W-23ZX_9tkY"
+    },
+    "snippet": {
+      "publishedAt": "2023-10-10T01:23:12Z",
+      "channelId": "UCy6A4u_9X_FyN3DZMLtwjUg",
+      "title": "Rain in Cozy Cabin with Warm Fireplace and Gentle Rain on Lakeside to Relaxation, Study and Sleeping",
+      "description": "Surely many people like me are fascinated by different environments that evoke different emotions and feelings.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/W-23ZX_9tkY/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/W-23ZX_9tkY/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/W-23ZX_9tkY/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "The Town of Ambience",
+      "liveBroadcastContent": "live",
+      "publishTime": "2023-10-10T01:23:12Z"
     }
   },
   {
@@ -239,138 +443,70 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "IxWEiY3hMWWkmcKCEunJ7rObZh4",
+    "etag": "Kso1MONe4V5iP2HnyhM5VXLtloI",
     "id": {
       "kind": "youtube#video",
-      "videoId": "yOuYY4AL_1U"
+      "videoId": "nf-LRXSFBbA"
     },
     "snippet": {
-      "publishedAt": "2023-12-11T22:38:53Z",
-      "channelId": "UC9-l6tK1cID43cvFE0tDQtA",
-      "title": "FALL INTO SLEEP INSTANTLY • Relaxing Music to Reduce Anxiety and Help You Sleep • Meditation",
-      "description": "FALL INTO SLEEP INSTANTLY • Relaxing Music to Reduce Anxiety and Help You Sleep • Meditation Track information: ...",
+      "publishedAt": "2024-08-22T15:00:05Z",
+      "channelId": "UCBBnm8129F9JyziLqUR9klQ",
+      "title": "Ambient Music for Reality Escape — Work and Study — Infinity Radio",
+      "description": "Infinity radio features ambient and drone instrumental music that promotes meditative state, which can boost memory formation.",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/yOuYY4AL_1U/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/nf-LRXSFBbA/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/yOuYY4AL_1U/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/nf-LRXSFBbA/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/yOuYY4AL_1U/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/nf-LRXSFBbA/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Tranquil Relax",
+      "channelTitle": "Ambient Music Lab",
       "liveBroadcastContent": "live",
-      "publishTime": "2023-12-11T22:38:53Z"
+      "publishTime": "2024-08-22T15:00:05Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "CrkNsjfCWPNXBUPrlsGLNMEXk0w",
+    "etag": "TqNVe39ZtzeB-Wr9TI65whqrJAM",
     "id": {
       "kind": "youtube#video",
-      "videoId": "4HVqC4zEPDc"
+      "videoId": "36YnV9STBqc"
     },
     "snippet": {
-      "publishedAt": "2023-06-26T09:09:44Z",
-      "channelId": "UCnLjr0czO5zPsJYubbrvHCw",
-      "title": "Relaxing Music to Relieve Stress, Anxiety and Depression • Mind, Body 🐬 Soothing music for nerves",
-      "description": "Relaxing Music to Relieve Stress, Anxiety and Depression • Mind, Body Soothing music for nerves Relaxing Music to Relieve ...",
+      "publishedAt": "2020-03-28T00:19:07Z",
+      "channelId": "UChs0pSaEoNLV4mevBFGaoKA",
+      "title": "The Good Life Radio • 24/7 Live Radio | Best Relax House, Chillout, Study, Running, Gym, Happy Music",
+      "description": "The Good Life is live streaming the best of Relaxing & Chill House Music, Deep House, Tropical House, EDM, Dance & Pop as ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/4HVqC4zEPDc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/36YnV9STBqc/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/4HVqC4zEPDc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/36YnV9STBqc/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/4HVqC4zEPDc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/36YnV9STBqc/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Healing Soul",
+      "channelTitle": "The Good Life Radio x Sensual Musique",
       "liveBroadcastContent": "live",
-      "publishTime": "2023-06-26T09:09:44Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "WSfbBHHGcnguhRRi-EOXCDh1Zmg",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "xJkHJFBPxqU"
-    },
-    "snippet": {
-      "publishedAt": "2022-01-21T01:30:33Z",
-      "channelId": "UC4L-dSrzbPoZcr1Av5GvwKw",
-      "title": "Deep Sleep Music, Night Ambient Sounds And Beautiful Piano Music, Cricket, Swamp Sounds at Night",
-      "description": "Music to sleep deeply and rest the mind, relaxing and calm music to sleep. To stay calm and relieve stress after a hard day at work ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/xJkHJFBPxqU/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/xJkHJFBPxqU/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/xJkHJFBPxqU/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Open Heart Music - Helios 4K",
-      "liveBroadcastContent": "live",
-      "publishTime": "2022-01-21T01:30:33Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "7P81qANo1pc7vuUy9PNjkHSpDuY",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "_bLX5WfDQfM"
-    },
-    "snippet": {
-      "publishedAt": "2024-08-29T14:20:41Z",
-      "channelId": "UCNlfGuzOAKM1sycPuM_QTHg",
-      "title": "🔴 Deep Focus 24/7 - Ambient Music For Studying, Concentration, Work And Meditation",
-      "description": "Deep Focus 24/7 - Ambient Music For Studying, Concentration, Work And Meditation Enjoy these 24/7 hours of deep focus music ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/_bLX5WfDQfM/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/_bLX5WfDQfM/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/_bLX5WfDQfM/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "4K Video Nature - Focus Music",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-08-29T14:20:41Z"
+      "publishTime": "2020-03-28T00:19:07Z"
     }
   },
   {
@@ -405,278 +541,6 @@
       "channelTitle": "( LUX )  - Ambient Music",
       "liveBroadcastContent": "live",
       "publishTime": "2023-10-29T20:43:22Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "hyMlffHZO6CZs42uf86ROMnsFSU",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "vrB9wC6quaU"
-    },
-    "snippet": {
-      "publishedAt": "2024-03-26T07:22:04Z",
-      "channelId": "UClBrT0ADeJnemAyp2EbzVFw",
-      "title": "Chill out lofi music 🍀 lofi hip hop mix makes you feel positive ~ Rainy Lofi vibes for a calm night",
-      "description": "Listen on Spotify: https://spoti.fi/4dwkURj Hello everyone!~ Welcome to @LofiontheRooftop Indulge in the soothing sounds of this ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/vrB9wC6quaU/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/vrB9wC6quaU/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/vrB9wC6quaU/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Lofi on the Rooftop",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-03-26T07:22:04Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "tojTzyvnNMQNKN4hmQ2JYgI2s3A",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "TfYBaIsVzhs"
-    },
-    "snippet": {
-      "publishedAt": "2023-10-29T19:50:03Z",
-      "channelId": "UCQRc3AD2cCk_HD1LmuhMJMA",
-      "title": "Samurai Meditation and Relaxation Music",
-      "description": "Welcome to Samurai meditation and relaxation music live broadcast. Spotify https://n9.cl/7h4hc Wellcome to Emotional Music.",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/TfYBaIsVzhs/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/TfYBaIsVzhs/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/TfYBaIsVzhs/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Emotional Music",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-10-29T19:50:03Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "6bXHHnWNS0iGmyRtYKLi9sXD_BQ",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "4xDzrJKXOOY"
-    },
-    "snippet": {
-      "publishedAt": "2023-07-02T21:17:31Z",
-      "channelId": "UCSJ4gkVC6NrvII8umztf0Ow",
-      "title": "synthwave radio 🌌 beats to chill/game to",
-      "description": "Listen on Spotify, Apple music and more → https://fanlink.tv/ChillSynthwave | Subscribe to this channel for more synthwave ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/4xDzrJKXOOY/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/4xDzrJKXOOY/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/4xDzrJKXOOY/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Lofi Girl",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-07-02T21:17:31Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "C__SW8zKGJoXqJqRJ1JFaFxgJ50",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "HhqWd3Axq9Y"
-    },
-    "snippet": {
-      "publishedAt": "2023-08-11T08:04:09Z",
-      "channelId": "UCZR3-lM6Z-n5_UGHlwx_Rpw",
-      "title": "Crackling Fireplace &amp; Smooth Jazz Instrumental 🍂 Warm Jazz Music at Cozy Fall Coffee Shop Ambience",
-      "description": "Crackling Fireplace & Smooth Jazz Instrumental Warm Jazz Music at Cozy Fall Coffee Shop Ambience Are you looking for ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/HhqWd3Axq9Y/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/HhqWd3Axq9Y/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/HhqWd3Axq9Y/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Relax Jazz Cafe",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-08-11T08:04:09Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "vRBf-layKqZQAJU4Xi6bzz6DFcI",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "MUWu45U2bMU"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-03T09:06:31Z",
-      "channelId": "UCSFB7Xy5Fa1pVVKP_CajIrw",
-      "title": "🔴 Space Ambient Music Mix ✨LIVE 24/7: Ambient Cosmic Background for Sleep, Studying, Meditation.",
-      "description": "Follow me on Spotify ▻ https://open.spotify.com/artist/673CUJvMJcD8uopPdhBAxi Follow me on Apple Music ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/MUWu45U2bMU/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/MUWu45U2bMU/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/MUWu45U2bMU/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Space Relax Music Channel",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-03T09:06:31Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "k2k6ijdtAvmaJleNOtbtx7fRDvk",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "zVh3OzdZ9SE"
-    },
-    "snippet": {
-      "publishedAt": "2024-04-25T20:40:31Z",
-      "channelId": "UCGjd2P9By_xh0-UrGW3SaZw",
-      "title": "Floyd Runner Radio ( Pink Floyd and Blade Runner Inspired Ambient Music )",
-      "description": "This is a broadcast with music inspired by Blade Runner with the addition of Pink Floyd. Something I had been wanting to do for a ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/zVh3OzdZ9SE/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/zVh3OzdZ9SE/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/zVh3OzdZ9SE/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "( LUX )  - Ambient Music",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-04-25T20:40:31Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "aBuFCrqhyNNnfU1_YNF5C17czBc",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "2Jd5XGpgScA"
-    },
-    "snippet": {
-      "publishedAt": "2024-01-03T02:30:39Z",
-      "channelId": "UC5Sl4VbJELXi9SCaWbTdXfA",
-      "title": "☕Cozy Jazz Music with Bookstore Cafe Ambience &amp; Crackling Fireplace for Study, Relaxing or Sleeping",
-      "description": "Cozy Jazz Music with Bookstore Cafe Ambience & Crackling Fireplace for Study, Relaxing or Sleeping Give me your opinion, like, ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/2Jd5XGpgScA/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/2Jd5XGpgScA/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/2Jd5XGpgScA/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Jazz Cafe Ambience",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-01-03T02:30:39Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "Oklw1vlW1PdWN2gHpZTLhpel2IA",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "mPhl23eo69g"
-    },
-    "snippet": {
-      "publishedAt": "2023-09-19T06:44:32Z",
-      "channelId": "UCTn68irGFi8M5EdYrfWqJuQ",
-      "title": "Work &amp; Study with Batman 🦇 24/7 Deep Cinematic Music for Instant Flow State &amp; Productivity",
-      "description": "Work & Study with Bruce Wayne and his ambient music collection (Hans Zimmer Vibes) to achieve all of your goals and attain ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/mPhl23eo69g/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/mPhl23eo69g/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/mPhl23eo69g/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Ambient Cinematics",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-09-19T06:44:32Z"
     }
   },
   {
@@ -749,70 +613,172 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "zct0aRX4q-HGj25bR6XddKP3BTI",
+    "etag": "C__SW8zKGJoXqJqRJ1JFaFxgJ50",
     "id": {
       "kind": "youtube#video",
-      "videoId": "AEKtQW93OVg"
+      "videoId": "HhqWd3Axq9Y"
     },
     "snippet": {
-      "publishedAt": "2022-11-16T11:16:32Z",
-      "channelId": "UC5Sl4VbJELXi9SCaWbTdXfA",
-      "title": "Cozy Jazz Music &amp; Bookstore Cafe Ambience with Relaxing Smooth Piano Jazz Music for Study, Sleeping",
-      "description": "Cozy Jazz Music & Bookstore Cafe Ambience with Relaxing Smooth Piano Jazz Music for Study, Sleeping Give me your opinion, ...",
+      "publishedAt": "2023-08-11T08:04:09Z",
+      "channelId": "UCZR3-lM6Z-n5_UGHlwx_Rpw",
+      "title": "Crackling Fireplace &amp; Smooth Jazz Instrumental 🍂 Warm Jazz Music at Cozy Fall Coffee Shop Ambience",
+      "description": "Crackling Fireplace & Smooth Jazz Instrumental Warm Jazz Music at Cozy Fall Coffee Shop Ambience Are you looking for ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/AEKtQW93OVg/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/HhqWd3Axq9Y/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/AEKtQW93OVg/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/HhqWd3Axq9Y/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/AEKtQW93OVg/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/HhqWd3Axq9Y/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Relax Jazz Cafe",
+      "liveBroadcastContent": "live",
+      "publishTime": "2023-08-11T08:04:09Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "fg6pUWfy5NkVXAK3XAKROSR3FRo",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "nOa1kTGU5pU"
+    },
+    "snippet": {
+      "publishedAt": "2024-04-21T04:22:40Z",
+      "channelId": "UCFjM4SzH8zAvsC0azlStgaw",
+      "title": "Elegant Bossa Nova Jazz Music &amp; Ocean Wave Sounds at Seaside Cafe Ambience for Relax, Stress Relief",
+      "description": "Elegant Bossa Nova Jazz Music & Ocean Wave Sounds at Seaside Cafe Ambience for Relax, Stress Relief #seasidejazz ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/nOa1kTGU5pU/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/nOa1kTGU5pU/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/nOa1kTGU5pU/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Bossa Nova Jazz",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-04-21T04:22:40Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "fH0Hxc1wLwDVf4O3bUuP5_qOF4s",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "DxA3Z_Tu9mQ"
+    },
+    "snippet": {
+      "publishedAt": "2024-03-28T14:10:40Z",
+      "channelId": "UCFjM4SzH8zAvsC0azlStgaw",
+      "title": "Relaxing Bossa Nova Jazz Piano Music &amp; Calming Ocean Waves at Seaside Cafe Ambience for Good Moods",
+      "description": "Relaxing Bossa Nova Jazz Piano Music & Calming Ocean Waves at Seaside Cafe Ambience for Good Moods #seasidejazz ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/DxA3Z_Tu9mQ/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DxA3Z_Tu9mQ/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DxA3Z_Tu9mQ/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Bossa Nova Jazz",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-03-28T14:10:40Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "aBuFCrqhyNNnfU1_YNF5C17czBc",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "2Jd5XGpgScA"
+    },
+    "snippet": {
+      "publishedAt": "2024-01-03T02:30:39Z",
+      "channelId": "UC5Sl4VbJELXi9SCaWbTdXfA",
+      "title": "☕Cozy Jazz Music with Bookstore Cafe Ambience &amp; Crackling Fireplace for Study, Relaxing or Sleeping",
+      "description": "Cozy Jazz Music with Bookstore Cafe Ambience & Crackling Fireplace for Study, Relaxing or Sleeping Give me your opinion, like, ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/2Jd5XGpgScA/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2Jd5XGpgScA/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2Jd5XGpgScA/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
       "channelTitle": "Jazz Cafe Ambience",
       "liveBroadcastContent": "live",
-      "publishTime": "2022-11-16T11:16:32Z"
+      "publishTime": "2024-01-03T02:30:39Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "ZQS_yWjekUIKTD2QOaCvWbEszrQ",
+    "etag": "pIHaNITtyEtyJ5ePCS1FZFZLp4k",
     "id": {
       "kind": "youtube#video",
-      "videoId": "XFdTycvQMQo"
+      "videoId": "4xDzrJKXOOY"
     },
     "snippet": {
-      "publishedAt": "2023-10-27T14:26:41Z",
-      "channelId": "UCKvKjZ3l9azWz4F49q2R3tQ",
-      "title": "Rainy Day at Cozy Coffee Shop ☕ Relaxing Jazz Instrumental Music For Relax, Study, Work",
-      "description": "Listen now on Spotify: https://spoti.fi/3zsVlgX ☕ Take a break from your life for a few minutes and enjoy this soothing, ambient tune ...",
+      "publishedAt": "2023-07-02T21:17:31Z",
+      "channelId": "UCSJ4gkVC6NrvII8umztf0Ow",
+      "title": "synthwave radio 🌌 beats to chill/game to",
+      "description": "Listen on Spotify, Apple music and more → https://fanlink.tv/ChillSynthwave | Subscribe to this channel for more synthwave ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/XFdTycvQMQo/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/4xDzrJKXOOY/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/XFdTycvQMQo/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/4xDzrJKXOOY/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/XFdTycvQMQo/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/4xDzrJKXOOY/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Coffee Relaxing Jazz",
+      "channelTitle": "Lofi Girl",
       "liveBroadcastContent": "live",
-      "publishTime": "2023-10-27T14:26:41Z"
+      "publishTime": "2023-07-02T21:17:31Z"
     }
   },
   {
@@ -851,6 +817,40 @@
   },
   {
     "kind": "youtube#searchResult",
+    "etag": "vRBf-layKqZQAJU4Xi6bzz6DFcI",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "MUWu45U2bMU"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-03T09:06:31Z",
+      "channelId": "UCSFB7Xy5Fa1pVVKP_CajIrw",
+      "title": "🔴 Space Ambient Music Mix ✨LIVE 24/7: Ambient Cosmic Background for Sleep, Studying, Meditation.",
+      "description": "Follow me on Spotify ▻ https://open.spotify.com/artist/673CUJvMJcD8uopPdhBAxi Follow me on Apple Music ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/MUWu45U2bMU/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MUWu45U2bMU/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MUWu45U2bMU/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Space Relax Music Channel",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-03T09:06:31Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
     "etag": "X7kpc-XqaHbVhyAeSdJCK4kGpDo",
     "id": {
       "kind": "youtube#video",
@@ -881,74 +881,6 @@
       "channelTitle": "Yellow Brick Cinema - Relaxing Music",
       "liveBroadcastContent": "live",
       "publishTime": "2024-07-07T13:01:02Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "daVSYSIl99sZa400CXF0iKC2QGo",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "Qtb20K6noho"
-    },
-    "snippet": {
-      "publishedAt": "2024-06-27T15:55:49Z",
-      "channelId": "UCUc8mpd7aQROHAb-KxdoGww",
-      "title": "🎵 Lost in Deep Space:  The Journey | Ambient Music for relaxing in Outer Space | LIVE 24/7",
-      "description": "Floating weightless, the calm of zero-gravity envelops you, with a sense of liberation and peace slowly settling upon your mind ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/Qtb20K6noho/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/Qtb20K6noho/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/Qtb20K6noho/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "View Escape",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-06-27T15:55:49Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "auLTkDrf0Vf1NcTigGo9XGH7Jao",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "Ihm9OQWmibA"
-    },
-    "snippet": {
-      "publishedAt": "2022-11-03T20:01:28Z",
-      "channelId": "UC14ap4T608Zz_Mz4eezhIqw",
-      "title": "Deep House 🏠 · Relaxing Work Music  · 24/7 Live",
-      "description": "Our favorite Deep House and Melodic Chill house music for a perfect studying, chilling, or working session. Our live radio stream ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/Ihm9OQWmibA/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/Ihm9OQWmibA/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/Ihm9OQWmibA/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "The Grand Sound",
-      "liveBroadcastContent": "live",
-      "publishTime": "2022-11-03T20:01:28Z"
     }
   },
   {
@@ -987,206 +919,104 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "7AGZtSHYIzFv3vZ1pe7aYFCa35c",
+    "etag": "DT2CVS01cm9tZNqniyDRmUb9-xU",
     "id": {
       "kind": "youtube#video",
-      "videoId": "XXdoZuYtNoc"
+      "videoId": "CDgxzo4dyFI"
     },
     "snippet": {
-      "publishedAt": "2024-11-03T09:09:30Z",
-      "channelId": "UCSFB7Xy5Fa1pVVKP_CajIrw",
-      "title": "🔴 Space Ambient Music Mix ✨LIVE 24/7: Ambient Cosmic Background for Sleep, Studying, Meditation",
-      "description": "Follow me on Spotify ▻ https://open.spotify.com/artist/673CUJvMJcD8uopPdhBAxi Follow me on Apple Music ...",
+      "publishedAt": "2023-10-12T06:48:49Z",
+      "channelId": "UCKvKjZ3l9azWz4F49q2R3tQ",
+      "title": "New York Coffee Shop Ambience ☕ Relaxing Jazz Instrumental Music For Good Mood, Work, Study",
+      "description": "Please Subscribe! https://bit.ly/3pbWwgg Listen now on Spotify: https://spoti.fi/3GL4xkA ☕ Listen to some gentle jazz while ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/XXdoZuYtNoc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/CDgxzo4dyFI/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/XXdoZuYtNoc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/CDgxzo4dyFI/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/XXdoZuYtNoc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/CDgxzo4dyFI/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Space Relax Music Channel",
+      "channelTitle": "Coffee Relaxing Jazz",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-03T09:09:30Z"
+      "publishTime": "2023-10-12T06:48:49Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "TftMOaFjQ47Z3tC7E4KergA_zXM",
+    "etag": "C2sbiCrItXXMv-X0HgAS9n0v-AA",
     "id": {
       "kind": "youtube#video",
-      "videoId": "NRFnC7gWepE"
+      "videoId": "nR-Zen2s2Qw"
     },
     "snippet": {
-      "publishedAt": "2022-11-16T18:14:17Z",
-      "channelId": "UCb1ANUIW7arUUDI-Mwz65rw",
-      "title": "Relaxing Piano Music and Fireplace 24/7 - Sleep, Meditate, Study, Relax, Stress Relief",
-      "description": "Relaxing Piano Music and Fireplace 24/7 - Sleep, Meditate, Study, Relax, Stress Relief A FEW WORDS ABOUT OCB RELAX ...",
+      "publishedAt": "2022-01-15T23:02:30Z",
+      "channelId": "UCOVcAiUMS7RZ6RVUcrwAYXA",
+      "title": "Oldies playing in a coffee shop and it&#39;s raining (calming rain sounds, no thunders) 11 HOURS ASMR v5",
+      "description": "Support the stream: https://streamelements.com/Nemosdreamscapes/tip Oldies playing in a coffee shop and it's raining (calming ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/NRFnC7gWepE/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/nR-Zen2s2Qw/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/NRFnC7gWepE/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/nR-Zen2s2Qw/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/NRFnC7gWepE/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/nR-Zen2s2Qw/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "OCB Relax Music",
+      "channelTitle": "Nemo's Dreamscapes",
       "liveBroadcastContent": "live",
-      "publishTime": "2022-11-16T18:14:17Z"
+      "publishTime": "2022-01-15T23:02:30Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "cP0QZ5AduvF2Yz3eVEZpl8eSkk4",
+    "etag": "OPYwlM6gCg0J7t9eq14-dfFzKB4",
     "id": {
       "kind": "youtube#video",
-      "videoId": "wH4xZ7T9kO4"
+      "videoId": "LnD-XEQ2hzQ"
     },
     "snippet": {
-      "publishedAt": "2024-03-05T13:31:29Z",
-      "channelId": "UCxdvI10Mn9MfS-wlJWqB4DQ",
-      "title": "Italy Cafe | Morning Coffee Shop Ambience with Background Music &amp; Positive Jazz for Work, Study",
-      "description": "Italy Cafe | Morning Coffee Shop Ambience with Background Music & Positive Jazz for Work, Study #jazz #cozyjazz #relaxingjazz ...",
+      "publishedAt": "2024-07-13T16:12:01Z",
+      "channelId": "UCNjGqISO6V2WFpOFWPC8pIw",
+      "title": "Fall Asleep With Relaxing Wave Sounds at Night, Low Pitch Ocean Music for Deep Sleeping",
+      "description": "Welcome these ocean sounds for deep sleeping to your dreams. The dark night will facilitate your sleep and the waves will create ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/wH4xZ7T9kO4/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/LnD-XEQ2hzQ/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/wH4xZ7T9kO4/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/LnD-XEQ2hzQ/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/wH4xZ7T9kO4/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/LnD-XEQ2hzQ/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Cozy Jazz Vibes",
+      "channelTitle": "Naturaleza Viva",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-03-05T13:31:29Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "WVmQX9-IUX6LMeMMIyb2D9FsTMY",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "cOhhmMe_V1k"
-    },
-    "snippet": {
-      "publishedAt": "2024-08-29T09:52:12Z",
-      "channelId": "UCZR3-lM6Z-n5_UGHlwx_Rpw",
-      "title": "Cozy Fall Coffee Shop Ambience ~ Jazz Relaxing Music 🍂 Smooth Jazz Instrumental Music to Work, Focus",
-      "description": "Cozy Fall Coffee Shop Ambience ~ Jazz Relaxing Music Smooth Jazz Instrumental Music to Work, Focus 👉️   Let's ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/cOhhmMe_V1k/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/cOhhmMe_V1k/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/cOhhmMe_V1k/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Relax Jazz Cafe",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-08-29T09:52:12Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "jZuTizb3-cZkQlZy8rrAFl2NLEQ",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "BCCr3pv0bRQ"
-    },
-    "snippet": {
-      "publishedAt": "2023-10-17T12:31:44Z",
-      "channelId": "UCO6SuIBGCEbHw0AKHlKqfww",
-      "title": "Seven Beats Music • Ibiza Chillout 24/7 Radio Stream [Balearic, Relax, Ambient, Lounge, Dreamy]",
-      "description": "Welcome to the Seven Beats 24/7 Ibiza Chillout Stream! Coffeeshop Collection Spotify Playlist: https://spoti.fi/3vxXNAM ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/BCCr3pv0bRQ/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/BCCr3pv0bRQ/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/BCCr3pv0bRQ/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Seven Beats Music",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-10-17T12:31:44Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "e9XELXuY1_ilSqay_OqBIEYqdSI",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "4khIPP--FDU"
-    },
-    "snippet": {
-      "publishedAt": "2023-01-19T08:59:48Z",
-      "channelId": "UCb1ANUIW7arUUDI-Mwz65rw",
-      "title": "Beautiful Piano Music 24/7 - Study Music, Relaxing Music, Sleep Music, Meditation Music",
-      "description": "Beautiful Piano Music 24/7 - Study Music, Relaxing Music, Sleep Music, Meditation Music A FEW WORDS ABOUT OCB RELAX ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/4khIPP--FDU/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/4khIPP--FDU/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/4khIPP--FDU/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "OCB Relax Music",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-01-19T08:59:48Z"
+      "publishTime": "2024-07-13T16:12:01Z"
     }
   },
   {
@@ -1225,108 +1055,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "hTam6fcbq31qoYmDDuKi2fQee60",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "UhUeTG8rAXw"
-    },
-    "snippet": {
-      "publishedAt": "2024-06-22T03:50:26Z",
-      "channelId": "UCpDqi4cjYZ0UZYr_1Odhavg",
-      "title": "Relax Your Soul and Boost Positivity ~ Deep Chill Music mix and Chill-out Ambient",
-      "description": "Hello everyone!~ Welcome to Beautiful Chill Music Mix Listen on spotify: https://spoti.fi/4cwx8IC 🏔️ In a world that often ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/UhUeTG8rAXw/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/UhUeTG8rAXw/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/UhUeTG8rAXw/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Beautiful Chill Music Mix",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-06-22T03:50:26Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "DlhH5SP8OiRRQxwMlwxkop5wuuc",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "JIS6EVIGq9A"
-    },
-    "snippet": {
-      "publishedAt": "2023-10-10T01:26:04Z",
-      "channelId": "UCy6A4u_9X_FyN3DZMLtwjUg",
-      "title": "Cozy Rain on Lakeside Ambient with Gentle Rain falling and Relaxing Fireplace to Meditation &amp; Sleep",
-      "description": "Surely many people like me are fascinated by different environments that evoke different emotions and feelings.",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/JIS6EVIGq9A/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/JIS6EVIGq9A/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/JIS6EVIGq9A/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "The Town of Ambience",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-10-10T01:26:04Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "XFQwiUHYUqGvDNbYrfkVfgx-8EM",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "-AwqCF6f7n0"
-    },
-    "snippet": {
-      "publishedAt": "2023-09-26T01:54:08Z",
-      "channelId": "UCNlfGuzOAKM1sycPuM_QTHg",
-      "title": "🔴 Deep Focus Music To Improve Concentration - Ambient Study and Work Music to Concentrate",
-      "description": "Deep Focus Music To Improve Concentration - Ambient Study and Work Music to Concentrate Enjoy these 24/7 of deep focus ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/-AwqCF6f7n0/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/-AwqCF6f7n0/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/-AwqCF6f7n0/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "4K Video Nature - Focus Music",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-09-26T01:54:08Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "UQXih1_nFL55Vp570iKK0-Ar7YY",
     "id": {
       "kind": "youtube#video",
@@ -1361,342 +1089,614 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "A9AiTmlXmc0uMfh6Myi3mwmANck",
+    "etag": "40Vx_IAXgztwfe85A0L1zi2iJJQ",
     "id": {
       "kind": "youtube#video",
-      "videoId": "TaBX3DdGOxc"
+      "videoId": "x_4hS1A5wws"
     },
     "snippet": {
-      "publishedAt": "2022-01-05T01:02:37Z",
-      "channelId": "UCUc8mpd7aQROHAb-KxdoGww",
-      "title": "Deep Space Sleeping Quarters | White and Grey Noise | Relaxing Sounds of Space Flight | LIVE",
-      "description": "You've entered the deepest realm of space on your journey to your new home across the universe. Sleep, relax, study, pray, ...",
+      "publishedAt": "2023-12-28T00:41:41Z",
+      "channelId": "UCmla4OjsAqsyAbjS5XYqfPg",
+      "title": "Rhythmic THUNDERSTORM helps you quiet the mind, ease tension and Promotes SLEEP",
+      "description": "Windy Thunderstorm Lulls You to Sleep in Less Than 10 Minutes\" is a specially crafted audio experience designed to quickly ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/TaBX3DdGOxc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/x_4hS1A5wws/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/TaBX3DdGOxc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/x_4hS1A5wws/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/TaBX3DdGOxc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/x_4hS1A5wws/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "View Escape",
+      "channelTitle": "Easy Sounds & Relaxation Channel",
       "liveBroadcastContent": "live",
-      "publishTime": "2022-01-05T01:02:37Z"
+      "publishTime": "2023-12-28T00:41:41Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "AXQyrsvkMsVh9OghLA7zjDwryiM",
+    "etag": "88sJr_dIkKWS9JnrYIL961ysFc4",
     "id": {
       "kind": "youtube#video",
-      "videoId": "H3PdKeFbj1Y"
+      "videoId": "Dx5qFachd3A"
     },
     "snippet": {
-      "publishedAt": "2022-09-27T21:51:40Z",
-      "channelId": "UCXbXfisDHV_gDjawCKTyTIw",
-      "title": "Deep Sleep In This Futuristic City View | Cosy Bed And Gentle Thunder For Sleeping | 4K",
-      "description": "Here is a Live streaming version of my futuristic bedroom view of a thundery night sky over a beautiful city view set in the distant ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/H3PdKeFbj1Y/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/H3PdKeFbj1Y/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/H3PdKeFbj1Y/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Ambient Renders",
-      "liveBroadcastContent": "live",
-      "publishTime": "2022-09-27T21:51:40Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "ET1FGlRsF7DOqJoTPuRfZqn5N14",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "O8M8h3_lZxA"
-    },
-    "snippet": {
-      "publishedAt": "2023-08-10T02:19:36Z",
-      "channelId": "UCbzMkkVmcheEy2-1ieyCsTg",
-      "title": "Fall Asleep in Under 3 MINUTES★Deep Sleep Journey★Healing of Stress, Anxiety and Depressive States",
-      "description": "Fall Asleep in Under 3 MINUTES☆Deep Sleep Journey☆Healing of Stress, Anxiety and Depressive States Channel: Weightless ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/O8M8h3_lZxA/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/O8M8h3_lZxA/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/O8M8h3_lZxA/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Weightless Mind",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-08-10T02:19:36Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "2PK7w_hG2H7BDyoZaXe9OFu0MQM",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "jfKfPfyJRdk"
-    },
-    "snippet": {
-      "publishedAt": "2022-07-12T12:12:29Z",
-      "channelId": "UCSJ4gkVC6NrvII8umztf0Ow",
-      "title": "lofi hip hop radio 📚 beats to relax/study to",
-      "description": "Listen on Spotify, Apple music and more → https://fanlink.tv/lofigirl-music | New Christmas Radio is out now!",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/jfKfPfyJRdk/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/jfKfPfyJRdk/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/jfKfPfyJRdk/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Lofi Girl",
-      "liveBroadcastContent": "live",
-      "publishTime": "2022-07-12T12:12:29Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "MVPh2x8URYtBuQrdzEB9pG6a8Ho",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "dXIyMS61B68"
-    },
-    "snippet": {
-      "publishedAt": "2021-12-27T21:17:06Z",
-      "channelId": "UCdi8yQBdBfn1ECu3ayH_TnA",
-      "title": "Beautiful Relaxing Peaceful Music, Calm Music 24/7, &quot;Tropical Shores&quot; By Tim Janis",
-      "description": "Beautiful Relaxing Peaceful Music, Calm Music 24/7, \"Tropical Shores\" By Tim Janis. My instrumental music can help you find ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/dXIyMS61B68/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/dXIyMS61B68/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/dXIyMS61B68/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Tim Janis",
-      "liveBroadcastContent": "live",
-      "publishTime": "2021-12-27T21:17:06Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "gm9IXfFXaJxTaEO72kHMx20yGc0",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "6uddGul0oAc"
-    },
-    "snippet": {
-      "publishedAt": "2021-03-15T09:04:33Z",
+      "publishedAt": "2019-01-15T15:15:41Z",
       "channelId": "UCJhjE7wbdYAae1G25m0tHAA",
-      "title": "TOKYO Cafe: Beautiful Relaxing Jazz Piano Music for Stress Relief - Night Coffee Shop Ambience",
-      "description": "Listen Everywhere https://bgmc.lnk.to/g1qEnopG. Please Subscribe! → https://www.youtube.com/user/cafemusicbgmchannel ...",
+      "title": "Relaxing Jazz Piano Radio - Slow Jazz Music - 24/7 Live Stream - Music For Work &amp; Study",
+      "description": "Listen Everywhere https://bgmc.lnk.to/GakvlKNr. Please Subscribe! → https://www.youtube.com/user/cafemusicbgmchannel ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/6uddGul0oAc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/Dx5qFachd3A/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/6uddGul0oAc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/Dx5qFachd3A/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/6uddGul0oAc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/Dx5qFachd3A/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
       "channelTitle": "Cafe Music BGM channel",
       "liveBroadcastContent": "live",
-      "publishTime": "2021-03-15T09:04:33Z"
+      "publishTime": "2019-01-15T15:15:41Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "GKQImV_CvvbmWNxGDhr7QD8yrrY",
+    "etag": "cP0QZ5AduvF2Yz3eVEZpl8eSkk4",
     "id": {
       "kind": "youtube#video",
-      "videoId": "FtO1lxJ-RXM"
+      "videoId": "wH4xZ7T9kO4"
     },
     "snippet": {
-      "publishedAt": "2024-07-21T04:20:48Z",
-      "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
-      "title": "🔴 Sleep Music 24/7, Deep Sleep Music, Peaceful Music, Relaxing, Sleep Relaxation, Sleep Meditation",
-      "description": "Welcome to Yellow Brick Cinema's relaxing sleep music. May this video inspire deep sleep, relaxation and a calm mind as you ...",
+      "publishedAt": "2024-03-05T13:31:29Z",
+      "channelId": "UCxdvI10Mn9MfS-wlJWqB4DQ",
+      "title": "Italy Cafe | Morning Coffee Shop Ambience with Background Music &amp; Positive Jazz for Work, Study",
+      "description": "Italy Cafe | Morning Coffee Shop Ambience with Background Music & Positive Jazz for Work, Study #jazz #cozyjazz #relaxingjazz ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/FtO1lxJ-RXM/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/wH4xZ7T9kO4/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/FtO1lxJ-RXM/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/wH4xZ7T9kO4/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/FtO1lxJ-RXM/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/wH4xZ7T9kO4/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Cozy Jazz Vibes",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-03-05T13:31:29Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "oqxbdB39G9bFp7gORAUlk2SSVD8",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "pCytGSN9oms"
+    },
+    "snippet": {
+      "publishedAt": "2024-04-26T10:13:04Z",
+      "channelId": "UCIC7zBML7t1Zpi0XvnbAvEw",
+      "title": "Morning Jazz With The Sound Of Ocean Waves To Relax - Smooth Jazz Music In Luxury Living Room Space",
+      "description": "Morning Jazz With The Sound Of Ocean Waves To Relax - Smooth Jazz Music In Luxury Living Room Space Are you looking ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/pCytGSN9oms/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/pCytGSN9oms/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/pCytGSN9oms/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Colors Jazz",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-04-26T10:13:04Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "ZQS_yWjekUIKTD2QOaCvWbEszrQ",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "XFdTycvQMQo"
+    },
+    "snippet": {
+      "publishedAt": "2023-10-27T14:26:41Z",
+      "channelId": "UCKvKjZ3l9azWz4F49q2R3tQ",
+      "title": "Rainy Day at Cozy Coffee Shop ☕ Relaxing Jazz Instrumental Music For Relax, Study, Work",
+      "description": "Listen now on Spotify: https://spoti.fi/3zsVlgX ☕ Take a break from your life for a few minutes and enjoy this soothing, ambient tune ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/XFdTycvQMQo/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XFdTycvQMQo/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XFdTycvQMQo/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Coffee Relaxing Jazz",
+      "liveBroadcastContent": "live",
+      "publishTime": "2023-10-27T14:26:41Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "e9XELXuY1_ilSqay_OqBIEYqdSI",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "4khIPP--FDU"
+    },
+    "snippet": {
+      "publishedAt": "2023-01-19T08:59:48Z",
+      "channelId": "UCb1ANUIW7arUUDI-Mwz65rw",
+      "title": "Beautiful Piano Music 24/7 - Study Music, Relaxing Music, Sleep Music, Meditation Music",
+      "description": "Beautiful Piano Music 24/7 - Study Music, Relaxing Music, Sleep Music, Meditation Music A FEW WORDS ABOUT OCB RELAX ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/4khIPP--FDU/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/4khIPP--FDU/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/4khIPP--FDU/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "OCB Relax Music",
+      "liveBroadcastContent": "live",
+      "publishTime": "2023-01-19T08:59:48Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "TftMOaFjQ47Z3tC7E4KergA_zXM",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "NRFnC7gWepE"
+    },
+    "snippet": {
+      "publishedAt": "2022-11-16T18:14:17Z",
+      "channelId": "UCb1ANUIW7arUUDI-Mwz65rw",
+      "title": "Relaxing Piano Music and Fireplace 24/7 - Sleep, Meditate, Study, Relax, Stress Relief",
+      "description": "Relaxing Piano Music and Fireplace 24/7 - Sleep, Meditate, Study, Relax, Stress Relief A FEW WORDS ABOUT OCB RELAX ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/NRFnC7gWepE/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/NRFnC7gWepE/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/NRFnC7gWepE/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "OCB Relax Music",
+      "liveBroadcastContent": "live",
+      "publishTime": "2022-11-16T18:14:17Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "7AGZtSHYIzFv3vZ1pe7aYFCa35c",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "XXdoZuYtNoc"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-03T09:09:30Z",
+      "channelId": "UCSFB7Xy5Fa1pVVKP_CajIrw",
+      "title": "🔴 Space Ambient Music Mix ✨LIVE 24/7: Ambient Cosmic Background for Sleep, Studying, Meditation",
+      "description": "Follow me on Spotify ▻ https://open.spotify.com/artist/673CUJvMJcD8uopPdhBAxi Follow me on Apple Music ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/XXdoZuYtNoc/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XXdoZuYtNoc/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XXdoZuYtNoc/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Space Relax Music Channel",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-03T09:09:30Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "hTam6fcbq31qoYmDDuKi2fQee60",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "UhUeTG8rAXw"
+    },
+    "snippet": {
+      "publishedAt": "2024-06-22T03:50:26Z",
+      "channelId": "UCpDqi4cjYZ0UZYr_1Odhavg",
+      "title": "Relax Your Soul and Boost Positivity ~ Deep Chill Music mix and Chill-out Ambient",
+      "description": "Hello everyone!~ Welcome to Beautiful Chill Music Mix Listen on spotify: https://spoti.fi/4cwx8IC 🏔️ In a world that often ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/UhUeTG8rAXw/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/UhUeTG8rAXw/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/UhUeTG8rAXw/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Beautiful Chill Music Mix",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-06-22T03:50:26Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "n83GOp7tg8iInQeBBEmJaUJR3OU",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "wwya7JCD5_0"
+    },
+    "snippet": {
+      "publishedAt": "2022-03-02T15:48:08Z",
+      "channelId": "UCdi8yQBdBfn1ECu3ayH_TnA",
+      "title": "Beautiful Relaxing Music, Peaceful Soothing Instrumental Music, &quot;Wilderness Bears&quot; by Tim Janis",
+      "description": "Beautiful Relaxing Music, Peaceful Soothing Instrumental Music, \"Wilderness Bears\" by Tim Janis. My instrumental music can ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/wwya7JCD5_0/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wwya7JCD5_0/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wwya7JCD5_0/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Tim Janis",
+      "liveBroadcastContent": "live",
+      "publishTime": "2022-03-02T15:48:08Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "ar00Ih1HbYXfcBpia1xVt0IyhU8",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "btbNW87yH24"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-20T15:23:27Z",
+      "channelId": "UCZpGWKnO56t67JmCfBLwoYA",
+      "title": "Christmas Fireplace with Relaxing Christmas Jazz Instrumental Music 🔥 Warm Christmas Ambience",
+      "description": "4K Christmas Fireplace with Relaxing Christmas Jazz Instrumental Music Warm Christmas Ambience Immerse yourself in the ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/btbNW87yH24/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/btbNW87yH24/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/btbNW87yH24/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Smooth Jazz BGM",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-20T15:23:27Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "8xqVH07fSKDTa__980OSUhNnUEk",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "bQ4KSllyROs"
+    },
+    "snippet": {
+      "publishedAt": "2024-02-13T12:53:31Z",
+      "channelId": "UC6Q2ZkwzOjbeMEhLJNpZKaA",
+      "title": "Weightless &amp; Beyond - Marconi Union 24/7 🔵 No Ads 🧘 Music for sleep, focus &amp; relaxation",
+      "description": "Welcome to Marconi Union's Weightless and Beyond 24/7 Radio Station. Explore Marconi Union's selected ambient works, ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/bQ4KSllyROs/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bQ4KSllyROs/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bQ4KSllyROs/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "JustMusicTV",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-02-13T12:53:31Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "KR3IauYVgjf53ZN28arHzkG6iPk",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "4V0uYRtPyfE"
+    },
+    "snippet": {
+      "publishedAt": "2020-05-24T02:26:30Z",
+      "channelId": "UCXwZEtR4z7grN0nmGzwg6Ow",
+      "title": "Hula Flower: Beautiful Tropical Music &amp; Relaxing Hawaiian Music LIVE for Paradise Holiday",
+      "description": "Listen Everywhere → Hula Flower: https://bgmc.lnk.to/O22WtWKf Tracklist 1 Hawaiian Mood 2 Hula Moon 3 Aloha Street 4 ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/4V0uYRtPyfE/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/4V0uYRtPyfE/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/4V0uYRtPyfE/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Hawaiian BGM channel",
+      "liveBroadcastContent": "live",
+      "publishTime": "2020-05-24T02:26:30Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "auLTkDrf0Vf1NcTigGo9XGH7Jao",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "Ihm9OQWmibA"
+    },
+    "snippet": {
+      "publishedAt": "2022-11-03T20:01:28Z",
+      "channelId": "UC14ap4T608Zz_Mz4eezhIqw",
+      "title": "Deep House 🏠 · Relaxing Work Music  · 24/7 Live",
+      "description": "Our favorite Deep House and Melodic Chill house music for a perfect studying, chilling, or working session. Our live radio stream ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Ihm9OQWmibA/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Ihm9OQWmibA/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Ihm9OQWmibA/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "The Grand Sound",
+      "liveBroadcastContent": "live",
+      "publishTime": "2022-11-03T20:01:28Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "aIgUrU0ruNYfCyjlxdjqxR41ljE",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "IBxUkxmORTw"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-20T07:20:33Z",
+      "channelId": "UCZpGWKnO56t67JmCfBLwoYA",
+      "title": "Smooth Christmas Jazz 🎅 Cozy Winter Cabin with Warm Fireplace Burning, Snowfall ~ Christmas Ambience",
+      "description": "Smooth Christmas Jazz 4K Cozy Winter Cabin with Warm Fireplace Burning, Snowfall ~ Christmas Ambience Step into the ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/IBxUkxmORTw/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IBxUkxmORTw/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IBxUkxmORTw/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Smooth Jazz BGM",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-20T07:20:33Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "E7QD8X1dmPT_wHLQNG30SPzzhCE",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "SfYqbEY-CS0"
+    },
+    "snippet": {
+      "publishedAt": "2023-12-21T01:03:33Z",
+      "channelId": "UC5Sl4VbJELXi9SCaWbTdXfA",
+      "title": "Snowfall Jazz Cafe | Slow Jazz Music in Winter Coffee Shop Ambience for Working, Studying &amp; Relaxing",
+      "description": "Snowfall Jazz Cafe | Slow Jazz Music in Winter Coffee Shop Ambience for Working, Studying & Relaxing Give me your opinion, ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/SfYqbEY-CS0/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/SfYqbEY-CS0/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/SfYqbEY-CS0/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Jazz Cafe Ambience",
+      "liveBroadcastContent": "live",
+      "publishTime": "2023-12-21T01:03:33Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "T8QU7oyVN6PbwaVouXa0JuT1S4s",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "Z67utPxiiuw"
+    },
+    "snippet": {
+      "publishedAt": "2024-09-29T18:31:56Z",
+      "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
+      "title": "🔴 Relaxing Music 24/7, Stress Relief Music, Sleep Music, Meditation Music, Study, Calming Music",
+      "description": "Enjoy our latest relaxing music live stream: youtube.com/yellowbrickcinema/live Relaxing Music 24/7, Stress Relief Music, Sleep ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Z67utPxiiuw/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Z67utPxiiuw/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Z67utPxiiuw/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
       "channelTitle": "Yellow Brick Cinema - Relaxing Music",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-07-21T04:20:48Z"
+      "publishTime": "2024-09-29T18:31:56Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "PhzXrtUCbRHmfYQTNX5qh_1zSE4",
+    "etag": "swjoWJ7VxjmPdN8RXr2PTu0rWxE",
     "id": {
       "kind": "youtube#video",
-      "videoId": "lyOhaokAPIo"
+      "videoId": "nrFwAgnKXZ0"
     },
     "snippet": {
-      "publishedAt": "2024-09-23T06:33:31Z",
-      "channelId": "UCnk33AK4xcvHRLkAcDK498A",
-      "title": "Harry Potter Music [LIVE 24/7] | Hogwarts Radio | Cosy Autumn Stream 🍂 [Muggleproof]",
-      "description": "Powered by Ohbubble - https://ohbubble.com/ | Tip the stream!: → https://bit.ly/HarryPotterStream | Artwork by Jhosep ...",
+      "publishedAt": "2024-10-05T04:23:28Z",
+      "channelId": "UCyUTC3jCAaLd639lo9n9Bqw",
+      "title": "Crackling Fireplace with Jazz Relaxing Music at Cozy Coffee Shop Ambience ~ Smooth Jazz Instrumental",
+      "description": "Cozy Saturday with smooth jazz and the gentle atmosphere of a warm cafe. ☕   Let the gentle melodies accompany your quiet ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/lyOhaokAPIo/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/nrFwAgnKXZ0/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/lyOhaokAPIo/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/nrFwAgnKXZ0/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/lyOhaokAPIo/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/nrFwAgnKXZ0/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Moving Soundcloud",
+      "channelTitle": "Cafe Cozy Jazz",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-09-23T06:33:31Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "2k0fIBvsJzJMTq6X2YIev_uRD0w",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "E-6GhfkMT3s"
-    },
-    "snippet": {
-      "publishedAt": "2024-01-07T14:05:46Z",
-      "channelId": "UCEyDPrWKqwWORC6TFTo4a-w",
-      "title": "24/7 Beautiful Calm Worship, Instrumental Worship Music No Ads, Soaking Instrumental Worship Piano",
-      "description": "Beautiful Calm Worship, Instrumental Worship Music No Ads, Soaking Instrumental Worship Piano #InstrumentalWorship ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/E-6GhfkMT3s/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/E-6GhfkMT3s/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/E-6GhfkMT3s/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Soaking Worship Music & Prayer Music",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-01-07T14:05:46Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "_M9B4pLFFxS8y7Ldyce8Vz-yckY",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "zezhSW_bwTk"
-    },
-    "snippet": {
-      "publishedAt": "2024-03-05T12:05:06Z",
-      "channelId": "UCa5OF9Vmu7Bvtb8ZsVUU34w",
-      "title": "Nighttime Sleep Jazz Music - Soft Piano Jazz Instrumental Music - 24/7 vs Relax of Background Music",
-      "description": "Nighttime Sleep Jazz Music - Soft Piano Jazz Instrumental Music - 24/7 vs Relax of Background Music If you like this video, please ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/zezhSW_bwTk/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/zezhSW_bwTk/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/zezhSW_bwTk/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Relaxing Jazz BGM",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-03-05T12:05:06Z"
+      "publishTime": "2024-10-05T04:23:28Z"
     }
   }
 ]

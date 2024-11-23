@@ -35,36 +35,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "roe90KXZwMTE2ifZkRgj9AS3OBc",
+    "etag": "Ur5-CBkzbalrzeBUpotPq9H0QP4",
     "id": {
       "kind": "youtube#video",
-      "videoId": "-o_cmWez244"
+      "videoId": "gJC32yXn6ec"
     },
     "snippet": {
-      "publishedAt": "2024-11-23T02:23:49Z",
+      "publishedAt": "2024-11-23T05:22:28Z",
       "channelId": "UChEEElYETR8gpc_RL0GGJng",
-      "title": "GM Farcaster ep185 Friday November 22, 2024 with guest @stoic",
-      "description": "",
+      "title": "REPLAY: GM Farcaster ep185 Friday November 22, 2024 with guests @ stoic and @ voteforpedro",
+      "description": "REPLAY of this morning's GM Farcaster with guests from the Solana Foundation @stoic and @voteforpedro.",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/-o_cmWez244/default.jpg",
+          "url": "https://i.ytimg.com/vi/gJC32yXn6ec/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/-o_cmWez244/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/gJC32yXn6ec/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/-o_cmWez244/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/gJC32yXn6ec/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
       "channelTitle": "GM Farcaster",
       "liveBroadcastContent": "none",
-      "publishTime": "2024-11-23T02:23:49Z"
+      "publishTime": "2024-11-23T05:22:28Z"
     }
   },
   {
@@ -239,7 +239,7 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "c4o1VtqQ0up0cY3tJTOYLzMha7s",
+    "etag": "2Iwyv3syytw8BhB7CUB3pbz9pp8",
     "id": {
       "kind": "youtube#video",
       "videoId": "MA35mi7OiSg"
@@ -247,7 +247,7 @@
     "snippet": {
       "publishedAt": "2024-11-23T02:13:41Z",
       "channelId": "UCfRAJMeyZKLiwue1J4J6DAQ",
-      "title": "Solving for Network Cold Start Problem - Dan Romero",
+      "title": "Solving For Network Cold Start Problem - Dan Romero",
       "description": "In this episode we have Dan Romero, founder/CEO of Farcaster - a decentralized social network. We discuss what is Farcaster, ...",
       "thumbnails": {
         "default": {
