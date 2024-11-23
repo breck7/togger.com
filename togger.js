@@ -6,6 +6,8 @@ let control = document.querySelector(".control")
 let powerScreen = document.querySelector(".power-screen")
 const lodash = _
 
+const defaultCollection = "coding"
+
 const makeDeepLink = (platform, channeltitle) =>
   [platform, channeltitle.replace(/\s+/g, "")].join(".")
 
@@ -36,9 +38,10 @@ class Togger {
     return channels
   }
 
-  getCollection(collectionName = "science") {
+  getCollection(collectionName = defaultCollection) {
     const { collectionNames } = this
-    if (!collectionNames.includes(collectionName)) collectionName = "science"
+    if (!collectionNames.includes(collectionName))
+      collectionName = defaultCollection
     this.collectionName = collectionName
     return this.channels.filter((c) => c.collections?.includes(collectionName))
   }
