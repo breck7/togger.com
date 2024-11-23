@@ -202,5 +202,39 @@
       "liveBroadcastContent": "none",
       "publishTime": "2024-11-22T20:30:00Z"
     }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "Gp7BYj0pneqq0zPW3KGr4Mq3Vjk",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "wC2JVPOgZHI"
+    },
+    "snippet": {
+      "publishedAt": "2024-10-07T16:33:32Z",
+      "channelId": "UCAPc9Lz2Z5MJOxCdo3RTs-w",
+      "title": "Volumetric video AR experience at Venice Biennale 2024",
+      "description": "A short preview of the 9 amazing artists we collaborated with for VIVAAR Venice Biennale 2024. Each artist was captured using ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/wC2JVPOgZHI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wC2JVPOgZHI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wC2JVPOgZHI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Chris Follows",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-10-07T16:33:32Z"
+    }
   }
 ]

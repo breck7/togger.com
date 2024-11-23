@@ -69,36 +69,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "Y6A-TitcQ7Cd_Dg70qpy0yTvZJU",
+    "etag": "qVMN9ZEcRvuKk-cKqlYo5dmnw_s",
     "id": {
       "kind": "youtube#video",
-      "videoId": "md0fEx4HBEY"
+      "videoId": "xbe2UMVofAU"
     },
     "snippet": {
-      "publishedAt": "2024-11-21T21:56:51Z",
-      "channelId": "UCmWNCO9wSjzOz1UV8jCvIHA",
-      "title": "LIVE: Exclusive! Acronis True Image Top Secrets - Behind the Scenes! #Acronis",
-      "description": "Friday November 22, 2024 at 12p PT / 3p ET Backup, disk cloning, cyber protection and privacy tools Learn about the most ...",
+      "publishedAt": "2024-11-05T05:51:08Z",
+      "channelId": "UCRWWzoOrQLPGJLKs1gAf2yA",
+      "title": "FREE FIRE LIVE CUSTOM ROOM GIVEAWAY FF LIVE TEAM CODE GIVEAWAY|#freefirelive #giveaway #nawabislive",
+      "description": "YOUR SEARCH TERMS 1.ff live redeem code 2.ff giveaway diomond 3.ff giveaway live custom winner 4.ff live giveaway custom ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/md0fEx4HBEY/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/md0fEx4HBEY/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/md0fEx4HBEY/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "CareyHolzman",
+      "channelTitle": "NAWABISLIVE",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-21T21:56:51Z"
+      "publishTime": "2024-11-05T05:51:08Z"
     }
   },
   {
@@ -137,74 +137,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "qVMN9ZEcRvuKk-cKqlYo5dmnw_s",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "xbe2UMVofAU"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-05T05:51:08Z",
-      "channelId": "UCRWWzoOrQLPGJLKs1gAf2yA",
-      "title": "FREE FIRE LIVE CUSTOM ROOM GIVEAWAY FF LIVE TEAM CODE GIVEAWAY|#freefirelive #giveaway #nawabislive",
-      "description": "YOUR SEARCH TERMS 1.ff live redeem code 2.ff giveaway diomond 3.ff giveaway live custom winner 4.ff live giveaway custom ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "NAWABISLIVE",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-05T05:51:08Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "0ufO0GZ5XhGZS90hn_qaS2Rfzyw",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "SlpTSiNv-m4"
-    },
-    "snippet": {
-      "publishedAt": "2024-01-23T14:10:44Z",
-      "channelId": "UC_vFLohxs5PkAxlk7Y6jEtw",
-      "title": "LIVE: ABC7 Chicago Eyewitness News",
-      "description": "Watch ABC7 Chicago for live news and updates on what's happening in your community. Click the subscribe button to be notified ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/SlpTSiNv-m4/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/SlpTSiNv-m4/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/SlpTSiNv-m4/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "ABC 7 Chicago",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-01-23T14:10:44Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "bS3c65Shvx12jWF7mQUoTYePIa4",
     "id": {
       "kind": "youtube#video",
@@ -239,36 +171,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "l13UCu-zsFHAyTFvLPcl8I89j4I",
+    "etag": "dSRsMoSUIY593RzFpUYRLyAj13Q",
     "id": {
       "kind": "youtube#video",
-      "videoId": "a0EwGJwicXc"
+      "videoId": "dUs4JqnWixw"
     },
     "snippet": {
-      "publishedAt": "2024-08-12T15:46:32Z",
-      "channelId": "UCwKS2U-DwjPZZvM6mSXPKgA",
-      "title": "بث مباشر | قناة المغاربية Almagharibia TV Live Stream",
-      "description": "LIVE تابع البث المباشر لقناة المغاربية             بث مباشر | قناة المغاربية Almagharibia TV Live Stream --------------- تعمل ...",
+      "publishedAt": "2024-10-21T13:09:37Z",
+      "channelId": "UCU31-9qcY1RDuMad67dbuhw",
+      "title": "HENFLIX - LIVE Chickens - Feed the chickens online!",
+      "description": "Please LIKE & SHARE our highlights videos and SUBSCRIBE to our channel, so you won't miss anything. You can find all of our ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Almagharibia TV قناة المغاربية",
+      "channelTitle": "Madarles - Live Bird Cams",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-08-12T15:46:32Z"
+      "publishTime": "2024-10-21T13:09:37Z"
     }
   },
   {
@@ -341,104 +273,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "dXUBybrdObdgt7uMIsFC94eB38o",
+    "etag": "wqDjx4r7ri8wdbR1n-YqMn1t8_g",
     "id": {
       "kind": "youtube#video",
-      "videoId": "yMxD3gdeXmk"
+      "videoId": "cGIM7WWPWcY"
     },
     "snippet": {
-      "publishedAt": "2023-04-06T16:29:25Z",
-      "channelId": "UCKAtPxfE2RAHSCwDABMMeAg",
-      "title": "Jasna Góra Klasztor Ojców Paulinów – transmisja na żywo, ON-LINE, msza święta na żywo",
-      "description": "Wspomóż transmisje z Jasnej Góry wpłacając dobrowolną kwotę przez TPay lub PayPal: https://tpay.jasnagora.pl/ ...",
+      "publishedAt": "2024-06-12T18:29:54Z",
+      "channelId": "UCJBVNt_BTTl2v4qtLScyxpw",
+      "title": "News On 6 NOW",
+      "description": "Welcome to the News On 6 NOW on YouTube. Join us here for continuous coverage of breaking weather events in Tulsa and the ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/yMxD3gdeXmk/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/yMxD3gdeXmk/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/yMxD3gdeXmk/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Jasna Góra Klasztor Ojców Paulinów",
+      "channelTitle": "News On 6/KOTV",
       "liveBroadcastContent": "live",
-      "publishTime": "2023-04-06T16:29:25Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "ExpsLq1Ty9s437XVVg5ApJudq5E",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "kHwmzef842g"
-    },
-    "snippet": {
-      "publishedAt": "2022-07-15T20:40:20Z",
-      "channelId": "UCdoo7oheBvREC-WvZ604Ngg",
-      "title": "Webcam Zürich HB",
-      "description": "Webcam Zürich HB Watch with timetable: https://bahnbilder.ch/webcamzhb.",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/kHwmzef842g/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/kHwmzef842g/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/kHwmzef842g/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "David Gubler",
-      "liveBroadcastContent": "live",
-      "publishTime": "2022-07-15T20:40:20Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "a4OUUDAsUP2NRrDn3SMAdT0dL6c",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "bn1yqLI9U3Q"
-    },
-    "snippet": {
-      "publishedAt": "2024-06-26T13:17:39Z",
-      "channelId": "UCP_T_GqYquLmsIpmDpJvULw",
-      "title": "Shop LC LIVE",
-      "description": "Thanks for watching Shop LC Live, where our purpose is Delivering Joy 24/7/365! Shop LC is your home for amazing jewelry, ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Shop LC",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-06-26T13:17:39Z"
+      "publishTime": "2024-06-12T18:29:54Z"
     }
   },
   {
@@ -477,40 +341,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "bnutxmX4pZWYuOX_qE-ohnH5vmY",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "CjhDe-aAh1U"
-    },
-    "snippet": {
-      "publishedAt": "2023-09-10T11:52:58Z",
-      "channelId": "UCCCVkU6r9ZTD8E4z7AtuOIw",
-      "title": "KATHMANDU - NEPAL - LIVE",
-      "description": "Please enjoy the views of Kathmandu - the capital city of Nepal. Webcam Nepal Live is a cutting-edge online platform that brings ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/CjhDe-aAh1U/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/CjhDe-aAh1U/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/CjhDe-aAh1U/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "WEBCAM NEPAL LIVE",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-09-10T11:52:58Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "2WhUUNIJg1lWmvsOWsWwUsgHptY",
     "id": {
       "kind": "youtube#video",
@@ -545,41 +375,7 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "z3V-2q-MBbHYqrt49hWAADf1Sno",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "XcftFX_Cwy4"
-    },
-    "snippet": {
-      "publishedAt": "2021-01-19T12:35:11Z",
-      "channelId": "UCagckRRHeGkG7iwPl91hUpg",
-      "title": "Bud og Hustadvika Live",
-      "description": "",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Live Norway",
-      "liveBroadcastContent": "live",
-      "publishTime": "2021-01-19T12:35:11Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "ZIU8yQc7zSYQHuw_0fnp7CfuAn8",
+    "etag": "e1ysaORI_-GVF5h3LdGHgv2JFG0",
     "id": {
       "kind": "youtube#video",
       "videoId": "tqyr2awdtE4"
@@ -588,7 +384,7 @@
       "publishedAt": "2024-06-12T21:11:08Z",
       "channelId": "UCaqEHP76q9TblVUO3sHFSQQ",
       "title": "LIVE: Watch Very Pennsylvania by WGAL NOW! Lancaster news, weather and more.",
-      "description": "Now Playing: - Chronicle: Bring Them Home (2017) Taken from their reservations, thousands of Native American children ...",
+      "description": "Now Playing: - 30 Min Documentaries 30 Min Documentaries Upcoming: - Crimes, Cons and Capers: The Oddest Cases of Family ...",
       "thumbnails": {
         "default": {
           "url": "https://i.ytimg.com/vi/tqyr2awdtE4/default_live.jpg",
@@ -609,6 +405,40 @@
       "channelTitle": "wgaltv",
       "liveBroadcastContent": "live",
       "publishTime": "2024-06-12T21:11:08Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "bnutxmX4pZWYuOX_qE-ohnH5vmY",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "CjhDe-aAh1U"
+    },
+    "snippet": {
+      "publishedAt": "2023-09-10T11:52:58Z",
+      "channelId": "UCCCVkU6r9ZTD8E4z7AtuOIw",
+      "title": "KATHMANDU - NEPAL - LIVE",
+      "description": "Please enjoy the views of Kathmandu - the capital city of Nepal. Webcam Nepal Live is a cutting-edge online platform that brings ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/CjhDe-aAh1U/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CjhDe-aAh1U/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CjhDe-aAh1U/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "WEBCAM NEPAL LIVE",
+      "liveBroadcastContent": "live",
+      "publishTime": "2023-09-10T11:52:58Z"
     }
   },
   {
@@ -647,70 +477,70 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "btW9tx-gquQhGQqwtejsAewQk3k",
+    "etag": "lXWUm3ydgo5KXgfrwVdvp9qk1PE",
     "id": {
       "kind": "youtube#video",
-      "videoId": "SzXznLd3efM"
+      "videoId": "CC0Of4wMwnk"
     },
     "snippet": {
-      "publishedAt": "2024-11-17T02:35:57Z",
-      "channelId": "UC5TfuWJq9iU-gUp4nXr0z3Q",
-      "title": "🔴【1 Hour Game Jam】 Let&#39;s make games together! (Nov 22nd)",
-      "description": "Join us using the itch io link below, or just hang out and witness the chaos. After I make my game, here's where we'll check out ...",
+      "publishedAt": "2024-08-03T06:52:59Z",
+      "channelId": "UCpzi8BbsXCUoSlfbTBDMRKA",
+      "title": "Medjugorje LIVE  24/7 - St. James Church - Crkva sv. Jakova",
+      "description": "medjugorje #medjugorjelive #queenofpeace #church #stjames #gospintrg #svjakov #crkvasvjakova #medjugorjeenvivo Dear ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/SzXznLd3efM/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/CC0Of4wMwnk/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/SzXznLd3efM/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/CC0Of4wMwnk/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/SzXznLd3efM/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/CC0Of4wMwnk/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Hyper Game Dev!",
+      "channelTitle": "Medjugorje Today Live",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-17T02:35:57Z"
+      "publishTime": "2024-08-03T06:52:59Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "oQ-8JtTGUBGwqcEtdSKHwwoX5u4",
+    "etag": "5AsIEqvjrN7pjfcxGWnf-iNR75s",
     "id": {
       "kind": "youtube#video",
-      "videoId": "CYdUKfJAYNo"
+      "videoId": "zpVRx505C9w"
     },
     "snippet": {
-      "publishedAt": "2024-07-21T00:36:38Z",
-      "channelId": "UC3ACLDxuy75577-GDItIgNA",
-      "title": "LIVE HORA CERTA 24/7 | RELÓGIO AO VIVO  UTC-3 (HORÁRIO DE BRASÍLIA) HORA OFICIAL DE BRASÍLIA Ao Vivo",
-      "description": "LIVE HORA CERTA 24/7 | RELÓGIO AO VIVO UTC-3 (HORÁRIO DE BRASÍLIA) HORA OFICIAL DE BRASÍLIA Ao Vivo \"HORA ...",
+      "publishedAt": "2022-07-26T01:28:54Z",
+      "channelId": "UCAhqlmltCW94ipicG8X-oLw",
+      "title": "Live Earthquake Information - RaspberryShake 4D Seismograph RD29A - Chino Hills, Southern California",
+      "description": "Live earthquake stream from a RaspberryShake 4D seismograph in Chino Hills, Ca (Southern California) Guide to this stream ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/CYdUKfJAYNo/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/zpVRx505C9w/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/CYdUKfJAYNo/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/zpVRx505C9w/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/CYdUKfJAYNo/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/zpVRx505C9w/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Canal Sr. Vaquinha",
+      "channelTitle": "Steve Caron",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-07-21T00:36:38Z"
+      "publishTime": "2022-07-26T01:28:54Z"
     }
   },
   {
@@ -783,74 +613,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "2fUFZP5N5wMkKfZ2YPo0CPwQ46I",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "GDbppXqzpgM"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T22:28:37Z",
-      "channelId": "UC7AnNQw0z_eZ9aHKFNHWNcA",
-      "title": "🔴LIVE - Family fortnite friday fun! Use code CHOWLBPLAYS in the item shop",
-      "description": "Family time with the kid to play some fortnite before the end of the season! Ranked? maybe? Use creator code CHOWLBPLAYS to ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/GDbppXqzpgM/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/GDbppXqzpgM/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/GDbppXqzpgM/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "ChowlbPlays",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T22:28:37Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "7tGac9X2F9Hf_4jsyL1Evtvt8dw",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "iGPN0xrwr0w"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T22:32:27Z",
-      "channelId": "UC7AnNQw0z_eZ9aHKFNHWNcA",
-      "title": "🔴LIVE on Shorts! Family Fortnite Fun with the kid! Use code Chowlbplays in the item shop!",
-      "description": "Getting in some much needed family fortnite time with the kid before the season ends! Wish us luck! Use creator code ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/iGPN0xrwr0w/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/iGPN0xrwr0w/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/iGPN0xrwr0w/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "ChowlbPlays",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T22:32:27Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "dOdfG_aBXHHV1QHjzf7pJsQvIkI",
     "id": {
       "kind": "youtube#video",
@@ -881,40 +643,6 @@
       "channelTitle": "Bigfoot Zipline Tours",
       "liveBroadcastContent": "live",
       "publishTime": "2022-10-19T19:49:00Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "ydaqWA0OGmhyIdDXjdMx-9GmqcE",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "xuiSes92wRw"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T22:33:19Z",
-      "channelId": "UCvvhgzcO1X3dpV8J8Fri8Gg",
-      "title": "Houston, We have a Problem, Live Cast 547: GME almost made it...",
-      "description": "Just shy of $28, I don't expect much gamma, but some fails to deliver may be piling up next week as well as having to make due ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/xuiSes92wRw/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/xuiSes92wRw/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/xuiSes92wRw/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "houstonwade",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T22:33:19Z"
     }
   },
   {
