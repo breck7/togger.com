@@ -1,0 +1,19 @@
+urlParser
+ extends abstractIdParser
+ float sortIndex 1.1
+
+channelidParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.2
+
+channeltitleParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.3
+
+currentstreamParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.4
+
+streamtimeParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.5
