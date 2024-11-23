@@ -1,4 +1,11 @@
 buildJson
-loadConcepts channels
+channels.parsers
+
+channels/ambience.scroll
+channels/coding.scroll
+channels/general.scroll
+channels/science.scroll
+channels/warpcast.scroll
+
 concepts
  printTable

@@ -6,12 +6,19 @@ let control = document.querySelector(".control")
 let powerScreen = document.querySelector(".power-screen")
 const lodash = _
 
-const makeDeepLink = (platform, channelName) =>
-  [platform, channelName.replace(/\s+/g, "")].join(".")
+const makeDeepLink = (platform, channeltitle) =>
+  [platform, channeltitle.replace(/\s+/g, "")].join(".")
 
 class Togger {
   constructor() {
-    this.collectionNames = Array.from(new Set(channels.map(c => c.collections).join(" ").split(" ")))
+    this.collectionNames = Array.from(
+      new Set(
+        channels
+          .map((c) => c.collections)
+          .join(" ")
+          .split(" "),
+      ),
+    )
     const params = new URLSearchParams(window.location.search)
     this.loadStreams(params.get("collection") || params.get("p"))
     this.currentIndex = this.getInitialIndex()
@@ -22,10 +29,15 @@ class Togger {
     this.addRemoteControl()
   }
 
+  get channels() {
+    return channels
+  }
+
   getCollection(collectionName = "science") {
-    if (!collectionNames[collectionName]) collectionName = "science"
+    const { collectionNames } = this
+    if (!collectionNames.includes(collectionName)) collectionName = "science"
     this.collectionName = collectionName
-    return channels.filter(c => c.collection.includes("collectionName"))
+    return this.channels.filter((c) => c.collections?.includes(collectionName))
   }
 
   get collectionIndex() {
@@ -55,16 +67,14 @@ class Togger {
   loadStreams(collectionName) {
     const streams = this.getCollection(collectionName)
     this.streams = streams.map((item) => {
-      const channelName = item.snippet.channelTitle
-      const title = item.snippet.title
+      const channeltitle = item.channeltitle
       const platform = "youtube"
       return {
-        channelName,
-        link: `https://youtube.com/channel/${item.snippet.channelId}`,
-        streamLink: item.id.videoId,
+        channeltitle,
+        link: `https://youtube.com/channel/${item.channelid}`,
+        streamLink: item.currentstream,
         platform: "youtube",
-        title,
-        deepLink: makeDeepLink(platform, channelName),
+        deepLink: makeDeepLink(platform, channeltitle),
       }
     })
 
@@ -261,7 +271,7 @@ class Togger {
 
   getChannelName(videoData) {
     const current = this.streams[this.currentIndex]
-    return `<a href="${current.link}" target="_blank">${current.platform}@${current.channelName}</a>`
+    return `<a href="${current.link}" target="_blank">${current.platform}@${current.channeltitle}</a>`
   }
 
   checkIfLive() {
@@ -286,9 +296,7 @@ class Togger {
 
       videoId.textContent = `${videoData.video_id} ${isLive ? "(LIVE)" : ""}`
 
-      if (channelName) {
-        this.updateChannelDisplay(videoData, isLive)
-      }
+      this.updateChannelDisplay(videoData, isLive)
     } else if (event.data == YT.PlayerState.PAUSED) {
       videoId.textContent = "PAUSED"
     } else if (event.data == YT.PlayerState.BUFFERING) {
