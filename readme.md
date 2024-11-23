@@ -38,4 +38,7 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-Made with ❤️ at the Vercel Nvidia Hackathon.
+Originally made and launched at the Vercel Nvidia Hackathon.
+
+Made possible by https://warpcast.com/phil, https://warpcast.com/benersing, and 
+https://warpcast.com/christin.
