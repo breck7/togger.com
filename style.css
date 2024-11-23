@@ -192,7 +192,7 @@ body {
   }
 }
 
-.volume-indicator, .channel-name {
+.indicator, .channel-name {
   font-size: 2rem;
   color: #00ff22;
   text-transform: uppercase;

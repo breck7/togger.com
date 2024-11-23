@@ -19,7 +19,8 @@ const collections = {
 
 class Togger {
   constructor() {
-    this.loadStreams(new URLSearchParams(window.location.search).get("p"))
+    const params = new URLSearchParams(window.location.search)
+    this.loadStreams(params.get("collection") || params.get("p"))
     this.currentIndex = this.getInitialIndex()
     this.isPoweredOn = true
     this.isMuted = true
@@ -48,6 +49,7 @@ class Togger {
       collectionNames[(collectionIndex + 1) % collectionNames.length]
     this.loadStreams(collectionName)
     this.nextChannel()
+    this.showIndicator(collectionName)
   }
 
   previousCollection() {
@@ -58,6 +60,7 @@ class Togger {
       ]
     this.loadStreams(collectionName)
     this.previousChannel()
+    this.showIndicator(collectionName)
   }
 
   loadStreams(collectionName) {
@@ -84,7 +87,7 @@ class Togger {
 
   getInitialIndex() {
     const params = new URLSearchParams(window.location.search)
-    const deepLink = params.get("c")
+    const deepLink = params.get("channel") || params.get("c")
     if (!deepLink) return 0
 
     const hit = this.streams.findIndex((stream) => stream.deepLink === deepLink)
@@ -150,20 +153,21 @@ class Togger {
   }
 
   showVolumeIndicator() {
-    const volume = this.volume
-    const isMuted = this.isMuted
+    const { volume, isMuted } = this
+    this.showIndicator(isMuted ? "MUTED" : `Volume: ${volume}%`)
+  }
 
-    const volumeIndicator = document.querySelector(".volume-indicator")
+  showIndicator(message) {
+    const indicator = document.querySelector(".indicator")
+    indicator.textContent = message
+    indicator.style.display = "block"
 
-    volumeIndicator.textContent = isMuted ? "MUTED" : `Volume: ${volume}%`
-    volumeIndicator.style.display = "block"
+    if (this.indicatorTimeout) clearTimeout(this.indicatorTimeout)
 
-    if (this.volumeTimeout) clearTimeout(this.volumeTimeout)
-
-    // Hide the indicator after 2 seconds
-    this.volumeTimeout = setTimeout(() => {
-      volumeIndicator.style.display = "none"
-    }, 2000)
+    // Hide the indicator after 3 seconds
+    this.indicatorTimeout = setTimeout(() => {
+      indicator.style.display = "none"
+    }, 3000)
   }
 
   increaseVolume() {
@@ -214,8 +218,11 @@ class Togger {
       // Get current URL parameters
       const params = new URLSearchParams(window.location.search)
       // Update the channel parameter
-      params.set("c", current.deepLink)
-      params.set("p", this.collectionName)
+      params.delete("c")
+      params.delete("p")
+      params.set("channel", current.deepLink)
+      params.set("collection", this.collectionName)
+
       // Replace state with all parameters
       window.history.replaceState({}, "", `?${params.toString()}`)
     }
@@ -309,7 +316,7 @@ class Togger {
   addVolumeIndicator() {
     // Create volume indicator element
     const volumeIndicator = document.createElement("div")
-    volumeIndicator.className = "volume-indicator"
+    volumeIndicator.className = "indicator"
     volumeIndicator.style.cssText = `
   position: fixed;
   top: 20px;
@@ -450,8 +457,8 @@ class Togger {
 
     // Add volume buttons
     const volumeRow = createButtonRow([
-      createButton("VOL-", "ArrowDown"),
-      createButton("VOL+", "ArrowUp"),
+      createButton("COL-", "ArrowDown"),
+      createButton("COL+", "ArrowUp"),
     ])
     remote.appendChild(volumeRow)
 
