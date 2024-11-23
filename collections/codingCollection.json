@@ -307,36 +307,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "XC4R28FGwDr2BMNe4cHU9wJ__6E",
+    "etag": "asLnHD3CRCZmfFlYbCblryptf8E",
     "id": {
       "kind": "youtube#video",
-      "videoId": "5MoZ1hJuvqM"
+      "videoId": "x4rFhThSX04"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T15:00:13Z",
+      "publishedAt": "2024-11-20T18:25:12Z",
       "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
-      "title": "Automating a coffee shop chain using self-taught coding skills with Eamonn Cottrell [Interview #151]",
-      "description": "On this week's episode of the podcast, freeCodeCamp founder Quincy Larson interviews Eamonn Cottrell. He's a software ...",
+      "title": "Learn React JS - Full Beginner’s Tutorial (2024) &amp; Practice Projects",
+      "description": "Learn modern React basics in the most interactive, hands-on way possible in the full course for beginners. Throughout this tutorial ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/5MoZ1hJuvqM/default.jpg",
+          "url": "https://i.ytimg.com/vi/x4rFhThSX04/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/5MoZ1hJuvqM/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/x4rFhThSX04/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/5MoZ1hJuvqM/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/x4rFhThSX04/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
       "channelTitle": "freeCodeCamp.org",
       "liveBroadcastContent": "none",
-      "publishTime": "2024-11-22T15:00:13Z"
+      "publishTime": "2024-11-20T18:25:12Z"
     }
   },
   {
