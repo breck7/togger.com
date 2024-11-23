@@ -3,7 +3,7 @@ import { YouTubeFeed } from "./youtube.mjs"
 const yt = new YouTubeFeed("AIzaSyAy0N613PtrIohnjsXOn3kqbRxa5M5mdRQ")
 
 yt.generateCollection("live -bot -lofi", "general")
-yt.generateCollection("coding programming live -bot -lofi -music", "coding")
+//yt.generateCollection("coding programming live -bot -lofi -music", "coding")
 yt.generateCollection("live ambient music", "ambience")
 yt.generateCollection("live -bot science", "science")
 
