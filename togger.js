@@ -9,9 +9,16 @@ const lodash = _
 const makeDeepLink = (platform, channelName) =>
   [platform, channelName.replace(/\s+/g, "")].join(".")
 
+const collections = {
+  warpcast: warpcastCollection,
+  coding: codingCollection,
+  general: generalCollection,
+  ambience: ambienceCollection,
+}
+
 class Togger {
   constructor() {
-    this.loadStreams()
+    this.loadStreams(new URLSearchParams(window.location.search).get("p"))
     this.currentIndex = this.getInitialIndex()
     this.isPoweredOn = true
     this.isMuted = true
@@ -20,10 +27,31 @@ class Togger {
     this.addRemoteControl()
   }
 
-  loadStreams() {
-    const params = new URLSearchParams(window.location.search)
-    const platform = params.get("p")
-    const streams = platform === "warpcast" ? warpcastNow : youtubeNow
+  getCollection(collectionName) {
+    this.collectionName = collectionName
+    if (collections[collectionName]) return collections[collectionName]
+    this.collectionName = "general"
+    return generalCollection
+  }
+
+  get collectionIndex() {
+    return Object.keys(collections).indexOf(this.collectionName)
+  }
+
+  get collectionNames() {
+    return Object.keys(collections)
+  }
+
+  nextCollection() {
+    const { collectionNames } = this
+    const collectionName =
+      collectionNames[(this.collectionIndex + 1) % collectionNames.length]
+    this.loadStreams(collectionName)
+    this.nextChannel()
+  }
+
+  loadStreams(collectionName) {
+    const streams = this.getCollection(collectionName)
     this.streams = streams.map((item) => {
       const channelName = item.snippet.channelTitle
       const title = item.snippet.title
@@ -32,7 +60,7 @@ class Togger {
         channelName,
         link: `https://youtube.com/channel/${item.snippet.channelId}`,
         streamLink: item.id.videoId,
-        platform,
+        platform: "youtube",
         title,
         deepLink: makeDeepLink(platform, channelName),
       }
@@ -42,8 +70,6 @@ class Togger {
     this.streams = Array.from(
       new Map(this.streams.map((item) => [item.deepLink, item])).values(),
     )
-
-    this.streams = lodash.shuffle(this.streams)
   }
 
   getInitialIndex() {
@@ -65,6 +91,11 @@ class Togger {
     window.addEventListener("resize", () => this.resizePlayer(), true)
   }
 
+  shuffle() {
+    this.streams = lodash.shuffle(this.streams)
+    this.nextChannel()
+  }
+
   bindKeyboardControls() {
     document.addEventListener("keydown", (event) => {
       switch (event.key.toLowerCase()) {
@@ -83,8 +114,14 @@ class Togger {
         case "m":
           this.toggleMute()
           break
+        case "c":
+          this.nextCollection()
+          break
         case "p":
           this.togglePower()
+          break
+        case "s":
+          this.shuffle()
           break
       }
     })
@@ -168,6 +205,7 @@ class Togger {
       const params = new URLSearchParams(window.location.search)
       // Update the channel parameter
       params.set("c", current.deepLink)
+      params.set("p", this.collectionName)
       // Replace state with all parameters
       window.history.replaceState({}, "", `?${params.toString()}`)
     }
@@ -239,7 +277,6 @@ class Togger {
       // Get video data and check live status
       const videoData = this.player.getVideoData()
       const isLive = this.checkIfLive()
-      console.log(isLive)
 
       videoId.textContent = `${videoData.video_id} ${isLive ? "(LIVE)" : ""}`
 
@@ -447,7 +484,7 @@ function onYouTubeIframeAPIReady() {
     events: {
       onReady: (event) => togger.onReady(event),
       onStateChange: (event) => togger.onPlayerStateChange(event),
-      onError: (event) => console.error(event.data),
+      onError: (event) => console.error(event),
     },
   })
 

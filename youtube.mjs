@@ -1,4 +1,10 @@
 import fs from "fs/promises"
+import path from "path"
+import { fileURLToPath } from "url"
+import { dirname } from "path"
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 // https://developers.google.com/youtube/v3/docs/search
 
@@ -7,10 +13,10 @@ class YouTubeFeed {
     this.apiKey = apiKey
   }
 
-  async fetchLiveStreams(maxResults = 100) {
+  async fetchLiveStreams(query, maxResults = 100) {
     const endpoint = "https://www.googleapis.com/youtube/v3/search"
     const params = new URLSearchParams({
-      q: "coding programming live -bot -lofi -music",
+      q: query,
       part: "snippet",
       eventType: "live",
       type: "video",
@@ -79,11 +85,25 @@ class YouTubeFeed {
     return streams
   }
 
-  async updateLiveNow() {
+  async channelsToCollection(channels, name) {
+    const streams = await this.fetchChannelStreams(channels)
+    await this.saveCollection(streams, name)
+  }
+
+  async saveCollection(streams, name) {
+    const filepath = path.join(
+      __dirname,
+      "collections",
+      name + "Collection.json",
+    )
+    await fs.writeFile(filepath, JSON.stringify(streams, null, 2))
+    console.log(`Saved ${streams.length} streams to ${filepath}`)
+  }
+
+  async generateCollection(query, name) {
     try {
-      const streams = await this.fetchLiveStreams()
-      await fs.writeFile("youtubeNow.json", JSON.stringify(streams, null, 2))
-      console.log(`Saved ${streams.length} streams to youtube.json`)
+      const streams = await this.fetchLiveStreams(query)
+      await this.saveCollection(streams, name)
     } catch (error) {
       console.error("Failed to fetch or save streams:", error)
       process.exit(1)

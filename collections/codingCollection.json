@@ -1,40 +1,6 @@
 [
   {
     "kind": "youtube#searchResult",
-    "etag": "-sIJ6KnezTyA5V5OUhpUB1LxVEA",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "gRFHIzCiZmU"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T20:12:49Z",
-      "channelId": "UCysVK648GqOjs54HWyXyBuA",
-      "title": "🔴 Live POCKET OPTION TRADING | Pocket Option App | Pocket Option | Binary Options #livetrading",
-      "description": "Hi! This is my binary options video. I will show you how I trade on the binary options strategy on the pocket option. Binary options ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/gRFHIzCiZmU/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/gRFHIzCiZmU/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/gRFHIzCiZmU/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Lady Trader",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T20:12:49Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "A47qNZ-8pM7aGaIHqkrgZJsPtyQ",
     "id": {
       "kind": "youtube#video",
@@ -69,36 +35,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "qVMN9ZEcRvuKk-cKqlYo5dmnw_s",
+    "etag": "-sIJ6KnezTyA5V5OUhpUB1LxVEA",
     "id": {
       "kind": "youtube#video",
-      "videoId": "xbe2UMVofAU"
+      "videoId": "gRFHIzCiZmU"
     },
     "snippet": {
-      "publishedAt": "2024-11-05T05:51:08Z",
-      "channelId": "UCRWWzoOrQLPGJLKs1gAf2yA",
-      "title": "FREE FIRE LIVE CUSTOM ROOM GIVEAWAY FF LIVE TEAM CODE GIVEAWAY|#freefirelive #giveaway #nawabislive",
-      "description": "YOUR SEARCH TERMS 1.ff live redeem code 2.ff giveaway diomond 3.ff giveaway live custom winner 4.ff live giveaway custom ...",
+      "publishedAt": "2024-11-22T20:12:49Z",
+      "channelId": "UCysVK648GqOjs54HWyXyBuA",
+      "title": "🔴 Live POCKET OPTION TRADING | Pocket Option App | Pocket Option | Binary Options #livetrading",
+      "description": "Hi! This is my binary options video. I will show you how I trade on the binary options strategy on the pocket option. Binary options ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/gRFHIzCiZmU/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/gRFHIzCiZmU/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/gRFHIzCiZmU/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "NAWABISLIVE",
+      "channelTitle": "Lady Trader",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-05T05:51:08Z"
+      "publishTime": "2024-11-22T20:12:49Z"
     }
   },
   {
@@ -137,6 +103,74 @@
   },
   {
     "kind": "youtube#searchResult",
+    "etag": "Sep9WvfhRa32-T3w1Zv7iL8OuMM",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "3Yu1yymncOs"
+    },
+    "snippet": {
+      "publishedAt": "2024-10-10T10:14:28Z",
+      "channelId": "UC2oaqitUiwcbYPnh9zLR50g",
+      "title": "🔴LIVE : DARSHAN - VADTALDHAM 01",
+      "description": "Website:- https://www.vadtalmandir.org Youtube :- https://www.youtube.com/vadtalmandir Facebook ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3Yu1yymncOs/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3Yu1yymncOs/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3Yu1yymncOs/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "VADTAL MANDIR",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-10-10T10:14:28Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "qVMN9ZEcRvuKk-cKqlYo5dmnw_s",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "xbe2UMVofAU"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-05T05:51:08Z",
+      "channelId": "UCRWWzoOrQLPGJLKs1gAf2yA",
+      "title": "FREE FIRE LIVE CUSTOM ROOM GIVEAWAY FF LIVE TEAM CODE GIVEAWAY|#freefirelive #giveaway #nawabislive",
+      "description": "YOUR SEARCH TERMS 1.ff live redeem code 2.ff giveaway diomond 3.ff giveaway live custom winner 4.ff live giveaway custom ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "NAWABISLIVE",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-05T05:51:08Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
     "etag": "bS3c65Shvx12jWF7mQUoTYePIa4",
     "id": {
       "kind": "youtube#video",
@@ -171,36 +205,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "dSRsMoSUIY593RzFpUYRLyAj13Q",
+    "etag": "l13UCu-zsFHAyTFvLPcl8I89j4I",
     "id": {
       "kind": "youtube#video",
-      "videoId": "dUs4JqnWixw"
+      "videoId": "a0EwGJwicXc"
     },
     "snippet": {
-      "publishedAt": "2024-10-21T13:09:37Z",
-      "channelId": "UCU31-9qcY1RDuMad67dbuhw",
-      "title": "HENFLIX - LIVE Chickens - Feed the chickens online!",
-      "description": "Please LIKE & SHARE our highlights videos and SUBSCRIBE to our channel, so you won't miss anything. You can find all of our ...",
+      "publishedAt": "2024-08-12T15:46:32Z",
+      "channelId": "UCwKS2U-DwjPZZvM6mSXPKgA",
+      "title": "بث مباشر | قناة المغاربية Almagharibia TV Live Stream",
+      "description": "LIVE تابع البث المباشر لقناة المغاربية             بث مباشر | قناة المغاربية Almagharibia TV Live Stream --------------- تعمل ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Madarles - Live Bird Cams",
+      "channelTitle": "Almagharibia TV قناة المغاربية",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-10-21T13:09:37Z"
+      "publishTime": "2024-08-12T15:46:32Z"
     }
   },
   {
@@ -239,6 +273,74 @@
   },
   {
     "kind": "youtube#searchResult",
+    "etag": "0ufO0GZ5XhGZS90hn_qaS2Rfzyw",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "SlpTSiNv-m4"
+    },
+    "snippet": {
+      "publishedAt": "2024-01-23T14:10:44Z",
+      "channelId": "UC_vFLohxs5PkAxlk7Y6jEtw",
+      "title": "LIVE: ABC7 Chicago Eyewitness News",
+      "description": "Watch ABC7 Chicago for live news and updates on what's happening in your community. Click the subscribe button to be notified ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/SlpTSiNv-m4/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/SlpTSiNv-m4/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/SlpTSiNv-m4/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "ABC 7 Chicago",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-01-23T14:10:44Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "dXUBybrdObdgt7uMIsFC94eB38o",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "yMxD3gdeXmk"
+    },
+    "snippet": {
+      "publishedAt": "2023-04-06T16:29:25Z",
+      "channelId": "UCKAtPxfE2RAHSCwDABMMeAg",
+      "title": "Jasna Góra Klasztor Ojców Paulinów – transmisja na żywo, ON-LINE, msza święta na żywo",
+      "description": "Wspomóż transmisje z Jasnej Góry wpłacając dobrowolną kwotę przez TPay lub PayPal: https://tpay.jasnagora.pl/ ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/yMxD3gdeXmk/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/yMxD3gdeXmk/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/yMxD3gdeXmk/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Jasna Góra Klasztor Ojców Paulinów",
+      "liveBroadcastContent": "live",
+      "publishTime": "2023-04-06T16:29:25Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
     "etag": "rn9joLSJ6-6C9wft2QrLhYnDiq8",
     "id": {
       "kind": "youtube#video",
@@ -273,36 +375,104 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "wqDjx4r7ri8wdbR1n-YqMn1t8_g",
+    "etag": "dSRsMoSUIY593RzFpUYRLyAj13Q",
     "id": {
       "kind": "youtube#video",
-      "videoId": "cGIM7WWPWcY"
+      "videoId": "dUs4JqnWixw"
     },
     "snippet": {
-      "publishedAt": "2024-06-12T18:29:54Z",
-      "channelId": "UCJBVNt_BTTl2v4qtLScyxpw",
-      "title": "News On 6 NOW",
-      "description": "Welcome to the News On 6 NOW on YouTube. Join us here for continuous coverage of breaking weather events in Tulsa and the ...",
+      "publishedAt": "2024-10-21T13:09:37Z",
+      "channelId": "UCU31-9qcY1RDuMad67dbuhw",
+      "title": "HENFLIX - LIVE Chickens - Feed the chickens online!",
+      "description": "Please LIKE & SHARE our highlights videos and SUBSCRIBE to our channel, so you won't miss anything. You can find all of our ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "News On 6/KOTV",
+      "channelTitle": "Madarles - Live Bird Cams",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-06-12T18:29:54Z"
+      "publishTime": "2024-10-21T13:09:37Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "z3V-2q-MBbHYqrt49hWAADf1Sno",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "XcftFX_Cwy4"
+    },
+    "snippet": {
+      "publishedAt": "2021-01-19T12:35:11Z",
+      "channelId": "UCagckRRHeGkG7iwPl91hUpg",
+      "title": "Bud og Hustadvika Live",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Live Norway",
+      "liveBroadcastContent": "live",
+      "publishTime": "2021-01-19T12:35:11Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "a4OUUDAsUP2NRrDn3SMAdT0dL6c",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "bn1yqLI9U3Q"
+    },
+    "snippet": {
+      "publishedAt": "2024-06-26T13:17:39Z",
+      "channelId": "UCP_T_GqYquLmsIpmDpJvULw",
+      "title": "Shop LC LIVE",
+      "description": "Thanks for watching Shop LC Live, where our purpose is Delivering Joy 24/7/365! Shop LC is your home for amazing jewelry, ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Shop LC",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-06-26T13:17:39Z"
     }
   },
   {
@@ -375,36 +545,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "e1ysaORI_-GVF5h3LdGHgv2JFG0",
+    "etag": "wqDjx4r7ri8wdbR1n-YqMn1t8_g",
     "id": {
       "kind": "youtube#video",
-      "videoId": "tqyr2awdtE4"
+      "videoId": "cGIM7WWPWcY"
     },
     "snippet": {
-      "publishedAt": "2024-06-12T21:11:08Z",
-      "channelId": "UCaqEHP76q9TblVUO3sHFSQQ",
-      "title": "LIVE: Watch Very Pennsylvania by WGAL NOW! Lancaster news, weather and more.",
-      "description": "Now Playing: - 30 Min Documentaries 30 Min Documentaries Upcoming: - Crimes, Cons and Capers: The Oddest Cases of Family ...",
+      "publishedAt": "2024-06-12T18:29:54Z",
+      "channelId": "UCJBVNt_BTTl2v4qtLScyxpw",
+      "title": "News On 6 NOW",
+      "description": "Welcome to the News On 6 NOW on YouTube. Join us here for continuous coverage of breaking weather events in Tulsa and the ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/tqyr2awdtE4/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/tqyr2awdtE4/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/tqyr2awdtE4/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "wgaltv",
+      "channelTitle": "News On 6/KOTV",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-06-12T21:11:08Z"
+      "publishTime": "2024-06-12T18:29:54Z"
     }
   },
   {
@@ -443,40 +613,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "2H9IR7tC13ELK_4xvCDAkZkZ23k",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "FaXe7LL5VWU"
-    },
-    "snippet": {
-      "publishedAt": "2018-08-03T00:44:44Z",
-      "channelId": "UCzV3Xt_qXi8KaaBR58q-qFg",
-      "title": "24/7 Final Fantasy Community Stream - Walkthroughs By Dansg08 - Final Fantasy &amp; Chill Since 2018",
-      "description": "Currently Playing FFVII Rebirth - https://youtu.be/Q3Wywq-gCcE ▻Streaming Final Fantasy all day every day, since 2018 ▻Help ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/FaXe7LL5VWU/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/FaXe7LL5VWU/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/FaXe7LL5VWU/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Dansg08",
-      "liveBroadcastContent": "live",
-      "publishTime": "2018-08-03T00:44:44Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "lXWUm3ydgo5KXgfrwVdvp9qk1PE",
     "id": {
       "kind": "youtube#video",
@@ -511,6 +647,40 @@
   },
   {
     "kind": "youtube#searchResult",
+    "etag": "oQ-8JtTGUBGwqcEtdSKHwwoX5u4",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "CYdUKfJAYNo"
+    },
+    "snippet": {
+      "publishedAt": "2024-07-21T00:36:38Z",
+      "channelId": "UC3ACLDxuy75577-GDItIgNA",
+      "title": "LIVE HORA CERTA 24/7 | RELÓGIO AO VIVO  UTC-3 (HORÁRIO DE BRASÍLIA) HORA OFICIAL DE BRASÍLIA Ao Vivo",
+      "description": "LIVE HORA CERTA 24/7 | RELÓGIO AO VIVO UTC-3 (HORÁRIO DE BRASÍLIA) HORA OFICIAL DE BRASÍLIA Ao Vivo \"HORA ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/CYdUKfJAYNo/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CYdUKfJAYNo/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CYdUKfJAYNo/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Canal Sr. Vaquinha",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-07-21T00:36:38Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
     "etag": "5AsIEqvjrN7pjfcxGWnf-iNR75s",
     "id": {
       "kind": "youtube#video",
@@ -541,6 +711,108 @@
       "channelTitle": "Steve Caron",
       "liveBroadcastContent": "live",
       "publishTime": "2022-07-26T01:28:54Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "ejVOHZfSKsJH-4X3Zto5wkwuIy4",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "sdbSN8kpu68"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-22T15:50:08Z",
+      "channelId": "UCKt7TllYnUsCkocpzeX7Tfw",
+      "title": "World Today: Quick Take On #globalnews | #trump #putin #ukraine #modi #jaishankar #atacms #russia",
+      "description": "A quick round-up of global developments, only on StratNews Global ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/sdbSN8kpu68/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/sdbSN8kpu68/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/sdbSN8kpu68/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "StratNewsGlobal",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-22T15:50:08Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "di6890Kml9D1-KXy5FmEPJk71qg",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "SsPEnGjk-SU"
+    },
+    "snippet": {
+      "publishedAt": "2022-09-27T01:14:36Z",
+      "channelId": "UCw8RanrPpHhB42ffMvOtTJw",
+      "title": "Detroit Lakes Cam LIVE NOW | BNSF Staples Sub | @NTR-OTC | MP 210.1",
+      "description": "Live BNSF Staples Sub | Detroit Lakes Live Train Cam | Northern Transcon Railcams | MP 210.1 Welcome to our premier Detroit ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/SsPEnGjk-SU/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/SsPEnGjk-SU/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/SsPEnGjk-SU/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Northern Transcon Railcams - Otter Tail Channel",
+      "liveBroadcastContent": "live",
+      "publishTime": "2022-09-27T01:14:36Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "5rQsqUW2X37zRXlHX6blNQ0P-1A",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "rs2be3mqryo"
+    },
+    "snippet": {
+      "publishedAt": "2023-01-06T12:14:57Z",
+      "channelId": "UCXj6ROnZkzqgq6eYeoflO6A",
+      "title": "www.ultravisionconsult.com",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/rs2be3mqryo/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rs2be3mqryo/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rs2be3mqryo/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "ULTRAVISION CONSULT",
+      "liveBroadcastContent": "live",
+      "publishTime": "2023-01-06T12:14:57Z"
     }
   },
   {
@@ -643,40 +915,6 @@
       "channelTitle": "Bigfoot Zipline Tours",
       "liveBroadcastContent": "live",
       "publishTime": "2022-10-19T19:49:00Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "v2kksF2Ik9UhLJab8yH6JsmBwOQ",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "5xtnJdX1J4s"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T19:10:01Z",
-      "channelId": "UCnEhc40D1Yg4Wu7aRdaIh2w",
-      "title": "🔴 Fortnite Live! Playing with Viewers! Kit Returns! #fortnitelive #fortniteremix",
-      "description": "Become a LEGEND on my channel! https://www.youtube.com/@BarnOwlLegend/membership Discord ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/5xtnJdX1J4s/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/5xtnJdX1J4s/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/5xtnJdX1J4s/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "BarnOwlLegend",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T19:10:01Z"
     }
   },
   {

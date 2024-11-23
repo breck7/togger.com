@@ -4,8 +4,10 @@ header.scroll
 
 lodash.min.js
 
-jsonScript youtubeNow.json
-jsonScript warpcastNow.json
+jsonScript collections/generalCollection.json
+jsonScript collections/codingCollection.json
+jsonScript collections/warpcastCollection.json
+jsonScript collections/ambienceCollection.json
 
 <div id="player"></div>
 <div class="static-noise"></div>
