@@ -28,11 +28,10 @@ class Togger {
     this.addRemoteControl()
   }
 
-  getCollection(collectionName) {
+  getCollection(collectionName = "science") {
+    if (!collections[collectionName]) collectionName = "science"
     this.collectionName = collectionName
-    if (collections[collectionName]) return collections[collectionName]
-    this.collectionName = "science"
-    return generalCollection
+    return collections[collectionName]
   }
 
   get collectionIndex() {
