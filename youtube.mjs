@@ -26,6 +26,8 @@ class YouTubeFeed {
     try {
       const response = await fetch(`${endpoint}?${params}`)
       const data = await response.json()
+      console.log(data)
+      console.log(`${data.items.length} hits for '${query}'`)
       return data.items
     } catch (error) {
       console.error("Error fetching live streams:", error)
@@ -102,7 +104,9 @@ class YouTubeFeed {
 
   async generateCollection(query, name) {
     try {
+      console.log(`Fetching '${query}'`)
       const streams = await this.fetchLiveStreams(query)
+      console.log(`Saving ${streams.length} to ${name}`)
       await this.saveCollection(streams, name)
     } catch (error) {
       console.error("Failed to fetch or save streams:", error)
