@@ -19,7 +19,7 @@ const channelUrls = [
 	"https://www.youtube.com/@wolfofbaystreet",
 	// Add more channel URLs here
 ]
-// yt.channelsToCollection(channelUrls, "warpcast")
+yt.channelsToCollection(channelUrls, "warpcast")
 
 const codingChannels = `https://www.youtube.com/@theprimeagen
 https://www.youtube.com/@CodeWithChris
@@ -35,4 +35,4 @@ https://www.youtube.com/@JomaTech
 https://www.youtube.com/@CleverProgrammer
 https://www.youtube.com/@NickWhite
 https://www.youtube.com/@CodingPhase`.split(" ")
-yt.channelsToCollection(codingChannels, "coding")
+// yt.channelsToCollection(codingChannels, "coding")

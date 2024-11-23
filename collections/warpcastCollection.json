@@ -35,36 +35,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "RxGOMDLLgVwC__QsVBxnjzDalCs",
+    "etag": "roe90KXZwMTE2ifZkRgj9AS3OBc",
     "id": {
       "kind": "youtube#video",
-      "videoId": "i2HNF5KmkvE"
+      "videoId": "-o_cmWez244"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T23:35:07Z",
+      "publishedAt": "2024-11-23T02:23:49Z",
       "channelId": "UChEEElYETR8gpc_RL0GGJng",
-      "title": "GM Farcaster ep185 Friday November 22, 2024 with @stoic and @voteforpedro",
-      "description": "GM Farcaster ep185 Friday November 22, 2024 with @stoic and @voteforpedro Thanks to @stoic and @voteforpedro from the ...",
+      "title": "GM Farcaster ep185 Friday November 22, 2024 with guest @stoic",
+      "description": "",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/i2HNF5KmkvE/default.jpg",
+          "url": "https://i.ytimg.com/vi/-o_cmWez244/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/i2HNF5KmkvE/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/-o_cmWez244/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/i2HNF5KmkvE/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi/-o_cmWez244/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
       "channelTitle": "GM Farcaster",
       "liveBroadcastContent": "none",
-      "publishTime": "2024-11-22T23:35:07Z"
+      "publishTime": "2024-11-23T02:23:49Z"
     }
   },
   {
@@ -235,6 +235,40 @@
       "channelTitle": "Chris Follows",
       "liveBroadcastContent": "none",
       "publishTime": "2024-10-07T16:33:32Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "c4o1VtqQ0up0cY3tJTOYLzMha7s",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "MA35mi7OiSg"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-23T02:13:41Z",
+      "channelId": "UCfRAJMeyZKLiwue1J4J6DAQ",
+      "title": "Solving for Network Cold Start Problem - Dan Romero",
+      "description": "In this episode we have Dan Romero, founder/CEO of Farcaster - a decentralized social network. We discuss what is Farcaster, ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/MA35mi7OiSg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MA35mi7OiSg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MA35mi7OiSg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Wolf of Baystreet",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-11-23T02:13:41Z"
     }
   }
 ]
