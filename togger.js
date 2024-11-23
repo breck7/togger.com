@@ -9,6 +9,9 @@ const lodash = _
 const makeDeepLink = (platform, channeltitle) =>
   [platform, channeltitle.replace(/\s+/g, "")].join(".")
 
+const makeWarpCastLink = (link) =>
+  `<a target="warpcast" href="${link}" style="display: inline-block; background-color: #5d3e9e; color: white; padding: 8px 12px; border-radius: 12px; font-weight: bold; font-family: Arial;">W</span>`
+
 class Togger {
   constructor() {
     this.collectionNames = Array.from(
@@ -70,7 +73,7 @@ class Togger {
       const channeltitle = item.channeltitle
       const platform = "youtube"
       return {
-        channeltitle,
+        ...item,
         link: `https://youtube.com/channel/${item.channelid}`,
         streamLink: item.currentstream,
         platform: "youtube",
@@ -229,6 +232,7 @@ class Togger {
 
   updateChannelDisplay(videoData, isLive) {
     const current = this.streams[this.currentIndex]
+
     const liveIndicator = isLive
       ? '<span style="color: red; margin-left: 8px;">● LIVE</span>'
       : '<span style="color: white; margin-left: 8px;">OFF-AIR</span>'
@@ -238,6 +242,7 @@ class Togger {
         ${current.deepLink}
       </a>
       ${liveIndicator}
+      ${current.warpcast ? makeWarpCastLink(current.warpcast) : ""}
     `
   }
 
