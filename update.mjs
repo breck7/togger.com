@@ -2,10 +2,10 @@ import { YouTubeFeed } from "./youtube.mjs"
 
 const yt = new YouTubeFeed("AIzaSyAy0N613PtrIohnjsXOn3kqbRxa5M5mdRQ")
 
-// yt.generateCollection("live -bot -lofi", "general")
-// yt.generateCollection("coding programming live -bot -lofi -music", "coding")
-// yt.generateCollection("live ambient music", "ambience")
-// yt.generateCollection("live -bot science", "science")
+yt.generateCollection("live -bot -lofi", "general")
+yt.generateCollection("coding programming live -bot -lofi -music", "coding")
+yt.generateCollection("live ambient music", "ambience")
+yt.generateCollection("live -bot science", "science")
 
 const channelUrls = [
 	"https://www.youtube.com/@okbangershow",
@@ -35,4 +35,4 @@ https://www.youtube.com/@JomaTech
 https://www.youtube.com/@CleverProgrammer
 https://www.youtube.com/@NickWhite
 https://www.youtube.com/@CodingPhase`.split(" ")
-// yt.channelsToCollection(codingChannels, "coding")
+yt.channelsToCollection(codingChannels, "coding")

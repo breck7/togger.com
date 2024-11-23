@@ -4,7 +4,7 @@
   "description": "> It's not TV, it's Togger.",
   "main": "togger.js",
   "scripts": {
-    "build": "node fetch.mjs; scroll build",
+    "build": "node update.mjs; scroll build",
     "test": "scroll test"
   },
   "author": "Breck Yunits et al"
