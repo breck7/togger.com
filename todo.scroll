@@ -1,17 +1,19 @@
-[] will it work without API calls?
-[] Hand written collections are the best
+[x] will it work without API calls?
+[x] Hand written collections are the best
+
+
 [] 10 more collections
 [] 10x better collections
  [] live stream humans with chat up front
-[] can i move off the API?
-[] twitch?
+
+[] add twitch streams
+[] add x streams
 
 Bad Scenarios:
 [] People hit site and it doesnt work
 [] People hit site and see lots of Off Airs
-[] People hit site and see lots of B content
-
+[] People hit site and see lots of B streams
 
 Ideal Scenario:
-[] People hit site, everything works, and all content is A+++
+[] People hit site, everything works, and all streams are A+++
 [] People end up following 1+ new possibly life changing channels
