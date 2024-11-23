@@ -50,6 +50,14 @@ class Togger {
     this.nextChannel()
   }
 
+  previousCollection() {
+    const { collectionNames } = this
+    const collectionName =
+      collectionNames[(this.collectionIndex - 1) % collectionNames.length]
+    this.loadStreams(collectionName)
+    this.previousChannel()
+  }
+
   loadStreams(collectionName) {
     const streams = this.getCollection(collectionName)
     this.streams = streams.map((item) => {
@@ -106,16 +114,13 @@ class Togger {
           this.nextChannel()
           break
         case "arrowup":
-          this.increaseVolume()
+          this.nextCollection()
           break
         case "arrowdown":
-          this.decreaseVolume()
+          this.previousCollection()
           break
         case "m":
           this.toggleMute()
-          break
-        case "c":
-          this.nextCollection()
           break
         case "p":
           this.togglePower()
