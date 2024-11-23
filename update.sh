@@ -1,4 +1,4 @@
 node update.mjs
-git add collections/
+git add collectionsCache/
 git commit -m "updated collections"
 scroll build

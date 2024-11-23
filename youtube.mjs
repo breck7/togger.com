@@ -93,7 +93,7 @@ class YouTubeFeed {
   async saveCollection(streams, name) {
     const filepath = path.join(
       __dirname,
-      "collections",
+      "collectionsCache",
       name + "Collection.json",
     )
     await fs.writeFile(filepath, JSON.stringify(streams, null, 2))
