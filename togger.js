@@ -4,6 +4,7 @@ let muteIcon = document.querySelector(".muteIcon")
 let videoId = document.querySelector(".video-id")
 let control = document.querySelector(".control")
 let powerScreen = document.querySelector(".power-screen")
+const lodash = _
 
 const makeDeepLink = (platform, channelName) =>
   [platform, channelName.replace(/\s+/g, "")].join(".")
@@ -41,6 +42,8 @@ class Togger {
     this.streams = Array.from(
       new Map(this.streams.map((item) => [item.deepLink, item])).values(),
     )
+
+    this.streams = lodash.shuffle(this.streams)
   }
 
   getInitialIndex() {
