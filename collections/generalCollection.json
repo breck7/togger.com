@@ -1,74 +1,6 @@
 [
   {
     "kind": "youtube#searchResult",
-    "etag": "nvuIQbpf5_8-ueEyryGUvJ3PUvg",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "tIughZR3T8Q"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-23T04:00:50Z",
-      "channelId": "UC2ut_DrUZvO0BzUxZ_g9fXQ",
-      "title": "Bachchu Kadu Maharashtra Vidhansabha Result LIVE | Achalpur | अचलपूरमधून बच्चू कडू पराभूत",
-      "description": "lokshahinews #marathinewslive #maharashtraelectionresult #maharashtraelectionresult2024 #vidhansabharesult ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/tIughZR3T8Q/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/tIughZR3T8Q/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/tIughZR3T8Q/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Lokshahi Marathi",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T04:00:50Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "6bkeulWI1o48ENi7A718rpvjHAU",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "oFLkO9KchQ0"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-23T11:20:55Z",
-      "channelId": "UCH7nv1A9xIrAifZJNvt7cgA",
-      "title": "Devendra Fadnavis Speech LIVE | Maharashtra Election Result | Vidhan Sabha | ABP MAJHA",
-      "description": "abpमाझा #abpmajhalive #MaharashtraResult #maharashtravidhansabha #MaharashtraAssemblyElectionResult ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/oFLkO9KchQ0/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/oFLkO9KchQ0/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/oFLkO9KchQ0/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "ABP MAJHA",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T11:20:55Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "WlvxHn7zdtfoE5bsCsbp5aDqGnA",
     "id": {
       "kind": "youtube#video",
@@ -103,36 +35,70 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "dtaWAK9obhImwl5kMT1hzacUhaE",
+    "etag": "x4haWxoAJTgSzSqZCl559HOqZW4",
     "id": {
       "kind": "youtube#video",
-      "videoId": "fKXx3xTPA8Q"
+      "videoId": "9W6eqOypZ50"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T05:42:32Z",
-      "channelId": "UCckHqySbfy5FcPP6MD_S-Yg",
-      "title": "LIVE | Putin&#39;s Emergency Address To Nation After Hypersonic Missile Attack On Ukraine | Watch",
-      "description": "Russian President Vladimir Putin declared on Thursday that Moscow has the right to target military facilities in countries whose ...",
+      "publishedAt": "2024-11-23T00:50:29Z",
+      "channelId": "UCDj9HHrRUzlsTuPQN0PHxjw",
+      "title": "JAMUNA TV | JTV LIVE | সরাসরি যমুনা টিভি | LIVE STREAMING | BANGLA TV LIVE | BD TV LIVE",
+      "description": "jamunatvplus_live #jamunatelevision #breaking_news #JamunaTelevisionLive #JtvLive #jamunatvplus JAMUNA TV LIVE | JTV ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/fKXx3xTPA8Q/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/9W6eqOypZ50/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/fKXx3xTPA8Q/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/9W6eqOypZ50/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/fKXx3xTPA8Q/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/9W6eqOypZ50/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Times Of India",
+      "channelTitle": "Jamuna TV Plus",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T05:42:32Z"
+      "publishTime": "2024-11-23T00:50:29Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "6bkeulWI1o48ENi7A718rpvjHAU",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "oFLkO9KchQ0"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-23T11:20:55Z",
+      "channelId": "UCH7nv1A9xIrAifZJNvt7cgA",
+      "title": "Devendra Fadnavis Speech LIVE | Maharashtra Election Result | Vidhan Sabha | ABP MAJHA",
+      "description": "abpमाझा #abpmajhalive #MaharashtraResult #maharashtravidhansabha #MaharashtraAssemblyElectionResult ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/oFLkO9KchQ0/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/oFLkO9KchQ0/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/oFLkO9KchQ0/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "ABP MAJHA",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-23T11:20:55Z"
     }
   },
   {
@@ -201,6 +167,40 @@
       "channelTitle": "IndiaTV",
       "liveBroadcastContent": "live",
       "publishTime": "2024-11-23T11:19:31Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "y5Z_rsdE9PUMeJIog11JhiLC5C4",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "PLdSX54FWTU"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-23T05:50:13Z",
+      "channelId": "UC_vt34wimdCzdkrzVejwX9g",
+      "title": "🔴 𝗟𝗶𝘃𝗲 Latest Updates: (PTI Protest 24 Nov) 𝗜𝘀𝗹𝗮𝗺𝗮𝗯𝗮𝗱 𝗦𝗵𝘂𝘁𝗱𝗼𝘄𝗻 | Section 144 Imposed in Punjab Amid",
+      "description": "IslamabadShutdown #PTIProtest #Section144 #pakistannews #GeoNews #PunjabProtest #PTIUpdates #PakistanPolitics ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/PLdSX54FWTU/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/PLdSX54FWTU/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/PLdSX54FWTU/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Geo News",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-23T05:50:13Z"
     }
   },
   {
@@ -307,40 +307,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "tMzVCRrQjm8SpLF7e-OdKrijAHY",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "qHkM60G_oAc"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-23T08:55:42Z",
-      "channelId": "UC_2irx_BQR7RsBKmUV9fePQ",
-      "title": "🔴LIVE : జగన్ కు దెబ్బ మీద దెబ్బ..మరో ఎమ్మెల్సీ రాజీనామా | MLC Venkata Ramana Resign To YCP | ABN",
-      "description": "LIVE : జగన్ కు దెబ్బ మీద దెబ్బ..మరో ఎమ్మెల్సీ రాజీనామా | MLC Venkata Ramana Resign ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/qHkM60G_oAc/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/qHkM60G_oAc/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/qHkM60G_oAc/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "ABN Telugu ",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T08:55:42Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "7RUvd3Rae_GPRikof1kk9z3AGp0",
     "id": {
       "kind": "youtube#video",
@@ -371,40 +337,6 @@
       "channelTitle": "ANI News",
       "liveBroadcastContent": "live",
       "publishTime": "2024-11-23T07:42:45Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "OHa-ZFnI5C-2dCTKc2HjOrCpEQc",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "3SoiGfiYE_w"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-23T10:45:49Z",
-      "channelId": "UCPP3etACgdUWvizcES1dJ8Q",
-      "title": "Jharkhand Election Results 2024 Live: बीजेपी पर भारी पड़े Hemant Soren Kalpana Soren | BJP | PM Modi",
-      "description": "Jharkhand Election Results 2024 Live: बीजेपी पर भारी पड़े Hemant Soren Kalpana Soren | BJP | PM Modi ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/3SoiGfiYE_w/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/3SoiGfiYE_w/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/3SoiGfiYE_w/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "News18 India",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T10:45:49Z"
     }
   },
   {
@@ -511,36 +443,70 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "Hu0-D_9-unUjBleaSHyfh9JXLDY",
+    "etag": "O4PWeDnP9n-xPTS_xCrlyyuaLZY",
     "id": {
       "kind": "youtube#video",
-      "videoId": "RJIHtrBsHVQ"
+      "videoId": "qQM4vfFtxiM"
     },
     "snippet": {
-      "publishedAt": "2024-11-23T10:48:46Z",
-      "channelId": "UC7wXt18f2iA3EDXeqAVuKng",
-      "title": "Big Attack On Owaisi Brothers LIVE: नतीजों के बीच ओवैसी ब्रदर्स का THE END ? | Asaduddin Owaisi",
-      "description": "Big Attack On Owaisi Brothers LIVE: नतीजों के बीच ओवैसी ब्रदर्स का THE END ? | Asaduddin Owaisi ...",
+      "publishedAt": "2024-11-23T07:38:08Z",
+      "channelId": "UCRWFSbif-RFENbBrSiez1DA",
+      "title": "Maharashtra Assembly Election Results LIVE: महाराष्ट्र में शपथग्रहण की आई तारीख LIVE | ABP News LIVE",
+      "description": "महाराष्ट्र और झारखंड में अबकी बार किसकी सरकार? आज इस सवाल का जवाब ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/RJIHtrBsHVQ/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/qQM4vfFtxiM/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/RJIHtrBsHVQ/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/qQM4vfFtxiM/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/RJIHtrBsHVQ/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/qQM4vfFtxiM/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Republic Bharat",
+      "channelTitle": "ABP NEWS",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T10:48:46Z"
+      "publishTime": "2024-11-23T07:38:08Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "2eq6yZnsetoq4k8f1H3jiqZGqNE",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "VSb1-YSZsTs"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-23T08:20:19Z",
+      "channelId": "UCPXTXMecYqnRKNdqdVOGSFg",
+      "title": "వయనాడ్‌లో ప్రియాంక గాంధీకి భారీ మెజార్టీ LIVE | Priyanka Gandhi Breaks Rahul Gandhi Record | Wayanad",
+      "description": "TV9 News App : https://onelink.to/de8b7y ▻ Watch LIVE: https://goo.gl/w3aQde ▻ తాజా వార్తల కోసం ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/VSb1-YSZsTs/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VSb1-YSZsTs/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VSb1-YSZsTs/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "TV9 Telugu Live",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-23T08:20:19Z"
     }
   },
   {
@@ -579,36 +545,104 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "zF4hKmRZ44supcyQJVfrUPtFklQ",
+    "etag": "UjB3auok8gFkpwzjf17eKpXuH5o",
     "id": {
       "kind": "youtube#video",
-      "videoId": "dGhdQnZaNkU"
+      "videoId": "RqiVCRrO3cg"
     },
     "snippet": {
-      "publishedAt": "2024-11-23T00:13:07Z",
+      "publishedAt": "2024-11-23T06:52:45Z",
       "channelId": "UCttspZesZIDEwwpVIgoZtWQ",
-      "title": "Maharashtra Assembly Election Results LIVE: महाराष्ट्र पर जनता का फैसला | India TV",
-      "description": "Assembly Election Results 2024 LIVE Streaming: Elections results in Maharashtra and Jharkhand will be out on November 23.",
+      "title": "Maharashtra Assembly Election Results LIVE: मुसलमानों ने बीजेपी को एकतरफा जिताया! BJP | Mahayuti",
+      "description": "Counting of votes for the Maharashtra Assembly elections will begin at 8 am on Saturday. The results of the Maharashtra ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/dGhdQnZaNkU/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/RqiVCRrO3cg/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/dGhdQnZaNkU/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/RqiVCRrO3cg/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/dGhdQnZaNkU/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/RqiVCRrO3cg/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
       "channelTitle": "IndiaTV",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T00:13:07Z"
+      "publishTime": "2024-11-23T06:52:45Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "rvGffl4GyCpNT1SA3XkAsl2No1U",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "jVvvrZWJ6lI"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-23T01:59:34Z",
+      "channelId": "UCDCMjD1XIAsCZsYHNMGVcog",
+      "title": "LIVE : Maharashtra, jharkhand Election Results Updates | V6 News",
+      "description": "LIVE : Maharashtra, jharkhand Election Results Updates | V6 News Watch Today's Teenmaar https://youtu.be/FiSIBvjxexE ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/jVvvrZWJ6lI/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/jVvvrZWJ6lI/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/jVvvrZWJ6lI/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "V6 News Telugu",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-23T01:59:34Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "71WV1D3Y4Pipqcu55CE-O6A2hZk",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "T5MKvEbjhCA"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-23T00:57:53Z",
+      "channelId": "UCajVjEHDoVn_AHsunUZz_EQ",
+      "title": "Election Results LIVE‍| তিন সিনিয়র এডিটরের সঙ্গে ভোটের ফলাফল #LIVE আপডেট শুধুমাত্র রিপাবলিক বাংলায়",
+      "description": "Election Results LIVE‍| তিন সিনিয়র এডিটরের সঙ্গে ভোটের ফলাফল #LIVE আপডেট ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/T5MKvEbjhCA/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/T5MKvEbjhCA/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/T5MKvEbjhCA/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Republic Bangla",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-23T00:57:53Z"
     }
   },
   {
@@ -677,40 +711,6 @@
       "channelTitle": "Zee News",
       "liveBroadcastContent": "live",
       "publishTime": "2024-11-23T05:37:33Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "BPgPa28r0kWCqb-aYvt2f-6ne-g",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "MDWvde6TMT0"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-23T09:31:44Z",
-      "channelId": "UCPP3etACgdUWvizcES1dJ8Q",
-      "title": "Jharkhand Maharashtra Election Results Live: Maharashtra Election Result | Result Live Update",
-      "description": "Jharkhand Maharashtra Election Results Live: Maharashtra Election Result | Result Live Update #jharkhandelectionresults ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/MDWvde6TMT0/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/MDWvde6TMT0/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/MDWvde6TMT0/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "News18 India",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T09:31:44Z"
     }
   },
   {
@@ -817,6 +817,40 @@
   },
   {
     "kind": "youtube#searchResult",
+    "etag": "UBciu2WFSc1NQ5IfK5oL4LYiiD0",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "Ax1ii-6i5iM"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-23T05:14:08Z",
+      "channelId": "UCDCMjD1XIAsCZsYHNMGVcog",
+      "title": "LIVE : Priyank Gandhi 1 Lakh Lead In Wayanad Bypoll | V6 News",
+      "description": "Watch Today's Teenmaar https://youtu.be/FiSIBvjxexE లగచర్ల రైతులకు 3 రేట్లు https://youtu.be/-tBZeGz7DcQ ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Ax1ii-6i5iM/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Ax1ii-6i5iM/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Ax1ii-6i5iM/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "V6 News Telugu",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-23T05:14:08Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
     "etag": "WcqDVi8NCzAS5K0TlwCedB7yOYc",
     "id": {
       "kind": "youtube#video",
@@ -851,36 +885,70 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "UBciu2WFSc1NQ5IfK5oL4LYiiD0",
+    "etag": "rg_E_RvqCNLhVODtz0yfC3tgNnU",
     "id": {
       "kind": "youtube#video",
-      "videoId": "Ax1ii-6i5iM"
+      "videoId": "6FwwCHBVXNc"
     },
     "snippet": {
-      "publishedAt": "2024-11-23T05:14:08Z",
-      "channelId": "UCDCMjD1XIAsCZsYHNMGVcog",
-      "title": "LIVE : Priyank Gandhi 1 Lakh Lead In Wayanad Bypoll | V6 News",
-      "description": "Watch Today's Teenmaar https://youtu.be/FiSIBvjxexE లగచర్ల రైతులకు 3 రేట్లు https://youtu.be/-tBZeGz7DcQ ...",
+      "publishedAt": "2024-11-23T05:17:23Z",
+      "channelId": "UCMk9Tdc-d1BIcAFaSppiVkw",
+      "title": "Maharashtra-Jharkhand Election Results Live । जीत का रिजल्ट लाइव ! Latest News Updates",
+      "description": "Maharashtra-Jharkhand Election Results Live । जीत का रिजल्ट लाइव ! Latest News Updates #live ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/Ax1ii-6i5iM/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/6FwwCHBVXNc/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/Ax1ii-6i5iM/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/6FwwCHBVXNc/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/Ax1ii-6i5iM/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/6FwwCHBVXNc/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "V6 News Telugu",
+      "channelTitle": "TIMES NOW Navbharat",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T05:14:08Z"
+      "publishTime": "2024-11-23T05:17:23Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "UP7n4ubsWhDDLp0wAKqmbw04JdM",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "BmS0sjs8Eo8"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-23T08:43:22Z",
+      "channelId": "UC8dnBi4WUErqYQHZ4PfsLTg",
+      "title": "🔴 LIVE | Nikhil Kumaraswamy Press Meet: ಉಪಚುನಾವಣೆ ಸೋಲಿನ ಬಳಿಕ ನಿಖಿಲ್ ದಿಢೀರ್ ಸುದ್ದಿಗೋಷ್ಠಿ | #tv9d",
+      "description": "Tv9kannadanews #KannadaNews #BreakingNews #BreakingNewsinKannada #KannadaLiveTv #kannadanewslive LIVE ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/BmS0sjs8Eo8/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/BmS0sjs8Eo8/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/BmS0sjs8Eo8/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Tv9 Kannada",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-23T08:43:22Z"
     }
   },
   {
@@ -953,70 +1021,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "-Vf2zdGBCryvdf2IYry2KNoptbY",
+    "etag": "XJI-bIU7wroT7VDWd_JfHmejU2s",
     "id": {
       "kind": "youtube#video",
-      "videoId": "26uOWrCYCC0"
+      "videoId": "vnNdRLGnKkw"
     },
     "snippet": {
-      "publishedAt": "2024-11-23T06:57:01Z",
-      "channelId": "UCa-vioGhe2btBcZneaPonKA",
-      "title": "LIVE: CP Yogeshwar Press Meet | ಸಿಪಿವೈ ಸುದ್ದಿಗೋಷ್ಠಿ | Channapatna By Election Result | N18L",
-      "description": "LIVE: CP Yogeshwar Press Meet | ಸಿಪಿವೈ ಸುದ್ದಿಗೋಷ್ಠಿ | Channapatna By Election Result | N18L ...",
+      "publishedAt": "2024-11-23T01:14:42Z",
+      "channelId": "UCttspZesZIDEwwpVIgoZtWQ",
+      "title": "UP By Poll Election Results LIVE: आज यूपी की 9 सीटों पर लहराएगा भगवा? CM Yogi | Akhilesh Yadav | BJP",
+      "description": "UP By Poll Election Results LIVE: आज यूपी की 9 सीटों पर लहराएगा भगवा? CM Yogi | Akhilesh Yadav ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/26uOWrCYCC0/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/vnNdRLGnKkw/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/26uOWrCYCC0/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/vnNdRLGnKkw/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/26uOWrCYCC0/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/vnNdRLGnKkw/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "News18 Kannada",
+      "channelTitle": "IndiaTV",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T06:57:01Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "rXhl76K5UeOR8pSMhSGiYZtL1ZM",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "fY009JqAfvI"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-23T07:00:53Z",
-      "channelId": "UCD3CdwT8lTCe5ZGHbUBxmWA",
-      "title": "Maharashtra Election Results Aditya Thackeray LIVE :आदित्य ठाकरे ने दिया बड़ा झटका! BJP | Congress",
-      "description": "breakingnews #maharashtraelectionresults #BJP #uddhavthackrey #eknathshinde #shindevsuddhav #swadesh #hindinews ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/fY009JqAfvI/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/fY009JqAfvI/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/fY009JqAfvI/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "ET Now Swadesh",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T07:00:53Z"
+      "publishTime": "2024-11-23T01:14:42Z"
     }
   },
   {
@@ -1055,36 +1089,70 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "XJI-bIU7wroT7VDWd_JfHmejU2s",
+    "etag": "a9-s8Yz0Q131ekozYNJT60_yDFg",
     "id": {
       "kind": "youtube#video",
-      "videoId": "vnNdRLGnKkw"
+      "videoId": "NGIE0U76h-c"
     },
     "snippet": {
-      "publishedAt": "2024-11-23T01:14:42Z",
-      "channelId": "UCttspZesZIDEwwpVIgoZtWQ",
-      "title": "UP By Poll Election Results LIVE: आज यूपी की 9 सीटों पर लहराएगा भगवा? CM Yogi | Akhilesh Yadav | BJP",
-      "description": "UP By Poll Election Results LIVE: आज यूपी की 9 सीटों पर लहराएगा भगवा? CM Yogi | Akhilesh Yadav ...",
+      "publishedAt": "2024-11-23T02:35:35Z",
+      "channelId": "UCa-vioGhe2btBcZneaPonKA",
+      "title": "LIVE: Shiggaon By Election Result | ಶಿಗ್ಗಾವಿ ಎಲೆಕ್ಷನ್‌‌ನಲ್ಲಿ ಗೆಲ್ಲೋದ್ಯಾರು? | Bharat Bommai Vs Pathan",
+      "description": "LIVE: Shiggaon By Election Result | ಶಿಗ್ಗಾವಿ ಎಲೆಕ್ಷನ್‌‌ನಲ್ಲಿ ಗೆಲ್ಲೋದ್ಯಾರು? | Bharat Bommai ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/vnNdRLGnKkw/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/NGIE0U76h-c/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/vnNdRLGnKkw/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/NGIE0U76h-c/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/vnNdRLGnKkw/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/NGIE0U76h-c/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "IndiaTV",
+      "channelTitle": "News18 Kannada",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T01:14:42Z"
+      "publishTime": "2024-11-23T02:35:35Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "7PHGSh4wWvGR_2MYEOEYDcWvHiQ",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "eLUuVGnS_Dg"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-23T02:48:45Z",
+      "channelId": "UCdOSeEq9Cs2Pco7OCn2_i5w",
+      "title": "Mumbai-Thane Election Results 2024 LIVE | Mahim, Worli, Bandra, Mankhurd, Shivaji Nagar, Mumbra",
+      "description": "Mumbai-Thane Election Results 2024 LIVE | Mahim, Worli, Bandra, Mankhurd, Shivaji Nagar, Mumbra ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/eLUuVGnS_Dg/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/eLUuVGnS_Dg/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/eLUuVGnS_Dg/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "TV9 Marathi",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-23T02:48:45Z"
     }
   },
   {
@@ -1153,40 +1221,6 @@
       "channelTitle": "IndiaTV",
       "liveBroadcastContent": "live",
       "publishTime": "2024-11-23T08:26:44Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "Chl2LTosERzu4m9DcWGLvUizqv8",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "aXJcd9ld3Q4"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-23T08:21:26Z",
-      "channelId": "UC7FlLbNo66YsCEAPuJITiNg",
-      "title": "Live Results Jharkhand Election 2204: झारखंड के नतीजों पर हमेंत सोरेन! LIVE | JMM VS BJP | Jharkhand",
-      "description": "Live Results Jharkhand Election 2204: झारखंड के नतीजों पर हमेंत सोरेन! LIVE | JMM VS BJP ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/aXJcd9ld3Q4/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/aXJcd9ld3Q4/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/aXJcd9ld3Q4/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "News18 Rajasthan",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T08:21:26Z"
     }
   },
   {
@@ -1293,40 +1327,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "dpP28i52zL0MDckqqZ7YQWVDKUc",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "z1-OBSguBww"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-23T09:59:21Z",
-      "channelId": "UCBwc2cbPpvxNCNEI2-8YrqQ",
-      "title": "Jharkhand Election Result Live : Kalpana Soren को गांडेय से मिली ऐतिहासिक जीत | Gandey Chunav Result",
-      "description": "Jharkhand Election Result Live : Kalpana Soren ने गांडेय से मिली ऐतिहासिक जीत | Gandey Chunav ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/z1-OBSguBww/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/z1-OBSguBww/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/z1-OBSguBww/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "News18 MP Chhattisgarh",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T09:59:21Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "E6dHxs1_vErRIPCTiFVaFH4YSNk",
     "id": {
       "kind": "youtube#video",
@@ -1361,36 +1361,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "ZB_78Vlgn1BWdh7NcfD3hQoiur8",
+    "etag": "QcwjvDXz5ulJRkfF2DQxYKHwXYQ",
     "id": {
       "kind": "youtube#video",
-      "videoId": "POSJhU2_kFc"
+      "videoId": "9M9faygByjE"
     },
     "snippet": {
-      "publishedAt": "2024-11-23T09:23:25Z",
-      "channelId": "UCPP3etACgdUWvizcES1dJ8Q",
-      "title": "Jharkhand Election Result Live: कल्पना सोरेन ने तोड़ दिए सब RECORD! | Hemant Soren | BJP VS JMM",
-      "description": "Jharkhand Election Result Live: कल्पना सोरेन ने तोड़ दिए सब RECORD! | Hemant Soren | BJP VS JMM ...",
+      "publishedAt": "2024-11-23T06:47:21Z",
+      "channelId": "UCv3rFzn-GHGtqzXiaq3sWNg",
+      "title": "By Poll Result Live: উপ নির্বাচনে ছয়ে ছয় TMC।মাদারিহাটও হাতছাড়া হওয়ার পর সাফাই BJPর রাজ্য সভাপতির।",
+      "description": "ABP Ananda Live: উপ নির্বাচনে ছয়ে ছয় তৃণমূল।মাদারিহাটও হাতছাড়া ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/POSJhU2_kFc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/9M9faygByjE/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/POSJhU2_kFc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/9M9faygByjE/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/POSJhU2_kFc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/9M9faygByjE/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "News18 India",
+      "channelTitle": "ABP ANANDA",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T09:23:25Z"
+      "publishTime": "2024-11-23T06:47:21Z"
     }
   },
   {
@@ -1531,6 +1531,40 @@
   },
   {
     "kind": "youtube#searchResult",
+    "etag": "6RXI7jRH75y3PYujPG5RqJLeG40",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "ET6csXLljGo"
+    },
+    "snippet": {
+      "publishedAt": "2024-11-23T01:34:15Z",
+      "channelId": "UCBwc2cbPpvxNCNEI2-8YrqQ",
+      "title": "Baba Bageshwar Hindu Jodo Yatra Day 3 Live : बाबा से साथ सड़कों पर उतरे साधु-महात्मा और नेता | MP",
+      "description": "Baba Bageshwar Hindu Jodo Yatra Day 3 Live : बाबा से साथ सड़कों पर उतरे साधु-महात्मा और ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ET6csXLljGo/default_live.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ET6csXLljGo/mqdefault_live.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ET6csXLljGo/hqdefault_live.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "News18 MP Chhattisgarh",
+      "liveBroadcastContent": "live",
+      "publishTime": "2024-11-23T01:34:15Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
     "etag": "e-SU1UaCGuybD8ksYjRzJaMTJM4",
     "id": {
       "kind": "youtube#video",
@@ -1599,40 +1633,6 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "tnigaLmpWB3ZZ3wbHVode1t0bLU",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "GOG4TjcZF7k"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-23T01:56:37Z",
-      "channelId": "UCJrpiw6dS09Zx2Z8d9AFWDA",
-      "title": "Live: IND Vs AUS, Day 2 - 1st Test | Live Scores &amp; Commentary | India vs Australia | Last 20",
-      "description": "Live: IND Vs AUS, Day 2 - 1st Test, Perth | Live Scores & Commentary | India vs Australia | 2024 Series For queries: ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/GOG4TjcZF7k/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/GOG4TjcZF7k/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/GOG4TjcZF7k/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "CricTalks",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T01:56:37Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
     "etag": "_ODZjwxc7LplLvsOyqrhs_QJnn8",
     "id": {
       "kind": "youtube#video",
@@ -1667,36 +1667,36 @@
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "Fpj3AQOG2RtjeJ33_QMaa54nXIU",
+    "etag": "DknR046a_GLrxnlowMENqJNkWnk",
     "id": {
       "kind": "youtube#video",
-      "videoId": "zvor-atMYOU"
+      "videoId": "jGImQl2RpJA"
     },
     "snippet": {
-      "publishedAt": "2024-11-23T01:33:22Z",
-      "channelId": "UC7wXt18f2iA3EDXeqAVuKng",
-      "title": "Maharashtra Election Results LIVE Updates: Eknath Shinde और Uddhav Thackeray में किसकी जीत ?| BJP",
-      "description": "Maharashtra Election Results LIVE Updates: Eknath Shinde और Uddhav Thackeray में किसकी जीत ?",
+      "publishedAt": "2024-11-23T07:18:49Z",
+      "channelId": "UCOutOIcn_oho8pyVN3Ng-Pg",
+      "title": "Priyanka Gandhi Seat Result Live: Wayanad Seat पर प्रियंका गांधी का छाया रंग! | By Election",
+      "description": "Priyanka Gandhi Seat Result Live: Wayanad Seat पर प्रियंका गांधी का छाया रंग! | By Election ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/zvor-atMYOU/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/jGImQl2RpJA/default_live.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/zvor-atMYOU/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/jGImQl2RpJA/mqdefault_live.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/zvor-atMYOU/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/jGImQl2RpJA/hqdefault_live.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Republic Bharat",
+      "channelTitle": "TV9 Bharatvarsh",
       "liveBroadcastContent": "live",
-      "publishTime": "2024-11-23T01:33:22Z"
+      "publishTime": "2024-11-23T07:18:49Z"
     }
   }
 ]
