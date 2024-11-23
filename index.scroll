@@ -4,6 +4,7 @@ header.scroll
 
 lodash.min.js
 
+jsonScript collections/scienceCollection.json
 jsonScript collections/generalCollection.json
 jsonScript collections/codingCollection.json
 jsonScript collections/warpcastCollection.json

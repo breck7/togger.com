@@ -12,6 +12,7 @@ const makeDeepLink = (platform, channelName) =>
 const collections = {
   warpcast: warpcastCollection,
   coding: codingCollection,
+  science: scienceCollection,
   general: generalCollection,
   ambience: ambienceCollection,
 }
@@ -30,7 +31,7 @@ class Togger {
   getCollection(collectionName) {
     this.collectionName = collectionName
     if (collections[collectionName]) return collections[collectionName]
-    this.collectionName = "general"
+    this.collectionName = "science"
     return generalCollection
   }
 
@@ -196,6 +197,9 @@ class Togger {
     if (!this.isPoweredOn) return
 
     const current = this.streams[this.currentIndex]
+
+    channelName.innerHTML = `Loading ${current.deepLink}...`
+
     if (current.platform === "youtube") {
       this.player.loadVideoById(current.streamLink)
       this.player.setVolume(100)
