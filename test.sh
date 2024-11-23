@@ -1,1 +1,1 @@
-node update.mjs
+node -v
