@@ -34,5 +34,5 @@ https://www.youtube.com/@freeCodeCamp
 https://www.youtube.com/@JomaTech
 https://www.youtube.com/@CleverProgrammer
 https://www.youtube.com/@NickWhite
-https://www.youtube.com/@CodingPhase`.split(" ")
+https://www.youtube.com/@CodingPhase`.split("\n")
 yt.channelsToCollection(codingChannels, "coding")
