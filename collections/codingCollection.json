@@ -1,1022 +1,444 @@
 [
   {
     "kind": "youtube#searchResult",
-    "etag": "A47qNZ-8pM7aGaIHqkrgZJsPtyQ",
+    "etag": "cUI6IBtKQvM7dIXK_x_HKegmeHc",
     "id": {
       "kind": "youtube#video",
-      "videoId": "MXH_s0mOiSg"
+      "videoId": "A_XGsAl-LqY"
     },
     "snippet": {
-      "publishedAt": "2023-12-22T12:49:41Z",
-      "channelId": "UCfYshLRgkyTUZqc3pLUG45A",
-      "title": "PSN / XBOX / STEAM CARD GIVEAWAY - FREE PSN CODES GIVEAWAY LIVE",
-      "description": "PSN / XBOX / STEAM CARD GIVEAWAY - FREE PSN CODES GIVEAWAY LIVE --RULES-- 1. Subscribe to my channel 2. Like this ...",
+      "publishedAt": "2024-10-23T12:00:12Z",
+      "channelId": "UC8ENHE5xdFSwx71u3fDH5Xw",
+      "title": "the worst man in tech",
+      "description": "Twitch : https://twitch.tv/ThePrimeagen Discord: https://discord.gg/ThePrimeagen Support me (by becoming a backend dev): ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/MXH_s0mOiSg/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/A_XGsAl-LqY/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/MXH_s0mOiSg/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/A_XGsAl-LqY/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/MXH_s0mOiSg/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/A_XGsAl-LqY/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "OyunDünyasıTR",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-12-22T12:49:41Z"
+      "channelTitle": "ThePrimeagen",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-10-23T12:00:12Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "-sIJ6KnezTyA5V5OUhpUB1LxVEA",
+    "etag": "362LOKGeZiQuCgPuwIg8VY6SbHc",
     "id": {
       "kind": "youtube#video",
-      "videoId": "gRFHIzCiZmU"
+      "videoId": "YmXMCTsn3xQ"
     },
     "snippet": {
-      "publishedAt": "2024-11-22T20:12:49Z",
-      "channelId": "UCysVK648GqOjs54HWyXyBuA",
-      "title": "🔴 Live POCKET OPTION TRADING | Pocket Option App | Pocket Option | Binary Options #livetrading",
-      "description": "Hi! This is my binary options video. I will show you how I trade on the binary options strategy on the pocket option. Binary options ...",
+      "publishedAt": "2024-11-21T14:15:04Z",
+      "channelId": "UC2D6eRvCeMtcF5OGHf1-trw",
+      "title": "Build a War Card Game App (Xcode 16 Updated)",
+      "description": "Let's build the UI for the War Card Game. This is the app we'll be working on for the rest of the video series. Through building this ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/gRFHIzCiZmU/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/YmXMCTsn3xQ/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/gRFHIzCiZmU/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/YmXMCTsn3xQ/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/gRFHIzCiZmU/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/YmXMCTsn3xQ/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Lady Trader",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T20:12:49Z"
+      "channelTitle": "CodeWithChris",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-11-21T14:15:04Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "rvKBnACHYcj8_0Iu0jr2k-eBxIc",
+    "etag": "KF69MJ26lJ7hZTx7w8ZBdJPMZaE",
     "id": {
       "kind": "youtube#video",
-      "videoId": "whRX3CJ5ZCk"
+      "videoId": "uMVWD46apEc"
     },
     "snippet": {
-      "publishedAt": "2024-08-26T06:36:48Z",
-      "channelId": "UC9gGtOmBQQd1NOXVcnadVZQ",
-      "title": "FREE FIRE LIVE 10,000 DIAMOND GIVEAWAY | TEAM CODE GIVEAWAY #freefirelive #lokeshgamer #gyangaming",
-      "description": "1.Garena Free Fire Indonesia Live 2.Garena Free Fire Brazil Live 3.Garena Free Fire Brasil Live 4.Garena Free Fire India Live 5.",
+      "publishedAt": "2024-11-08T14:44:04Z",
+      "channelId": "UCLNgu_OupwoeESgtab33CCw",
+      "title": "Early Career Shapes Your Opinions and Way of Doing Things #vuejs #react #webdevelopment",
+      "description": "From my chat with @TheAlexLichter on @DejaVueFm - I have AngularJS to thank for my love of Vue and my constant searching ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/whRX3CJ5ZCk/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/uMVWD46apEc/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/whRX3CJ5ZCk/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/uMVWD46apEc/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/whRX3CJ5ZCk/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/uMVWD46apEc/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Pikachu FF",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-08-26T06:36:48Z"
+      "channelTitle": "Coding Garden",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-11-08T14:44:04Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "Sep9WvfhRa32-T3w1Zv7iL8OuMM",
+    "etag": "Z6vX7J3MGlCkgzF5pxS9eQmUgTQ",
     "id": {
       "kind": "youtube#video",
-      "videoId": "3Yu1yymncOs"
+      "videoId": "V3554BmwV1E"
     },
     "snippet": {
-      "publishedAt": "2024-10-10T10:14:28Z",
-      "channelId": "UC2oaqitUiwcbYPnh9zLR50g",
-      "title": "🔴LIVE : DARSHAN - VADTALDHAM 01",
-      "description": "Website:- https://www.vadtalmandir.org Youtube :- https://www.youtube.com/vadtalmandir Facebook ...",
+      "publishedAt": "2024-11-20T20:17:34Z",
+      "channelId": "UCsBjURrPoezykLs9EqgamOA",
+      "title": "The plan to break apart Google... RIP Chrome",
+      "description": "Get 40% Fireship PRO with code BLACKFIRE at https://fireship.io/pro The US Dept of Justice wants to break apart Google's ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/3Yu1yymncOs/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/V3554BmwV1E/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/3Yu1yymncOs/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/V3554BmwV1E/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/3Yu1yymncOs/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/V3554BmwV1E/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "VADTAL MANDIR",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-10-10T10:14:28Z"
+      "channelTitle": "Fireship",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-11-20T20:17:34Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "qVMN9ZEcRvuKk-cKqlYo5dmnw_s",
+    "etag": "W4TF_k3N62BtXHU3ubBoOAEb1Gs",
     "id": {
       "kind": "youtube#video",
-      "videoId": "xbe2UMVofAU"
+      "videoId": "ui0PmJtKGhQ"
     },
     "snippet": {
-      "publishedAt": "2024-11-05T05:51:08Z",
-      "channelId": "UCRWWzoOrQLPGJLKs1gAf2yA",
-      "title": "FREE FIRE LIVE CUSTOM ROOM GIVEAWAY FF LIVE TEAM CODE GIVEAWAY|#freefirelive #giveaway #nawabislive",
-      "description": "YOUR SEARCH TERMS 1.ff live redeem code 2.ff giveaway diomond 3.ff giveaway live custom winner 4.ff live giveaway custom ...",
+      "publishedAt": "2024-10-29T14:41:08Z",
+      "channelId": "UC29ju8bIPH5as8OGnQzwJyA",
+      "title": "Build A Tesla Car Configurator | Tailwind &amp; Vanilla JavaScript",
+      "description": "Build a Tesla Model Y Configurator interface using nothing but HTML, Tailwind CSS and JavaScript.",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/ui0PmJtKGhQ/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/ui0PmJtKGhQ/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/xbe2UMVofAU/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/ui0PmJtKGhQ/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "NAWABISLIVE",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-05T05:51:08Z"
+      "channelTitle": "Traversy Media",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-10-29T14:41:08Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "bS3c65Shvx12jWF7mQUoTYePIa4",
+    "etag": "O4pvC0MtkuUMruLkN9Uf9_q4o_s",
     "id": {
       "kind": "youtube#video",
-      "videoId": "TeZxmCWS9Io"
+      "videoId": "qNs0Dxs5JVI"
     },
     "snippet": {
-      "publishedAt": "2024-09-11T15:58:58Z",
-      "channelId": "UCQLEbraENUGWh6p1Rv664rQ",
-      "title": "PTC News LIVE |  ਵੇਖੋ ਪੰਜਾਬ ਨਾਲ ਜੁੜੀ ਹਰ ਵੱਡੀ ਖ਼ਬਰ, PTC News &#39;ਤੇ",
-      "description": "ਵੇਖੋ ਪੰਜਾਬ ਨਾਲ ਜੁੜੀ ਹਰ ਵੱਡੀ ਖ਼ਬਰ,ਪੀਟੀਸੀ ਨਿਊਜ਼ 'ਤੇ #punjabnews #latestnews ...",
+      "publishedAt": "2024-10-29T16:00:52Z",
+      "channelId": "UCSJbGtTlrDami-tDGPUV9-w",
+      "title": "Don&#39;t avoid AI as a developer - embrace it!",
+      "description": "I got a new course! A course where I share my personal tips & tricks for using AI tools like GitHub Copilot and Cursor AI (IDE) ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/TeZxmCWS9Io/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/qNs0Dxs5JVI/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/TeZxmCWS9Io/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/qNs0Dxs5JVI/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/TeZxmCWS9Io/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/qNs0Dxs5JVI/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "PTC NEWS",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-09-11T15:58:58Z"
+      "channelTitle": "Academind",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-10-29T16:00:52Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "l13UCu-zsFHAyTFvLPcl8I89j4I",
+    "etag": "a-XSD0TH_fxorbIz0QOIYzVo9ek",
     "id": {
       "kind": "youtube#video",
-      "videoId": "a0EwGJwicXc"
+      "videoId": "zogxGGDJ2Ok"
     },
     "snippet": {
-      "publishedAt": "2024-08-12T15:46:32Z",
-      "channelId": "UCwKS2U-DwjPZZvM6mSXPKgA",
-      "title": "بث مباشر | قناة المغاربية Almagharibia TV Live Stream",
-      "description": "LIVE تابع البث المباشر لقناة المغاربية             بث مباشر | قناة المغاربية Almagharibia TV Live Stream --------------- تعمل ...",
+      "publishedAt": "2024-10-29T21:59:24Z",
+      "channelId": "UC9Yp2yz6-pwhQuPlIDV_mjA",
+      "title": "Create a Legend of Zelda Style Game with JavaScript",
+      "description": "The first 500 people to use my link https://skl.sh/chriscourses10241 will get a 1 month free trial of Skillshare premium! GitHub ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/zogxGGDJ2Ok/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/zogxGGDJ2Ok/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/a0EwGJwicXc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/zogxGGDJ2Ok/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Almagharibia TV قناة المغاربية",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-08-12T15:46:32Z"
+      "channelTitle": "Chris Courses",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-10-29T21:59:24Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "iE0Xw9BnSk5ajJq4WTD8gxhIwgc",
+    "etag": "aKOHzx_dChInabyLHMpjInEDX90",
     "id": {
       "kind": "youtube#video",
-      "videoId": "8N8rMHjVwNc"
+      "videoId": "FMAsMNIdTdc"
     },
     "snippet": {
-      "publishedAt": "2024-08-20T17:19:28Z",
-      "channelId": "UCSVSJ1OCSv5ClFgKFTHIDew",
-      "title": "🔴 PAW Patrol BIG Truck Pups, Cat Pack, and more rescue episodes! - Cartoons for Kids Live Stream!",
-      "description": "In this PAW Patrol rescue episode live stream, enjoy your favorite rescue episodes with Al and the Big Truck Pups, Wild Cat and ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/8N8rMHjVwNc/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/8N8rMHjVwNc/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/8N8rMHjVwNc/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "PAW Patrol Official & Friends",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-08-20T17:19:28Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "0ufO0GZ5XhGZS90hn_qaS2Rfzyw",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "SlpTSiNv-m4"
-    },
-    "snippet": {
-      "publishedAt": "2024-01-23T14:10:44Z",
-      "channelId": "UC_vFLohxs5PkAxlk7Y6jEtw",
-      "title": "LIVE: ABC7 Chicago Eyewitness News",
-      "description": "Watch ABC7 Chicago for live news and updates on what's happening in your community. Click the subscribe button to be notified ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/SlpTSiNv-m4/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/SlpTSiNv-m4/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/SlpTSiNv-m4/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "ABC 7 Chicago",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-01-23T14:10:44Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "dXUBybrdObdgt7uMIsFC94eB38o",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "yMxD3gdeXmk"
-    },
-    "snippet": {
-      "publishedAt": "2023-04-06T16:29:25Z",
-      "channelId": "UCKAtPxfE2RAHSCwDABMMeAg",
-      "title": "Jasna Góra Klasztor Ojców Paulinów – transmisja na żywo, ON-LINE, msza święta na żywo",
-      "description": "Wspomóż transmisje z Jasnej Góry wpłacając dobrowolną kwotę przez TPay lub PayPal: https://tpay.jasnagora.pl/ ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/yMxD3gdeXmk/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/yMxD3gdeXmk/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/yMxD3gdeXmk/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Jasna Góra Klasztor Ojców Paulinów",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-04-06T16:29:25Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "rn9joLSJ6-6C9wft2QrLhYnDiq8",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "ydiWklMUhcQ"
-    },
-    "snippet": {
-      "publishedAt": "2024-05-23T01:24:48Z",
-      "channelId": "UC3uJIdRFTGgLWrUziaHbzrg",
-      "title": "NDTV Profit LIVE TV | Business News LIVE | Share Market LIVE Updates | Stock Market Trading LIVE",
-      "description": "Stock Market LIVE News: Watch the live stream of NDTV Profit on your favourite digital channels. #ndtv #business #stockmarket ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/ydiWklMUhcQ/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/ydiWklMUhcQ/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/ydiWklMUhcQ/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "NDTV Profit",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-05-23T01:24:48Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "dSRsMoSUIY593RzFpUYRLyAj13Q",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "dUs4JqnWixw"
-    },
-    "snippet": {
-      "publishedAt": "2024-10-21T13:09:37Z",
-      "channelId": "UCU31-9qcY1RDuMad67dbuhw",
-      "title": "HENFLIX - LIVE Chickens - Feed the chickens online!",
-      "description": "Please LIKE & SHARE our highlights videos and SUBSCRIBE to our channel, so you won't miss anything. You can find all of our ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/dUs4JqnWixw/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Madarles - Live Bird Cams",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-10-21T13:09:37Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "z3V-2q-MBbHYqrt49hWAADf1Sno",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "XcftFX_Cwy4"
-    },
-    "snippet": {
-      "publishedAt": "2021-01-19T12:35:11Z",
-      "channelId": "UCagckRRHeGkG7iwPl91hUpg",
-      "title": "Bud og Hustadvika Live",
+      "publishedAt": "2024-11-22T17:11:25Z",
+      "channelId": "UC4JX40jDee_tINbkjycV4Sg",
+      "title": "Chatted about coding, passion, and why I chose this path 10 years ago. 🎙️",
       "description": "",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/FMAsMNIdTdc/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/FMAsMNIdTdc/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/XcftFX_Cwy4/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/FMAsMNIdTdc/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Live Norway",
-      "liveBroadcastContent": "live",
-      "publishTime": "2021-01-19T12:35:11Z"
+      "channelTitle": "Tech With Tim",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-11-22T17:11:25Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "a4OUUDAsUP2NRrDn3SMAdT0dL6c",
+    "etag": "uDADg8NF3Ebe_tCsOT91gjuRmS8",
     "id": {
       "kind": "youtube#video",
-      "videoId": "bn1yqLI9U3Q"
+      "videoId": "SCUu4xlZZgc"
     },
     "snippet": {
-      "publishedAt": "2024-06-26T13:17:39Z",
-      "channelId": "UCP_T_GqYquLmsIpmDpJvULw",
-      "title": "Shop LC LIVE",
-      "description": "Thanks for watching Shop LC Live, where our purpose is Delivering Joy 24/7/365! Shop LC is your home for amazing jewelry, ...",
+      "publishedAt": "2024-11-04T06:30:08Z",
+      "channelId": "UC0e3QhIYukixgh5VVpKHH9Q",
+      "title": "😲Recreating Pikmin in 24 hours",
+      "description": "Recreating Pikmin in 24 hours #challenge #gamedev #24hour.",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/SCUu4xlZZgc/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/SCUu4xlZZgc/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/bn1yqLI9U3Q/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/SCUu4xlZZgc/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Shop LC",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-06-26T13:17:39Z"
+      "channelTitle": "Code Bullet",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-11-04T06:30:08Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "N8kVIpEV3OV8yn3hpZm7SV_QHa4",
+    "etag": "XC4R28FGwDr2BMNe4cHU9wJ__6E",
     "id": {
       "kind": "youtube#video",
-      "videoId": "iUqUGVpRDIc"
+      "videoId": "5MoZ1hJuvqM"
     },
     "snippet": {
-      "publishedAt": "2024-07-15T06:15:50Z",
-      "channelId": "UCSCMDOZrz_4-1dtnXsp8M7Q",
-      "title": "THIKANA MANDIR SHREE GOVIND DEVJI Live Darshan",
-      "description": "राधे राधे , निम्न सेवा लिखवाने के लिए मंदिर Whatsapp - 9462647452 पर आरक्षित ...",
+      "publishedAt": "2024-11-22T15:00:13Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Automating a coffee shop chain using self-taught coding skills with Eamonn Cottrell [Interview #151]",
+      "description": "On this week's episode of the podcast, freeCodeCamp founder Quincy Larson interviews Eamonn Cottrell. He's a software ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/iUqUGVpRDIc/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/5MoZ1hJuvqM/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/iUqUGVpRDIc/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/5MoZ1hJuvqM/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/iUqUGVpRDIc/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/5MoZ1hJuvqM/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Thikana Mandir Shri Govind Devji",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-07-15T06:15:50Z"
+      "channelTitle": "freeCodeCamp.org",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-11-22T15:00:13Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "2WhUUNIJg1lWmvsOWsWwUsgHptY",
+    "etag": "tnyE4dn8T2T8Ex5KBOSrg41q1rY",
     "id": {
       "kind": "youtube#video",
-      "videoId": "BksBvkNuZxU"
+      "videoId": "em6lrjGagOY"
     },
     "snippet": {
-      "publishedAt": "2024-09-06T22:56:04Z",
-      "channelId": "UC_Kteu5qFnOQhmfcIa9VpAw",
-      "title": "Live Global Seismic Activity Map Views using SeisComP and GlobalQuake.",
-      "description": "These maps are from our local installations of SeisComP and GlobalQuake. These software packages are ingesting data from ...",
+      "publishedAt": "2024-11-11T23:17:58Z",
+      "channelId": "UCqrILQNl5Ed9Dz6CGMyvMTQ",
+      "title": "Google Wrote 25% of It&#39;s Code with AI",
+      "description": "Want to Learn Coding 10x Faster with AI? https://start.getpoppy.ai/join?ref=yt-qazi-google-ai-jobs.",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/BksBvkNuZxU/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/em6lrjGagOY/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/BksBvkNuZxU/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/em6lrjGagOY/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/BksBvkNuZxU/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/em6lrjGagOY/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "Tracy CA Seismograph",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-09-06T22:56:04Z"
+      "channelTitle": "Clever Programmer",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-11-11T23:17:58Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "wqDjx4r7ri8wdbR1n-YqMn1t8_g",
+    "etag": "TEJoSWbOvfC97tkplPnaPrg6Wno",
     "id": {
       "kind": "youtube#video",
-      "videoId": "cGIM7WWPWcY"
+      "videoId": "YsCHobUSaLw"
     },
     "snippet": {
-      "publishedAt": "2024-06-12T18:29:54Z",
-      "channelId": "UCJBVNt_BTTl2v4qtLScyxpw",
-      "title": "News On 6 NOW",
-      "description": "Welcome to the News On 6 NOW on YouTube. Join us here for continuous coverage of breaking weather events in Tulsa and the ...",
+      "publishedAt": "2024-02-09T13:00:34Z",
+      "channelId": "UC1fLEeYICmo3O9cUsqIi7HA",
+      "title": "Coding Is Changing...Here Is What You NEED To Know",
+      "description": "Join over 1 million people learning to code with Zero To Mastery: https://links.zerotomastery.io/ZTM-NW-Feb24 Join our free ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/YsCHobUSaLw/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/YsCHobUSaLw/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/cGIM7WWPWcY/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/YsCHobUSaLw/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "News On 6/KOTV",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-06-12T18:29:54Z"
+      "channelTitle": "Nick White",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-02-09T13:00:34Z"
     }
   },
   {
     "kind": "youtube#searchResult",
-    "etag": "bnutxmX4pZWYuOX_qE-ohnH5vmY",
+    "etag": "DXNyTh76XtK2_Nc0hIkoGUC099U",
     "id": {
       "kind": "youtube#video",
-      "videoId": "CjhDe-aAh1U"
+      "videoId": "cO4ZmQh_sr8"
     },
     "snippet": {
-      "publishedAt": "2023-09-10T11:52:58Z",
-      "channelId": "UCCCVkU6r9ZTD8E4z7AtuOIw",
-      "title": "KATHMANDU - NEPAL - LIVE",
-      "description": "Please enjoy the views of Kathmandu - the capital city of Nepal. Webcam Nepal Live is a cutting-edge online platform that brings ...",
+      "publishedAt": "2024-11-22T20:24:45Z",
+      "channelId": "UC46wWUso9H5KPQcoL9iE3Ug",
+      "title": "🚨 Junior Developer Mistakes That Will COST You in 2025 🚨",
+      "description": "Junior Developer Mistakes That Will COST You in 2025 Are you just starting your journey as a developer? Avoid these ...",
       "thumbnails": {
         "default": {
-          "url": "https://i.ytimg.com/vi/CjhDe-aAh1U/default_live.jpg",
+          "url": "https://i.ytimg.com/vi/cO4ZmQh_sr8/default.jpg",
           "width": 120,
           "height": 90
         },
         "medium": {
-          "url": "https://i.ytimg.com/vi/CjhDe-aAh1U/mqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/cO4ZmQh_sr8/mqdefault.jpg",
           "width": 320,
           "height": 180
         },
         "high": {
-          "url": "https://i.ytimg.com/vi/CjhDe-aAh1U/hqdefault_live.jpg",
+          "url": "https://i.ytimg.com/vi/cO4ZmQh_sr8/hqdefault.jpg",
           "width": 480,
           "height": 360
         }
       },
-      "channelTitle": "WEBCAM NEPAL LIVE",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-09-10T11:52:58Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "lXWUm3ydgo5KXgfrwVdvp9qk1PE",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "CC0Of4wMwnk"
-    },
-    "snippet": {
-      "publishedAt": "2024-08-03T06:52:59Z",
-      "channelId": "UCpzi8BbsXCUoSlfbTBDMRKA",
-      "title": "Medjugorje LIVE  24/7 - St. James Church - Crkva sv. Jakova",
-      "description": "medjugorje #medjugorjelive #queenofpeace #church #stjames #gospintrg #svjakov #crkvasvjakova #medjugorjeenvivo Dear ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/CC0Of4wMwnk/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/CC0Of4wMwnk/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/CC0Of4wMwnk/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Medjugorje Today Live",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-08-03T06:52:59Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "oQ-8JtTGUBGwqcEtdSKHwwoX5u4",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "CYdUKfJAYNo"
-    },
-    "snippet": {
-      "publishedAt": "2024-07-21T00:36:38Z",
-      "channelId": "UC3ACLDxuy75577-GDItIgNA",
-      "title": "LIVE HORA CERTA 24/7 | RELÓGIO AO VIVO  UTC-3 (HORÁRIO DE BRASÍLIA) HORA OFICIAL DE BRASÍLIA Ao Vivo",
-      "description": "LIVE HORA CERTA 24/7 | RELÓGIO AO VIVO UTC-3 (HORÁRIO DE BRASÍLIA) HORA OFICIAL DE BRASÍLIA Ao Vivo \"HORA ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/CYdUKfJAYNo/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/CYdUKfJAYNo/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/CYdUKfJAYNo/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Canal Sr. Vaquinha",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-07-21T00:36:38Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "5AsIEqvjrN7pjfcxGWnf-iNR75s",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "zpVRx505C9w"
-    },
-    "snippet": {
-      "publishedAt": "2022-07-26T01:28:54Z",
-      "channelId": "UCAhqlmltCW94ipicG8X-oLw",
-      "title": "Live Earthquake Information - RaspberryShake 4D Seismograph RD29A - Chino Hills, Southern California",
-      "description": "Live earthquake stream from a RaspberryShake 4D seismograph in Chino Hills, Ca (Southern California) Guide to this stream ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/zpVRx505C9w/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/zpVRx505C9w/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/zpVRx505C9w/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Steve Caron",
-      "liveBroadcastContent": "live",
-      "publishTime": "2022-07-26T01:28:54Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "ejVOHZfSKsJH-4X3Zto5wkwuIy4",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "sdbSN8kpu68"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T15:50:08Z",
-      "channelId": "UCKt7TllYnUsCkocpzeX7Tfw",
-      "title": "World Today: Quick Take On #globalnews | #trump #putin #ukraine #modi #jaishankar #atacms #russia",
-      "description": "A quick round-up of global developments, only on StratNews Global ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/sdbSN8kpu68/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/sdbSN8kpu68/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/sdbSN8kpu68/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "StratNewsGlobal",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T15:50:08Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "di6890Kml9D1-KXy5FmEPJk71qg",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "SsPEnGjk-SU"
-    },
-    "snippet": {
-      "publishedAt": "2022-09-27T01:14:36Z",
-      "channelId": "UCw8RanrPpHhB42ffMvOtTJw",
-      "title": "Detroit Lakes Cam LIVE NOW | BNSF Staples Sub | @NTR-OTC | MP 210.1",
-      "description": "Live BNSF Staples Sub | Detroit Lakes Live Train Cam | Northern Transcon Railcams | MP 210.1 Welcome to our premier Detroit ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/SsPEnGjk-SU/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/SsPEnGjk-SU/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/SsPEnGjk-SU/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Northern Transcon Railcams - Otter Tail Channel",
-      "liveBroadcastContent": "live",
-      "publishTime": "2022-09-27T01:14:36Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "5rQsqUW2X37zRXlHX6blNQ0P-1A",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "rs2be3mqryo"
-    },
-    "snippet": {
-      "publishedAt": "2023-01-06T12:14:57Z",
-      "channelId": "UCXj6ROnZkzqgq6eYeoflO6A",
-      "title": "www.ultravisionconsult.com",
-      "description": "",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/rs2be3mqryo/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/rs2be3mqryo/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/rs2be3mqryo/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "ULTRAVISION CONSULT",
-      "liveBroadcastContent": "live",
-      "publishTime": "2023-01-06T12:14:57Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "TJbTqIJ5ghkXqW8mQPvqMWP1fjA",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "8OAlZPKNiM4"
-    },
-    "snippet": {
-      "publishedAt": "2021-04-19T16:40:22Z",
-      "channelId": "UCpmA9exJCBn9LoxXt87URtQ",
-      "title": "TechWorks Cam01",
-      "description": "This robot is located in TechWorks at CCA, but you can visit https://tinyurl.com/TechWorksRobot on a PC, Mac, or Chromebook to ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/8OAlZPKNiM4/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/8OAlZPKNiM4/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/8OAlZPKNiM4/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "CCA LIVE STREAM",
-      "liveBroadcastContent": "live",
-      "publishTime": "2021-04-19T16:40:22Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "DmCOkhGjrAveEFtPRVXI4XyM6eA",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "OYIQcaNdBc4"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T04:42:53Z",
-      "channelId": "UCzraw3sKtfg1KiEHEJvr2zg",
-      "title": "🛑LIVE🛑 STUMBLE GUYS | STREAM EUROPE SERVER | BLOCK DASH ENDLESS MAP",
-      "description": "Use Shop Creator Code : FANTO FANTO STREAMING SETUP DEVICE'S Iqoo neo 9 pro : https://amzn.to/3SowHIq Lenovo ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/OYIQcaNdBc4/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/OYIQcaNdBc4/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/OYIQcaNdBc4/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "fanto Gaming",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T04:42:53Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "dOdfG_aBXHHV1QHjzf7pJsQvIkI",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "WQLKeRyi-zM"
-    },
-    "snippet": {
-      "publishedAt": "2022-10-19T19:49:00Z",
-      "channelId": "UCrSH94MuqGyNxezgVOPqqaw",
-      "title": "Landing 3 - On Bigfoot Island!",
-      "description": "",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/WQLKeRyi-zM/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/WQLKeRyi-zM/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/WQLKeRyi-zM/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Bigfoot Zipline Tours",
-      "liveBroadcastContent": "live",
-      "publishTime": "2022-10-19T19:49:00Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "WX_WFRqW8N5h6mg3GGkKhxuEH8k",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "2DOFmnxa5co"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T07:41:42Z",
-      "channelId": "UCoDrjL4eWVbmuZWCoFu76wA",
-      "title": "Dubai Live 24/7 🇦🇪 Deep House &amp; Dubai Marina [ 4K ] Walking Tour Compilation",
-      "description": "During our program, we wander through the vibrant Dubai Marina, soaking in the atmospheric deep house tunes that lend a ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/2DOFmnxa5co/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/2DOFmnxa5co/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/2DOFmnxa5co/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "CitiesTouch",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T07:41:42Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "_JZ8_3398PpHMj0PzbgXmKLfSkQ",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "VMYfBN89Sz4"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T22:06:24Z",
-      "channelId": "UCcE5z1HBSdD9tZx5EMTjvZQ",
-      "title": "LIVESTREAM: PYRO 4.0 (expect bugs!) in the EPTU with Seksi_Snipes and Friends",
-      "description": "Join Emily ( Seksi_Snipes ) and her crew as we attempt to play test EPTU 4.0 to Pyro again!! EXPECT bugs, crashes, etc. Join the ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/VMYfBN89Sz4/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/VMYfBN89Sz4/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/VMYfBN89Sz4/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Emilys Game",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T22:06:24Z"
-    }
-  },
-  {
-    "kind": "youtube#searchResult",
-    "etag": "LoMDQRw6GSTK46BGIaIHI6y0FfA",
-    "id": {
-      "kind": "youtube#video",
-      "videoId": "zfJPPSlQZZo"
-    },
-    "snippet": {
-      "publishedAt": "2024-11-22T22:30:52Z",
-      "channelId": "UCLbLomtio10U_Ia3pbvjIhA",
-      "title": "continuando projetinho novo | !projeto !pix",
-      "description": "opa! não esquece de se inscrever e curtir a live! obrigada ^^ REDES insta: https://www.instagram.com/criativaria/ twitch: ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/zfJPPSlQZZo/default_live.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/zfJPPSlQZZo/mqdefault_live.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/zfJPPSlQZZo/hqdefault_live.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "Criativaria",
-      "liveBroadcastContent": "live",
-      "publishTime": "2024-11-22T22:30:52Z"
+      "channelTitle": "CodingPhase",
+      "liveBroadcastContent": "none",
+      "publishTime": "2024-11-22T20:24:45Z"
     }
   }
 ]
