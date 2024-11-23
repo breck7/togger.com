@@ -357,7 +357,21 @@ class Togger {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     border: 2px solid #374151;
     z-index: 1000;
+    user-select: none;
+    touch-action: none;
   `
+
+    // Add drag handle
+    const dragHandle = document.createElement("div")
+    dragHandle.style.cssText = `
+    width: 40px;
+    height: 4px;
+    background: #374151;
+    border-radius: 2px;
+    cursor: move;
+    margin: 0 auto 1rem auto;
+    `
+    remote.appendChild(dragHandle)
 
     // Add brand name
     const brand = document.createElement("div")
@@ -385,7 +399,7 @@ class Togger {
   `
     remote.appendChild(irEmitter)
 
-    // Helper function to create buttons
+    // Helper function to create buttons (remains the same)
     function createButton(text, key, options = {}) {
       const button = document.createElement("button")
       button.style.cssText = `
@@ -404,7 +418,6 @@ class Togger {
       transition: transform 0.1s;
     `
 
-      // Add power symbol if it's the power button
       if (options.isPower) {
         button.innerHTML = `
         <div style="
@@ -426,15 +439,13 @@ class Togger {
       button.addEventListener("click", () => {
         button.style.transform = "scale(0.95)"
         setTimeout(() => (button.style.transform = "scale(1)"), 100)
-
-        // Simulate keyboard press
         document.dispatchEvent(new KeyboardEvent("keydown", { key }))
       })
 
       return button
     }
 
-    // Create button rows container
+    // Create button rows container (remains the same)
     function createButtonRow(buttons) {
       const row = document.createElement("div")
       row.style.cssText = `
@@ -475,6 +486,71 @@ class Togger {
 
     // Add remote to page
     document.body.appendChild(remote)
+
+    // Add drag functionality
+    let isDragging = false
+    let currentX
+    let currentY
+    let initialX
+    let initialY
+    let xOffset = 0
+    let yOffset = 0
+
+    function dragStart(e) {
+      if (e.type === "touchstart") {
+        initialX = e.touches[0].clientX - xOffset
+        initialY = e.touches[0].clientY - yOffset
+      } else {
+        initialX = e.clientX - xOffset
+        initialY = e.clientY - yOffset
+      }
+
+      if (e.target === dragHandle || e.target === remote) {
+        isDragging = true
+      }
+    }
+
+    function dragEnd() {
+      initialX = currentX
+      initialY = currentY
+      isDragging = false
+    }
+
+    function drag(e) {
+      if (isDragging) {
+        e.preventDefault()
+
+        if (e.type === "touchmove") {
+          currentX = e.touches[0].clientX - initialX
+          currentY = e.touches[0].clientY - initialY
+        } else {
+          currentX = e.clientX - initialX
+          currentY = e.clientY - initialY
+        }
+
+        xOffset = currentX
+        yOffset = currentY
+
+        // Ensure the remote stays within viewport bounds
+        // const remoteRect = remote.getBoundingClientRect()
+        // const maxX = window.innerWidth - remoteRect.width
+        // const maxY = window.innerHeight - remoteRect.height
+
+        // xOffset = Math.min(Math.max(0, xOffset), maxX)
+        // yOffset = Math.min(Math.max(0, yOffset), maxY)
+
+        remote.style.transform = `translate(${xOffset}px, ${yOffset}px)`
+      }
+    }
+
+    // Add event listeners for both mouse and touch events
+    remote.addEventListener("touchstart", dragStart, false)
+    remote.addEventListener("touchend", dragEnd, false)
+    remote.addEventListener("touchmove", drag, false)
+
+    remote.addEventListener("mousedown", dragStart, false)
+    document.addEventListener("mouseup", dragEnd, false)
+    document.addEventListener("mousemove", drag, false)
 
     // Handle window resize
     window.addEventListener("resize", () => {
