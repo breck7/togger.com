@@ -1,79 +1,151 @@
-../togger.parsers
+buildJson
+channels.parsers
+concepts
+ printTable
+
+url https://www.youtube.com/@okbangershow
+channelid UCgiZJmuxlXqhvBl415tOaCA
+channeltitle OK Banger
+currentstream 5L4bhhUAso8
+collections warpcast
+streamtime 2024-11-22T16:09:24Z
+
+url https://www.youtube.com/@GMFarcaster
+channelid UChEEElYETR8gpc_RL0GGJng
+channeltitle GM Farcaster
+currentstream gJC32yXn6ec
+collections warpcast
+streamtime 2024-11-23T05:22:28Z
+
+url https://www.youtube.com/@breckyunits
+channelid UCTWe9dhJZdmFKXHojwEqLjg
+channeltitle ScrollTalk
+currentstream gO2JMofupTc
+collections warpcast coding
+streamtime 2024-11-21T16:18:11Z
+
+url https://www.youtube.com/@Crypto_WenMoon
+channelid UCeLw35YMiTsxPC_BEMbX6yQ
+channeltitle Crypto Trading Academy
+currentstream ThnGHHBksjc
+collections warpcast
+streamtime 2024-10-25T16:33:16Z
+
+url https://www.youtube.com/@BuenasNochesFarcaster
+channelid UCJG6kVAgPtbCsKq4tIm7W2g
+channeltitle Buenas Noches Farcaster
+currentstream bQ5Qgxf1brM
+collections warpcast
+streamtime 2024-11-19T16:03:34Z
+
+url https://www.youtube.com/@LosFomos
+channelid UCZ8MI1slzXKUv9fb0I9Ho2A
+channeltitle Los Fomos FM
+currentstream 5mdON4o8TXo
+collections warpcast
+streamtime 2024-11-22T20:30:00Z
+
+url https://www.youtube.com/@chrisgo
+channelid UCAPc9Lz2Z5MJOxCdo3RTs-w
+channeltitle Chris Follows
+currentstream wC2JVPOgZHI
+collections warpcast
+streamtime 2024-10-07T16:33:32Z
+
+url https://www.youtube.com/@wolfofbaystreet
+channelid UCfRAJMeyZKLiwue1J4J6DAQ
+channeltitle Wolf of Baystreet
+currentstream MA35mi7OiSg
+collections warpcast
+streamtime 2024-11-23T02:13:41Z
 
 url https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw
 channelid UC8ENHE5xdFSwx71u3fDH5Xw
 channeltitle ThePrimeagen
 currentstream A_XGsAl-LqY
+collections coding
 streamtime 2024-10-23T12:00:12Z
 
 url https://www.youtube.com/channel/UC2D6eRvCeMtcF5OGHf1-trw
 channelid UC2D6eRvCeMtcF5OGHf1-trw
 channeltitle CodeWithChris
 currentstream YmXMCTsn3xQ
+collections coding
 streamtime 2024-11-21T14:15:04Z
 
 url https://www.youtube.com/channel/UCLNgu_OupwoeESgtab33CCw
 channelid UCLNgu_OupwoeESgtab33CCw
 channeltitle Coding Garden
 currentstream uMVWD46apEc
+collections coding
 streamtime 2024-11-08T14:44:04Z
 
 url https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA
 channelid UCsBjURrPoezykLs9EqgamOA
 channeltitle Fireship
 currentstream V3554BmwV1E
+collections coding
 streamtime 2024-11-20T20:17:34Z
 
 url https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA
 channelid UC29ju8bIPH5as8OGnQzwJyA
 channeltitle Traversy Media
 currentstream 9Oi3j-FNXxw
+collections coding
 streamtime 2024-11-22T16:20:12Z
 
 url https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w
 channelid UCSJbGtTlrDami-tDGPUV9-w
 channeltitle Academind
 currentstream qNs0Dxs5JVI
+collections coding
 streamtime 2024-10-29T16:00:52Z
 
 url https://www.youtube.com/channel/UC9Yp2yz6-pwhQuPlIDV_mjA
 channelid UC9Yp2yz6-pwhQuPlIDV_mjA
 channeltitle Chris Courses
 currentstream zogxGGDJ2Ok
+collections coding
 streamtime 2024-10-29T21:59:24Z
 
 url https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
 channelid UC4JX40jDee_tINbkjycV4Sg
 channeltitle Tech With Tim
 currentstream Xg5KvSqduWA
+collections coding
 streamtime 2024-11-23T05:30:12Z
 
 url https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q
 channelid UC0e3QhIYukixgh5VVpKHH9Q
 channeltitle Code Bullet
 currentstream SCUu4xlZZgc
+collections coding
 streamtime 2024-11-04T06:30:08Z
 
 url https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
 channelid UC8butISFwT-Wl7EV0hUK0BQ
 channeltitle freeCodeCamp.org
 currentstream x4rFhThSX04
+collections coding
 streamtime 2024-11-20T18:25:12Z
 
 url https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
 channelid UCqrILQNl5Ed9Dz6CGMyvMTQ
 channeltitle Clever Programmer
 currentstream em6lrjGagOY
+collections coding
 streamtime 2024-11-11T23:17:58Z
 
 url https://www.youtube.com/channel/UC1fLEeYICmo3O9cUsqIi7HA
 channelid UC1fLEeYICmo3O9cUsqIi7HA
 channeltitle Nick White
 currentstream YsCHobUSaLw
+collections coding
 streamtime 2024-02-09T13:00:34Z
 
 url https://www.youtube.com/channel/UC46wWUso9H5KPQcoL9iE3Ug
 channelid UC46wWUso9H5KPQcoL9iE3Ug
 channeltitle CodingPhase
 currentstream cO4ZmQh_sr8
+collections coding
 streamtime 2024-11-22T20:24:45Z

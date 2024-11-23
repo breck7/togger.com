@@ -4,11 +4,7 @@ header.scroll
 
 lodash.min.js
 
-jsonScript collectionCache/scienceCollection.json
-jsonScript collectionCache/generalCollection.json
-jsonScript collectionCache/codingCollection.json
-jsonScript collectionCache/warpcastCollection.json
-jsonScript collectionCache/ambienceCollection.json
+jsonScript channels.json
 
 <div id="player"></div>
 <div class="static-noise"></div>

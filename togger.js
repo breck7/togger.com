@@ -9,16 +9,9 @@ const lodash = _
 const makeDeepLink = (platform, channelName) =>
   [platform, channelName.replace(/\s+/g, "")].join(".")
 
-const collections = {
-  warpcast: warpcastCollection,
-  coding: codingCollection,
-  science: scienceCollection,
-  general: generalCollection,
-  ambience: ambienceCollection,
-}
-
 class Togger {
   constructor() {
+    this.collectionNames = Array.from(new Set(channels.map(c => c.collections).join(" ").split(" ")))
     const params = new URLSearchParams(window.location.search)
     this.loadStreams(params.get("collection") || params.get("p"))
     this.currentIndex = this.getInitialIndex()
@@ -30,17 +23,13 @@ class Togger {
   }
 
   getCollection(collectionName = "science") {
-    if (!collections[collectionName]) collectionName = "science"
+    if (!collectionNames[collectionName]) collectionName = "science"
     this.collectionName = collectionName
-    return collections[collectionName]
+    return channels.filter(c => c.collection.includes("collectionName"))
   }
 
   get collectionIndex() {
     return this.collectionNames.indexOf(this.collectionName)
-  }
-
-  get collectionNames() {
-    return Object.keys(collections)
   }
 
   nextCollection() {
