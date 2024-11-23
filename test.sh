@@ -1,1 +1,1 @@
-whereis node
+node update.mjs
