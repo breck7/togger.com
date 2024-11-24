@@ -1,11 +1,29 @@
-buildJson
+buildHtml
+buildConcepts channels.json channels.csv channels.tsv
+ sortBy status
+buildMeasures measures.csv measures.json measures.tsv
+loadConcepts channels
+title Togger Channel Data
+
+theme gazette
+metaTags
+printTitle
+
+container
+
+Download Togger Data as: CSV | TSV | JSON
+ link channels.csv CSV
+ link channels.tsv TSV
+ link channels.json JSON
+
 channels.parsers
 
-channels/ambience.scroll
-channels/coding.scroll
-channels/general.scroll
-channels/science.scroll
-channels/warpcast.scroll
-
-concepts
+Statistics on the measures (columns) are below and can be downloaded as: CSV | TSV | JSON
+ link measures.csv CSV
+ link measures.tsv TSV
+ link measures.json JSON
+table measures.csv
  printTable
+tableSearch
+
+

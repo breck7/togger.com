@@ -6,3 +6,6 @@
 *.css
 *.csv
 requests.scroll
+*.js
+*.tsv
+node_modules
