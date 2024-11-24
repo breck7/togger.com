@@ -2,10 +2,10 @@
 
 id chrisgo
 url https://www.youtube.com/@chrisgo
-status live
 channelid UCAPc9Lz2Z5MJOxCdo3RTs-w
 channeltitle Chris Follows
-neweststream wC2JVPOgZHI
+status off
 collections warpcast
+neweststream wC2JVPOgZHI
 streamtime 2024-10-07T16:33:32Z
 warpcast https://warpcast.com/chrisfollows
