@@ -1,3 +1,5 @@
+../channels.parsers
+
 id programmer-network
 url https://www.youtube.com/@programmer-network
 status live

@@ -1,3 +1,5 @@
+../channels.parsers
+
 id myquickmick
 url https://www.youtube.com/@MyQuickmick
 status live

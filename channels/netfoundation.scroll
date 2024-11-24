@@ -1,3 +1,5 @@
+../channels.parsers
+
 id netfoundation
 url https://www.youtube.com/@NETFoundation
 status live

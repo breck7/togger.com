@@ -1,3 +1,5 @@
+../channels.parsers
+
 id rawstartup
 url https://www.youtube.com/@RawStartup
 status live

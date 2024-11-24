@@ -1,3 +1,5 @@
+../channels.parsers
+
 id homewebserver
 url https://www.youtube.com/@HomeWebServer
 status live

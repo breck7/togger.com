@@ -1,3 +1,5 @@
+../channels.parsers
+
 id bigbadbench
 url https://www.youtube.com/@BigBadBench
 status live
