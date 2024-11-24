@@ -1,8 +1,5 @@
 let staticNoise = document.querySelector(".static-noise")
 let channelName = document.querySelector(".channel-name")
-let muteIcon = document.querySelector(".muteIcon")
-let videoId = document.querySelector(".video-id")
-let control = document.querySelector(".control")
 let powerScreen = document.querySelector(".power-screen")
 const lodash = _
 
@@ -214,6 +211,7 @@ class Togger {
 
   playStream() {
     if (!this.isPoweredOn) return
+    this.didSeek = false
 
     const current = this.streams[this.currentIndex]
 
@@ -290,6 +288,20 @@ class Togger {
     return this.player.playerInfo.videoData.isLive
   }
 
+  getTimeBasedSeekPosition(duration) {
+    // Get current UTC time
+    const now = new Date()
+    const totalMinutes = now.getUTCHours() * 60 + now.getUTCMinutes()
+    const totalSeconds = totalMinutes * 60 + now.getUTCSeconds()
+    
+    // If the video duration is available, use modulo to wrap around
+    if (duration && duration > 0) {
+      return totalSeconds % duration
+    }
+    
+    return totalSeconds
+  }
+
   onPlayerStateChange(event) {
     if (!this.isPoweredOn) return
 
@@ -305,6 +317,14 @@ class Togger {
       // Get video data and check live status
       const videoData = this.player.getVideoData()
       const isLive = this.checkIfLive()
+
+      if (!isLive && !this.didSeek) {
+        // For non-live videos, seek to time-based position
+        const duration = this.player.getDuration()
+        const seekPosition = this.getTimeBasedSeekPosition(duration)
+        this.player.seekTo(seekPosition, true)
+        this.didSeek = true
+      }
 
       if (!isLive && this.currentChannel.status === "live") this.reportOffline()
 
@@ -322,6 +342,7 @@ class Togger {
 
   async reportOffline() {
     try {
+      this.currentChannel.status = "off"
       const filename = `channels/${this.currentChannel.id}.scroll`
       const response = await fetch(
         `/set?folderName=togger.com&file=${filename}&line=status off`,

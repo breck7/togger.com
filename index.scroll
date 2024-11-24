@@ -11,6 +11,5 @@ jsonScript channels.json
 <div class="power-screen"></div>
 <div class="channel-name"></div>
 <div class="title" id="title"></div>
-<div class="video-id"></div>
 
 togger.js
