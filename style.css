@@ -192,7 +192,8 @@ body {
   }
 }
 
-.indicator, .channel-name {
+.indicator,
+.channel-name {
   font-size: 2rem;
   color: #00ff22;
   text-transform: uppercase;
@@ -246,4 +247,17 @@ body {
   body {
     font-size: 17px;
   }
+}
+
+a.warpcast {
+  position: absolute;
+  right: -75px;
+  top: -8px;
+  display: inline-block;
+  background-color: #5d3e9e;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-family: Arial;
 }

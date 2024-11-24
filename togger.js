@@ -9,7 +9,7 @@ const makeDeepLink = (platform, channeltitle) =>
   [platform, channeltitle.replace(/\s+/g, "")].join(".")
 
 const makeWarpCastLink = (link) =>
-  `<a target="warpcast" href="${link}" style="display: inline-block; background-color: #5d3e9e; color: white; padding: 8px 12px; border-radius: 12px; font-weight: bold; font-family: Arial;">W</span>`
+  `<a target="warpcast" class="warpcast" href="${link}">W</span>`
 
 class Togger {
   constructor() {
