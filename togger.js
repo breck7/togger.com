@@ -211,13 +211,14 @@ class Togger {
 
   playStream() {
     if (!this.isPoweredOn) return
-    this.didSeek = false
+    this.didLoad = false
 
     const current = this.streams[this.currentIndex]
 
     channelName.innerHTML = `Loading ${current.deepLink}...`
 
     if (current.platform === "youtube") {
+      this.player.mute()
       this.player.loadVideoById(current.streamLink)
       this.player.setVolume(100)
       this.player.setPlaybackRate(1)
@@ -293,12 +294,12 @@ class Togger {
     const now = new Date()
     const totalMinutes = now.getUTCHours() * 60 + now.getUTCMinutes()
     const totalSeconds = totalMinutes * 60 + now.getUTCSeconds()
-    
+
     // If the video duration is available, use modulo to wrap around
     if (duration && duration > 0) {
       return totalSeconds % duration
     }
-    
+
     return totalSeconds
   }
 
@@ -312,19 +313,21 @@ class Togger {
       //videoId.textContent = "STREAM ENDED"
       this.nextChannel() // Auto-play next video when current one ends
     } else if (event.data == YT.PlayerState.PLAYING) {
-      staticNoise.style.opacity = 0
-
       // Get video data and check live status
       const videoData = this.player.getVideoData()
       const isLive = this.checkIfLive()
+      if (this.didLoad) staticNoise.style.opacity = 0
 
-      if (!isLive && !this.didSeek) {
+      if (!isLive && !this.didLoad) {
         // For non-live videos, seek to time-based position
         const duration = this.player.getDuration()
         const seekPosition = this.getTimeBasedSeekPosition(duration)
         this.player.seekTo(seekPosition, true)
-        this.didSeek = true
       }
+      if (!this.didLoad && !this.isMuted) {
+        this.player.unMute()
+      }
+      this.didLoad = true
 
       if (!isLive && this.currentChannel.status === "live") this.reportOffline()
 
