@@ -658,7 +658,16 @@ function onYouTubeIframeAPIReady() {
     events: {
       onReady: (event) => togger.onReady(event),
       onStateChange: (event) => togger.onPlayerStateChange(event),
-      onError: (event) => console.error(event),
+      onError: (event) => {
+        console.log(`https://developers.google.com/youtube/iframe_api_reference
+This event fires if an error occurs in the player. The API will pass an event object to the event listener function. That object's data property will specify an integer that identifies the type of error that occurred. Possible values are:
+2 – The request contains an invalid parameter value. For example, this error occurs if you specify a video ID that does not have 11 characters, or if the video ID contains invalid characters, such as exclamation points or asterisks.
+5 – The requested content cannot be played in an HTML5 player or another error related to the HTML5 player has occurred.
+100 – The video requested was not found. This error occurs when a video has been removed (for any reason) or has been marked as private.
+101 – The owner of the requested video does not allow it to be played in embedded players.
+150 – This error is the same as 101. It's just a 101 error in disguise!`)
+        console.error(event)
+      },
     },
   })
 
