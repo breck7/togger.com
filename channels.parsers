@@ -10,18 +10,23 @@ channeltitleParser
  extends abstractStringMeasureParser
  float sortIndex 1.3
 
+statusParser
+ extends abstractStringMeasureParser
+ description live or off?
+ float sortIndex 1.31
+
 collectionsParser
  extends abstractStringMeasureParser
  float sortIndex 1.35
 
-warpcastParser
- extends abstractStringMeasureParser
- float sortIndex 1.39
-
-currentstreamParser
+neweststreamParser
  extends abstractStringMeasureParser
  float sortIndex 1.4
 
 streamtimeParser
  extends abstractStringMeasureParser
  float sortIndex 1.5
+
+warpcastParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.6

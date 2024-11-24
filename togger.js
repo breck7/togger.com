@@ -78,7 +78,7 @@ class Togger {
       return {
         ...item,
         link: `https://youtube.com/channel/${item.channelid}`,
-        streamLink: item.currentstream,
+        streamLink: item.neweststream,
         platform: "youtube",
         deepLink: makeDeepLink(platform, channeltitle),
       }
@@ -302,6 +302,8 @@ class Togger {
       const videoData = this.player.getVideoData()
       const isLive = this.checkIfLive()
 
+      if (!isLive) this.reportOffline()
+
       videoId.textContent = `${videoData.video_id} ${isLive ? "(LIVE)" : ""}`
 
       this.updateChannelDisplay(videoData, isLive)
@@ -313,6 +315,8 @@ class Togger {
       videoId.textContent = "VIDEO CUED"
     }
   }
+
+  reportOffline() {}
 
   onReady(event) {
     this.playStream() // Start playing as soon as the player is ready
