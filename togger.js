@@ -335,7 +335,7 @@ class Togger {
       // videoId.textContent = "UNSTARTED"
     } else if (event.data == YT.PlayerState.ENDED) {
       //videoId.textContent = "STREAM ENDED"
-      this.nextChannel() // Auto-play next video when current one ends
+//      this.nextChannel() // Auto-play next video when current one ends
     } else if (event.data == YT.PlayerState.PLAYING) {
       // Get video data and check live status
       const videoData = this.player.getVideoData()
