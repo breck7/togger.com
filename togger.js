@@ -15,14 +15,18 @@ class Togger {
   constructor() {
     this.collectionNames = Array.from(
       new Set(
-        channels
+        this.channels
           .map((c) => c.collections)
           .join(" ")
           .split(" "),
       ),
     )
     const params = new URLSearchParams(window.location.search)
-    this.loadStreams(params.get("collection") || params.get("p"))
+    this.loadStreams(
+      params.get("collection") ||
+        params.get("p") ||
+        (params.get("v") ? "custom" : ""),
+    )
     this.currentIndex = this.getInitialIndex()
     this.isPoweredOn = true
     this.isMuted = true
@@ -31,8 +35,28 @@ class Togger {
     this.addRemoteControl()
   }
 
+  maybeAddCustomChannel() {
+    const params = new URLSearchParams(window.location.search)
+    const customVideoId = params.get("v")
+    if (!customVideoId) return ""
+    this._channels.shift({
+      id: "customDeepLink",
+      url: "https://www.youtube.com/watch?v=" + customVideoId,
+      channelid: "",
+      channeltitle: "",
+      status: "off",
+      collections: "custom",
+      neweststream: customVideoId,
+    })
+    // const timestamp = params.get("t")
+  }
+
+  _channels
   get channels() {
-    return channels
+    if (this._channels) return this._channels
+    this._channels = channels.slice()
+    this.maybeAddCustomChannel()
+    return this._channels
   }
 
   getCollection(collectionName = defaultCollection) {
@@ -316,7 +340,7 @@ class Togger {
       // Get video data and check live status
       const videoData = this.player.getVideoData()
       const isLive = this.checkIfLive()
-      if (this.didLoad) staticNoise.style.opacity = 0
+      if (this.didLoad || isLive) staticNoise.style.opacity = 0
 
       if (!isLive && !this.didLoad) {
         // For non-live videos, seek to time-based position
