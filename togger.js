@@ -142,6 +142,10 @@ class Togger {
     })
   }
 
+  get currentChannel() {
+    return this.streams[this.currentIndex]
+  }
+
   nextChannel() {
     this.currentIndex = (this.currentIndex + 1) % this.streams.length
     this.playStream()
@@ -302,7 +306,7 @@ class Togger {
       const videoData = this.player.getVideoData()
       const isLive = this.checkIfLive()
 
-      if (!isLive) this.reportOffline()
+      if (!isLive && this.currentChannel.status === "live") this.reportOffline()
 
       videoId.textContent = `${videoData.video_id} ${isLive ? "(LIVE)" : ""}`
 
@@ -316,7 +320,26 @@ class Togger {
     }
   }
 
-  reportOffline() {}
+  async reportOffline() {
+    try {
+      const filename = `channels/${this.currentChannel.id}.scroll`
+      const response = await fetch(
+        `/set?folderName=togger.com&file=${filename}&line=status off`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "text/plain",
+          },
+        },
+      )
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
+    } catch (error) {
+      console.error("Error reporting channel offline:", error)
+    }
+  }
 
   onReady(event) {
     this.playStream() // Start playing as soon as the player is ready
