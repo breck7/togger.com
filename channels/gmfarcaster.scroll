@@ -2,10 +2,10 @@
 
 id gmfarcaster
 url https://www.youtube.com/@GMFarcaster
-status live
 channelid UChEEElYETR8gpc_RL0GGJng
 channeltitle GM Farcaster
-neweststream gJC32yXn6ec
+status off
 collections warpcast
+neweststream gJC32yXn6ec
 streamtime 2024-11-23T05:22:28Z
 warpcast https://warpcast.com/gmfarcaster
