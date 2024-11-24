@@ -2,10 +2,10 @@
 
 id buenasnochesfarcaster
 url https://www.youtube.com/@BuenasNochesFarcaster
-status live
 channelid UCJG6kVAgPtbCsKq4tIm7W2g
 channeltitle Buenas Noches Farcaster
-neweststream bQ5Qgxf1brM
+status off
 collections warpcast
+neweststream bQ5Qgxf1brM
 streamtime 2024-11-19T16:03:34Z
 warpcast https://warpcast.com/cryptowenmoon.eth
