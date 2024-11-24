@@ -307,9 +307,9 @@ class Togger {
 
     staticNoise.style.opacity = 1
     if (event.data == YT.PlayerState.UNSTARTED) {
-      videoId.textContent = "UNSTARTED"
+      // videoId.textContent = "UNSTARTED"
     } else if (event.data == YT.PlayerState.ENDED) {
-      videoId.textContent = "STREAM ENDED"
+      //videoId.textContent = "STREAM ENDED"
       this.nextChannel() // Auto-play next video when current one ends
     } else if (event.data == YT.PlayerState.PLAYING) {
       staticNoise.style.opacity = 0
@@ -328,15 +328,15 @@ class Togger {
 
       if (!isLive && this.currentChannel.status === "live") this.reportOffline()
 
-      videoId.textContent = `${videoData.video_id} ${isLive ? "(LIVE)" : ""}`
+      // videoId.textContent = `${videoData.video_id} ${isLive ? "(LIVE)" : ""}`
 
       this.updateChannelDisplay(videoData, isLive)
     } else if (event.data == YT.PlayerState.PAUSED) {
-      videoId.textContent = "PAUSED"
+      //videoId.textContent = "PAUSED"
     } else if (event.data == YT.PlayerState.BUFFERING) {
-      videoId.textContent = "BUFFERING"
+      //videoId.textContent = "BUFFERING"
     } else if (event.data == YT.PlayerState.CUED) {
-      videoId.textContent = "VIDEO CUED"
+      //videoId.textContent = "VIDEO CUED"
     }
   }
 
