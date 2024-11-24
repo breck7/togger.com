@@ -22,11 +22,11 @@ class Togger {
       ),
     )
     const params = new URLSearchParams(window.location.search)
-    this.loadStreams(
+    const startCollection =
       params.get("collection") ||
-        params.get("p") ||
-        (params.get("v") ? "custom" : ""),
-    )
+      params.get("p") ||
+      (params.get("v") ? "custom" : "")
+    this.loadStreams(startCollection)
     this.currentIndex = this.getInitialIndex()
     this.isPoweredOn = true
     this.isMuted = true
@@ -39,7 +39,7 @@ class Togger {
     const params = new URLSearchParams(window.location.search)
     const customVideoId = params.get("v")
     if (!customVideoId) return ""
-    this._channels.shift({
+    this._channels.unshift({
       id: "customDeepLink",
       url: "https://www.youtube.com/watch?v=" + customVideoId,
       channelid: "",
@@ -335,7 +335,7 @@ class Togger {
       // videoId.textContent = "UNSTARTED"
     } else if (event.data == YT.PlayerState.ENDED) {
       //videoId.textContent = "STREAM ENDED"
-//      this.nextChannel() // Auto-play next video when current one ends
+      //      this.nextChannel() // Auto-play next video when current one ends
     } else if (event.data == YT.PlayerState.PLAYING) {
       // Get video data and check live status
       const videoData = this.player.getVideoData()
