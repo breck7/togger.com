@@ -1,6 +1,6 @@
 buildHtml
 buildConcepts channels.json channels.csv channels.tsv
- sortBy status
+ sortBy status -id
 buildMeasures measures.csv measures.json measures.tsv
 loadConcepts channels
 title Togger Channel Data
