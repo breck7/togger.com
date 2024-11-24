@@ -239,7 +239,7 @@ class Togger {
 
     const current = this.streams[this.currentIndex]
 
-    channelName.innerHTML = `Loading ${current.deepLink}...`
+    channelName.innerHTML = `${current.deepLink} ↺`
 
     if (current.platform === "youtube") {
       this.player.mute()
