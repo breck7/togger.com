@@ -2,10 +2,10 @@
 
 id breckyunits
 url https://www.youtube.com/@breckyunits
-status live
 channelid UCTWe9dhJZdmFKXHojwEqLjg
 channeltitle ScrollTalk
-neweststream gO2JMofupTc
+status off
 collections warpcast coding
+neweststream gO2JMofupTc
 streamtime 2024-11-21T16:18:11Z
 warpcast https://warpcast.com/breck
