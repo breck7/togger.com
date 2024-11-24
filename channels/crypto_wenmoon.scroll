@@ -2,10 +2,10 @@
 
 id crypto_wenmoon
 url https://www.youtube.com/@Crypto_WenMoon
-status live
 channelid UCeLw35YMiTsxPC_BEMbX6yQ
 channeltitle Crypto Trading Academy
-neweststream ThnGHHBksjc
+status off
 collections warpcast
+neweststream ThnGHHBksjc
 streamtime 2024-10-25T16:33:16Z
 warpcast https://warpcast.com/cryptowenmoon
