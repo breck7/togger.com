@@ -182,6 +182,12 @@ class Togger {
         case "p":
           this.togglePower()
           break
+        case "-":
+          this.decreaseVolume()
+          break
+        case "=":
+          this.increaseVolume()
+          break
         case "s":
           this.shuffle()
           this.nextChannel()
