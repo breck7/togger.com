@@ -1,4 +1,4 @@
 buildHtml
 script
- const path = window.location.pathname.slice(1)
+ const path = window.location.pathname.slice(1).replace("/", "")
  if (path) window.location.href = `/?p=${path}`
