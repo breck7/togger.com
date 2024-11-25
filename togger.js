@@ -27,6 +27,8 @@ class Togger {
       params.get("p") ||
       (params.get("v") ? "custom" : "")
     this.loadStreams(startCollection)
+    if (params.get("shuffle"))
+      this.shuffle()
     this.currentIndex = this.getInitialIndex()
     this.isPoweredOn = true
     this.isMuted = true
@@ -132,7 +134,6 @@ class Togger {
 
   shuffle() {
     this.streams = lodash.shuffle(this.streams)
-    this.nextChannel()
   }
 
   bindKeyboardControls() {
@@ -158,6 +159,7 @@ class Togger {
           break
         case "s":
           this.shuffle()
+          this.nextChannel()
           break
       }
     })
