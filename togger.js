@@ -291,7 +291,7 @@ class Togger {
       // Update the channel parameter
       params.delete("c")
       params.delete("p")
-      params.set("channel", this.current.deepLink)
+      params.set("channel", this.currentChannel.deepLink)
       params.set("collection", this.collectionName)
 
       // Replace state with all parameters
