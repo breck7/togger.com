@@ -273,8 +273,9 @@ class Togger {
       ? '<span style="color: red; margin-left: 8px;">● LIVE</span>'
       : '<span style="color: white; margin-left: 8px;">OFF-AIR</span>'
 
+      const url = `https://www.youtube.com/watch?v=${current.neweststream}`
     channelName.innerHTML = `
-      <a href="${current.url}" target="_blank">
+      <a href="${url}" target="_blank">
         ${current.deepLink}
       </a>
       ${liveIndicator}
