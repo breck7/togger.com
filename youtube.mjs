@@ -35,6 +35,74 @@ class YouTubeFeed {
     }
   }
 
+  async getVideoLiveDetails(videoId) {
+    const endpoint = "https://www.googleapis.com/youtube/v3/videos"
+    const params = new URLSearchParams({
+      part: "liveStreamingDetails,statistics,snippet",
+      id: videoId,
+      key: this.apiKey,
+    })
+
+    try {
+      const response = await fetch(`${endpoint}?${params}`)
+      const data = await response.json()
+
+      if (!data.items?.[0]) {
+        throw new Error("Video not found")
+      }
+
+      const videoInfo = data.items[0]
+      return {
+        viewerCount: videoInfo.liveStreamingDetails?.concurrentViewers || 0,
+        hasLiveChat: !!videoInfo.liveStreamingDetails?.activeLiveChatId,
+        chatId: videoInfo.liveStreamingDetails?.activeLiveChatId,
+        isLive: videoInfo.snippet?.liveBroadcastContent === "live",
+        totalViews: videoInfo.statistics?.viewCount,
+        scheduledStartTime: videoInfo.liveStreamingDetails?.scheduledStartTime,
+        actualStartTime: videoInfo.liveStreamingDetails?.actualStartTime,
+      }
+    } catch (error) {
+      console.error("Error fetching live details:", error)
+      throw error
+    }
+  }
+
+  async checkChannelLiveStatus(channelId) {
+    const endpoint = "https://www.googleapis.com/youtube/v3/search"
+    const params = new URLSearchParams({
+      part: "snippet",
+      channelId: channelId,
+      type: "video",
+      eventType: "live",
+      key: this.apiKey,
+    })
+
+    try {
+      const response = await fetch(`${endpoint}?${params}`)
+      const data = await response.json()
+
+      // If there are items, the channel is live
+      if (data.items && data.items.length > 0) {
+        const liveStream = data.items[0]
+        return {
+          isLive: true,
+          videoId: liveStream.id.videoId,
+          title: liveStream.snippet.title,
+          thumbnailUrl: liveStream.snippet.thumbnails.default.url,
+          startTime: liveStream.snippet.publishedAt,
+        }
+      }
+
+      return {
+        isLive: false,
+        videoId: null,
+      }
+    } catch (error) {
+      console.error("Error checking channel live status:", error)
+      throw error
+    }
+  }
+
   async fetchChannelStreams(channelUrls) {
     const { apiKey } = this
     // Extract channel handles from URLs
