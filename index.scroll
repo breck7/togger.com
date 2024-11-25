@@ -4,7 +4,7 @@ header.scroll
 
 lodash.min.js
 
-jsonScript channels.json
+jsonScript sorted.json
 
 <div id="player"></div>
 <div class="static-noise"></div>

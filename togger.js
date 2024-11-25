@@ -26,10 +26,19 @@ class Togger {
       params.get("collection") ||
       params.get("p") ||
       (params.get("v") ? "custom" : "")
+
+    // Track indexes per collection
+    this.collectionIndexes = {}
+    this.collectionNames.forEach((name) => {
+      this.collectionIndexes[name] = 0
+    })
+
     this.loadStreams(startCollection)
-    if (params.get("shuffle"))
-      this.shuffle()
+    if (params.get("shuffle")) this.shuffle()
     this.currentIndex = this.getInitialIndex()
+    // Store initial index for current collection
+    this.collectionIndexes[this.collectionName] = this.currentIndex
+
     this.isPoweredOn = true
     this.isMuted = true
     this.addVolumeIndicator()
@@ -56,7 +65,7 @@ class Togger {
   _channels
   get channels() {
     if (this._channels) return this._channels
-    this._channels = channels.slice()
+    this._channels = sorted.slice()
     this.maybeAddCustomChannel()
     return this._channels
   }
@@ -74,22 +83,34 @@ class Togger {
   }
 
   nextCollection() {
+    // Save current index for current collection
+    this.collectionIndexes[this.collectionName] = this.currentIndex
+
     const { collectionNames, collectionIndex } = this
     const collectionName =
       collectionNames[(collectionIndex + 1) % collectionNames.length]
     this.loadStreams(collectionName)
-    this.nextChannel()
+
+    // Restore saved index for new collection
+    this.currentIndex = this.collectionIndexes[collectionName]
+    this.playStream()
     this.showIndicator(collectionName)
   }
 
   previousCollection() {
+    // Save current index for current collection
+    this.collectionIndexes[this.collectionName] = this.currentIndex
+
     const { collectionNames, collectionIndex } = this
     const collectionName =
       collectionNames[
         (collectionIndex - 1 + collectionNames.length) % collectionNames.length
       ]
     this.loadStreams(collectionName)
-    this.previousChannel()
+
+    // Restore saved index for new collection
+    this.currentIndex = this.collectionIndexes[collectionName]
+    this.playStream()
     this.showIndicator(collectionName)
   }
 
@@ -273,7 +294,7 @@ class Togger {
       ? '<span style="color: red; margin-left: 8px;">● LIVE</span>'
       : '<span style="color: white; margin-left: 8px;">OFF-AIR</span>'
 
-      const url = `https://www.youtube.com/watch?v=${current.neweststream}`
+    const url = `https://www.youtube.com/watch?v=${current.neweststream}`
     channelName.innerHTML = `
       <a href="${url}" target="_blank">
         ${current.deepLink}
@@ -360,8 +381,10 @@ class Togger {
       }
       this.didLoad = true
 
-      if (!isLive && this.currentChannel.status === "live") this.reportStatus("off")
-        if (isLive && this.currentChannel.status === "off") this.reportStatus("live")
+      if (!isLive && this.currentChannel.status === "live")
+        this.reportStatus("off")
+      if (isLive && this.currentChannel.status === "off")
+        this.reportStatus("live")
 
       // videoId.textContent = `${videoData.video_id} ${isLive ? "(LIVE)" : ""}`
 

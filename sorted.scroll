@@ -1,0 +1,5 @@
+buildJson
+
+channels.json
+ orderBy status chat -viewerCount -likeCount
+  printTable
