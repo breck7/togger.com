@@ -3,7 +3,7 @@ let channelName = document.querySelector(".channel-name")
 let powerScreen = document.querySelector(".power-screen")
 const lodash = _
 
-const defaultCollection = "coding"
+const defaultCollection = "worldcams"
 
 const makeDeepLink = (platform, channeltitle) =>
   [platform, channeltitle.replace(/\s+/g, "")].join(".")
