@@ -270,8 +270,7 @@ class Togger {
     if (!this.isPoweredOn) return
     this.didLoad = false
 
-    const current = this.streams[this.currentIndex]
-
+    const current = this.currentChannel
     channelName.innerHTML = `${current.deepLink} ↺`
 
     if (current.platform === "youtube") {
@@ -280,17 +279,23 @@ class Togger {
       this.player.setVolume(100)
       this.player.setPlaybackRate(1)
 
-      // Get current URL parameters
+      if(this.startUpdatingUrl) // dont update url on load.
+        this.updateUrl()
+    }
+    this.startUpdatingUrl = true
+  }
+
+  updateUrl() {
+    // Get current URL parameters
       const params = new URLSearchParams(window.location.search)
       // Update the channel parameter
       params.delete("c")
       params.delete("p")
-      params.set("channel", current.deepLink)
+      params.set("channel", this.current.deepLink)
       params.set("collection", this.collectionName)
 
       // Replace state with all parameters
       window.history.replaceState({}, "", `?${params.toString()}`)
-    }
   }
 
   updateChannelDisplay(videoData, isLive) {
