@@ -17,7 +17,7 @@ channeltitleParser
 statusParser
  extends abstractStringMeasureParser
  description live or off?
- float sortIndex 1.31
+ float sortIndex 1.11
 collectionsParser
  extends abstractStringMeasureParser
  description Which collections does this belong to?
@@ -46,7 +46,8 @@ viewerCountParser
  extends abstractIntegerMeasureParser
  description What is the most recent stream's viewer count?
  float sortIndex 1.4
-chatParser
+toggerChatParser
+ cue chat
  extends abstractBooleanMeasureParser
  description Does the stream have chat?
  float sortIndex 1.4
