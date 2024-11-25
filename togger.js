@@ -94,8 +94,8 @@ class Togger {
   }
 
   loadStreams(collectionName) {
-    const streams = this.getCollection(collectionName)
-    this.streams = streams.map((item) => {
+    let streams = this.getCollection(collectionName)
+    streams = streams.map((item) => {
       const channeltitle = item.channeltitle
       const platform = "youtube"
       return {
@@ -108,9 +108,13 @@ class Togger {
     })
 
     // Remove duplicates using deepLink as the primary key
-    this.streams = Array.from(
-      new Map(this.streams.map((item) => [item.deepLink, item])).values(),
+    streams = Array.from(
+      new Map(streams.map((item) => [item.deepLink, item])).values(),
     )
+
+    this.streams = lodash.sortBy(this.streams, "status")
+
+    this.streams = streams
   }
 
   getInitialIndex() {
@@ -355,7 +359,8 @@ class Togger {
       }
       this.didLoad = true
 
-      if (!isLive && this.currentChannel.status === "live") this.reportOffline()
+      if (!isLive && this.currentChannel.status === "live") this.reportStatus("off")
+        if (isLive && this.currentChannel.status === "off") this.reportStatus("live")
 
       // videoId.textContent = `${videoData.video_id} ${isLive ? "(LIVE)" : ""}`
 
@@ -369,12 +374,12 @@ class Togger {
     }
   }
 
-  async reportOffline() {
+  async reportStatus(value) {
     try {
-      this.currentChannel.status = "off"
+      this.currentChannel.status = value
       const filename = `channels/${this.currentChannel.id}.scroll`
       const response = await fetch(
-        `/set?folderName=togger.com&file=${filename}&line=status off`,
+        `/set?folderName=togger.com&file=${filename}&line=status ${value}`,
         {
           method: "POST",
           headers: {
