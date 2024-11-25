@@ -3,6 +3,10 @@ import path from "path"
 import { fileURLToPath } from "url"
 import { dirname } from "path"
 
+import { createRequire } from "module"
+const require = createRequire(import.meta.url)
+const { Particle } = require("scrollsdk/products/Particle.js")
+
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
@@ -35,15 +39,75 @@ class YouTubeFeed {
     }
   }
 
-  async getVideoLiveDetails(videoId) {
-    const endpoint = "https://www.googleapis.com/youtube/v3/videos"
-    const params = new URLSearchParams({
-      part: "liveStreamingDetails,statistics,snippet",
-      id: videoId,
-      key: this.apiKey,
-    })
+  async getVideoDetails(videoId) {
+    const videoInfo = await this.fetchVideoDetails(videoId)
+    const stats = {
+      viewCount: videoInfo.statistics?.viewCount,
+      likeCount: videoInfo.statistics?.likeCount,
+    }
+
+    const result = videoInfo.liveStreamingDetails
+      ? {
+          viewerCount: videoInfo.liveStreamingDetails.concurrentViewers || 0,
+          chat: !!videoInfo.liveStreamingDetails.activeLiveChatId,
+          ...stats,
+        }
+      : stats
+    return result
+  }
+
+  async updateWithVideoDetails(channelName) {
+    const channelFile = path.join(
+      __dirname,
+      "channels",
+      `${channelName}.scroll`,
+    )
 
     try {
+      // Read channel file
+      const content = await fs.readFile(channelFile, "utf-8")
+      const particle = new Particle(content)
+      const channelData = particle.toObject()
+      if (!channelData.neweststream) return
+
+      // Get video details
+      const details = await this.getVideoDetails(channelData.neweststream)
+
+      // Add video stats to channel data
+      particle.set("viewCount", details.viewCount + "")
+      particle.set("likeCount", details.likeCount + "")
+      if (details.viewerCount) {
+        particle.set("viewerCount", details.viewerCount + "")
+        particle.set("chat", details.chat + "")
+      }
+
+      await fs.writeFile(channelFile, particle.toString())
+    } catch (error) {
+      console.error(`Error updating ${channelName}:`, error)
+      throw error
+    }
+  }
+
+  async fetchVideoDetails(videoId) {
+    const cacheDir = path.join(__dirname, "videos")
+    const cacheFile = path.join(cacheDir, `${videoId}.json`)
+
+    try {
+      // Check cache first
+      try {
+        const cached = await fs.readFile(cacheFile, "utf-8")
+        return JSON.parse(cached)
+      } catch (e) {
+        // Cache miss, continue to API call
+      }
+
+      const endpoint = "https://www.googleapis.com/youtube/v3/videos"
+      const params = new URLSearchParams({
+        part: "liveStreamingDetails,statistics,snippet",
+        id: videoId,
+        key: this.apiKey,
+      })
+
       const response = await fetch(`${endpoint}?${params}`)
       const data = await response.json()
 
@@ -52,15 +116,12 @@ class YouTubeFeed {
       }
 
       const videoInfo = data.items[0]
-      return {
-        viewerCount: videoInfo.liveStreamingDetails?.concurrentViewers || 0,
-        hasLiveChat: !!videoInfo.liveStreamingDetails?.activeLiveChatId,
-        chatId: videoInfo.liveStreamingDetails?.activeLiveChatId,
-        isLive: videoInfo.snippet?.liveBroadcastContent === "live",
-        totalViews: videoInfo.statistics?.viewCount,
-        scheduledStartTime: videoInfo.liveStreamingDetails?.scheduledStartTime,
-        actualStartTime: videoInfo.liveStreamingDetails?.actualStartTime,
-      }
+
+      // Cache the result
+      await fs.mkdir(cacheDir, { recursive: true })
+      await fs.writeFile(cacheFile, JSON.stringify(videoInfo, undefined, 2))
+
+      return videoInfo
     } catch (error) {
       console.error("Error fetching live details:", error)
       throw error

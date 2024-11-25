@@ -34,3 +34,19 @@ warpcastParser
  extends abstractStringMeasureParser
  description What is the Warpcast name?
  float sortIndex 1.6
+viewCountParser
+ extends abstractIntegerMeasureParser
+ description What is the most recent stream's view count?
+ float sortIndex 1.4
+likeCountParser
+ extends abstractIntegerMeasureParser
+ description What is the most recent stream's like count?
+ float sortIndex 1.4
+viewerCountParser
+ extends abstractIntegerMeasureParser
+ description What is the most recent stream's viewer count?
+ float sortIndex 1.4
+chatParser
+ extends abstractBooleanMeasureParser
+ description Does the stream have chat?
+ float sortIndex 1.4

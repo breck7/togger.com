@@ -9,6 +9,7 @@
   },
   "author": "Breck Yunits et al",
   "dependencies": {
-    "scroll-cli": "^155.4.0"
+    "scroll-cli": "^155.4.0",
+    "scrollsdk": "^95.0.1"
   }
 }
