@@ -21,32 +21,21 @@ const main = async () => {
 	}
 }
 
-const data = `https://www.youtube.com/watch?v=ydYDqZQpim8 worldcams
-https://www.youtube.com/watch?v=gU6XGPaFL1s worldcams
-https://www.youtube.com/watch?v=F5Q5ViU8QR0 worldcams
-https://www.youtube.com/watch?v=8Et9fVZld7E worldcams
-https://www.youtube.com/watch?v=cmkAbDUEoyA worldcams
-https://www.youtube.com/watch?v=REW9Gr9K4b0 worldcams
-https://www.youtube.com/watch?v=e2gC37ILQmk worldcams
-https://www.youtube.com/watch?v=AZUT3PU7sqs worldcams
-https://www.youtube.com/watch?v=u4UZ4UvZXrg worldcams
-https://www.youtube.com/watch?v=LwihxyJ4V20 worldcams
-https://www.youtube.com/watch?v=5uZa3-RMFos worldcams
-https://www.youtube.com/watch?v=TmtVbezZaqg worldcams
-https://www.youtube.com/watch?v=mhJRzQsLZGg worldcams
-https://www.youtube.com/watch?v=fIMbMz2P7Bs worldcams
-https://www.youtube.com/watch?v=XF6YDqccSsg worldcams
-https://www.youtube.com/watch?v=3LXQWU67Ufk worldcams
-https://www.youtube.com/watch?v=1BeaYMK9s6Y worldcams
-https://www.youtube.com/watch?v=yFgVmioYkys worldcams
-https://www.youtube.com/watch?v=Fw9hgttWzIg worldcams
-https://www.youtube.com/watch?v=hRJVykzy78g worldcams
-https://www.youtube.com/watch?v=jtvmwjzZY0c worldcams
-https://www.youtube.com/watch?v=41dve_9EfyI worldcams
-https://www.youtube.com/watch?v=976UrL4MWTA worldcams
-https://www.youtube.com/watch?v=OFCwQdUWsu4 worldcams
-https://www.youtube.com/watch?v=5ytYnx93bXs worldcams
-https://www.youtube.com/watch?v=XBLX-zkZlaI worldcams`
+const data = `https://www.youtube.com/watch?v=F0GOOP82094 nature
+https://www.youtube.com/watch?v=DHUnz4dyb54 nature
+https://www.youtube.com/watch?v=oI8R4_UG3Fs nature
+https://www.youtube.com/watch?v=3szkFHfr6sA nature
+https://www.youtube.com/watch?v=jzx_n25g3kA nature
+https://www.youtube.com/watch?v=RnCAl0mQgqA nature
+https://www.youtube.com/watch?v=dIChLG4_WNs nature
+https://www.youtube.com/watch?v=OMlf71t2oV0 nature
+https://www.youtube.com/watch?v=x10vL6_47Dw nature
+https://www.youtube.com/watch?v=yPSYdCWRWFA nature
+https://www.youtube.com/watch?v=56WBs0A4Kng nature
+https://www.youtube.com/watch?v=DAmFZj1y_a0 nature
+https://www.youtube.com/watch?v=RmmAzrAkKqI nature
+https://www.youtube.com/watch?v=yfSyjwY6zSQ nature
+https://www.youtube.com/watch?v=dqbPOGv3MrY nature`
 
 const add = data.split("\n").forEach((line) => {
 	const [url, collections] = line.split(" ")
