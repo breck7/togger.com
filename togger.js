@@ -274,7 +274,7 @@ class Togger {
       : '<span style="color: white; margin-left: 8px;">OFF-AIR</span>'
 
     channelName.innerHTML = `
-      <a href="${current.link}" target="_blank">
+      <a href="${current.url}" target="_blank">
         ${current.deepLink}
       </a>
       ${liveIndicator}
