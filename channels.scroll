@@ -18,11 +18,14 @@ Download Togger Data as: CSV | TSV | JSON
 
 channels.parsers
 
+channels.json
+ printTable
+
 Statistics on the measures (columns) are below and can be downloaded as: CSV | TSV | JSON
  link measures.csv CSV
  link measures.tsv TSV
  link measures.json JSON
-table measures.csv
+measures.csv
  printTable
 tableSearch
 
