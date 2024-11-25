@@ -113,6 +113,96 @@ class YouTubeFeed {
       process.exit(1)
     }
   }
+
+  async createChannelFile(videoUrl, collections = "youtube") {
+    try {
+      // Extract video ID from URL
+      const videoId = this.extractVideoId(videoUrl)
+      if (!videoId) {
+        throw new Error("Invalid YouTube URL")
+      }
+
+      // Get video details to find channel info
+      const endpoint = "https://www.googleapis.com/youtube/v3/videos"
+      const params = new URLSearchParams({
+        part: "snippet",
+        id: videoId,
+        key: this.apiKey,
+      })
+
+      const response = await fetch(`${endpoint}?${params}`)
+      const data = await response.json()
+
+      if (!data.items?.[0]?.snippet) {
+        throw new Error("Video not found")
+      }
+
+      const videoInfo = data.items[0].snippet
+      const channelId = videoInfo.channelId
+      const channelTitle = videoInfo.channelTitle
+
+      // Get channel details
+      const channelEndpoint = "https://www.googleapis.com/youtube/v3/channels"
+      const channelParams = new URLSearchParams({
+        part: "snippet",
+        id: channelId,
+        key: this.apiKey,
+      })
+
+      const channelResponse = await fetch(`${channelEndpoint}?${channelParams}`)
+      const channelData = await channelResponse.json()
+
+      if (!channelData.items?.[0]?.snippet) {
+        throw new Error("Channel not found")
+      }
+
+      // Extract channel handle from custom URL or generate from title
+      const channelHandle =
+        channelData.items[0].snippet.customUrl?.replace("@", "") ||
+        channelTitle.toLowerCase().replace(/\s+/g, "")
+
+      // Create scroll file content
+      const scrollContent = [
+        `../channels.parsers`,
+        ``,
+        `id ${channelHandle}`,
+        `url https://www.youtube.com/@${channelHandle}`,
+        `channelid ${channelId}`,
+        `channeltitle ${channelTitle}`,
+        `status off`,
+        `collections ${collections}`,
+        `neweststream ${videoId}`,
+        `streamtime ${new Date().toISOString()}`,
+      ].join("\n")
+
+      // Create channels directory if it doesn't exist
+      const channelsDir = path.join(__dirname, "channels")
+      await fs.mkdir(channelsDir, { recursive: true })
+
+      // Write the scroll file
+      const filePath = path.join(channelsDir, `${channelHandle}.scroll`)
+      await fs.writeFile(filePath, scrollContent)
+
+      console.log(`Created channel file: ${filePath}`)
+      return filePath
+    } catch (error) {
+      console.error("Error creating channel file:", error)
+      throw error
+    }
+  }
+
+  extractVideoId(url) {
+    const urlObj = new URL(url)
+    if (
+      urlObj.hostname === "www.youtube.com" ||
+      urlObj.hostname === "youtube.com"
+    ) {
+      return urlObj.searchParams.get("v")
+    } else if (urlObj.hostname === "youtu.be") {
+      return urlObj.pathname.slice(1)
+    }
+    return null
+  }
 }
 
 export { YouTubeFeed }
