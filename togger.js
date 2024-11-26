@@ -186,6 +186,10 @@ class Togger {
         case "arrowdown":
           this.previousCollection()
           break
+        case "e":
+          window.open(`/edit.html?folderName=togger.com&fileName=channels%2F${this.currentChannel.id}.scroll`, 'edit')
+          this.toggleMute()
+          break
         case "m":
           this.toggleMute()
           break
