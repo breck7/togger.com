@@ -1,17 +1,33 @@
+
+
+
 [x] will it work without API calls?
 [x] Hand written collections are the best
 
 
 [] Detect if chat is available
-[] sort by: hand selected; then isLive, isChat, then random for now.
+[x] sort by: hand selected; then isLive, isChat, then random for now.
 
-
+[x] 10x better collections
+ [x] live stream humans with chat up front
 [] 10 more collections
-[] 10x better collections
- [] live stream humans with chat up front
 
 [] add twitch streams
 [] add x streams
+
+
+[] cohesive style.
+ [] probably frosted glass, futuristic.
+ [] easily themeable
+ [] cleanup remote code
+ [] better static analog
+  [] test static noise
+[] 1 click shares?
+[] faster channel switching
+[] better universal time sync
+[] show chat counts
+[] 
+
 
 Bad Scenarios:
 [] People hit site and it doesnt work
