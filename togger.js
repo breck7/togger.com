@@ -25,7 +25,8 @@ class Togger {
     const startCollection =
       params.get("collection") ||
       params.get("p") ||
-      (params.get("v") ? "custom" : "") || defaultCollection
+      (params.get("v") ? "custom" : "") ||
+      defaultCollection
 
     // Track indexes per collection
     this.collectionIndexes = {}
@@ -66,7 +67,7 @@ class Togger {
   get channels() {
     if (this._channels) return this._channels
     this._channels = sorted.slice()
-    this._channels.forEach(channel => {
+    this._channels.forEach((channel) => {
       channel.collections += " all"
     })
     this.maybeAddCustomChannel()
@@ -139,7 +140,9 @@ class Togger {
     this.streams = lodash.sortBy(this.streams, "status")
 
     if (collectionName === "all")
-      streams = lodash.shuffle(streams.filter(stream  => stream.status === "live"))
+      streams = lodash.shuffle(
+        streams.filter((stream) => stream.status === "live"),
+      )
 
     this.streams = streams
   }
@@ -286,7 +289,8 @@ class Togger {
       this.player.setVolume(100)
       this.player.setPlaybackRate(1)
 
-      if(this.startUpdatingUrl) // dont update url on load.
+      if (this.startUpdatingUrl)
+        // dont update url on load.
         this.updateUrl()
     }
     this.startUpdatingUrl = true
@@ -294,15 +298,15 @@ class Togger {
 
   updateUrl() {
     // Get current URL parameters
-      const params = new URLSearchParams(window.location.search)
-      // Update the channel parameter
-      params.delete("c")
-      params.delete("p")
-      params.set("channel", this.currentChannel.deepLink)
-      params.set("collection", this.collectionName)
+    const params = new URLSearchParams(window.location.search)
+    // Update the channel parameter
+    params.delete("c")
+    params.delete("p")
+    params.set("channel", this.currentChannel.deepLink)
+    params.set("collection", this.collectionName)
 
-      // Replace state with all parameters
-      window.history.replaceState({}, "", `?${params.toString()}`)
+    // Replace state with all parameters
+    window.history.replaceState({}, "", `?${params.toString()}`)
   }
 
   updateChannelDisplay(videoData, isLive) {
@@ -530,10 +534,10 @@ class Togger {
       width: ${options.large ? "3rem" : "3.5rem"};
       height: ${options.large ? "3rem" : "3.5rem"};
       border-radius: 9999px;
-      background: ${options.isPower ? "#dc2626" : "#374151"};
-      border: 2px solid ${options.isPower ? "#b91c1c" : "#4b5563"};
+      background: ${options.isMute ? "#dc2626" : "#374151"};
+      border: 2px solid ${options.isMute ? "#b91c1c" : "#4b5563"};
       box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.25);
-      color: ${options.isPower ? "#fee2e2" : "#d1d5db"};
+      color: ${options.isMute ? "#fee2e2" : "#d1d5db"};
       font-size: ${options.small ? "0.875rem" : "1.125rem"};
       display: flex;
       align-items: center;
@@ -542,23 +546,7 @@ class Togger {
       transition: transform 0.1s;
     `
 
-      if (options.isPower) {
-        button.innerHTML = `
-        <div style="
-          width: 1.5rem;
-          height: 1.5rem;
-          border-radius: 9999px;
-          border: 2px solid #fee2e2;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        ">
-          <div style="width: 0.5rem; height: 1rem; background: #fee2e2;"></div>
-        </div>
-      `
-      } else {
-        button.textContent = text
-      }
+      button.textContent = text
 
       button.addEventListener("click", () => {
         button.style.transform = "scale(0.95)"
@@ -582,11 +570,11 @@ class Togger {
       return row
     }
 
-    // Add power button
-    const powerRow = createButtonRow([
-      createButton("", "p", { isPower: true, large: true }),
+    // Add mute button
+    const muteRow = createButtonRow([
+      createButton("MUTE", "m", { small: true, isMute: true }),
     ])
-    remote.appendChild(powerRow)
+    remote.appendChild(muteRow)
 
     // Add channel buttons
     const channelRow = createButtonRow([
@@ -595,18 +583,19 @@ class Togger {
     ])
     remote.appendChild(channelRow)
 
-    // Add volume buttons
+    // Add collection control buttons
     const volumeRow = createButtonRow([
       createButton("COL-", "ArrowDown"),
       createButton("COL+", "ArrowUp"),
     ])
     remote.appendChild(volumeRow)
 
-    // Add mute button
-    const muteRow = createButtonRow([
-      createButton("MUTE", "m", { small: true }),
+    // Add volume up/down buttons
+    const volumeControlRow = createButtonRow([
+      createButton("VOL-", "-"),
+      createButton("VOL+", "="),
     ])
-    remote.appendChild(muteRow)
+    remote.appendChild(volumeControlRow)
 
     // Add remote to page
     document.body.appendChild(remote)
