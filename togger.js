@@ -3,7 +3,7 @@ let channelName = document.querySelector(".channel-name")
 let powerScreen = document.querySelector(".power-screen")
 const lodash = _
 
-const defaultCollection = "worldcams"
+const defaultCollection = "all"
 
 const makeDeepLink = (platform, channeltitle) =>
   [platform, channeltitle.replace(/\s+/g, "")].join(".")
@@ -25,7 +25,7 @@ class Togger {
     const startCollection =
       params.get("collection") ||
       params.get("p") ||
-      (params.get("v") ? "custom" : "")
+      (params.get("v") ? "custom" : "") || defaultCollection
 
     // Track indexes per collection
     this.collectionIndexes = {}
@@ -66,16 +66,11 @@ class Togger {
   get channels() {
     if (this._channels) return this._channels
     this._channels = sorted.slice()
+    this._channels.forEach(channel => {
+      channel.collections += " all"
+    })
     this.maybeAddCustomChannel()
     return this._channels
-  }
-
-  getCollection(collectionName = defaultCollection) {
-    const { collectionNames } = this
-    if (!collectionNames.includes(collectionName))
-      collectionName = defaultCollection
-    this.collectionName = collectionName
-    return this.channels.filter((c) => c.collections?.includes(collectionName))
   }
 
   get collectionIndex() {
@@ -114,6 +109,14 @@ class Togger {
     this.showIndicator(collectionName)
   }
 
+  getCollection(collectionName) {
+    const { collectionNames } = this
+    if (!collectionNames.includes(collectionName))
+      collectionName = defaultCollection
+    this.collectionName = collectionName
+    return this.channels.filter((c) => c.collections?.includes(collectionName))
+  }
+
   loadStreams(collectionName) {
     let streams = this.getCollection(collectionName)
     streams = streams.map((item) => {
@@ -135,6 +138,9 @@ class Togger {
 
     this.streams = lodash.sortBy(this.streams, "status")
 
+    if (collectionName === "all")
+      streams = lodash.shuffle(streams.filter(stream  => stream.status === "live"))
+
     this.streams = streams
   }
 
@@ -149,6 +155,7 @@ class Togger {
 
   setPlayer(player) {
     this.player = player
+    this.showIndicator(this.collectionName)
     // Show initial volume state once player is ready
     setTimeout(() => this.showVolumeIndicator(), 1000)
   }
