@@ -192,7 +192,7 @@ class Togger {
           )
           this.toggleMute()
           break
-        case "m":
+        case " ":
           this.toggleMute()
           break
         case "p":
