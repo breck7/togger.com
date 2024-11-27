@@ -1,5 +1,4 @@
 let staticNoise = document.querySelector(".static-noise")
-let channelName = document.querySelector(".channel-name")
 let powerScreen = document.querySelector(".power-screen")
 const lodash = _
 
@@ -219,16 +218,14 @@ class Togger {
 
   nextChannel() {
     this.currentIndex = (this.currentIndex + 1) % this.streams.length
-    if (this.currentChannel.status === "removed")
-      return this.nextChannel()
+    if (this.currentChannel.status === "removed") return this.nextChannel()
     this.playStream()
   }
 
   previousChannel() {
     this.currentIndex =
       (this.currentIndex - 1 + this.streams.length) % this.streams.length
-    if (this.currentChannel.status === "removed")
-      return this.previousChannel()
+    if (this.currentChannel.status === "removed") return this.previousChannel()
     this.playStream()
   }
 
@@ -298,7 +295,7 @@ class Togger {
     this.didLoad = false
 
     const current = this.currentChannel
-    channelName.innerHTML = `${current.deepLink} ↺`
+    this.updateChannelTitle()
 
     if (current.platform === "youtube") {
       this.player.mute()
@@ -326,15 +323,16 @@ class Togger {
     window.history.replaceState({}, "", `?${params.toString()}`)
   }
 
-  updateChannelDisplay(videoData, isLive) {
+  updateChannelTitle(isLive) {
     const current = this.streams[this.currentIndex]
-
-    const liveIndicator = isLive
-      ? '<span style="color: red; margin-left: 8px;">● LIVE</span>'
-      : '<span style="color: white; margin-left: 8px;">OFF-AIR</span>'
+    let liveIndicator = "↺"
+    if (isLive !== undefined)
+      liveIndicator = isLive
+        ? '<span style="color: red; margin-left: 8px;">● LIVE</span>'
+        : '<span style="color: white; margin-left: 8px;">OFF-AIR</span>'
 
     const url = `https://www.youtube.com/watch?v=${current.neweststream}`
-    channelName.innerHTML = `
+    document.querySelector(".channel-name").innerHTML = `
       <a href="${url}" target="_blank">
         ${current.deepLink}
       </a>
@@ -427,7 +425,7 @@ class Togger {
 
       // videoId.textContent = `${videoData.video_id} ${isLive ? "(LIVE)" : ""}`
 
-      this.updateChannelDisplay(videoData, isLive)
+      this.updateChannelTitle(isLive)
     } else if (event.data == YT.PlayerState.PAUSED) {
       //videoId.textContent = "PAUSED"
     } else if (event.data == YT.PlayerState.BUFFERING) {
