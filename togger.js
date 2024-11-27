@@ -187,7 +187,10 @@ class Togger {
           this.previousCollection()
           break
         case "e":
-          window.open(`/edit.html?folderName=togger.com&fileName=channels%2F${this.currentChannel.id}.scroll`, 'edit')
+          window.open(
+            `/edit.html?folderName=togger.com&fileName=channels%2F${this.currentChannel.id}.scroll`,
+            "edit",
+          )
           this.toggleMute()
           break
         case "m":
@@ -229,9 +232,13 @@ class Togger {
     return this.player?.getVolume ? this.player.getVolume() : 100
   }
 
-  showVolumeIndicator() {
+  showVolumeIndicator(newVolume) {
     const { volume, isMuted } = this
-    this.showIndicator(isMuted ? "MUTED" : `Volume: ${volume}%`)
+    this.showIndicator(
+      isMuted
+        ? "MUTED"
+        : `Volume: ${newVolume === undefined ? volume : newVolume}%`,
+    )
   }
 
   showIndicator(message) {
@@ -249,14 +256,16 @@ class Togger {
 
   increaseVolume() {
     const currentVolume = this.player.getVolume()
+    const newVolume = Math.min(100, currentVolume + 10)
     this.player.setVolume(Math.min(100, currentVolume + 10))
-    this.showVolumeIndicator()
+    this.showVolumeIndicator(newVolume)
   }
 
   decreaseVolume() {
     const currentVolume = this.player.getVolume()
-    this.player.setVolume(Math.max(0, currentVolume - 10))
-    this.showVolumeIndicator()
+    const newVolume = Math.max(0, currentVolume - 10)
+    this.player.setVolume(newVolume)
+    this.showVolumeIndicator(newVolume)
   }
 
   unmute() {
@@ -469,149 +478,81 @@ class Togger {
   }
 
   addRemoteControl() {
-    // Remove existing remote if it exists
     const existingRemote = document.querySelector(".remote-control")
     if (existingRemote) {
       existingRemote.remove()
     }
 
-    // Create remote container
     const remote = document.createElement("div")
     remote.className = "remote-control"
-    remote.style.cssText = `
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    width: 256px;
-    background: #1f2937;
-    border-radius: 0.75rem;
-    padding: 1rem;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    border: 2px solid #374151;
-    z-index: 1000;
-    user-select: none;
-    touch-action: none;
-  `
 
-    // Add drag handle
     const dragHandle = document.createElement("div")
-    dragHandle.style.cssText = `
-    width: 40px;
-    height: 4px;
-    background: #374151;
-    border-radius: 2px;
-    cursor: move;
-    margin: 0 auto 1rem auto;
-    `
+    dragHandle.className = "drag-handle"
     remote.appendChild(dragHandle)
 
-    // Add brand name
     const brand = document.createElement("div")
-    brand.style.cssText = `
-    text-align: center;
-    margin-bottom: 1rem;
-    color: #f59e0b;
-    font-weight: bold;
-    font-size: 0.875rem;
-  `
+    brand.className = "brand"
     brand.textContent = ""
     remote.appendChild(brand)
 
-    // Add IR emitter
     const irEmitter = document.createElement("div")
-    irEmitter.style.cssText = `
-    position: absolute;
-    top: -0.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2rem;
-    height: 0.75rem;
-    background: black;
-    border-radius: 0.125rem;
-  `
+    irEmitter.className = "ir-emitter"
     remote.appendChild(irEmitter)
 
-    // Helper function to create buttons (remains the same)
     function createButton(text, key, options = {}) {
       const button = document.createElement("button")
-      button.style.cssText = `
-      width: ${options.large ? "3rem" : "3.5rem"};
-      height: ${options.large ? "3rem" : "3.5rem"};
-      border-radius: 9999px;
-      background: ${options.isMute ? "#dc2626" : "#374151"};
-      border: 2px solid ${options.isMute ? "#b91c1c" : "#4b5563"};
-      box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.25);
-      color: ${options.isMute ? "#fee2e2" : "#d1d5db"};
-      font-size: ${options.small ? "0.875rem" : "1.125rem"};
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      transition: transform 0.1s;
-    `
-
+      const classes = []
+      if (options.large) classes.push("large")
+      if (options.small) classes.push("small")
+      if (options.isMute) classes.push("mute")
+      button.className = classes.join(" ")
       button.textContent = text
 
       button.addEventListener("click", () => {
         button.style.transform = "scale(0.95)"
-        setTimeout(() => (button.style.transform = "scale(1)"), 100)
+        setTimeout(() => (button.style.transform = ""), 100)
         document.dispatchEvent(new KeyboardEvent("keydown", { key }))
       })
 
       return button
     }
 
-    // Create button rows container (remains the same)
     function createButtonRow(buttons) {
       const row = document.createElement("div")
-      row.style.cssText = `
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-bottom: 1.5rem;
-    `
+      row.className = "button-row"
       buttons.forEach((button) => row.appendChild(button))
       return row
     }
 
-    // Add mute button
     const muteRow = createButtonRow([
       createButton("MUTE", "m", { small: true, isMute: true }),
     ])
     remote.appendChild(muteRow)
 
-    // Add channel buttons
     const channelRow = createButtonRow([
       createButton("CH-", "ArrowLeft"),
       createButton("CH+", "ArrowRight"),
     ])
     remote.appendChild(channelRow)
 
-    // Add collection control buttons
     const volumeRow = createButtonRow([
       createButton("COL-", "ArrowDown"),
       createButton("COL+", "ArrowUp"),
     ])
     remote.appendChild(volumeRow)
 
-    // Add volume up/down buttons
     const volumeControlRow = createButtonRow([
       createButton("VOL-", "-"),
       createButton("VOL+", "="),
     ])
     remote.appendChild(volumeControlRow)
 
-    // Add remote to page
     document.body.appendChild(remote)
 
-    // Add drag functionality
     let isDragging = false
-    let currentX
-    let currentY
-    let initialX
-    let initialY
-    let xOffset = 0
-    let yOffset = 0
+    let currentX, currentY, initialX, initialY
+    let xOffset = 0,
+      yOffset = 0
 
     function dragStart(e) {
       if (e.type === "touchstart") {
@@ -647,36 +588,16 @@ class Togger {
 
         xOffset = currentX
         yOffset = currentY
-
-        // Ensure the remote stays within viewport bounds
-        // const remoteRect = remote.getBoundingClientRect()
-        // const maxX = window.innerWidth - remoteRect.width
-        // const maxY = window.innerHeight - remoteRect.height
-
-        // xOffset = Math.min(Math.max(0, xOffset), maxX)
-        // yOffset = Math.min(Math.max(0, yOffset), maxY)
-
         remote.style.transform = `translate(${xOffset}px, ${yOffset}px)`
       }
     }
 
-    // Add event listeners for both mouse and touch events
     remote.addEventListener("touchstart", dragStart, false)
     remote.addEventListener("touchend", dragEnd, false)
     remote.addEventListener("touchmove", drag, false)
-
     remote.addEventListener("mousedown", dragStart, false)
     document.addEventListener("mouseup", dragEnd, false)
     document.addEventListener("mousemove", drag, false)
-
-    // Handle window resize
-    window.addEventListener("resize", () => {
-      if (window.innerWidth > 768) {
-        remote.style.display = "none"
-      } else {
-        remote.style.display = "block"
-      }
-    })
   }
 }
 
