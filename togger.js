@@ -235,16 +235,14 @@ class Togger {
   this.showCollectionIndicator()
   }
 
-  get volume() {
-    return this.player?.getVolume ? this.player.getVolume() : 100
-  }
+  volume = 100
 
-  showVolumeIndicator(newVolume) {
+  showVolumeIndicator() {
     const { volume, isMuted } = this
     this.showIndicator(
       isMuted
         ? "MUTED"
-        : `Volume: ${newVolume === undefined ? volume : newVolume}%`,
+        : `Volume: ${volume}%`,
     )
   }
 
@@ -262,17 +260,21 @@ class Togger {
   }
 
   increaseVolume() {
-    const currentVolume = this.player.getVolume()
-    const newVolume = Math.min(100, currentVolume + 10)
-    this.player.setVolume(Math.min(100, currentVolume + 10))
-    this.showVolumeIndicator(newVolume)
+    let delta = 10
+    if (this.volume < 10)
+      delta = 5
+    this.volume = Math.min(100, this.volume + delta)
+    this.player.setVolume(this.volume)
+    this.showVolumeIndicator()
   }
 
   decreaseVolume() {
-    const currentVolume = this.player.getVolume()
-    const newVolume = Math.max(0, currentVolume - 10)
-    this.player.setVolume(newVolume)
-    this.showVolumeIndicator(newVolume)
+    let delta = 10
+    if (this.volume <= 10)
+      delta = 5
+    this.volume = Math.min(100, Math.max(0, this.volume - delta))
+    this.player.setVolume(this.volume)
+    this.showVolumeIndicator()
   }
 
   unmute() {
@@ -306,7 +308,7 @@ class Togger {
     if (current.platform === "youtube") {
       this.player.mute()
       this.player.loadVideoById(current.streamLink)
-      this.player.setVolume(100)
+      this.player.setVolume(this.volume)
       this.player.setPlaybackRate(1)
 
       if (this.startUpdatingUrl)
