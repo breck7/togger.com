@@ -498,11 +498,6 @@ class Togger {
     dragHandle.className = "drag-handle"
     remote.appendChild(dragHandle)
 
-    const brand = document.createElement("div")
-    brand.className = "brand"
-    brand.textContent = ""
-    remote.appendChild(brand)
-
     const irEmitter = document.createElement("div")
     irEmitter.className = "ir-emitter"
     remote.appendChild(irEmitter)
@@ -510,8 +505,6 @@ class Togger {
     function createButton(text, key, options = {}) {
       const button = document.createElement("button")
       const classes = []
-      if (options.large) classes.push("large")
-      if (options.small) classes.push("small")
       if (options.isMute) classes.push("mute")
       button.className = classes.join(" ")
       button.textContent = text
@@ -533,7 +526,7 @@ class Togger {
     }
 
     const muteRow = createButtonRow([
-      createButton("MUTE", "m", { small: true, isMute: true }),
+      createButton("MUTE", " ", { isMute: true }),
     ])
     remote.appendChild(muteRow)
 

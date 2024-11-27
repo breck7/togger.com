@@ -5,7 +5,7 @@
 [x] Hand written collections are the best
 
 
-[] Detect if chat is available
+[x] Detect if chat is available
 [x] sort by: hand selected; then isLive, isChat, then random for now.
 
 [x] 10x better collections
@@ -26,7 +26,7 @@
 [] faster channel switching
 [] better universal time sync
 [] show chat counts
-[] no broken videos
+[x] no broken videos
 [] real static
 [] chat
 

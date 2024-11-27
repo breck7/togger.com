@@ -267,7 +267,7 @@ a.warpcast {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  width: 256px;
+  width: 128px;
   background: #1f2937;
   border-radius: 0.75rem;
   padding: 1rem;
@@ -287,14 +287,6 @@ a.warpcast {
   margin: 0 auto 1rem auto;
 }
 
-.remote-control .brand {
-  text-align: center;
-  margin-bottom: 1rem;
-  color: #f59e0b;
-  font-weight: bold;
-  font-size: 0.875rem;
-}
-
 .remote-control .ir-emitter {
   position: absolute;
   top: -0.25rem;
@@ -309,13 +301,13 @@ a.warpcast {
 .remote-control .button-row {
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  margin-bottom: 1.5rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .remote-control button {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 9999px;
   background: #374151;
   border: 2px solid #4b5563;
@@ -327,15 +319,6 @@ a.warpcast {
   justify-content: center;
   cursor: pointer;
   transition: transform 0.1s;
-}
-
-.remote-control button.large {
-  width: 3rem;
-  height: 3rem;
-}
-
-.remote-control button.small {
-  font-size: 0.875rem;
 }
 
 .remote-control button.mute {
