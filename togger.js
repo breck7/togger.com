@@ -92,6 +92,10 @@ class Togger {
     this.showIndicator(collectionName)
   }
 
+  showCollectionIndicator() {
+    this.showIndicator(this.collectionName)
+  }
+
   previousCollection() {
     // Save current index for current collection
     this.collectionIndexes[this.collectionName] = this.currentIndex
@@ -220,6 +224,7 @@ class Togger {
     this.currentIndex = (this.currentIndex + 1) % this.streams.length
     if (this.currentChannel.status === "removed") return this.nextChannel()
     this.playStream()
+    this.showCollectionIndicator()
   }
 
   previousChannel() {
@@ -227,6 +232,7 @@ class Togger {
       (this.currentIndex - 1 + this.streams.length) % this.streams.length
     if (this.currentChannel.status === "removed") return this.previousChannel()
     this.playStream()
+  this.showCollectionIndicator()
   }
 
   get volume() {
