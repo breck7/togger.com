@@ -194,9 +194,8 @@ class Togger {
             `/edit.html?folderName=togger.com&fileName=channels%2F${this.currentChannel.id}.scroll`,
             "edit",
           )
-          this.toggleMute()
           break
-        case " ":
+        case "m":
           this.toggleMute()
           break
         case "p":
@@ -467,6 +466,7 @@ class Togger {
 
   onReady(event) {
     this.playStream() // Start playing as soon as the player is ready
+    document.querySelector(".mute").focus()
   }
 
   addVolumeIndicator() {
@@ -528,7 +528,7 @@ class Togger {
     }
 
     const muteRow = createButtonRow([
-      createButton("MUTE", " ", { isMute: true }),
+      createButton("MUTE", "m", { isMute: true }),
     ])
     remote.appendChild(muteRow)
 
