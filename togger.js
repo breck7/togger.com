@@ -12,6 +12,8 @@ const makeWarpCastLink = (link) =>
 
 class Togger {
   constructor() {
+    this.isRemoteVisible = true // Add this line near the top
+
     this.collectionNames = Array.from(
       new Set(
         this.channels
@@ -109,16 +111,21 @@ class Togger {
     this.chatFrame = chatFrame
   }
 
-  // Modify toggleChat to trigger player resize
+  // Update toggleChat to move indicator
   toggleChat() {
     this.isChatVisible = !this.isChatVisible
+    const indicator = document.querySelector(".indicator")
+
     if (this.isChatVisible) {
       this.chatOverlay.style.display = "block"
       this.updateChatUrl()
+      indicator.style.right = "420px" // 400px chat width + 20px original padding
     } else {
       this.chatOverlay.style.display = "none"
+      indicator.style.right = "20px"
     }
-    this.resizePlayer() // Resize player when toggling chat
+
+    this.resizePlayer()
     this.showIndicator(this.isChatVisible ? "Chat: ON" : "Chat: OFF")
   }
 
@@ -127,6 +134,16 @@ class Togger {
     if (this.isChatVisible && this.currentChannel) {
       this.chatFrame.src = `https://www.youtube.com/live_chat?v=${this.currentChannel.streamLink}&embed_domain=localhost`
     }
+  }
+
+  // Add new toggle method for remote
+  toggleRemote() {
+    this.isRemoteVisible = !this.isRemoteVisible
+    const remote = document.querySelector(".remote-control")
+    if (remote) {
+      remote.style.display = this.isRemoteVisible ? "block" : "none"
+    }
+    this.showIndicator(this.isRemoteVisible ? "Remote: ON" : "Remote: OFF")
   }
 
   maybeAddCustomChannel() {
@@ -292,6 +309,9 @@ class Togger {
           break
         case "=":
           this.increaseVolume()
+          break
+        case "r":
+          this.toggleRemote()
           break
         case "s":
           this.shuffle()
@@ -556,21 +576,22 @@ class Togger {
     document.querySelector(".mute").focus()
   }
 
+  // Modify the addVolumeIndicator method
   addVolumeIndicator() {
-    // Create volume indicator element
     const volumeIndicator = document.createElement("div")
     volumeIndicator.className = "indicator"
     volumeIndicator.style.cssText = `
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  display: none;
-  z-index: 1000;
-`
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1001; /* Ensure it's above chat */
+    transition: right 0.3s ease;
+  `
     document.body.appendChild(volumeIndicator)
   }
 
@@ -582,6 +603,7 @@ class Togger {
 
     const remote = document.createElement("div")
     remote.className = "remote-control"
+    remote.style.display = this.isRemoteVisible ? "block" : "none"
 
     const dragHandle = document.createElement("div")
     dragHandle.className = "drag-handle"
