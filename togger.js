@@ -132,7 +132,7 @@ class Togger {
   // Update chat URL when changing channels
   updateChatUrl() {
     if (this.isChatVisible && this.currentChannel) {
-      this.chatFrame.src = `https://www.youtube.com/live_chat?v=${this.currentChannel.streamLink}&embed_domain=localhost`
+      this.chatFrame.src = `https://www.youtube.com/live_chat?v=${this.currentChannel.streamLink}&embed_domain=` + window.location.hostname
     }
   }
 
