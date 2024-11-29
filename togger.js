@@ -99,7 +99,7 @@ class Togger {
     width: 100%;
     height: calc(100% - 40px);
     border: none;
-    background: white;
+    background: transparent;
   `
 
     header.appendChild(closeButton)
