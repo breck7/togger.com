@@ -43,7 +43,90 @@ class Togger {
     this.isMuted = true
     this.addVolumeIndicator()
     this.bindKeyboardControls()
-    this.addRemoteControl()
+    this.createChatOverlay()
+  }
+
+  // Replace the createChatOverlay method with this version
+  createChatOverlay() {
+    const overlay = document.createElement("div")
+    overlay.className = "chat-overlay"
+    overlay.style.cssText = `
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    display: none;
+    border-left: 1px solid #333;
+  `
+
+    const header = document.createElement("div")
+    header.style.cssText = `
+    height: 40px;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    color: white;
+    font-size: 14px;
+    font-family: "IBM Plex Mono", monospace;
+    border-bottom: 1px solid #333;
+  `
+    header.textContent = "Live Chat"
+
+    // Add close button
+    const closeButton = document.createElement("button")
+    closeButton.style.cssText = `
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px 8px;
+  `
+    closeButton.textContent = "×"
+    closeButton.addEventListener("click", () => this.toggleChat())
+
+    const chatFrame = document.createElement("iframe")
+    chatFrame.style.cssText = `
+    width: 100%;
+    height: calc(100% - 40px);
+    border: none;
+    background: white;
+  `
+
+    header.appendChild(closeButton)
+    overlay.appendChild(header)
+    overlay.appendChild(chatFrame)
+    document.body.appendChild(overlay)
+
+    this.chatOverlay = overlay
+    this.chatFrame = chatFrame
+  }
+
+  // Modify toggleChat to trigger player resize
+  toggleChat() {
+    this.isChatVisible = !this.isChatVisible
+    if (this.isChatVisible) {
+      this.chatOverlay.style.display = "block"
+      this.updateChatUrl()
+    } else {
+      this.chatOverlay.style.display = "none"
+    }
+    this.resizePlayer() // Resize player when toggling chat
+    this.showIndicator(this.isChatVisible ? "Chat: ON" : "Chat: OFF")
+  }
+
+  // Update chat URL when changing channels
+  updateChatUrl() {
+    if (this.isChatVisible && this.currentChannel) {
+      this.chatFrame.src = `https://www.youtube.com/live_chat?v=${this.currentChannel.streamLink}&embed_domain=localhost`
+    }
   }
 
   maybeAddCustomChannel() {
@@ -201,6 +284,9 @@ class Togger {
         case "p":
           this.togglePower()
           break
+        case "c":
+          this.toggleChat()
+          break
         case "-":
           this.decreaseVolume()
           break
@@ -231,18 +317,14 @@ class Togger {
       (this.currentIndex - 1 + this.streams.length) % this.streams.length
     if (this.currentChannel.status === "removed") return this.previousChannel()
     this.playStream()
-  this.showCollectionIndicator()
+    this.showCollectionIndicator()
   }
 
   volume = 100
 
   showVolumeIndicator() {
     const { volume, isMuted } = this
-    this.showIndicator(
-      isMuted
-        ? "MUTED"
-        : `Volume: ${volume}%`,
-    )
+    this.showIndicator(isMuted ? "MUTED" : `Volume: ${volume}%`)
   }
 
   showIndicator(message) {
@@ -260,8 +342,7 @@ class Togger {
 
   increaseVolume() {
     let delta = 10
-    if (this.volume < 10)
-      delta = 5
+    if (this.volume < 10) delta = 5
     this.volume = Math.min(100, this.volume + delta)
     this.player.setVolume(this.volume)
     this.showVolumeIndicator()
@@ -269,8 +350,7 @@ class Togger {
 
   decreaseVolume() {
     let delta = 10
-    if (this.volume <= 10)
-      delta = 5
+    if (this.volume <= 10) delta = 5
     this.volume = Math.min(100, Math.max(0, this.volume - delta))
     this.player.setVolume(this.volume)
     this.showVolumeIndicator()
@@ -309,6 +389,7 @@ class Togger {
       this.player.loadVideoById(current.streamLink)
       this.player.setVolume(this.volume)
       this.player.setPlaybackRate(1)
+      this.updateChatUrl()
 
       if (this.startUpdatingUrl)
         // dont update url on load.
@@ -348,16 +429,22 @@ class Togger {
     `
   }
 
+  // Update the resizePlayer method to account for chat
   resizePlayer() {
     let p = document.querySelector("#player")
     p.style.top = -window.innerHeight * 0.5 + "px"
+
+    const availableWidth = this.isChatVisible
+      ? window.innerWidth - 400 // Subtract chat width when visible
+      : window.innerWidth
+
     p.style.left =
-      (window.innerWidth -
-        Math.min(window.innerHeight * 1.777, window.innerWidth)) /
+      (availableWidth - Math.min(window.innerHeight * 1.777, availableWidth)) /
         2 +
       "px"
+
     this.player.setSize(
-      Math.min(window.innerHeight * 1.777, window.innerWidth),
+      Math.min(window.innerHeight * 1.777, availableWidth),
       window.innerHeight * 2,
     )
     this.addRemoteControl()
@@ -549,6 +636,10 @@ class Togger {
       createButton("VOL+", "="),
     ])
     remote.appendChild(volumeControlRow)
+
+    // Add chat button row
+    const chatRow = createButtonRow([createButton("CHAT", "c")])
+    remote.appendChild(chatRow)
 
     document.body.appendChild(remote)
 
