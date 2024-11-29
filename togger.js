@@ -109,6 +109,7 @@ class Togger {
 
     this.chatOverlay = overlay
     this.chatFrame = chatFrame
+    this.addRemoteControl()
   }
 
   // Update toggleChat to move indicator
@@ -467,7 +468,6 @@ class Togger {
       Math.min(window.innerHeight * 1.777, availableWidth),
       window.innerHeight * 2,
     )
-    this.addRemoteControl()
   }
 
   powerOn() {
