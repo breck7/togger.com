@@ -7,6 +7,7 @@ lodash.min.js
 jsonScript sorted.json
 
 <div id="player"></div>
+<div class="indicator"></div>
 <div class="static-noise"></div>
 <div class="power-screen"></div>
 <div class="channel-name"></div>

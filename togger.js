@@ -43,7 +43,6 @@ class Togger {
 
     this.isPoweredOn = true
     this.isMuted = true
-    this.addVolumeIndicator()
     this.bindKeyboardControls()
     this.createChatOverlay()
   }
@@ -133,7 +132,9 @@ class Togger {
   // Update chat URL when changing channels
   updateChatUrl() {
     if (this.isChatVisible && this.currentChannel) {
-      this.chatFrame.src = `https://www.youtube.com/live_chat?v=${this.currentChannel.streamLink}&embed_domain=` + window.location.hostname
+      this.chatFrame.src =
+        `https://www.youtube.com/live_chat?v=${this.currentChannel.streamLink}&embed_domain=` +
+        window.location.hostname
     }
   }
 
@@ -190,11 +191,6 @@ class Togger {
     // Restore saved index for new collection
     this.currentIndex = this.collectionIndexes[collectionName]
     this.playStream()
-    this.showIndicator(collectionName)
-  }
-
-  showCollectionIndicator() {
-    this.showIndicator(this.collectionName)
   }
 
   previousCollection() {
@@ -211,7 +207,6 @@ class Togger {
     // Restore saved index for new collection
     this.currentIndex = this.collectionIndexes[collectionName]
     this.playStream()
-    this.showIndicator(collectionName)
   }
 
   getCollection(collectionName) {
@@ -262,7 +257,6 @@ class Togger {
 
   setPlayer(player) {
     this.player = player
-    this.showIndicator(this.collectionName)
     // Show initial volume state once player is ready
     setTimeout(() => this.showVolumeIndicator(), 1000)
   }
@@ -330,7 +324,6 @@ class Togger {
     this.currentIndex = (this.currentIndex + 1) % this.streams.length
     if (this.currentChannel.status === "removed") return this.nextChannel()
     this.playStream()
-    this.showCollectionIndicator()
   }
 
   previousChannel() {
@@ -338,7 +331,6 @@ class Togger {
       (this.currentIndex - 1 + this.streams.length) % this.streams.length
     if (this.currentChannel.status === "removed") return this.previousChannel()
     this.playStream()
-    this.showCollectionIndicator()
   }
 
   volume = 100
@@ -438,16 +430,30 @@ class Togger {
     if (isLive !== undefined)
       liveIndicator = isLive
         ? '<span style="color: red; margin-left: 8px;">● LIVE</span>'
-        : '<span style="color: white; margin-left: 8px;">OFF-AIR</span>'
+        : '<span style="color: white; margin-left: 8px;">- OFF-AIR</span>'
 
     const url = `https://www.youtube.com/watch?v=${current.neweststream}`
+    const title = [this.collectionName, current.channeltitle].join(".")
     document.querySelector(".channel-name").innerHTML = `
       <a href="${url}" target="_blank">
-        ${current.deepLink}
+        ${title}
       </a>
       ${liveIndicator}
       ${current.warpcast ? makeWarpCastLink(current.warpcast) : ""}
     `
+    this.showChannel()
+  }
+
+  showChannel() {
+    const indicator = document.querySelector(".channel-name")
+    indicator.style.display = "block"
+
+    if (this.channelTimeout) clearTimeout(this.channelTimeout)
+
+    // Hide the indicator after 3 seconds
+    this.channelTimeout = setTimeout(() => {
+      indicator.style.display = "none"
+    }, 5000)
   }
 
   // Update the resizePlayer method to account for chat
@@ -574,25 +580,6 @@ class Togger {
   onReady(event) {
     this.playStream() // Start playing as soon as the player is ready
     document.querySelector(".mute").focus()
-  }
-
-  // Modify the addVolumeIndicator method
-  addVolumeIndicator() {
-    const volumeIndicator = document.createElement("div")
-    volumeIndicator.className = "indicator"
-    volumeIndicator.style.cssText = `
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    display: none;
-    z-index: 1001; /* Ensure it's above chat */
-    transition: right 0.3s ease;
-  `
-    document.body.appendChild(volumeIndicator)
   }
 
   addRemoteControl() {
