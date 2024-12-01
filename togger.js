@@ -1,5 +1,5 @@
-let staticNoise = document.querySelector(".static-noise")
-let powerScreen = document.querySelector(".power-screen")
+let staticNoise = document.querySelector(".staticNoise")
+let powerScreen = document.querySelector(".powerScreen")
 const lodash = _
 
 const defaultNetwork = "all"
@@ -436,7 +436,7 @@ class Togger {
 
     const url = `https://www.youtube.com/watch?v=${current.neweststream}`
     const title = [this.networkName, current.channeltitle].join(".")
-    document.querySelector(".channel-name").innerHTML = `
+    document.querySelector(".channelName").innerHTML = `
       <a href="${url}" target="_blank">
         ${title}
       </a>
@@ -447,14 +447,14 @@ class Togger {
   }
 
   showChannel() {
-    const indicator = document.querySelector(".channel-name")
-    indicator.style.display = "block"
+    const indicator = document.querySelector(".channelName")
+    indicator.style.opacity = "1"
 
     if (this.channelTimeout) clearTimeout(this.channelTimeout)
 
     // Hide the indicator after 3 seconds
     this.channelTimeout = setTimeout(() => {
-      indicator.style.display = "none"
+      indicator.style.opacity = "0"
     }, 5000)
   }
 

@@ -13,7 +13,7 @@ body {
   background-color: #000;
 }
 
-.static-noise {
+.staticNoise {
   position: fixed;
   top: 0;
   left: 0;
@@ -31,7 +31,7 @@ body {
   position: fixed;
 }
 
-.power-screen {
+.powerScreen {
   position: fixed;
   top: 0;
   left: 0;
@@ -44,7 +44,7 @@ body {
 }
 
 .indicator,
-.channel-name {
+.channelName {
   font-size: 2rem;
   text-transform: uppercase;
   text-shadow: 0px 0px 2px #000;
@@ -63,15 +63,17 @@ body {
   transition: right 0.3s ease;
 }
 
-.channel-name {
+.channelName {
   position: fixed;
   top: 1rem;
   left: 2rem;
-  display: none;
 }
-.channel-name a {
+.channelName a {
   text-decoration: none;
   color: white;
+}
+.channelName:hover {
+  opacity: 1 !important;
 }
 
 .title {

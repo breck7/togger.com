@@ -8,9 +8,9 @@ jsonScript sorted.json
 
 <div id="player"></div>
 <div class="indicator"></div>
-<div class="static-noise"></div>
-<div class="power-screen"></div>
-<div class="channel-name"></div>
+<div class="staticNoise"></div>
+<div class="powerScreen"></div>
+<div class="channelName"></div>
 <div class="title" id="title"></div>
 
 togger.js
