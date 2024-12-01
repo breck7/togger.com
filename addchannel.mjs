@@ -21,7 +21,11 @@ const main = async () => {
 	}
 }
 
-const data = `https://www.youtube.com/watch?v=3AX-OQwhbq4 coding`
+const data = `https://www.youtube.com/watch?v=j0tSX670u24 horoscopes
+https://www.youtube.com/watch?v=jJA6kyLBUPM horoscopes
+https://www.youtube.com/watch?v=kD7w3Aa_zy4 horoscopes
+https://www.youtube.com/watch?v=YqTJouFhDjg horoscopes
+https://www.youtube.com/watch?v=IeV1tqnZw5A horoscopes`
 
 const add = data.split("\n").forEach((line) => {
 	const [url, networks] = line.split(" ")
