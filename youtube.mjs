@@ -216,34 +216,30 @@ class YouTubeFeed {
     return streams
   }
 
-  async channelsToNetwork(channels, name) {
+  async channelsToJam(channels, name) {
     const streams = await this.fetchChannelStreams(channels)
-    await this.saveNetwork(streams, name)
+    await this.saveJam(streams, name)
   }
 
-  async saveNetwork(streams, name) {
-    const filepath = path.join(
-      __dirname,
-      "networksCache",
-      name + "Network.json",
-    )
+  async saveJam(streams, name) {
+    const filepath = path.join(__dirname, "jamsCache", name + "Jam.json")
     await fs.writeFile(filepath, JSON.stringify(streams, null, 2))
     console.log(`Saved ${streams.length} streams to ${filepath}`)
   }
 
-  async generateNetwork(query, name) {
+  async generateJam(query, name) {
     try {
       console.log(`Fetching '${query}'`)
       const streams = await this.fetchLiveStreams(query)
       console.log(`Saving ${streams.length} to ${name}`)
-      await this.saveNetwork(streams, name)
+      await this.saveJam(streams, name)
     } catch (error) {
       console.error("Failed to fetch or save streams:", error)
       process.exit(1)
     }
   }
 
-  async createChannelFile(videoUrl, networks = "youtube") {
+  async createChannelFile(videoUrl, jams = "youtube") {
     try {
       // Extract video ID from URL
       const videoId = this.extractVideoId(videoUrl)
@@ -298,7 +294,7 @@ url https://www.youtube.com/@${channelHandle}
 status live
 channelid ${channelId}
 channeltitle ${channelTitle}
-networks ${networks}
+jams ${jams}
 neweststream ${videoId}
 chat true
 streamtime ${new Date().toISOString()}

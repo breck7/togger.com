@@ -2,7 +2,7 @@ let staticNoise = document.querySelector(".staticNoise")
 let powerScreen = document.querySelector(".powerScreen")
 const lodash = _
 
-const defaultNetwork = "all"
+const defaultJam = "all"
 
 const makeDeepLink = (platform, channeltitle) =>
   [platform, channeltitle.replace(/\s+/g, "")].join(".")
@@ -11,37 +11,38 @@ class Togger {
   constructor() {
     this.isRemoteVisible = true // Add this line near the top
 
-    this.networkNames = Array.from(
+    this.jamNames = Array.from(
       new Set(
         this.channels
-          .map((c) => c.networks)
+          .map((c) => c.jams)
           .join(" ")
           .split(" "),
       ),
     )
-    this.networkNames.sort()
+    this.jamNames.sort()
     const params = new URLSearchParams(window.location.search)
-    let startNetwork =
+    let startJam =
+      params.get("jam") ||
       params.get("network") ||
       params.get("collection") ||
       params.get("p") ||
       (params.get("v") ? "custom" : "") ||
-      defaultNetwork
+      defaultJam
 
-    if (startNetwork === "coding")
-      startNetwork = "code"
+    if (startJam === "coding")
+      startJam = "code"
 
-    // Track indexes per network
-    this.networkIndexes = {}
-    this.networkNames.forEach((name) => {
-      this.networkIndexes[name] = 0
+    // Track indexes per jam
+    this.jamIndexes = {}
+    this.jamNames.forEach((name) => {
+      this.jamIndexes[name] = 0
     })
 
-    this.loadStreams(startNetwork)
+    this.loadStreams(startJam)
     if (params.get("shuffle")) this.shuffle()
     this.currentIndex = this.getInitialIndex()
-    // Store initial index for current network
-    this.networkIndexes[this.networkName] = this.currentIndex
+    // Store initial index for current jam
+    this.jamIndexes[this.jamName] = this.currentIndex
 
     this.isPoweredOn = true
     this.isMuted = true
@@ -160,7 +161,7 @@ class Togger {
       channelid: "",
       channeltitle: "",
       status: "off",
-      networks: "custom",
+      jams: "custom",
       neweststream: customVideoId,
     })
     // const timestamp = params.get("t")
@@ -171,54 +172,54 @@ class Togger {
     if (this._channels) return this._channels
     this._channels = sorted.slice()
     this._channels.forEach((channel) => {
-      channel.networks += " all"
+      channel.jams += " all"
     })
     this.maybeAddCustomChannel()
     return this._channels
   }
 
-  get networkIndex() {
-    return this.networkNames.indexOf(this.networkName)
+  get jamIndex() {
+    return this.jamNames.indexOf(this.jamName)
   }
 
-  nextNetwork() {
-    // Save current index for current network
-    this.networkIndexes[this.networkName] = this.currentIndex
+  nextJam() {
+    // Save current index for current jam
+    this.jamIndexes[this.jamName] = this.currentIndex
 
-    const { networkNames, networkIndex } = this
-    const networkName = networkNames[(networkIndex + 1) % networkNames.length]
-    this.loadStreams(networkName)
+    const { jamNames, jamIndex } = this
+    const jamName = jamNames[(jamIndex + 1) % jamNames.length]
+    this.loadStreams(jamName)
 
-    // Restore saved index for new network
-    this.currentIndex = this.networkIndexes[networkName]
+    // Restore saved index for new jam
+    this.currentIndex = this.jamIndexes[jamName]
     this.playStream()
   }
 
-  previousNetwork() {
-    // Save current index for current network
-    this.networkIndexes[this.networkName] = this.currentIndex
+  previousJam() {
+    // Save current index for current jam
+    this.jamIndexes[this.jamName] = this.currentIndex
 
-    const { networkNames, networkIndex } = this
-    const networkName =
-      networkNames[
-        (networkIndex - 1 + networkNames.length) % networkNames.length
+    const { jamNames, jamIndex } = this
+    const jamName =
+      jamNames[
+        (jamIndex - 1 + jamNames.length) % jamNames.length
       ]
-    this.loadStreams(networkName)
+    this.loadStreams(jamName)
 
-    // Restore saved index for new network
-    this.currentIndex = this.networkIndexes[networkName]
+    // Restore saved index for new jam
+    this.currentIndex = this.jamIndexes[jamName]
     this.playStream()
   }
 
-  getNetwork(networkName) {
-    const { networkNames } = this
-    if (!networkNames.includes(networkName)) networkName = defaultNetwork
-    this.networkName = networkName
-    return this.channels.filter((c) => c.networks?.includes(networkName))
+  getJam(jamName) {
+    const { jamNames } = this
+    if (!jamNames.includes(jamName)) jamName = defaultJam
+    this.jamName = jamName
+    return this.channels.filter((c) => c.jams?.includes(jamName))
   }
 
-  loadStreams(networkName) {
-    let streams = this.getNetwork(networkName)
+  loadStreams(jamName) {
+    let streams = this.getJam(jamName)
     streams = streams.map((item) => {
       const channeltitle = item.channeltitle
       const platform = "youtube"
@@ -238,7 +239,7 @@ class Togger {
 
     this.streams = lodash.sortBy(this.streams, "status")
 
-    if (networkName === "all")
+    if (jamName === "all")
       streams = lodash.shuffle(
         streams.filter((stream) => stream.status === "live"),
       )
@@ -279,10 +280,10 @@ class Togger {
           this.nextChannel()
           break
         case "arrowup":
-          this.nextNetwork()
+          this.nextJam()
           break
         case "arrowdown":
-          this.previousNetwork()
+          this.previousJam()
           break
         case "e":
           window.open(
@@ -423,7 +424,7 @@ class Togger {
     params.delete("c")
     params.delete("p")
     params.set("channel", this.currentChannel.deepLink)
-    params.set("network", this.networkName)
+    params.set("jam", this.jamName)
 
     // Replace state with all parameters
     window.history.replaceState({}, "", `?${params.toString()}`)
@@ -438,7 +439,7 @@ class Togger {
         : '<span style="color: white; margin-left: 8px;">- OFF-AIR</span>'
 
     const url = `https://www.youtube.com/watch?v=${current.neweststream}`
-    const title = [this.networkName, current.channeltitle].join(".")
+    const title = [this.jamName, current.channeltitle].join(".")
     const links = {
       url: (link) =>
         `<a target="toggerLink" href="${current.url}"><img src="youtube.svg"></span>`,
@@ -653,11 +654,11 @@ class Togger {
     ])
     remote.appendChild(channelRow)
 
-    const networkRow = createButtonRow([
+    const jamRow = createButtonRow([
       createButton("NET-", "ArrowDown"),
       createButton("NET+", "ArrowUp"),
     ])
-    remote.appendChild(networkRow)
+    remote.appendChild(jamRow)
 
     const volumeControlRow = createButtonRow([
       createButton("VOL-", "-"),

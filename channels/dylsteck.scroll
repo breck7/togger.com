@@ -5,7 +5,7 @@ url https://www.youtube.com/@dylsteck
 status off
 channelid UCqbdYSsgOvSNPkE-4drL75Q
 channeltitle The Hub
-networks warpcast
+jams warpcast
 neweststream 9eZIet2_EKE
 chat true
 warpcast https://warpcast.com/dylsteck.eth

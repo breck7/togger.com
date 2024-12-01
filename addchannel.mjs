@@ -32,6 +32,6 @@ https://www.youtube.com/watch?v=Z62OLrzE_tw fortnite
 https://www.youtube.com/watch?v=FKuxzJbWPVg fortnite`
 
 const add = data.split("\n").forEach((line) => {
-	const [url, networks] = line.split(" ")
-	yt.createChannelFile(url, networks)
+	const [url, jams] = line.split(" ")
+	yt.createChannelFile(url, jams)
 })

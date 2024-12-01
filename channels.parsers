@@ -22,9 +22,9 @@ statusParser
  extends abstractStringMeasureParser
  description live or off?
  float sortIndex 1.11
-networksParser
+jamsParser
  extends abstractStringMeasureParser
- description Which networks does this belong to?
+ description Which jams does this belong to?
  float sortIndex 1.35
 neweststreamParser
  extends abstractStringMeasureParser
