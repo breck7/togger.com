@@ -2,23 +2,23 @@
 
 
 [x] will it work without API calls?
-[x] Hand written collections are the best
+[x] Hand written networks are the best
 
 
 [x] Detect if chat is available
 [x] sort by: hand selected; then isLive, isChat, then random for now.
 
-[x] 10x better collections
+[x] 10x better networks
  [x] live stream humans with chat up front
-[] 10 more collections
+[] 10 more networks
 
 [] add twitch streams
 [] add x streams
 
 
-[] cohesive style.
- [] probably frosted glass, futuristic.
- [] easily themeable
+[x] cohesive style.
+ [x] probably frosted glass, futuristic.
+ [x] easily themeable
  [x] cleanup remote code
  [] better static analog
   [] test static noise
@@ -28,7 +28,7 @@
 [] show chat counts
 [x] no broken videos
 [] real staticnoise
-[] chat
+[x] chat
 
 
 

@@ -49,6 +49,6 @@ https://www.youtube.com/watch?v=RcwWum0ae84 crypto
 https://www.youtube.com/watch?v=TPaaes94bUY crypto`
 
 const add = data.split("\n").forEach((line) => {
-	const [url, collections] = line.split(" ")
-	yt.createChannelFile(url, collections)
+	const [url, networks] = line.split(" ")
+	yt.createChannelFile(url, networks)
 })

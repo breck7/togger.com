@@ -2,7 +2,7 @@ let staticNoise = document.querySelector(".static-noise")
 let powerScreen = document.querySelector(".power-screen")
 const lodash = _
 
-const defaultCollection = "all"
+const defaultNetwork = "all"
 
 const makeDeepLink = (platform, channeltitle) =>
   [platform, channeltitle.replace(/\s+/g, "")].join(".")
@@ -14,33 +14,34 @@ class Togger {
   constructor() {
     this.isRemoteVisible = true // Add this line near the top
 
-    this.collectionNames = Array.from(
+    this.networkNames = Array.from(
       new Set(
         this.channels
-          .map((c) => c.collections)
+          .map((c) => c.networks)
           .join(" ")
           .split(" "),
       ),
     )
-    this.collectionNames.sort()
+    this.networkNames.sort()
     const params = new URLSearchParams(window.location.search)
-    const startCollection =
+    const startNetwork =
+      params.get("network") ||
       params.get("collection") ||
       params.get("p") ||
       (params.get("v") ? "custom" : "") ||
-      defaultCollection
+      defaultNetwork
 
-    // Track indexes per collection
-    this.collectionIndexes = {}
-    this.collectionNames.forEach((name) => {
-      this.collectionIndexes[name] = 0
+    // Track indexes per network
+    this.networkIndexes = {}
+    this.networkNames.forEach((name) => {
+      this.networkIndexes[name] = 0
     })
 
-    this.loadStreams(startCollection)
+    this.loadStreams(startNetwork)
     if (params.get("shuffle")) this.shuffle()
     this.currentIndex = this.getInitialIndex()
-    // Store initial index for current collection
-    this.collectionIndexes[this.collectionName] = this.currentIndex
+    // Store initial index for current network
+    this.networkIndexes[this.networkName] = this.currentIndex
 
     this.isPoweredOn = true
     this.isMuted = true
@@ -159,7 +160,7 @@ class Togger {
       channelid: "",
       channeltitle: "",
       status: "off",
-      collections: "custom",
+      networks: "custom",
       neweststream: customVideoId,
     })
     // const timestamp = params.get("t")
@@ -170,56 +171,56 @@ class Togger {
     if (this._channels) return this._channels
     this._channels = sorted.slice()
     this._channels.forEach((channel) => {
-      channel.collections += " all"
+      channel.networks += " all"
     })
     this.maybeAddCustomChannel()
     return this._channels
   }
 
-  get collectionIndex() {
-    return this.collectionNames.indexOf(this.collectionName)
+  get networkIndex() {
+    return this.networkNames.indexOf(this.networkName)
   }
 
-  nextCollection() {
-    // Save current index for current collection
-    this.collectionIndexes[this.collectionName] = this.currentIndex
+  nextNetwork() {
+    // Save current index for current network
+    this.networkIndexes[this.networkName] = this.currentIndex
 
-    const { collectionNames, collectionIndex } = this
-    const collectionName =
-      collectionNames[(collectionIndex + 1) % collectionNames.length]
-    this.loadStreams(collectionName)
+    const { networkNames, networkIndex } = this
+    const networkName =
+      networkNames[(networkIndex + 1) % networkNames.length]
+    this.loadStreams(networkName)
 
-    // Restore saved index for new collection
-    this.currentIndex = this.collectionIndexes[collectionName]
+    // Restore saved index for new network
+    this.currentIndex = this.networkIndexes[networkName]
     this.playStream()
   }
 
-  previousCollection() {
-    // Save current index for current collection
-    this.collectionIndexes[this.collectionName] = this.currentIndex
+  previousNetwork() {
+    // Save current index for current network
+    this.networkIndexes[this.networkName] = this.currentIndex
 
-    const { collectionNames, collectionIndex } = this
-    const collectionName =
-      collectionNames[
-        (collectionIndex - 1 + collectionNames.length) % collectionNames.length
+    const { networkNames, networkIndex } = this
+    const networkName =
+      networkNames[
+        (networkIndex - 1 + networkNames.length) % networkNames.length
       ]
-    this.loadStreams(collectionName)
+    this.loadStreams(networkName)
 
-    // Restore saved index for new collection
-    this.currentIndex = this.collectionIndexes[collectionName]
+    // Restore saved index for new network
+    this.currentIndex = this.networkIndexes[networkName]
     this.playStream()
   }
 
-  getCollection(collectionName) {
-    const { collectionNames } = this
-    if (!collectionNames.includes(collectionName))
-      collectionName = defaultCollection
-    this.collectionName = collectionName
-    return this.channels.filter((c) => c.collections?.includes(collectionName))
+  getNetwork(networkName) {
+    const { networkNames } = this
+    if (!networkNames.includes(networkName))
+      networkName = defaultNetwork
+    this.networkName = networkName
+    return this.channels.filter((c) => c.networks?.includes(networkName))
   }
 
-  loadStreams(collectionName) {
-    let streams = this.getCollection(collectionName)
+  loadStreams(networkName) {
+    let streams = this.getNetwork(networkName)
     streams = streams.map((item) => {
       const channeltitle = item.channeltitle
       const platform = "youtube"
@@ -239,7 +240,7 @@ class Togger {
 
     this.streams = lodash.sortBy(this.streams, "status")
 
-    if (collectionName === "all")
+    if (networkName === "all")
       streams = lodash.shuffle(
         streams.filter((stream) => stream.status === "live"),
       )
@@ -280,10 +281,10 @@ class Togger {
           this.nextChannel()
           break
         case "arrowup":
-          this.nextCollection()
+          this.nextNetwork()
           break
         case "arrowdown":
-          this.previousCollection()
+          this.previousNetwork()
           break
         case "e":
           window.open(
@@ -419,7 +420,7 @@ class Togger {
     params.delete("c")
     params.delete("p")
     params.set("channel", this.currentChannel.deepLink)
-    params.set("collection", this.collectionName)
+    params.set("network", this.networkName)
 
     // Replace state with all parameters
     window.history.replaceState({}, "", `?${params.toString()}`)
@@ -434,7 +435,7 @@ class Togger {
         : '<span style="color: white; margin-left: 8px;">- OFF-AIR</span>'
 
     const url = `https://www.youtube.com/watch?v=${current.neweststream}`
-    const title = [this.collectionName, current.channeltitle].join(".")
+    const title = [this.networkName, current.channeltitle].join(".")
     document.querySelector(".channel-name").innerHTML = `
       <a href="${url}" target="_blank">
         ${title}
@@ -635,11 +636,11 @@ class Togger {
     ])
     remote.appendChild(channelRow)
 
-    const volumeRow = createButtonRow([
-      createButton("COL-", "ArrowDown"),
-      createButton("COL+", "ArrowUp"),
+    const networkRow = createButtonRow([
+      createButton("NET-", "ArrowDown"),
+      createButton("NET+", "ArrowUp"),
     ])
-    remote.appendChild(volumeRow)
+    remote.appendChild(networkRow)
 
     const volumeControlRow = createButtonRow([
       createButton("VOL-", "-"),

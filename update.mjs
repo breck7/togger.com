@@ -5,36 +5,36 @@ import { YouTubeFeed } from "./youtube.mjs"
 const apiKey = "AIzaSyAy0N613PtrIohnjsXOn3kqbRxa5M5mdRQ"
 const yt = new YouTubeFeed(apiKey)
 
-// Generate initial collections
-async function generateInitialCollections() {
-	await yt.generateCollection("live -bot -lofi", "general")
-	await yt.generateCollection("live ambient music", "ambience")
-	await yt.generateCollection("live -bot science", "science")
+// Generate initial networks
+async function generateInitialNetworks() {
+	await yt.generateNetwork("live -bot -lofi", "general")
+	await yt.generateNetwork("live ambient music", "ambience")
+	await yt.generateNetwork("live -bot science", "science")
 }
 
-// Process existing collection files
-async function processCollectionFiles() {
+// Process existing network files
+async function processNetworkFiles() {
 	try {
-		const collectionDir = path.join(__dirname, "collections")
-		const files = await readdir(collectionDir)
+		const networkDir = path.join(__dirname, "networks")
+		const files = await readdir(networkDir)
 
 		// Filter for .scroll files
 		const scrollFiles = files.filter((file) => file.endsWith(".scroll"))
 
 		// Process each file
 		for (const file of scrollFiles) {
-			const filePath = path.join(collectionDir, file)
+			const filePath = path.join(networkDir, file)
 			const content = await readFile(filePath, "utf8")
 			const lines = content.split("\n").filter((line) => line.trim()) // Remove empty lines
 
-			// Get collection name from filename (remove .scroll extension)
-			const collectionName = path.basename(file, ".scroll")
+			// Get network name from filename (remove .scroll extension)
+			const networkName = path.basename(file, ".scroll")
 
 			// Process the channels
-			await yt.channelsToCollection(lines, collectionName)
+			await yt.channelsToNetwork(lines, networkName)
 		}
 	} catch (error) {
-		console.error("Error processing collection files:", error)
+		console.error("Error processing network files:", error)
 		throw error
 	}
 }
@@ -42,9 +42,9 @@ async function processCollectionFiles() {
 // Main execution
 async function main() {
 	try {
-		await generateInitialCollections()
-		await processCollectionFiles()
-		console.log("Successfully processed all collections")
+		await generateInitialNetworks()
+		await processNetworkFiles()
+		console.log("Successfully processed all networks")
 	} catch (error) {
 		console.error("Error in main execution:", error)
 		process.exit(1)
