@@ -21,14 +21,15 @@ const main = async () => {
 	}
 }
 
-const data = `https://www.youtube.com/watch?v=xY6_wqhRaos cooking
-https://www.youtube.com/watch?v=3eVIAQNB6Tw cooking
-https://www.youtube.com/watch?v=4hV2qN1Tv68 cooking
-https://www.youtube.com/watch?v=cUsUt22PFwo cooking
-https://www.youtube.com/watch?v=SlXIk08_yTs cooking
-https://www.youtube.com/watch?v=n3Ty7hHcl-c cooking
-https://www.youtube.com/watch?v=O7xSkdyEzzU cooking
-https://www.youtube.com/watch?v=1nDscSiGrBE cooking`
+const data = `https://www.youtube.com/watch?v=YNQrxMbU0-s fortnite
+https://www.youtube.com/watch?v=FanNoQg06w0 fortnite
+https://www.youtube.com/watch?v=_DvwMctBprc fortnite
+https://www.youtube.com/watch?v=wc9On7mGACk fortnite
+https://www.youtube.com/watch?v=As89fqmIuoA fortnite
+https://www.youtube.com/watch?v=UmPD6Moqulg fortnite
+https://www.youtube.com/watch?v=3Qtuh1uWldA fortnite
+https://www.youtube.com/watch?v=Z62OLrzE_tw fortnite
+https://www.youtube.com/watch?v=FKuxzJbWPVg fortnite`
 
 const add = data.split("\n").forEach((line) => {
 	const [url, networks] = line.split(" ")
