@@ -354,6 +354,8 @@ class Togger {
   }
 
   increaseVolume() {
+    if (this.isMuted)
+      this.unmute()
     let delta = 20;
     if (this.volume === 0) delta = 1;
     if (this.volume === 1) delta = 4;
