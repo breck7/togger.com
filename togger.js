@@ -337,7 +337,7 @@ class Togger {
 
   showVolumeIndicator() {
     const { volume, isMuted } = this
-    this.showIndicator(isMuted ? "MUTED" : `Volume: ${volume}%`)
+    this.showIndicator(isMuted ? "MUTED" : `Volume: ${volume}`)
   }
 
   showIndicator(message) {
@@ -354,16 +354,21 @@ class Togger {
   }
 
   increaseVolume() {
-    let delta = 10
-    if (this.volume < 10) delta = 5
+    let delta = 20
+    if (this.volume === 0) delta = 1
+    if (this.volume === 1) delta = 4
+    if (this.volume === 5) delta = 5
+    if (this.volume === 10) delta = 10
     this.volume = Math.min(100, this.volume + delta)
     this.player.setVolume(this.volume)
     this.showVolumeIndicator()
   }
 
   decreaseVolume() {
-    let delta = 10
-    if (this.volume <= 10) delta = 5
+    let delta = 20
+    if (this.volume === 20) delta = 10
+    if (this.volume === 10) delta = 5
+    if (this.volume === 5) delta = 4
     this.volume = Math.min(100, Math.max(0, this.volume - delta))
     this.player.setVolume(this.volume)
     this.showVolumeIndicator()
