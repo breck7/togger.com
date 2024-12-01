@@ -2,7 +2,8 @@ idParser
  extends abstractIdParser
  description What is our ID of the channel?
  float sortIndex 1.01
-youtubeParser
+toggerYoutubeParser
+ cue togger
  extends abstractUrlMeasureParser
  description What is the URL to the YouTube channel?
  float sortIndex 1.1

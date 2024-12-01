@@ -156,7 +156,7 @@ class Togger {
     if (!customVideoId) return "";
     this._channels.unshift({
       id: "customDeepLink",
-      url: "https://www.youtube.com/watch?v=" + customVideoId,
+      youtube: "https://www.youtube.com/watch?v=" + customVideoId,
       channelid: "",
       channeltitle: "",
       status: "off",
