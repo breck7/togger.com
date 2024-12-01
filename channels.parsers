@@ -46,6 +46,10 @@ twitterParser
  extends abstractStringMeasureParser
  description What is their Twitter url?
  float sortIndex 1.6
+homepageParser
+ extends abstractStringMeasureParser
+ description What is their homepage url?
+ float sortIndex 1.6
 viewCountParser
  extends abstractIntegerMeasureParser
  description What is the most recent stream's view count?

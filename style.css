@@ -79,6 +79,15 @@ body {
 .channelName img {
   height: 34px;
   vertical-align: middle;
+  margin: 0 4px;
+  transition: transform 0.1s;
+}
+
+.channelName img:hover {
+}
+
+.channelName img:active {
+  transform: scale(0.9);
 }
 
 .title {

@@ -450,11 +450,13 @@ class Togger {
         `<a target="toggerLink" href="${current.twitter}"><img src="twitter.png"></span>`,
       github: (link) =>
         `<a target="toggerLink" href="${current.github}"><img src="github.png"></span>`,
+      homepage: (link) =>
+        `<a target="toggerLink" href="${current.homepage}"><img src="homepage.png"></span>`,
     };
     const alinks = Object.keys(links)
       .filter((link) => current[link])
       .map((key) => links[key](current))
-      .join(" ");
+      .join("");
     document.querySelector(".channelName").innerHTML = `
       <a href="${url}" target="_blank">
         ${title}
@@ -628,9 +630,12 @@ class Togger {
       button.className = classes.join(" ");
       button.textContent = text;
 
-      button.addEventListener("click", () => {
+      button.addEventListener("mousedown", () => {
         button.style.transform = "scale(0.95)";
-        setTimeout(() => (button.style.transform = ""), 100);
+      });
+
+      button.addEventListener("click", () => {
+        button.style.transform = ""
         document.dispatchEvent(new KeyboardEvent("keydown", { key }));
       });
 
