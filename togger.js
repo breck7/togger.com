@@ -22,6 +22,7 @@ class Togger {
           .split(" "),
       ),
     )
+    this.collectionNames.sort()
     const params = new URLSearchParams(window.location.search)
     const startCollection =
       params.get("collection") ||

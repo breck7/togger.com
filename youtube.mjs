@@ -291,18 +291,18 @@ class YouTubeFeed {
         channelTitle.toLowerCase().replace(/\s+/g, "")
 
       // Create scroll file content
-      const scrollContent = [
-        `../channels.parsers`,
-        ``,
-        `id ${channelHandle}`,
-        `url https://www.youtube.com/@${channelHandle}`,
-        `channelid ${channelId}`,
-        `channeltitle ${channelTitle}`,
-        `status off`,
-        `collections ${collections}`,
-        `neweststream ${videoId}`,
-        `streamtime ${new Date().toISOString()}`,
-      ].join("\n")
+      const scrollContent = `../channels.parsers
+
+id ${channelHandle}
+url https://www.youtube.com/@${channelHandle}
+status live
+channelid ${channelId}
+channeltitle ${channelTitle}
+collections ${collections}
+neweststream ${videoId}
+chat true
+streamtime ${new Date().toISOString()}
+`
 
       // Create channels directory if it doesn't exist
       const channelsDir = path.join(__dirname, "channels")
