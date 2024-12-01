@@ -21,11 +21,14 @@ const main = async () => {
 	}
 }
 
-const data = `https://www.youtube.com/watch?v=j0tSX670u24 horoscopes
-https://www.youtube.com/watch?v=jJA6kyLBUPM horoscopes
-https://www.youtube.com/watch?v=kD7w3Aa_zy4 horoscopes
-https://www.youtube.com/watch?v=YqTJouFhDjg horoscopes
-https://www.youtube.com/watch?v=IeV1tqnZw5A horoscopes`
+const data = `https://www.youtube.com/watch?v=xY6_wqhRaos cooking
+https://www.youtube.com/watch?v=3eVIAQNB6Tw cooking
+https://www.youtube.com/watch?v=4hV2qN1Tv68 cooking
+https://www.youtube.com/watch?v=cUsUt22PFwo cooking
+https://www.youtube.com/watch?v=SlXIk08_yTs cooking
+https://www.youtube.com/watch?v=n3Ty7hHcl-c cooking
+https://www.youtube.com/watch?v=O7xSkdyEzzU cooking
+https://www.youtube.com/watch?v=1nDscSiGrBE cooking`
 
 const add = data.split("\n").forEach((line) => {
 	const [url, networks] = line.split(" ")
