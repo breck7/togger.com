@@ -21,12 +21,15 @@ class Togger {
     )
     this.networkNames.sort()
     const params = new URLSearchParams(window.location.search)
-    const startNetwork =
+    let startNetwork =
       params.get("network") ||
       params.get("collection") ||
       params.get("p") ||
       (params.get("v") ? "custom" : "") ||
       defaultNetwork
+
+    if (startNetwork === "coding")
+      startNetwork = "code"
 
     // Track indexes per network
     this.networkIndexes = {}
