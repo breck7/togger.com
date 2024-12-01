@@ -322,14 +322,14 @@ class Togger {
 
   nextChannel() {
     this.currentIndex = (this.currentIndex + 1) % this.streams.length;
-    if (this.currentChannel.status === "removed") return this.nextChannel();
+    //if (this.currentChannel.status === "removed") return this.nextChannel();
     this.playStream();
   }
 
   previousChannel() {
     this.currentIndex =
       (this.currentIndex - 1 + this.streams.length) % this.streams.length;
-    if (this.currentChannel.status === "removed") return this.previousChannel();
+    //if (this.currentChannel.status === "removed") return this.previousChannel();
     this.playStream();
   }
 
