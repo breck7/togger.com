@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id gmfarcaster
-url https://www.youtube.com/@GMFarcaster
+youtube https://www.youtube.com/@GMFarcaster
 status off
 channelid UChEEElYETR8gpc_RL0GGJng
 channeltitle GM Farcaster

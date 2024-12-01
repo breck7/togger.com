@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id useip
-url https://www.youtube.com/@useip
+youtube https://www.youtube.com/@useip
 status live
 channelid UCR77bEpXLTBxztLOEKN3Wbg
 channeltitle use-IP Ltd

@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id nasaspaceflight
-url https://www.youtube.com/@nasaspaceflight
+youtube https://www.youtube.com/@nasaspaceflight
 status live
 channelid UCSUu1lih2RifWkKtDOJdsBA
 channeltitle NASASpaceflight

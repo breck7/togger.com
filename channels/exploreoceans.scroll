@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id exploreoceans
-url https://www.youtube.com/@exploreoceans
+youtube https://www.youtube.com/@exploreoceans
 status live
 channelid UCSyg9cb3Iq-NtlbxqNB9wGw
 channeltitle Explore Oceans

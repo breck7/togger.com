@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id nature-live
-url https://www.youtube.com/@nature-live
+youtube https://www.youtube.com/@nature-live
 status live
 channelid UCRPhYF9rd5ov7DNKj99MNIg
 channeltitle Nature Live Camera

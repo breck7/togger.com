@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id farcasterxyz
-url https://www.youtube.com/@farcasterxyz
+youtube https://www.youtube.com/@farcasterxyz
 status off
 channelid UCJ7FY0hK43bOmRWGkn8bodg
 channeltitle Farcaster AMA

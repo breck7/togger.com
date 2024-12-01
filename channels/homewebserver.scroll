@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id homewebserver
-url https://www.youtube.com/@HomeWebServer
+youtube https://www.youtube.com/@HomeWebServer
 status removed
 channelid UCiKa__tRwuOxKrW4e3aLFHA
 channeltitle Home Web Server Live Streaming

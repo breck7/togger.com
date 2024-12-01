@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id davidconnelly
-url https://www.youtube.com/@davidconnelly
+youtube https://www.youtube.com/@davidconnelly
 status off
 channelid UCtsojFV90CDh7uABAssuITw
 channeltitle David Connelly

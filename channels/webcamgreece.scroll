@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id webcamgreece
-url https://www.youtube.com/@webcamgreece
+youtube https://www.youtube.com/@webcamgreece
 status live
 channelid UCKvPjpRSwBk882hPbgyS0UA
 channeltitle WebcamGreece

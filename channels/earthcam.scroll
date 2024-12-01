@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id earthcam
-url https://www.youtube.com/@earthcam
+youtube https://www.youtube.com/@earthcam
 status live
 channelid UC6qrG3W8SMK0jior2olka3g
 channeltitle EarthCam

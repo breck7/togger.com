@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id rawstartup
-url https://www.youtube.com/@RawStartup
+youtube https://www.youtube.com/@RawStartup
 status off
 channelid UCHiSUe3Bo5cRMhE6BjttNUA
 channeltitle Raw Startup

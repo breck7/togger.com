@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id lolnetwork
-url https://www.youtube.com/@LOLNetwork
+youtube https://www.youtube.com/@LOLNetwork
 status live
 channelid UCLRmIdRJgLfmdpJufmBhBuA
 channeltitle LOL Stand Up

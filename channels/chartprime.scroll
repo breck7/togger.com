@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id chartprime
-url https://www.youtube.com/@chartprime
+youtube https://www.youtube.com/@chartprime
 status live
 channelid UCyG2T5QGRzJjQVVAr1o4qmw
 channeltitle ChartPrime

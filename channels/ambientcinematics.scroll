@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id ambientcinematics
-url https://www.youtube.com/@AmbientCinematics
+youtube https://www.youtube.com/@AmbientCinematics
 status off
 channelid UCTn68irGFi8M5EdYrfWqJuQ
 channeltitle Ambient Cinematics

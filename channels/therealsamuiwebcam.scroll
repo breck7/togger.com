@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id therealsamuiwebcam
-url https://www.youtube.com/@therealsamuiwebcam
+youtube https://www.youtube.com/@therealsamuiwebcam
 status live
 channelid UCmYyJaUxYiF5IbLx-0jFXHQ
 channeltitle The Real Samui Webcam

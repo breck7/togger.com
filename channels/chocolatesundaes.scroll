@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id chocolatesundaes
-url https://www.youtube.com/@ChocolateSundaes
+youtube https://www.youtube.com/@ChocolateSundaes
 status live
 channelid UCv8G-xZ_BBGufjbN6jbvLMQ
 channeltitle Chocolate Sundaes

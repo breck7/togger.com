@@ -2,9 +2,9 @@ idParser
  extends abstractIdParser
  description What is our ID of the channel?
  float sortIndex 1.01
-urlParser
+youtubeParser
  extends abstractUrlMeasureParser
- description What is the URL to the channel?
+ description What is the URL to the YouTube channel?
  float sortIndex 1.1
 twitchParser
  extends abstractUrlMeasureParser

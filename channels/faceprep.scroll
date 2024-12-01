@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id faceprep
-url https://www.youtube.com/@faceprep
+youtube https://www.youtube.com/@faceprep
 status off
 channelid UCzlQ4LgPbuedoeBoK-oDJMA
 channeltitle FACE Prep

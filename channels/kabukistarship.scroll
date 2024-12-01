@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id kabukistarship
-url https://www.youtube.com/@KabukiStarship
+youtube https://www.youtube.com/@KabukiStarship
 status off
 channelid UC8LTSnxExQB0gGGWXKA7IFg
 channeltitle Kabuki Starship

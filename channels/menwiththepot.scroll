@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id menwiththepot
-url https://www.youtube.com/@menwiththepot
+youtube https://www.youtube.com/@menwiththepot
 status off
 channelid UCfxzr4iHJ1ZFq7KT8bwfiBw
 channeltitle Men With The Pot

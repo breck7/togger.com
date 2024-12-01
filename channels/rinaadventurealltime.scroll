@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id rinaadventurealltime
-url https://www.youtube.com/@rinaadventurealltime
+youtube https://www.youtube.com/@rinaadventurealltime
 status live
 channelid UCZVCZRmvllLWhJ1_EbSgWgg
 channeltitle Rina Adventure All Time

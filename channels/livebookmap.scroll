@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id livebookmap
-url https://www.youtube.com/@livebookmap
+youtube https://www.youtube.com/@livebookmap
 status live
 channelid UChtOYh9r2n6KDVik05r5JWw
 channeltitle Live Bookmap

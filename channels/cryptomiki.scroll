@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id cryptomiki
-url https://www.youtube.com/@cryptomiki
+youtube https://www.youtube.com/@cryptomiki
 status live
 channelid UC_i68tipo4IpVBsS_x6eDMQ
 channeltitle Crypto Miki

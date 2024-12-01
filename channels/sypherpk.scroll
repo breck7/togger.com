@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id sypherpk
-url https://www.youtube.com/@sypherpk
+youtube https://www.youtube.com/@sypherpk
 status removed
 channelid UC_q5WZtFp36adwqhKpZzxwQ
 channeltitle SypherPK

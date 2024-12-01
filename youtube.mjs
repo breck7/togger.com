@@ -290,7 +290,7 @@ class YouTubeFeed {
       const scrollContent = `../channels.parsers
 
 id ${channelHandle}
-url https://www.youtube.com/@${channelHandle}
+youtube https://www.youtube.com/@${channelHandle}
 status live
 channelid ${channelId}
 channeltitle ${channelTitle}

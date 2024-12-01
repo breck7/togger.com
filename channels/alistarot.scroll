@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id alistarot
-url https://www.youtube.com/@alistarot
+youtube https://www.youtube.com/@alistarot
 status off
 channelid UCGS9evApv_T-ZZbSmHi4oBA
 channeltitle ALI's Tarot

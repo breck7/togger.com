@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id theprimetimeagen
-url https://www.youtube.com/@ThePrimeTimeagen
+youtube https://www.youtube.com/@ThePrimeTimeagen
 status live
 channelid UC8ENHE5xdFSwx71u3fDH5Xw
 channeltitle ThePrimeagen

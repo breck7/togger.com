@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id buenasnochesfarcaster
-url https://www.youtube.com/@BuenasNochesFarcaster
+youtube https://www.youtube.com/@BuenasNochesFarcaster
 status off
 channelid UCJG6kVAgPtbCsKq4tIm7W2g
 channeltitle Buenas Noches Farcaster

@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id programmer-network
-url https://www.youtube.com/@programmer-network
+youtube https://www.youtube.com/@programmer-network
 status off
 channelid UCHqzaxR0tqBZ5p5v8CjQ0tQ
 channeltitle Programmer Network

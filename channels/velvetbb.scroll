@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id velvetbb
-url https://www.youtube.com/@velvetbb
+youtube https://www.youtube.com/@velvetbb
 status off
 channelid UC92oqKK_DRqMj5BqqGheeRQ
 channeltitle Velvet

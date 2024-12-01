@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id okbangershow
-url https://www.youtube.com/@okbangershow
+youtube https://www.youtube.com/@okbangershow
 status off
 channelid UCgiZJmuxlXqhvBl415tOaCA
 channeltitle OK Banger

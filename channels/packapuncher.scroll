@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id packapuncher
-url https://www.youtube.com/@packapuncher
+youtube https://www.youtube.com/@packapuncher
 status off
 channelid UCGLcmUt6Y7YEWdiehVg9QBg
 channeltitle Pack A Puncher

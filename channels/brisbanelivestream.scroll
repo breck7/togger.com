@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id brisbanelivestream
-url https://www.youtube.com/@brisbanelivestream
+youtube https://www.youtube.com/@brisbanelivestream
 status removed
 channelid UCwyuvrVtIg0xjH2qPufk3RQ
 channeltitle Brisbane Live

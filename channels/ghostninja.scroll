@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id ghostninja
-url https://www.youtube.com/@ghostninja
+youtube https://www.youtube.com/@ghostninja
 status off
 channelid UCbkMvtBNkpIbHqQdKHJSb5A
 channeltitle GhostNinja

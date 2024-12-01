@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id airlinerslive
-url https://www.youtube.com/@airlinerslive
+youtube https://www.youtube.com/@airlinerslive
 status off
 channelid UCMT8bf9CCfdLb_DTwJidOng
 channeltitle Airliners Live

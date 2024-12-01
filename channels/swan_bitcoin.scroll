@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id swan_bitcoin
-url https://www.youtube.com/@swan_bitcoin
+youtube https://www.youtube.com/@swan_bitcoin
 status removed
 channelid UCl4takhOQtiyprismCPsa2Q
 channeltitle Swan Bitcoin

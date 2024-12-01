@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id earthtv
-url https://www.youtube.com/@earthtv
+youtube https://www.youtube.com/@earthtv
 status live
 channelid UCRuyAVeVd7oUwh0LWmxxBBQ
 channeltitle earthTV

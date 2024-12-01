@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id namibiacam
-url https://www.youtube.com/@namibiacam
+youtube https://www.youtube.com/@namibiacam
 status live
 channelid UC9X6gGKDv2yhMoofoeS7-Gg
 channeltitle NamibiaCam

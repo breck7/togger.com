@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id streamtimelive
-url https://www.youtube.com/@streamtimelive
+youtube https://www.youtube.com/@streamtimelive
 status live
 channelid UCrtIIVfi-5tMlVXdMDzOMUA
 channeltitle StreamTime Live

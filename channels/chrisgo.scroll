@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id chrisgo
-url https://www.youtube.com/@chrisgo
+youtube https://www.youtube.com/@chrisgo
 status off
 channelid UCAPc9Lz2Z5MJOxCdo3RTs-w
 channeltitle Chris Follows

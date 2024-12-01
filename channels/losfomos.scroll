@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id losfomos
-url https://www.youtube.com/@LosFomos
+youtube https://www.youtube.com/@LosFomos
 status off
 channelid UCZ8MI1slzXKUv9fb0I9Ho2A
 channeltitle Los Fomos FM

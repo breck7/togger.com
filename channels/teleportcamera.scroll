@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id teleportcamera
-url https://www.youtube.com/@teleportcamera
+youtube https://www.youtube.com/@teleportcamera
 status live
 channelid UCegzBUd6-PYoO_v7gjJgufg
 channeltitle Teleport.camera

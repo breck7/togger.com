@@ -440,8 +440,8 @@ class Togger {
     const url = `https://www.youtube.com/watch?v=${current.neweststream}`;
     const title = [this.jamName, current.channeltitle].join(".");
     const links = {
-      url: (link) =>
-        `<a target="toggerLink" href="${current.url}"><img src="youtube.svg"></span>`,
+      youtube: (link) =>
+        `<a target="toggerLink" href="${current.youtube}"><img src="youtube.svg"></span>`,
       twitch: (link) =>
         `<a target="toggerLink" href="${current.twitch}"><img src="twitch.png"></span>`,
       warpcast: (link) =>

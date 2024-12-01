@@ -1,7 +1,7 @@
 ../channels.parsers
 
 id exploreafrica
-url https://www.youtube.com/@exploreafrica
+youtube https://www.youtube.com/@exploreafrica
 status live
 channelid UCiGOIXjFqy5_mUNxQNOMfHw
 channeltitle Explore Africa
