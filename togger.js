@@ -655,8 +655,8 @@ class Togger {
     remote.appendChild(channelRow)
 
     const jamRow = createButtonRow([
-      createButton("NET-", "ArrowDown"),
-      createButton("NET+", "ArrowUp"),
+      createButton("JAM-", "ArrowDown"),
+      createButton("JAM+", "ArrowUp"),
     ])
     remote.appendChild(jamRow)
 

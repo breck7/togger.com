@@ -1,6 +1,6 @@
 # 🎯 Togger
 
-> It's not TV, it's Togger.
+> Jam Together
 
 Togger is a revolutionary platform that combines live streams from YouTube, Twitch, Warpcast, and X into one seamless experience. Toggle through channels, find real people to follow, and experience live content like never before.
 
@@ -40,5 +40,5 @@ Contributions, issues, and feature requests are welcome!
 
 Originally made and launched at the Vercel Nvidia Hackathon.
 
-Made possible by https://warpcast.com/phil, https://warpcast.com/benersing, and 
+Made possible by https://warpcast.com/phil, https://warpcast.com/benersing, and
 https://warpcast.com/christin.

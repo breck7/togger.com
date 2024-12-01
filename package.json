@@ -1,7 +1,7 @@
 {
   "name": "togger",
   "version": "0.1.0",
-  "description": "> It's not TV, it's Togger.",
+  "description": "Jam Together",
   "main": "togger.js",
   "scripts": {
     "build": "node update.mjs; scroll build",
