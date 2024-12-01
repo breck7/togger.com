@@ -7,9 +7,6 @@ const defaultNetwork = "all"
 const makeDeepLink = (platform, channeltitle) =>
   [platform, channeltitle.replace(/\s+/g, "")].join(".")
 
-const makeWarpCastLink = (link) =>
-  `<a target="warpcast" class="warpcast" href="${link}">W</span>`
-
 class Togger {
   constructor() {
     this.isRemoteVisible = true // Add this line near the top
@@ -186,8 +183,7 @@ class Togger {
     this.networkIndexes[this.networkName] = this.currentIndex
 
     const { networkNames, networkIndex } = this
-    const networkName =
-      networkNames[(networkIndex + 1) % networkNames.length]
+    const networkName = networkNames[(networkIndex + 1) % networkNames.length]
     this.loadStreams(networkName)
 
     // Restore saved index for new network
@@ -213,8 +209,7 @@ class Togger {
 
   getNetwork(networkName) {
     const { networkNames } = this
-    if (!networkNames.includes(networkName))
-      networkName = defaultNetwork
+    if (!networkNames.includes(networkName)) networkName = defaultNetwork
     this.networkName = networkName
     return this.channels.filter((c) => c.networks?.includes(networkName))
   }
@@ -436,12 +431,26 @@ class Togger {
 
     const url = `https://www.youtube.com/watch?v=${current.neweststream}`
     const title = [this.networkName, current.channeltitle].join(".")
+    const links = {
+      url: (link) =>
+        `<a target="toggerLink" href="${current.url}"><img src="youtube.svg"></span>`,
+      twitch: (link) =>
+        `<a target="toggerLink" href="${current.twitch}"><img src="twitch.png"></span>`,
+      warpcast: (link) =>
+        `<a target="toggerLink" href="${current.warpcast}"><img src="warpcast.png"></span>`,
+      twitter: (link) =>
+        `<a target="toggerLink" href="${current.twitter}"><img src="twitter.png"></span>`,
+    }
+    const alinks = Object.keys(links)
+      .filter((link) => current[link])
+      .map((key) => links[key](current))
+      .join(" ")
     document.querySelector(".channelName").innerHTML = `
       <a href="${url}" target="_blank">
         ${title}
       </a>
       ${liveIndicator}
-      ${current.warpcast ? makeWarpCastLink(current.warpcast) : ""}
+      ${alinks.trim()}
     `
     this.showChannel()
   }

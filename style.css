@@ -76,6 +76,11 @@ body {
   opacity: 1 !important;
 }
 
+.channelName img {
+  height: 34px;
+  vertical-align: middle;
+}
+
 .title {
   position: fixed;
   top: 6rem;
@@ -88,26 +93,6 @@ body {
   font-weight: 700;
   pointer-events: none;
   animation: textShadow 1.9s infinite;
-}
-
-@media only screen and (min-width: 800px) {
-  html,
-  body {
-    font-size: 17px;
-  }
-}
-
-a.warpcast {
-  position: absolute;
-  right: -75px;
-  top: -8px;
-  display: inline-block;
-  background-color: #5d3e9e;
-  color: white;
-  padding: 8px 12px;
-  border-radius: 12px;
-  font-weight: bold;
-  font-family: Arial;
 }
 
 /* Remote Control Styles */

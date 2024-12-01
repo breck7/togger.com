@@ -6,6 +6,10 @@ urlParser
  extends abstractUrlMeasureParser
  description What is the URL to the channel?
  float sortIndex 1.1
+twitchParser
+ extends abstractUrlMeasureParser
+ description What is the Twitch channel, if any?
+ float sortIndex 1.15
 channelidParser
  extends abstractStringMeasureParser
  description What is the unique youtube identifier for this channel?
@@ -32,7 +36,11 @@ streamtimeParser
  float sortIndex 1.5
 warpcastParser
  extends abstractStringMeasureParser
- description What is the Warpcast name?
+ description What is their Warpcast name?
+ float sortIndex 1.6
+twitterParser
+ extends abstractStringMeasureParser
+ description What is their Twitter name?
  float sortIndex 1.6
 viewCountParser
  extends abstractIntegerMeasureParser
