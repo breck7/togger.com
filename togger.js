@@ -449,6 +449,8 @@ class Togger {
         `<a target="toggerLink" href="${current.warpcast}"><img src="warpcast.png"></span>`,
       twitter: (link) =>
         `<a target="toggerLink" href="${current.twitter}"><img src="twitter.png"></span>`,
+      github: (link) =>
+        `<a target="toggerLink" href="${current.github}"><img src="github.png"></span>`,
     }
     const alinks = Object.keys(links)
       .filter((link) => current[link])

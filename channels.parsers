@@ -36,11 +36,15 @@ streamtimeParser
  float sortIndex 1.5
 warpcastParser
  extends abstractStringMeasureParser
- description What is their Warpcast name?
+ description What is their Warpcast url?
+ float sortIndex 1.6
+githubParser
+ extends abstractStringMeasureParser
+ description What is their Github url?
  float sortIndex 1.6
 twitterParser
  extends abstractStringMeasureParser
- description What is their Twitter name?
+ description What is their Twitter url?
  float sortIndex 1.6
 viewCountParser
  extends abstractIntegerMeasureParser
