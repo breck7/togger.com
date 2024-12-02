@@ -26,7 +26,7 @@ class Togger {
       params.get("network") ||
       params.get("collection") ||
       params.get("p") ||
-      (params.get("v") ? "custom" : "") ||
+      (params.get("v") ? "customjam" : "") ||
       defaultJam;
 
     if (startJam === "coding") startJam = "code";
@@ -160,7 +160,7 @@ class Togger {
       channelid: "",
       channeltitle: "",
       status: "off",
-      jams: "custom",
+      jams: "customjam",
       neweststream: customVideoId,
     });
     // const timestamp = params.get("t")
@@ -544,6 +544,7 @@ class Togger {
     if (event.data == YT.PlayerState.UNSTARTED) {
       // videoId.textContent = "UNSTARTED"
     } else if (event.data == YT.PlayerState.ENDED) {
+      this.player.seekTo(0, true);
       //videoId.textContent = "STREAM ENDED"
       //      this.nextChannel() // Auto-play next video when current one ends
     } else if (event.data == YT.PlayerState.PLAYING) {
