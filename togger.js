@@ -761,8 +761,8 @@ This event fires if an error occurs in the player. The API will pass an event ob
 101 – The owner of the requested video does not allow it to be played in embedded players.
 150 – This error is the same as 101. It's just a 101 error in disguise!`);
         console.error(event);
-        // if (event.data === 101 || event.data === 150)
-        //   togger.reportStatus("removed");
+        if (event.data === 101 || event.data === 150)
+          togger.reportStatus("removed");
       },
     },
   });
