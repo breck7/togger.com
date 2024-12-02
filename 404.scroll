@@ -1,4 +1,5 @@
 buildHtml
 script
- const path = window.location.pathname.slice(1).replace("/", "")
+ let path = window.location.pathname.slice(1).replace("/", "")
+ path = path.replace("/watch", "")
  if (path) window.location.href = `/?jam=${path}`
