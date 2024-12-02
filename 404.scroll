@@ -1,5 +1,5 @@
 buildHtml
 script
  let path = window.location.href.split("/").pop()
- path = path.replace("watch?", "")
+ path = path.replace("watch?", "&")
  if (path) window.location.href = `/?jam=${path}`
