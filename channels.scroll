@@ -21,12 +21,15 @@ channels.parsers
 channels.json
  printTable
 
+tableSearch
+
+expander Statistics
 Statistics on the measures (columns) are below and can be downloaded as: CSV | TSV | JSON
  link measures.csv CSV
  link measures.tsv TSV
  link measures.json JSON
 measures.csv
  printTable
-tableSearch
+
 
 

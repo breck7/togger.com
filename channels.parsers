@@ -2,6 +2,18 @@ idParser
  extends abstractIdParser
  description What is our ID of the channel?
  float sortIndex 1.01
+idLinkParser
+ extends abstractStringMeasureParser
+ description What is the Togger deeplink?
+ float sortIndex 1.02
+ boolean isComputed true
+ boolean suggestInAutocomplete false
+ extends abstractUrlMeasureParser
+ javascript
+  computeValue(concept, measureName, parsedProgram, concepts) {
+    const jam = concept.get("jams")?.split(" ")[0] || "all"
+    return `index.html?jam=${jam}&channel=` + concept.get("id")
+  }
 toggerYoutubeParser
  cue youtube
  extends abstractUrlMeasureParser
