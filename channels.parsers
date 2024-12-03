@@ -47,6 +47,10 @@ streamtimeParser
  extends abstractStringMeasureParser
  description When did the newest stream start?
  float sortIndex 1.5
+streamtitleParser
+ extends abstractStringMeasureParser
+ description What is the title of the current stream?
+ float sortIndex 1.5
 warpcastParser
  extends abstractStringMeasureParser
  description What is their Warpcast url?

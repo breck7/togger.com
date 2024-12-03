@@ -1,9 +1,5 @@
-
-
-
 [x] will it work without API calls?
 [x] Hand written jams are the best
-
 
 [x] Detect if chat is available
 [x] sort by: hand selected; then isLive, isChat, then random for now.
@@ -14,7 +10,6 @@
 
 [] add twitch streams
 [] add x streams
-
 
 [x] cohesive style.
  [x] probably frosted glass, futuristic.
@@ -29,8 +24,6 @@
 [x] no broken videos
 [] real staticnoise
 [x] chat
-
-
 
 Bad Scenarios:
 [] People hit site and it doesnt work

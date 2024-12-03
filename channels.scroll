@@ -8,6 +8,8 @@ title Togger Channel Data
 theme gazette
 metaTags
 printTitle
+homeButton
+editButton
 
 container
 
@@ -30,6 +32,3 @@ Statistics on the measures (columns) are below and can be downloaded as: CSV | T
  link measures.json JSON
 measures.csv
  printTable
-
-
-

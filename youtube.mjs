@@ -128,7 +128,7 @@ class YouTubeFeed {
     }
   }
 
-  async checkChannelLiveStatus(channelId) {
+  async isLive(channelId) {
     const endpoint = "https://www.googleapis.com/youtube/v3/search"
     const params = new URLSearchParams({
       part: "snippet",
@@ -160,6 +160,55 @@ class YouTubeFeed {
       }
     } catch (error) {
       console.error("Error checking channel live status:", error)
+      throw error
+    }
+  }
+
+  async updateAllLiveStatus() {
+    const channelsDir = path.join(__dirname, "channels")
+
+    try {
+      // Read all files in channels directory
+      const files = await fs.readdir(channelsDir)
+      const scrollFiles = files.filter((file) => file.endsWith(".scroll"))
+
+      for (const file of scrollFiles) {
+        const filePath = path.join(channelsDir, file)
+        const content = await fs.readFile(filePath, "utf-8")
+        const particle = new Particle(content)
+        const channelData = particle.toObject()
+
+        // Only check channels that are off or removed
+        if (channelData.status !== "off" && channelData.status !== "removed") {
+          continue
+        }
+
+        // Check if channel is live
+        const liveStatus = await this.isLive(channelData.channelid)
+
+        if (liveStatus.isLive) {
+          // Update channel status and stream information
+          particle.set("status", "live")
+          particle.set("neweststream", liveStatus.videoId)
+          particle.set("streamtime", new Date().toISOString())
+
+          if (liveStatus.title) {
+            particle.set("streamtitle", liveStatus.title)
+          }
+
+          // Save the updated file
+          await fs.writeFile(filePath, particle.toString())
+
+          console.log(
+            `Updated ${file}: Channel is now live with video ${liveStatus.videoId}`,
+          )
+
+          // Update video details (views, likes, etc.)
+          await this.updateWithVideoDetails(channelData.id)
+        }
+      }
+    } catch (error) {
+      console.error("Error updating live statuses:", error)
       throw error
     }
   }
