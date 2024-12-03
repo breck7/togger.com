@@ -21,8 +21,7 @@ const main = async () => {
 	}
 }
 
-const data = `https://www.youtube.com/watch?v=KqkKuwUJlXM code
-https://www.youtube.com/watch?v=9zP1LPz53-M code`
+const data = `https://www.youtube.com/watch?v=wu-kXwUDL10 code`
 
 const add = data.split("\n").forEach((line) => {
 	const [url, jams] = line.split(" ")
