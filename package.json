@@ -5,7 +5,8 @@
   "main": "togger.js",
   "scripts": {
     "build": "node update.mjs; scroll build",
-    "test": "scroll test"
+    "test": "scroll test",
+    "format" : "scroll list | scroll format"
   },
   "author": "Breck Yunits et al",
   "dependencies": {
