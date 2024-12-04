@@ -247,7 +247,7 @@ class Togger {
     return hit > -1 ? hit : 0
   }
 
-  setPlayer(player) {
+  setYouTubePlayer(player) {
     this.player = player
     // Show initial volume state once player is ready
     setTimeout(() => this.showVolumeIndicator(), 1000)
@@ -722,52 +722,56 @@ class Togger {
     document.addEventListener("mouseup", dragEnd, false)
     document.addEventListener("mousemove", drag, false)
   }
-}
 
-// https://developers.google.com/youtube/iframe_api_reference
-function onYouTubeIframeAPIReady() {
-  const togger = new Togger()
-  const player = new YT.Player("player", {
-    height: 400,
-    width: 700,
-    playerVars: {
-      playsinline: 1,
-      disablekb: 1,
-      enablejsapi: 1,
-      iv_load_policy: 3,
-      cc_load_policy: 0,
-      controls: 0,
-      rel: 0,
-      autoplay: 1,
-      mute: 1,
-    },
-    events: {
-      onReady: (event) => togger.onReady(event),
-      onStateChange: (event) => togger.onPlayerStateChange(event),
-      onError: (event) => {
-        console.log(`https://developers.google.com/youtube/iframe_api_reference
+  loadYouTubeIFrameAPI() {
+    const that = this
+    window.onYouTubeIframeAPIReady = () => that.onYouTubeIframeAPIReady()
+    var scriptUrl = "https://www.youtube.com/iframe_api"
+    var tag = document.createElement("script")
+    tag.src = scriptUrl
+    var firstScriptTag = document.getElementsByTagName("script")[0]
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
+    return this
+  }
+
+  onYouTubeIframeAPIReady() {
+    // https://developers.google.com/youtube/iframe_api_reference
+    const player = new YT.Player("player", {
+      height: 400,
+      width: 700,
+      playerVars: {
+        playsinline: 1,
+        disablekb: 1,
+        enablejsapi: 1,
+        iv_load_policy: 3,
+        cc_load_policy: 0,
+        controls: 0,
+        rel: 0,
+        autoplay: 1,
+        mute: 1,
+      },
+      events: {
+        onReady: (event) => this.onReady(event),
+        onStateChange: (event) => this.onPlayerStateChange(event),
+        onError: (event) => {
+          console.log(`https://developers.google.com/youtube/iframe_api_reference
 This event fires if an error occurs in the player. The API will pass an event object to the event listener function. That object's data property will specify an integer that identifies the type of error that occurred. Possible values are:
 2 – The request contains an invalid parameter value. For example, this error occurs if you specify a video ID that does not have 11 characters, or if the video ID contains invalid characters, such as exclamation points or asterisks.
 5 – The requested content cannot be played in an HTML5 player or another error related to the HTML5 player has occurred.
 100 – The video requested was not found. This error occurs when a video has been removed (for any reason) or has been marked as private.
 101 – The owner of the requested video does not allow it to be played in embedded players.
 150 – This error is the same as 101. It's just a 101 error in disguise!`)
-        console.error(event)
-        if (event.data === 101 || event.data === 150)
-          togger.reportStatus("removed")
+          console.error(event)
+          if (event.data === 101 || event.data === 150)
+            this.reportStatus("removed")
+        },
       },
-    },
-  })
+    })
 
-  togger.setPlayer(player)
-  togger.resizePlayer()
-  togger.bindToResize()
-  window.togger = togger
+    this.setYouTubePlayer(player)
+    this.resizePlayer()
+    this.bindToResize()
+  }
 }
 
-// Load the YouTube IFrame API
-var scriptUrl = "https://www.youtube.com/iframe_api"
-var tag = document.createElement("script")
-tag.src = scriptUrl
-var firstScriptTag = document.getElementsByTagName("script")[0]
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
+window.togger = new Togger().loadYouTubeIFrameAPI()
