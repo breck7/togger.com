@@ -21,7 +21,20 @@ const main = async () => {
 	}
 }
 
-const data = `https://www.youtube.com/watch?v=wu-kXwUDL10 code`
+const data = `https://www.youtube.com/watch?v=qtsseQlQAQU hawaii
+https://www.youtube.com/watch?v=eBNyINb-Be4 hawaii
+https://www.youtube.com/watch?v=v__fW5SNHbM hawaii
+https://www.youtube.com/watch?v=nnwoTyifNX0 hawaii
+https://www.youtube.com/watch?v=I7RX845TRq8 hawaii
+https://www.youtube.com/watch?v=t_H2ge2SmMs hawaii
+https://www.youtube.com/watch?v=VI8Wj5EwoRM hawaii
+https://www.youtube.com/watch?v=6g4Fh8K-MhY hawaii
+https://www.youtube.com/watch?v=IG-O-VHoojU hawaii
+https://www.youtube.com/watch?v=3ATYHKN2hIg hawaii
+https://www.youtube.com/watch?v=WTy3dGhGBOY hawaii
+https://www.youtube.com/watch?v=hPvl6IACa2k hawaii
+https://www.youtube.com/watch?v=QUq9rZ9YgHk hawaii
+https://www.youtube.com/watch?v=24tevIqjArw hawaii`
 
 const add = data.split("\n").forEach((line) => {
 	const [url, jams] = line.split(" ")

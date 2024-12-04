@@ -112,6 +112,7 @@ class YouTubeFeed {
       const data = await response.json()
 
       if (!data.items?.[0]) {
+        console.log(response)
         throw new Error("Video not found")
       }
 
@@ -308,6 +309,7 @@ class YouTubeFeed {
       const data = await response.json()
 
       if (!data.items?.[0]?.snippet) {
+        console.log(response)
         throw new Error("Video not found")
       }
 
