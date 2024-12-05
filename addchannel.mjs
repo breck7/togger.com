@@ -21,20 +21,15 @@ const main = async () => {
 	}
 }
 
-const data = `https://www.youtube.com/watch?v=h-Z0wCdD3dI
-https://www.youtube.com/watch?v=BCOa_uKBp7M
-https://www.youtube.com/watch?v=dlP_vzAxX_8
-https://www.youtube.com/watch?v=1DaYe-1TkmM
-https://www.youtube.com/watch?v=QdEVb1rheRE
-https://www.youtube.com/watch?v=cWzkAHB1kT8
-https://www.youtube.com/watch?v=Ut-MfD7PasA
-https://www.youtube.com/watch?v=QF2ojZmSTWs
-https://www.youtube.com/watch?v=V5RfI6dXZgY
-https://www.youtube.com/watch?v=fvgCDd77DQg
-https://www.youtube.com/watch?v=8YhfFtieMVU
-https://www.youtube.com/watch?v=8LUUprI12uU
-https://www.youtube.com/watch?v=2XNfZ4dTuR4
-https://www.youtube.com/watch?v=8se0AsNINf4
-https://www.youtube.com/watch?v=f0GCw0Lt_7U`
+const data = `https://www.youtube.com/watch?v=-m_nQT62B4Y
+https://www.youtube.com/watch?v=o8YhyLb__cI
+https://www.youtube.com/watch?v=n_cjSaNKyFE
+https://www.youtube.com/watch?v=vXSuof3x_3Q
+https://www.youtube.com/watch?v=R7vrbiDi0Tc
+https://www.youtube.com/watch?v=jCCy4UDqQlo
+https://www.youtube.com/watch?v=5ZW9jFYxpCI
+https://www.youtube.com/watch?v=PdDMaH27fcA
+https://www.youtube.com/watch?v=m4bzhZWBTs4
+https://www.youtube.com/watch?v=vNktS9YeO2Y`
 
-data.split("\n").forEach((url) => yt.createChannelFile(url, "dogs"))
+data.split("\n").forEach((url) => yt.createChannelFile(url, "cats"))
