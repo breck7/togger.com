@@ -21,15 +21,7 @@ const main = async () => {
 	}
 }
 
-const data = `https://www.youtube.com/watch?v=17L1ahq27ro
-https://www.youtube.com/watch?v=fHb0eB9RUgA
-https://www.youtube.com/watch?v=a7tE2UbyuT4
-https://www.youtube.com/watch?v=liR_yBb3Afo
-https://www.youtube.com/watch?v=rT7tNsEdSDg
-https://www.youtube.com/watch?v=kHhUc4Qv26I
-https://www.youtube.com/watch?v=we3tKZxUIDw
-https://www.youtube.com/watch?v=E_m1ihDDWEs
-https://www.youtube.com/watch?v=uS_RQ6b6Nmk
-https://www.youtube.com/watch?v=uuulG_pE6vM`
+const data = `https://www.youtube.com/watch?v=KDCTn-5OWLU
+https://www.youtube.com/watch?v=BAV48j4ubJg`
 
-data.split("\n").forEach((url) => yt.createChannelFile(url, "bayarea"))
+data.split("\n").forEach((url) => yt.createChannelFile(url, "standup"))
