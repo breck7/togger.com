@@ -8,6 +8,7 @@ jsonScript sorted.json
 
 <div id="player"></div>
 <div class="indicator"></div>
+<div class="guide"></div>
 <div class="staticNoise"></div>
 <div class="powerScreen"></div>
 <div class="channelName"></div>

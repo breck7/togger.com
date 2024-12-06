@@ -1,5 +1,6 @@
 let staticNoise = document.querySelector(".staticNoise")
 let powerScreen = document.querySelector(".powerScreen")
+let jamGuide = document.querySelector(".guide")
 const lodash = _
 
 const defaultJam = "all"
@@ -178,12 +179,12 @@ class Togger {
     return this.jamNames.indexOf(this.jamName)
   }
 
-  nextJam() {
+  playJamIndex(index) {
     // Save current index for current jam
     this.jamIndexes[this.jamName] = this.currentIndex
 
     const { jamNames, jamIndex } = this
-    const jamName = jamNames[(jamIndex + 1) % jamNames.length]
+    const jamName = jamNames[index]
     this.loadStreams(jamName)
 
     // Restore saved index for new jam
@@ -191,17 +192,14 @@ class Togger {
     this.playStream()
   }
 
-  previousJam() {
-    // Save current index for current jam
-    this.jamIndexes[this.jamName] = this.currentIndex
-
+  nextJam() {
     const { jamNames, jamIndex } = this
-    const jamName = jamNames[(jamIndex - 1 + jamNames.length) % jamNames.length]
-    this.loadStreams(jamName)
+    this.playJamIndex((jamIndex + 1) % jamNames.length)
+  }
 
-    // Restore saved index for new jam
-    this.currentIndex = this.jamIndexes[jamName]
-    this.playStream()
+  previousJam() {
+    const { jamNames, jamIndex } = this
+    this.playJamIndex((jamIndex - 1 + jamNames.length) % jamNames.length)
   }
 
   getJam(jamName) {
@@ -284,6 +282,9 @@ class Togger {
           break
         case "m":
           this.toggleMute()
+          break
+        case "g":
+          this.toggleGuide()
           break
         case "p":
           this.togglePower()
@@ -377,6 +378,11 @@ class Togger {
     this.player.mute()
   }
 
+  toggleGuide() {
+    if (jamGuide.style.display === "block") this.closeGuide()
+    else this.openGuide()
+  }
+
   toggleMute() {
     if (this.isMuted) this.unmute()
     else this.mute()
@@ -466,7 +472,6 @@ class Togger {
 
     if (this.channelTimeout) clearTimeout(this.channelTimeout)
 
-    // Hide the indicator after 3 seconds
     this.channelTimeout = setTimeout(() => {
       indicator.style.opacity = "0"
     }, 5000)
@@ -667,7 +672,10 @@ class Togger {
     remote.appendChild(volumeControlRow)
 
     // Add chat button row
-    const chatRow = createButtonRow([createButton("CHAT", "c")])
+    const chatRow = createButtonRow([
+      createButton("GUIDE", "g"),
+      createButton("CHAT", "c"),
+    ])
     remote.appendChild(chatRow)
 
     document.body.appendChild(remote)
@@ -732,6 +740,45 @@ class Togger {
     var firstScriptTag = document.getElementsByTagName("script")[0]
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
     return this
+  }
+
+  openGuide(timeout = 20000) {
+    this.updateJamGuide()
+    jamGuide.style.display = "block"
+    if (timeout) {
+      clearTimeout(this.guideTimeout)
+      this.guideTimeout = setTimeout(() => this.closeGuide(), timeout)
+    }
+  }
+
+  closeGuide() {
+    jamGuide.style.display = "none"
+  }
+
+  updateJamGuide() {
+    jamGuide.innerHTML = this.jamNames
+      .map((jamName) => {
+        const channelCount = this.channels.filter((c) =>
+          c.jams?.includes(jamName),
+        ).length
+        const isCurrentJam = jamName === this.jamName
+        return `
+        <a 
+          href="?jam=${jamName}" 
+          ${isCurrentJam ? "class='currentJam'" : ""}
+          onclick="event.preventDefault(); window.togger.openJamFromGuide('${jamName}')"
+        >
+          ${jamName} (${channelCount})
+        </a>
+      `
+      })
+      .join("")
+  }
+
+  openJamFromGuide(jamName) {
+    this.playJamIndex(this.jamNames.indexOf(jamName))
+    this.updateJamGuide()
+    this.openGuide()
   }
 
   onYouTubeIframeAPIReady() {

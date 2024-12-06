@@ -60,7 +60,6 @@ body {
   right: 2rem;
   display: none;
   z-index: 1001; /* Ensure it's above chat */
-  transition: right 0.3s ease;
 }
 
 .channelName {
@@ -80,7 +79,6 @@ body {
   height: 34px;
   vertical-align: middle;
   margin: 0 4px;
-  transition: transform 0.1s;
 }
 
 .channelName img:hover {
@@ -170,4 +168,38 @@ body {
   background: #dc2626;
   border-color: #b91c1c;
   color: #fee2e2;
+}
+.guide {
+  position: fixed;
+  background: transparent;
+  padding: 20px;
+  left: 2rem;
+  top: 4rem;
+  right: calc(156px + 4rem);
+  bottom: 5rem;
+  z-index: 1000;
+  font-family: "IBM Plex Mono", monospace;
+  column-count: auto;
+  column-fill: auto;
+  column-width: 25ch;
+  column-gap: 1rem;
+}
+
+.guide a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  display: block;
+  text-transform: uppercase;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 2px #000;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+}
+.guide a.currentJam,
+.guide a:hover {
+  color: #00ee11;
 }
